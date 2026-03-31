@@ -1,7 +1,18 @@
 import os
 import torch
 import logging
+import argparse
 from timm.utils import AverageMeter
+
+class argparse_namespace:
+    def __init__(self, **kwargs):
+        self.__dict__.update(kwargs)
+
+def parse_option():
+    parser = argparse.ArgumentParser('Unified Training Script', add_help=False)
+    parser.add_argument('--model_to_run', type=str, required=True, help='Model name to run (e.g., as_mlp_tiny, deit_tiny, resnext50_local)')
+    args = parser.parse_args()
+    return args
 
 def create_logger(output_dir, name):
     # Setup logging to both console and file

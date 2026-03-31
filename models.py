@@ -15,14 +15,17 @@ def get_model_config(model_name):
 
 def build_model(config):
     model_name = config.MODEL.NAME
-    num_classes = config.MODEL.NUM_CLASSES
+    
+    # Extract all parameters from config.MODEL to pass to the model builder
+    # We lowercase the keys to match Python argument naming conventions
+    model_kwargs = {k.lower(): v for k, v in config.MODEL.__dict__.items() if k != 'NAME' and not k.startswith('_')}
     
     # 1. Local Models
     if model_name == 'as_mlp_tiny':
-        return as_mlp_tiny(num_classes=num_classes)
+        return as_mlp_tiny(**model_kwargs)
     elif model_name == 'deit_tiny':
-        return deit_tiny_patch16_224(num_classes=num_classes)
+        return deit_tiny_patch16_224(**model_kwargs)
     elif model_name == 'resnext50_local':
-        return resnext50_32x4d() # num_classes already 5 after update
+        return resnext50_32x4d(**model_kwargs)
 
     # continue defining other models

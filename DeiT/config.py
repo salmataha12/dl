@@ -5,6 +5,16 @@ def get_config():
             'NUM_CLASSES': 5,           # Default: 5
             'DROP_PATH_RATE': 0.1,      # Default: 0.1
             'LABEL_SMOOTHING': 0.1,     # Default: 0.1
+
+            # Vision Transformer specific parameters
+            'IMG_SIZE': 224,            # Default: 224
+            'PATCH_SIZE': 16,           # Default: 16
+            'IN_CHANS': 3,              # Default: 3
+            'EMBED_DIM': 192,           # Default: 192
+            'DEPTH': 12,                # Default: 12
+            'NUM_HEADS': 3,             # Default: 3    
+            'MLP_RATIO': 4,             # Default: 4
+            'QKV_BIAS': True,           # Default: True
         },
         'DATA': {
             'DATA_PATH': None,          # Default: 'food_subset'

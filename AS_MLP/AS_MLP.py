@@ -189,4 +189,7 @@ class AS_MLP(nn.Module):
         return x
 
 def as_mlp_tiny(num_classes=5, **kwargs):
-    return AS_MLP(depths=[2, 2, 6, 2], embed_dim=96, shift_size=5, num_classes=num_classes, **kwargs)
+    depths = kwargs.pop('depths', [2, 2, 6, 2])
+    embed_dim = kwargs.pop('embed_dim', 96)
+    shift_size = kwargs.pop('shift_size', 5)
+    return AS_MLP(depths=depths, embed_dim=embed_dim, shift_size=shift_size, num_classes=num_classes, **kwargs)

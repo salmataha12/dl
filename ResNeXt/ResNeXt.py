@@ -8,30 +8,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from collections import OrderedDict
 
-class ResBottleBlock(nn.Module):
-    def __init__(self, in_planes, bottleneck_width=4, stride=1, expansion=1):
-        super(ResBottleBlock, self).__init__()
-        self.conv0=nn.Conv2d(in_planes,bottleneck_width,1,stride=1,bias=False)
-        self.bn0 = nn.BatchNorm2d(bottleneck_width)
-        self.conv1=nn.Conv2d(bottleneck_width,bottleneck_width,3,stride=stride,padding=1,bias=False)
-        self.bn1=nn.BatchNorm2d(bottleneck_width)
-        self.conv2=nn.Conv2d(bottleneck_width,expansion*in_planes,1,bias=False)
-        self.bn2=nn.BatchNorm2d(expansion*in_planes)
-        
-        self.shortcut=nn.Sequential()
-        if stride!=1 or expansion!=1:
-            self.shortcut=nn.Sequential(
-                nn.Conv2d(in_planes,in_planes*expansion,1,stride=stride,bias=False)
-            )
-
-    def forward(self, x):
-        out = F.relu(self.bn0(self.conv0(x)))
-        out = F.relu(self.bn1(self.conv1(out)))
-        out = self.bn2(self.conv2(out))
-        out += self.shortcut(x)
-        out = F.relu(out)
-        return out
-
 class BasicBlock_C(nn.Module):
     def __init__(self, in_planes, bottleneck_width=4, cardinality=32, stride=1, expansion=2):
         super(BasicBlock_C, self).__init__()
@@ -63,14 +39,18 @@ class BasicBlock_C(nn.Module):
         return out
 
 class ResNeXt(nn.Module):
-    def __init__(self, num_blocks, cardinality, bottleneck_width, expansion=2, num_classes=5):
+    def __init__(self, num_blocks, cardinality, bottleneck_width, expansion=2, num_classes=5, **kwargs):
         super(ResNeXt, self).__init__()
         self.cardinality = cardinality
         self.bottleneck_width = bottleneck_width
         self.in_planes = 64
         self.expansion = expansion
         
-        self.conv0 = nn.Conv2d(3, self.in_planes, kernel_size=7, stride=2, padding=3, bias=False)
+        kernel_size = kwargs.pop('kernel_size', 7)
+        stride = kwargs.pop('stride', 2)
+        padding = kwargs.pop('padding', 3)
+        
+        self.conv0 = nn.Conv2d(3, self.in_planes, kernel_size=kernel_size, stride=stride, padding=padding, bias=False)
         self.bn0 = nn.BatchNorm2d(self.in_planes)
         self.pool0 = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
         self.layer1=self._make_layer(num_blocks[0],1)
@@ -100,5 +80,8 @@ class ResNeXt(nn.Module):
         self.bottleneck_width *= 2
         return nn.Sequential(*layers)
 
-def resnext50_32x4d():
-    return ResNeXt(num_blocks=[3, 4, 6, 3], cardinality=32, bottleneck_width=4)
+def resnext50_32x4d(num_classes=5, **kwargs):
+    num_blocks = kwargs.pop('num_blocks', [3, 4, 6, 3])
+    cardinality = kwargs.pop('cardinality', 32)
+    bottleneck_width = kwargs.pop('bottleneck_width', 4)
+    return ResNeXt(num_blocks=num_blocks, cardinality=cardinality, bottleneck_width=bottleneck_width, num_classes=num_classes, **kwargs)

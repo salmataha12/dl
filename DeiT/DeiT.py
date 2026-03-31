@@ -52,8 +52,14 @@ class DistilledVisionTransformer(VisionTransformer):
 
 @register_model
 def deit_tiny_patch16_224(pretrained=False, **kwargs):
+    patch_size = kwargs.pop('patch_size', 16)
+    embed_dim = kwargs.pop('embed_dim', 192)
+    depth = kwargs.pop('depth', 12)
+    num_heads = kwargs.pop('num_heads', 3)
+    mlp_ratio = kwargs.pop('mlp_ratio', 4)
+    qkv_bias = kwargs.pop('qkv_bias', True)
     model = VisionTransformer(
-        patch_size=16, embed_dim=192, depth=12, num_heads=3, mlp_ratio=4, qkv_bias=True,
+        patch_size=patch_size, embed_dim=embed_dim, depth=depth, num_heads=num_heads, mlp_ratio=mlp_ratio, qkv_bias=qkv_bias,
         norm_layer=partial(nn.LayerNorm, eps=1e-6), **kwargs)
     model.default_cfg = _cfg()
     if pretrained:
@@ -66,8 +72,14 @@ def deit_tiny_patch16_224(pretrained=False, **kwargs):
 
 @register_model
 def deit_tiny_distilled_patch16_224(pretrained=False, **kwargs):
+    patch_size = kwargs.pop('patch_size', 16)
+    embed_dim = kwargs.pop('embed_dim', 192)
+    depth = kwargs.pop('depth', 12)
+    num_heads = kwargs.pop('num_heads', 3)
+    mlp_ratio = kwargs.pop('mlp_ratio', 4)
+    qkv_bias = kwargs.pop('qkv_bias', True)
     model = DistilledVisionTransformer(
-        patch_size=16, embed_dim=192, depth=12, num_heads=3, mlp_ratio=4, qkv_bias=True,
+        patch_size=patch_size, embed_dim=embed_dim, depth=depth, num_heads=num_heads, mlp_ratio=mlp_ratio, qkv_bias=qkv_bias,
         norm_layer=partial(nn.LayerNorm, eps=1e-6), **kwargs)
     model.default_cfg = _cfg()
     if pretrained:
