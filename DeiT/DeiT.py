@@ -51,7 +51,7 @@ class DistilledVisionTransformer(VisionTransformer):
 
 
 @register_model
-def deit_tiny_patch16_224(pretrained=False, **kwargs):
+def local_deit_tiny_patch16_224(**kwargs):
     patch_size = kwargs.pop('patch_size', 16)
     embed_dim = kwargs.pop('embed_dim', 192)
     depth = kwargs.pop('depth', 12)
@@ -62,16 +62,11 @@ def deit_tiny_patch16_224(pretrained=False, **kwargs):
         patch_size=patch_size, embed_dim=embed_dim, depth=depth, num_heads=num_heads, mlp_ratio=mlp_ratio, qkv_bias=qkv_bias,
         norm_layer=partial(nn.LayerNorm, eps=1e-6), **kwargs)
     model.default_cfg = _cfg()
-    if pretrained:
-        checkpoint = torch.hub.load_state_dict_from_url(
-            url="https://dl.fbaipublicfiles.com/deit/deit_tiny_patch16_224-a1311bcf.pth",
-            map_location="cpu", check_hash=True
-        )
-        model.load_state_dict(checkpoint["model"])
+
     return model
 
 @register_model
-def deit_tiny_distilled_patch16_224(pretrained=False, **kwargs):
+def deit_tiny_distilled_patch16_224(**kwargs):
     patch_size = kwargs.pop('patch_size', 16)
     embed_dim = kwargs.pop('embed_dim', 192)
     depth = kwargs.pop('depth', 12)
@@ -82,10 +77,5 @@ def deit_tiny_distilled_patch16_224(pretrained=False, **kwargs):
         patch_size=patch_size, embed_dim=embed_dim, depth=depth, num_heads=num_heads, mlp_ratio=mlp_ratio, qkv_bias=qkv_bias,
         norm_layer=partial(nn.LayerNorm, eps=1e-6), **kwargs)
     model.default_cfg = _cfg()
-    if pretrained:
-        checkpoint = torch.hub.load_state_dict_from_url(
-            url="https://dl.fbaipublicfiles.com/deit/deit_tiny_distilled_patch16_224-b40b3cf7.pth",
-            map_location="cpu", check_hash=True
-        )
-        model.load_state_dict(checkpoint["model"])
+
     return model

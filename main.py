@@ -59,6 +59,8 @@ def main(config, logger):
     for epoch in range(config.TRAIN.START_EPOCH, config.TRAIN.EPOCHS):
         train_loss, train_acc = train_one_epoch(config, model, data_loader_train, optimizer, epoch, lr_scheduler, scaler, logger)
         
+        lr_scheduler.step(epoch + 1)
+        
         val_acc, val_loss, val_f1, val_prec, val_recall, targets, preds = validate(config, data_loader_val, model, logger)
         
         logger.info(f"[Epoch {epoch}]: Train Loss: {train_loss:.4f}, Train Acc: {train_acc:.2f}%, Val Loss: {val_loss:.4f}, Val Acc: {val_acc:.2f}%, F1: {val_f1:.4f}, Precision: {val_prec:.4f}, Recall: {val_recall:.4f}")
@@ -146,8 +148,8 @@ def validate(config, data_loader, model, logger=None):
     all_targets = np.concatenate(all_targets)
     
     f1 = f1_score(all_targets, all_preds, average='macro')
-    precision = precision_score(all_targets, all_preds, average='macro')
-    recall = recall_score(all_targets, all_preds, average='macro')
+    precision = precision_score(all_targets, all_preds, average='macro', zero_division=0.0)
+    recall = recall_score(all_targets, all_preds, average='macro', zero_division=0.0)
 
     return acc1_meter.avg, loss_meter.avg, f1, precision, recall, all_targets, all_preds
 

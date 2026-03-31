@@ -1,5 +1,5 @@
 from AS_MLP.AS_MLP import as_mlp_tiny
-from DeiT.DeiT import deit_tiny_distilled_patch16_224, deit_tiny_patch16_224
+from DeiT.DeiT import local_deit_tiny_distilled_patch16_224, local_deit_tiny_patch16_224
 from ResNeXt.ResNeXt import resnext50_32x4d
 
 def get_model_config(model_name):
@@ -24,7 +24,7 @@ def build_model(config):
     if model_name == 'as_mlp_tiny':
         return as_mlp_tiny(**model_kwargs)
     elif model_name == 'deit_tiny':
-        return deit_tiny_patch16_224(**model_kwargs)
+        return local_deit_tiny_patch16_224(**model_kwargs)
     elif model_name == 'resnext50_local':
         return resnext50_32x4d(**model_kwargs)
 
