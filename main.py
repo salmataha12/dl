@@ -72,9 +72,7 @@ def main(config, logger):
             max_accuracy = val_acc
             best_targets = targets
             best_preds = preds
-            model_path = os.path.join(config.OUTPUT, f'{config.MODEL.NAME}_best.pth')
-            torch.save(model.state_dict(), model_path)
-            logger.info(f'Best model saved with accuracy: {max_accuracy:.2f}%')
+            logger.info(f'Best performance updated at epoch {epoch} with accuracy: {max_accuracy:.2f}%')
             
         logger.info(f'Max accuracy: {max_accuracy:.2f}%')
 
