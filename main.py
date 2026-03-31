@@ -18,6 +18,7 @@ from config import Config
 
 def main(config, logger):
     dataset_train, dataset_val, data_loader_train, data_loader_val = build_loader(config)
+    logger.info(f"Dataset loaded: {len(dataset_train)} train images, {len(dataset_val)} validation images")
     
     logger.info(f"Creating model: {config.MODEL.NAME}")
     model = build_model(config)
