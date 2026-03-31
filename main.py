@@ -32,7 +32,7 @@ def main(config, logger):
         opt_eps=config.TRAIN.EPS,
         opt_betas=config.TRAIN.BETAS
     ), model)
-    scaler = torch.cuda.amp.GradScaler(enabled=config.AMP_ENABLE)
+    scaler = torch.amp.GradScaler('cuda', enabled=config.AMP_ENABLE)
     
     # Scheduler setup
     lr_scheduler, _ = create_scheduler(argparse_namespace(
@@ -101,7 +101,7 @@ def train_one_epoch(config, model, data_loader, optimizer, epoch, lr_scheduler, 
     for idx, (samples, targets) in enumerate(data_loader):
         samples, targets = samples.cuda(non_blocking=True), targets.cuda(non_blocking=True)
 
-        with torch.cuda.amp.autocast(enabled=config.AMP_ENABLE):
+        with torch.amp.autocast('cuda', enabled=config.AMP_ENABLE):
             outputs = model(samples)
             loss = torch.nn.CrossEntropyLoss()(outputs, targets)
 

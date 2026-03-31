@@ -1,5 +1,5 @@
 from AS_MLP.AS_MLP import as_mlp_tiny
-from DeiT.DeiT import local_deit_tiny_distilled_patch16_224, local_deit_tiny_patch16_224
+from DeiT.DeiT import local_deit_tiny_patch16_224
 from ResNeXt.ResNeXt import resnext50_32x4d
 
 def get_model_config(model_name):

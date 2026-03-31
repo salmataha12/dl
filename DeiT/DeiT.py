@@ -5,8 +5,8 @@ import torch.nn as nn
 from functools import partial
 
 from timm.models.vision_transformer import VisionTransformer, _cfg
-from timm.models.registry import register_model
-from timm.models.layers import trunc_normal_
+from timm.models import register_model
+from timm.layers import trunc_normal_
 
 class DistilledVisionTransformer(VisionTransformer):
     def __init__(self, *args, **kwargs):
@@ -66,7 +66,7 @@ def local_deit_tiny_patch16_224(**kwargs):
     return model
 
 @register_model
-def deit_tiny_distilled_patch16_224(**kwargs):
+def local_deit_tiny_distilled_patch16_224(**kwargs):
     patch_size = kwargs.pop('patch_size', 16)
     embed_dim = kwargs.pop('embed_dim', 192)
     depth = kwargs.pop('depth', 12)

@@ -28,14 +28,14 @@ class BasicBlock_C(nn.Module):
         self.shortcut = nn.Sequential()
         if stride != 1 or in_planes != inner_width * self.expansion:
             self.shortcut = nn.Sequential(
-                nn.Conv2d(in_planes, inner_width * self.expansion, 1, stride=stride, bias=False)
+                nn.Conv2d(in_planes, inner_width * self.expansion, 1, stride=stride, bias=False),
+                nn.BatchNorm2d(inner_width * self.expansion)
             )
-        self.bn0 = nn.BatchNorm2d(self.expansion * inner_width)
 
     def forward(self, x):
         out = self.basic(x)
         out += self.shortcut(x)
-        out = F.relu(self.bn0(out))
+        out = F.relu(out)
         return out
 
 class ResNeXt(nn.Module):
