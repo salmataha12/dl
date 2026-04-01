@@ -68,6 +68,7 @@ class ResNeXt(nn.Module):
         out = self.layer4(out)
         out = F.adaptive_avg_pool2d(out, 1)
         out = out.view(out.size(0), -1)
+        out = F.dropout(out, p=0.5, training=self.training)
         out = self.linear(out)
         return out
 

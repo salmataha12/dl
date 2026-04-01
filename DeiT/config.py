@@ -25,7 +25,7 @@ def get_config():
         },
         'TRAIN': {
             'START_EPOCH': None,        # Default: 0
-            'EPOCHS': None,             # Default: 300
+            'EPOCHS': None,             # Default: 100
             'BASE_LR': None,            # Default: 5e-4
             'WEIGHT_DECAY': None,       # Default: 0.05
             'CLIP_GRAD': None,          # Default: 5.0

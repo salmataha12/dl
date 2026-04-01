@@ -1,6 +1,9 @@
 from AS_MLP.AS_MLP import as_mlp_tiny
 from DeiT.DeiT import local_deit_tiny_patch16_224
 from ResNeXt.ResNeXt import resnext50_32x4d
+import torch
+import torchvision.models as models
+import torch.nn as nn
 
 def get_model_config(model_name):
     if model_name == 'as_mlp_tiny':
@@ -19,7 +22,7 @@ def build_model(config):
     # Extract all parameters from config.MODEL to pass to the model builder
     # We lowercase the keys to match Python argument naming conventions
     model_kwargs = {k.lower(): v for k, v in config.MODEL.__dict__.items() if k != 'NAME' and not k.startswith('_')}
-    
+
     # 1. Local Models
     if model_name == 'as_mlp_tiny':
         return as_mlp_tiny(**model_kwargs)

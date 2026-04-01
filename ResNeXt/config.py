@@ -4,7 +4,7 @@ def get_config():
             'NAME': 'resnext50_local',  # Default: None
             'TAG': 'CNN',
             'NUM_CLASSES': 5,           # Default: 5
-            'DROP_PATH_RATE': 0.1,      # Default: 0.1
+            'DROP_PATH_RATE': 0.2,      # Increased from 0.1 for more regularization
             'LABEL_SMOOTHING': 0.1,     # Default: 0.1
 
             # ResNeXt specific parameters
@@ -24,15 +24,15 @@ def get_config():
         },
         'TRAIN': {
             'START_EPOCH': None,        # Default: 0
-            'EPOCHS': None,             # Default: 300
-            'BASE_LR': 0.1,             # Default: 5e-4
-            'WEIGHT_DECAY': 5e-4,       # Default: 0.05
-            'CLIP_GRAD': None,          # Default: 5.0
-            'WARMUP_EPOCHS': 0,         # Default: 5
-            'WARMUP_LR': None,          # Default: 1e-6
-            'MIN_LR': None,             # Default: 1e-5
-            'OPT': 'sgd',               # Default: 'adamw'
-            'SCHED': 'step',            # Default: 'cosine'
+            'EPOCHS': 100,              # Unified with other models for comparison
+            'BASE_LR': 5e-4,            # Reduced from 0.1 for better generalization
+            'WEIGHT_DECAY': 1e-3,       # Increased from 5e-4 for more regularization
+            'CLIP_GRAD': 1.0,           # Added gradient clipping
+            'WARMUP_EPOCHS': 5,         # Added warmup from 0
+            'WARMUP_LR': 1e-6,          # Warmup learning rate
+            'MIN_LR': 1e-6,             # Minimum learning rate
+            'OPT': 'adamw',             # Changed from sgd to adamw
+            'SCHED': 'cosine',          # Changed from step to cosine
         },
         'OUTPUT': None,                 # Default: 'outputs'
     }

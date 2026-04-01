@@ -17,7 +17,7 @@ BASE_CONFIG = {
     },
     'TRAIN': {
         'START_EPOCH': 0,
-        'EPOCHS': 300,
+        'EPOCHS': 100,
         'BASE_LR': 5e-4,
         'WEIGHT_DECAY': 0.05,
         'CLIP_GRAD': 5.0,
