@@ -2,7 +2,7 @@ def get_config():
     return {
         'MODEL': {
             'NAME': 'as_mlp_tiny',      # Default: None
-            'TAG': 'MLP',
+            'TAG': 'MLP',               # set to one of those ['CNN', 'MLP', 'TRANSFORMER']
             'NUM_CLASSES': 5,           # Default: 5
             'DROP_PATH_RATE': 0.1,      # Default: 0.1
             'LABEL_SMOOTHING': 0.1,     # Default: 0.1

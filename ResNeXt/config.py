@@ -2,9 +2,9 @@ def get_config():
     return {
         'MODEL': {
             'NAME': 'resnext50_local',  # Default: None
-            'TAG': 'CNN',
+            'TAG': 'CNN',               # set to one of those ['CNN', 'MLP', 'TRANSFORMER']
             'NUM_CLASSES': 5,           # Default: 5
-            'DROP_PATH_RATE': 0.15,     # Reduced from 0.2 for less regularization
+            'DROP_PATH_RATE': 0.15,     # Default: 0.1
             'LABEL_SMOOTHING': 0.1,     # Default: 0.1
 
             # ResNeXt specific parameters
@@ -15,6 +15,7 @@ def get_config():
             'KERNEL_SIZE': 7,           # Default: 7
             'STRIDE': 2,                # Default: 2
             'PADDING': 3,               # Default: 3
+
         },
         'DATA': {
             'DATA_PATH': None,          # Default: 'food_subset'
@@ -24,15 +25,15 @@ def get_config():
         },
         'TRAIN': {
             'START_EPOCH': None,        # Default: 0
-            'EPOCHS': 100,              # Reduced to 100 for faster iteration
-            'BASE_LR': 5e-4,            # Reduced from 0.1 for better generalization
-            'WEIGHT_DECAY': 5e-4,       # Reduced from 1e-3 for less regularization
-            'CLIP_GRAD': 1.0,           # Added gradient clipping
-            'WARMUP_EPOCHS': 5,         # Added warmup from 0
-            'WARMUP_LR': 1e-6,          # Warmup learning rate
-            'MIN_LR': 1e-6,             # Minimum learning rate
-            'OPT': 'adamw',             # Changed from sgd to adamw
-            'SCHED': 'cosine',          # Changed from step to cosine
+            'EPOCHS': 100,              # Default: 100
+            'BASE_LR': 5e-4,            # Default: 5e-4
+            'WEIGHT_DECAY': 5e-4,       # Default: 0.05
+            'CLIP_GRAD': 1.0,           # Default: 5.0
+            'WARMUP_EPOCHS': 5,         # Default: 5
+            'WARMUP_LR': 1e-6,          # Default: 1e-6
+            'MIN_LR': 1e-6,             # Default: 1e-5
+            'OPT': 'adamw',             # Default: 'adamw'
+            'SCHED': 'cosine',          # Default: 'cosine'
         },
         'OUTPUT': None,                 # Default: 'outputs'
     }
