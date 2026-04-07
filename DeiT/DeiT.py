@@ -43,11 +43,9 @@ class DistilledVisionTransformer(VisionTransformer):
         x, x_dist = self.forward_features(x)
         x = self.head(x)
         x_dist = self.head_dist(x_dist)
-        if self.training:
-            return x, x_dist
-        else:
-            # during inference, return the average of both classifier predictions
-            return (x + x_dist) / 2
+        # Return the average of both classifier predictions for both training and inference
+        # This keeps the interface consistent with other models
+        return (x + x_dist) / 2
 
 
 @register_model
