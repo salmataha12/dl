@@ -4,6 +4,10 @@ from ResNeXt.ResNeXt import resnext101_32x8d, resnext50_32x4d
 from ConvMLP.ConvMLP import convmlp_s
 from DenseNet.DenseNet import densenet121
 from PVT.pvt import pvt_tiny 
+from ResNet18.ResNet18 import resnet18
+from gMLP.gMLP import gmlp_tiny
+from ViT.ViT import vit_base
+
 
 # Add imports for other models as needed
 
@@ -39,6 +43,12 @@ def get_model_config(model_name):
     elif model_name == 'pvt_v2_b0':
         from PVT.config import get_config
         return get_config()
+    elif model_name == 'resnet18':          
+        from ResNet18.config import get_config
+    elif model_name == 'gmlp_tiny':         
+        from gMLP.config import get_config
+    elif model_name == 'vit_base':          
+        from ViT.config import get_config
     else:
         raise ValueError(f"Unknown model: {model_name}")
 
@@ -69,6 +79,13 @@ def build_model(config):
         return convmlp_s(**model_kwargs)
     elif model_name == 'pvt_v2_b0':
         return pvt_tiny(**model_kwargs)
+    elif model_name == 'resnet18':          
+        return resnet18(**model_kwargs)
+    elif model_name == 'gmlp_tiny':         
+        return gmlp_tiny(**model_kwargs)
+    elif model_name == 'vit_base':          
+        return vit_base(**model_kwargs)
+
 
 
     # continue defining other models

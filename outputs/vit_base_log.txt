@@ -1,0 +1,411 @@
+[2026-04-07 16:30:42,754 vit_base] (main.py 21): INFO Dataset loaded: 3750 train images, 1250 validation images
+[2026-04-07 16:30:42,754 vit_base] (main.py 23): INFO Creating model: vit_base
+[2026-04-07 16:30:43,901 vit_base] (main.py 67): INFO Start training
+[2026-04-07 16:30:45,984 vit_base] (main.py 140): INFO Epoch: [0][0/118] lr 0.000001 loss 1.7854 acc 12.50%
+[2026-04-07 16:30:53,346 vit_base] (main.py 140): INFO Epoch: [0][20/118] lr 0.000001 loss 1.6374 acc 23.81%
+[2026-04-07 16:31:00,896 vit_base] (main.py 140): INFO Epoch: [0][40/118] lr 0.000001 loss 1.6010 acc 27.29%
+[2026-04-07 16:31:08,694 vit_base] (main.py 140): INFO Epoch: [0][60/118] lr 0.000001 loss 1.5923 acc 26.84%
+[2026-04-07 16:31:16,693 vit_base] (main.py 140): INFO Epoch: [0][80/118] lr 0.000001 loss 1.5803 acc 27.85%
+[2026-04-07 16:31:24,833 vit_base] (main.py 140): INFO Epoch: [0][100/118] lr 0.000001 loss 1.5713 acc 28.53%
+[2026-04-07 16:31:51,984 vit_base] (main.py 76): INFO [Epoch 0]: Train Loss: 1.5626, Train Acc: 29.55%, Val Loss: 1.4923, Val Acc: 34.96%, F1: 0.2995, Precision: 0.3121, Recall: 0.3496
+[2026-04-07 16:31:51,984 vit_base] (main.py 87): INFO Best performance updated at epoch 0 with accuracy: 34.96%
+[2026-04-07 16:31:51,985 vit_base] (main.py 89): INFO Max accuracy: 34.96%
+[2026-04-07 16:31:53,300 vit_base] (main.py 140): INFO Epoch: [1][0/118] lr 0.000051 loss 1.4841 acc 28.12%
+[2026-04-07 16:32:01,733 vit_base] (main.py 140): INFO Epoch: [1][20/118] lr 0.000051 loss 1.9170 acc 25.00%
+[2026-04-07 16:32:09,859 vit_base] (main.py 140): INFO Epoch: [1][40/118] lr 0.000051 loss 1.7839 acc 26.14%
+[2026-04-07 16:32:17,959 vit_base] (main.py 140): INFO Epoch: [1][60/118] lr 0.000051 loss 1.7105 acc 26.69%
+[2026-04-07 16:32:26,076 vit_base] (main.py 140): INFO Epoch: [1][80/118] lr 0.000051 loss 1.6724 acc 27.97%
+[2026-04-07 16:32:34,180 vit_base] (main.py 140): INFO Epoch: [1][100/118] lr 0.000051 loss 1.6449 acc 29.24%
+[2026-04-07 16:32:58,744 vit_base] (main.py 76): INFO [Epoch 1]: Train Loss: 1.6229, Train Acc: 30.56%, Val Loss: 1.5242, Val Acc: 26.08%, F1: 0.1848, Precision: 0.4012, Recall: 0.2608
+[2026-04-07 16:32:58,744 vit_base] (main.py 89): INFO Max accuracy: 34.96%
+[2026-04-07 16:32:59,778 vit_base] (main.py 140): INFO Epoch: [2][0/118] lr 0.000101 loss 1.5111 acc 25.00%
+[2026-04-07 16:33:08,259 vit_base] (main.py 140): INFO Epoch: [2][20/118] lr 0.000101 loss 1.5207 acc 34.97%
+[2026-04-07 16:33:16,747 vit_base] (main.py 140): INFO Epoch: [2][40/118] lr 0.000101 loss 1.5097 acc 36.05%
+[2026-04-07 16:33:25,253 vit_base] (main.py 140): INFO Epoch: [2][60/118] lr 0.000101 loss 1.5001 acc 37.30%
+[2026-04-07 16:33:33,601 vit_base] (main.py 140): INFO Epoch: [2][80/118] lr 0.000101 loss 1.4980 acc 37.85%
+[2026-04-07 16:33:41,861 vit_base] (main.py 140): INFO Epoch: [2][100/118] lr 0.000101 loss 1.4829 acc 39.02%
+[2026-04-07 16:34:06,277 vit_base] (main.py 76): INFO [Epoch 2]: Train Loss: 1.4760, Train Acc: 39.12%, Val Loss: 1.2745, Val Acc: 49.12%, F1: 0.4831, Precision: 0.5374, Recall: 0.4912
+[2026-04-07 16:34:06,278 vit_base] (main.py 87): INFO Best performance updated at epoch 2 with accuracy: 49.12%
+[2026-04-07 16:34:06,278 vit_base] (main.py 89): INFO Max accuracy: 49.12%
+[2026-04-07 16:34:07,139 vit_base] (main.py 140): INFO Epoch: [3][0/118] lr 0.000151 loss 1.3108 acc 50.00%
+[2026-04-07 16:34:15,240 vit_base] (main.py 140): INFO Epoch: [3][20/118] lr 0.000151 loss 1.3797 acc 43.90%
+[2026-04-07 16:34:23,450 vit_base] (main.py 140): INFO Epoch: [3][40/118] lr 0.000151 loss 1.4280 acc 40.24%
+[2026-04-07 16:34:31,654 vit_base] (main.py 140): INFO Epoch: [3][60/118] lr 0.000151 loss 1.4182 acc 41.29%
+[2026-04-07 16:34:39,876 vit_base] (main.py 140): INFO Epoch: [3][80/118] lr 0.000151 loss 1.4180 acc 42.21%
+[2026-04-07 16:34:48,219 vit_base] (main.py 140): INFO Epoch: [3][100/118] lr 0.000151 loss 1.4238 acc 42.11%
+[2026-04-07 16:35:13,156 vit_base] (main.py 76): INFO [Epoch 3]: Train Loss: 1.4197, Train Acc: 42.03%, Val Loss: 1.4591, Val Acc: 40.08%, F1: 0.3233, Precision: 0.5275, Recall: 0.4008
+[2026-04-07 16:35:13,157 vit_base] (main.py 89): INFO Max accuracy: 49.12%
+[2026-04-07 16:35:14,052 vit_base] (main.py 140): INFO Epoch: [4][0/118] lr 0.000201 loss 1.6536 acc 31.25%
+[2026-04-07 16:35:22,420 vit_base] (main.py 140): INFO Epoch: [4][20/118] lr 0.000201 loss 1.4427 acc 38.54%
+[2026-04-07 16:35:30,847 vit_base] (main.py 140): INFO Epoch: [4][40/118] lr 0.000201 loss 1.3946 acc 43.14%
+[2026-04-07 16:35:39,245 vit_base] (main.py 140): INFO Epoch: [4][60/118] lr 0.000201 loss 1.4024 acc 42.62%
+[2026-04-07 16:35:47,620 vit_base] (main.py 140): INFO Epoch: [4][80/118] lr 0.000201 loss 1.3712 acc 44.64%
+[2026-04-07 16:35:56,035 vit_base] (main.py 140): INFO Epoch: [4][100/118] lr 0.000201 loss 1.3614 acc 45.20%
+[2026-04-07 16:36:20,881 vit_base] (main.py 76): INFO [Epoch 4]: Train Loss: 1.3657, Train Acc: 45.07%, Val Loss: 1.2897, Val Acc: 43.12%, F1: 0.3882, Precision: 0.5833, Recall: 0.4312
+[2026-04-07 16:36:20,881 vit_base] (main.py 89): INFO Max accuracy: 49.12%
+[2026-04-07 16:36:21,792 vit_base] (main.py 140): INFO Epoch: [5][0/118] lr 0.000251 loss 1.3149 acc 46.88%
+[2026-04-07 16:36:30,142 vit_base] (main.py 140): INFO Epoch: [5][20/118] lr 0.000251 loss 1.3330 acc 49.70%
+[2026-04-07 16:36:38,328 vit_base] (main.py 140): INFO Epoch: [5][40/118] lr 0.000251 loss 1.3513 acc 47.03%
+[2026-04-07 16:36:46,540 vit_base] (main.py 140): INFO Epoch: [5][60/118] lr 0.000251 loss 1.3550 acc 46.98%
+[2026-04-07 16:36:54,705 vit_base] (main.py 140): INFO Epoch: [5][80/118] lr 0.000251 loss 1.3496 acc 47.38%
+[2026-04-07 16:37:02,824 vit_base] (main.py 140): INFO Epoch: [5][100/118] lr 0.000251 loss 1.3499 acc 47.96%
+[2026-04-07 16:37:27,288 vit_base] (main.py 76): INFO [Epoch 5]: Train Loss: 1.3491, Train Acc: 47.97%, Val Loss: 1.2043, Val Acc: 49.36%, F1: 0.4347, Precision: 0.5675, Recall: 0.4936
+[2026-04-07 16:37:27,288 vit_base] (main.py 87): INFO Best performance updated at epoch 5 with accuracy: 49.36%
+[2026-04-07 16:37:27,288 vit_base] (main.py 89): INFO Max accuracy: 49.36%
+[2026-04-07 16:37:28,150 vit_base] (main.py 140): INFO Epoch: [6][0/118] lr 0.000301 loss 1.2322 acc 56.25%
+[2026-04-07 16:37:36,374 vit_base] (main.py 140): INFO Epoch: [6][20/118] lr 0.000301 loss 1.3324 acc 49.40%
+[2026-04-07 16:37:44,590 vit_base] (main.py 140): INFO Epoch: [6][40/118] lr 0.000301 loss 1.3780 acc 46.04%
+[2026-04-07 16:37:52,871 vit_base] (main.py 140): INFO Epoch: [6][60/118] lr 0.000301 loss 1.3705 acc 45.95%
+[2026-04-07 16:38:01,175 vit_base] (main.py 140): INFO Epoch: [6][80/118] lr 0.000301 loss 1.3620 acc 46.80%
+[2026-04-07 16:38:09,442 vit_base] (main.py 140): INFO Epoch: [6][100/118] lr 0.000301 loss 1.3598 acc 47.03%
+[2026-04-07 16:38:34,243 vit_base] (main.py 76): INFO [Epoch 6]: Train Loss: 1.3532, Train Acc: 46.88%, Val Loss: 1.2282, Val Acc: 49.04%, F1: 0.4769, Precision: 0.5652, Recall: 0.4904
+[2026-04-07 16:38:34,244 vit_base] (main.py 89): INFO Max accuracy: 49.36%
+[2026-04-07 16:38:35,150 vit_base] (main.py 140): INFO Epoch: [7][0/118] lr 0.000351 loss 1.3104 acc 56.25%
+[2026-04-07 16:38:43,507 vit_base] (main.py 140): INFO Epoch: [7][20/118] lr 0.000351 loss 1.3640 acc 46.73%
+[2026-04-07 16:38:51,775 vit_base] (main.py 140): INFO Epoch: [7][40/118] lr 0.000351 loss 1.3574 acc 47.26%
+[2026-04-07 16:39:00,083 vit_base] (main.py 140): INFO Epoch: [7][60/118] lr 0.000351 loss 1.3502 acc 47.95%
+[2026-04-07 16:39:08,390 vit_base] (main.py 140): INFO Epoch: [7][80/118] lr 0.000351 loss 1.3636 acc 46.76%
+[2026-04-07 16:39:16,570 vit_base] (main.py 140): INFO Epoch: [7][100/118] lr 0.000351 loss 1.3606 acc 46.81%
+[2026-04-07 16:39:41,203 vit_base] (main.py 76): INFO [Epoch 7]: Train Loss: 1.3611, Train Acc: 46.59%, Val Loss: 1.2264, Val Acc: 53.44%, F1: 0.5250, Precision: 0.5728, Recall: 0.5344
+[2026-04-07 16:39:41,203 vit_base] (main.py 87): INFO Best performance updated at epoch 7 with accuracy: 53.44%
+[2026-04-07 16:39:41,203 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:39:42,098 vit_base] (main.py 140): INFO Epoch: [8][0/118] lr 0.000401 loss 1.1712 acc 65.62%
+[2026-04-07 16:39:50,375 vit_base] (main.py 140): INFO Epoch: [8][20/118] lr 0.000401 loss 1.3511 acc 48.51%
+[2026-04-07 16:39:58,617 vit_base] (main.py 140): INFO Epoch: [8][40/118] lr 0.000401 loss 1.3726 acc 46.88%
+[2026-04-07 16:40:06,834 vit_base] (main.py 140): INFO Epoch: [8][60/118] lr 0.000401 loss 1.3934 acc 45.49%
+[2026-04-07 16:40:15,095 vit_base] (main.py 140): INFO Epoch: [8][80/118] lr 0.000401 loss 1.3921 acc 45.25%
+[2026-04-07 16:40:23,227 vit_base] (main.py 140): INFO Epoch: [8][100/118] lr 0.000401 loss 1.3931 acc 44.99%
+[2026-04-07 16:40:48,028 vit_base] (main.py 76): INFO [Epoch 8]: Train Loss: 1.3977, Train Acc: 44.85%, Val Loss: 1.2719, Val Acc: 48.40%, F1: 0.4438, Precision: 0.4817, Recall: 0.4840
+[2026-04-07 16:40:48,028 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:40:48,920 vit_base] (main.py 140): INFO Epoch: [9][0/118] lr 0.000451 loss 1.3165 acc 56.25%
+[2026-04-07 16:40:57,128 vit_base] (main.py 140): INFO Epoch: [9][20/118] lr 0.000451 loss 1.4985 acc 38.10%
+[2026-04-07 16:41:05,246 vit_base] (main.py 140): INFO Epoch: [9][40/118] lr 0.000451 loss 1.4775 acc 38.49%
+[2026-04-07 16:41:13,355 vit_base] (main.py 140): INFO Epoch: [9][60/118] lr 0.000451 loss 1.4885 acc 37.70%
+[2026-04-07 16:41:21,518 vit_base] (main.py 140): INFO Epoch: [9][80/118] lr 0.000451 loss 1.4669 acc 38.43%
+[2026-04-07 16:41:29,633 vit_base] (main.py 140): INFO Epoch: [9][100/118] lr 0.000451 loss 1.4606 acc 39.05%
+[2026-04-07 16:41:54,198 vit_base] (main.py 76): INFO [Epoch 9]: Train Loss: 1.4600, Train Acc: 39.12%, Val Loss: 1.3951, Val Acc: 42.56%, F1: 0.4116, Precision: 0.5505, Recall: 0.4256
+[2026-04-07 16:41:54,198 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:41:55,094 vit_base] (main.py 140): INFO Epoch: [10][0/118] lr 0.000501 loss 1.5198 acc 43.75%
+[2026-04-07 16:42:03,803 vit_base] (main.py 140): INFO Epoch: [10][20/118] lr 0.000501 loss 1.4536 acc 37.80%
+[2026-04-07 16:42:11,924 vit_base] (main.py 140): INFO Epoch: [10][40/118] lr 0.000501 loss 1.4501 acc 39.56%
+[2026-04-07 16:42:20,028 vit_base] (main.py 140): INFO Epoch: [10][60/118] lr 0.000501 loss 1.4698 acc 37.24%
+[2026-04-07 16:42:28,132 vit_base] (main.py 140): INFO Epoch: [10][80/118] lr 0.000501 loss 1.4631 acc 36.88%
+[2026-04-07 16:42:36,249 vit_base] (main.py 140): INFO Epoch: [10][100/118] lr 0.000501 loss 1.4526 acc 38.30%
+[2026-04-07 16:43:00,873 vit_base] (main.py 76): INFO [Epoch 10]: Train Loss: 1.4519, Train Acc: 38.88%, Val Loss: 1.3758, Val Acc: 41.60%, F1: 0.4118, Precision: 0.4705, Recall: 0.4160
+[2026-04-07 16:43:00,873 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:43:01,780 vit_base] (main.py 140): INFO Epoch: [11][0/118] lr 0.000550 loss 1.5252 acc 43.75%
+[2026-04-07 16:43:10,059 vit_base] (main.py 140): INFO Epoch: [11][20/118] lr 0.000550 loss 1.4836 acc 35.86%
+[2026-04-07 16:43:18,263 vit_base] (main.py 140): INFO Epoch: [11][40/118] lr 0.000550 loss 1.4738 acc 38.03%
+[2026-04-07 16:43:26,388 vit_base] (main.py 140): INFO Epoch: [11][60/118] lr 0.000550 loss 1.4669 acc 38.58%
+[2026-04-07 16:43:34,642 vit_base] (main.py 140): INFO Epoch: [11][80/118] lr 0.000550 loss 1.4690 acc 37.92%
+[2026-04-07 16:43:42,803 vit_base] (main.py 140): INFO Epoch: [11][100/118] lr 0.000550 loss 1.4665 acc 38.27%
+[2026-04-07 16:44:07,432 vit_base] (main.py 76): INFO [Epoch 11]: Train Loss: 1.4648, Train Acc: 38.45%, Val Loss: 1.3273, Val Acc: 42.48%, F1: 0.3584, Precision: 0.4592, Recall: 0.4248
+[2026-04-07 16:44:07,433 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:44:08,524 vit_base] (main.py 140): INFO Epoch: [12][0/118] lr 0.000600 loss 1.4619 acc 37.50%
+[2026-04-07 16:44:16,827 vit_base] (main.py 140): INFO Epoch: [12][20/118] lr 0.000600 loss 1.4527 acc 42.41%
+[2026-04-07 16:44:25,000 vit_base] (main.py 140): INFO Epoch: [12][40/118] lr 0.000600 loss 1.4536 acc 41.54%
+[2026-04-07 16:44:33,093 vit_base] (main.py 140): INFO Epoch: [12][60/118] lr 0.000600 loss 1.4509 acc 40.68%
+[2026-04-07 16:44:41,240 vit_base] (main.py 140): INFO Epoch: [12][80/118] lr 0.000600 loss 1.4568 acc 40.12%
+[2026-04-07 16:44:49,387 vit_base] (main.py 140): INFO Epoch: [12][100/118] lr 0.000600 loss 1.4640 acc 39.51%
+[2026-04-07 16:45:13,843 vit_base] (main.py 76): INFO [Epoch 12]: Train Loss: 1.4634, Train Acc: 39.47%, Val Loss: 1.4067, Val Acc: 38.96%, F1: 0.3498, Precision: 0.3983, Recall: 0.3896
+[2026-04-07 16:45:13,843 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:45:14,979 vit_base] (main.py 140): INFO Epoch: [13][0/118] lr 0.000650 loss 1.5142 acc 31.25%
+[2026-04-07 16:45:23,090 vit_base] (main.py 140): INFO Epoch: [13][20/118] lr 0.000650 loss 1.5089 acc 32.29%
+[2026-04-07 16:45:31,223 vit_base] (main.py 140): INFO Epoch: [13][40/118] lr 0.000650 loss 1.4856 acc 36.28%
+[2026-04-07 16:45:39,324 vit_base] (main.py 140): INFO Epoch: [13][60/118] lr 0.000650 loss 1.4872 acc 36.37%
+[2026-04-07 16:45:47,520 vit_base] (main.py 140): INFO Epoch: [13][80/118] lr 0.000650 loss 1.4828 acc 36.23%
+[2026-04-07 16:45:55,686 vit_base] (main.py 140): INFO Epoch: [13][100/118] lr 0.000650 loss 1.4845 acc 36.57%
+[2026-04-07 16:46:20,297 vit_base] (main.py 76): INFO [Epoch 13]: Train Loss: 1.4829, Train Acc: 36.93%, Val Loss: 1.4297, Val Acc: 35.36%, F1: 0.3305, Precision: 0.5112, Recall: 0.3536
+[2026-04-07 16:46:20,298 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:46:21,200 vit_base] (main.py 140): INFO Epoch: [14][0/118] lr 0.000700 loss 1.4692 acc 34.38%
+[2026-04-07 16:46:29,288 vit_base] (main.py 140): INFO Epoch: [14][20/118] lr 0.000700 loss 1.4623 acc 37.80%
+[2026-04-07 16:46:37,458 vit_base] (main.py 140): INFO Epoch: [14][40/118] lr 0.000700 loss 1.4705 acc 38.19%
+[2026-04-07 16:46:45,585 vit_base] (main.py 140): INFO Epoch: [14][60/118] lr 0.000700 loss 1.4574 acc 39.75%
+[2026-04-07 16:46:53,670 vit_base] (main.py 140): INFO Epoch: [14][80/118] lr 0.000700 loss 1.4570 acc 39.04%
+[2026-04-07 16:47:01,774 vit_base] (main.py 140): INFO Epoch: [14][100/118] lr 0.000700 loss 1.4632 acc 38.68%
+[2026-04-07 16:47:26,205 vit_base] (main.py 76): INFO [Epoch 14]: Train Loss: 1.4664, Train Acc: 38.43%, Val Loss: 1.4447, Val Acc: 35.36%, F1: 0.2738, Precision: 0.3803, Recall: 0.3536
+[2026-04-07 16:47:26,205 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:47:27,091 vit_base] (main.py 140): INFO Epoch: [15][0/118] lr 0.000750 loss 1.6242 acc 25.00%
+[2026-04-07 16:47:35,200 vit_base] (main.py 140): INFO Epoch: [15][20/118] lr 0.000750 loss 1.4996 acc 34.67%
+[2026-04-07 16:47:43,414 vit_base] (main.py 140): INFO Epoch: [15][40/118] lr 0.000750 loss 1.4717 acc 37.42%
+[2026-04-07 16:47:51,535 vit_base] (main.py 140): INFO Epoch: [15][60/118] lr 0.000750 loss 1.4635 acc 37.65%
+[2026-04-07 16:47:59,674 vit_base] (main.py 140): INFO Epoch: [15][80/118] lr 0.000750 loss 1.4675 acc 37.46%
+[2026-04-07 16:48:07,890 vit_base] (main.py 140): INFO Epoch: [15][100/118] lr 0.000750 loss 1.4696 acc 37.50%
+[2026-04-07 16:48:32,414 vit_base] (main.py 76): INFO [Epoch 15]: Train Loss: 1.4710, Train Acc: 37.55%, Val Loss: 1.4022, Val Acc: 39.04%, F1: 0.3377, Precision: 0.4245, Recall: 0.3904
+[2026-04-07 16:48:32,414 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:48:33,315 vit_base] (main.py 140): INFO Epoch: [16][0/118] lr 0.000800 loss 1.5440 acc 34.38%
+[2026-04-07 16:48:41,408 vit_base] (main.py 140): INFO Epoch: [16][20/118] lr 0.000800 loss 1.4761 acc 37.65%
+[2026-04-07 16:48:49,520 vit_base] (main.py 140): INFO Epoch: [16][40/118] lr 0.000800 loss 1.4720 acc 38.57%
+[2026-04-07 16:48:57,645 vit_base] (main.py 140): INFO Epoch: [16][60/118] lr 0.000800 loss 1.4592 acc 39.45%
+[2026-04-07 16:49:05,731 vit_base] (main.py 140): INFO Epoch: [16][80/118] lr 0.000800 loss 1.4564 acc 39.62%
+[2026-04-07 16:49:13,860 vit_base] (main.py 140): INFO Epoch: [16][100/118] lr 0.000800 loss 1.4591 acc 39.29%
+[2026-04-07 16:49:38,404 vit_base] (main.py 76): INFO [Epoch 16]: Train Loss: 1.4698, Train Acc: 38.43%, Val Loss: 1.4351, Val Acc: 40.00%, F1: 0.3628, Precision: 0.4022, Recall: 0.4000
+[2026-04-07 16:49:38,405 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:49:39,278 vit_base] (main.py 140): INFO Epoch: [17][0/118] lr 0.000850 loss 1.4961 acc 31.25%
+[2026-04-07 16:49:47,382 vit_base] (main.py 140): INFO Epoch: [17][20/118] lr 0.000850 loss 1.5138 acc 34.23%
+[2026-04-07 16:49:55,517 vit_base] (main.py 140): INFO Epoch: [17][40/118] lr 0.000850 loss 1.5078 acc 34.98%
+[2026-04-07 16:50:03,650 vit_base] (main.py 140): INFO Epoch: [17][60/118] lr 0.000850 loss 1.4997 acc 35.09%
+[2026-04-07 16:50:11,746 vit_base] (main.py 140): INFO Epoch: [17][80/118] lr 0.000850 loss 1.4946 acc 35.69%
+[2026-04-07 16:50:19,871 vit_base] (main.py 140): INFO Epoch: [17][100/118] lr 0.000850 loss 1.4986 acc 35.58%
+[2026-04-07 16:50:44,429 vit_base] (main.py 76): INFO [Epoch 17]: Train Loss: 1.5003, Train Acc: 35.09%, Val Loss: 1.3903, Val Acc: 41.12%, F1: 0.3764, Precision: 0.4147, Recall: 0.4112
+[2026-04-07 16:50:44,430 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:50:45,291 vit_base] (main.py 140): INFO Epoch: [18][0/118] lr 0.000900 loss 1.5780 acc 28.12%
+[2026-04-07 16:50:53,413 vit_base] (main.py 140): INFO Epoch: [18][20/118] lr 0.000900 loss 1.4820 acc 35.86%
+[2026-04-07 16:51:01,537 vit_base] (main.py 140): INFO Epoch: [18][40/118] lr 0.000900 loss 1.4638 acc 37.96%
+[2026-04-07 16:51:09,652 vit_base] (main.py 140): INFO Epoch: [18][60/118] lr 0.000900 loss 1.4669 acc 36.99%
+[2026-04-07 16:51:17,746 vit_base] (main.py 140): INFO Epoch: [18][80/118] lr 0.000900 loss 1.4715 acc 36.65%
+[2026-04-07 16:51:25,888 vit_base] (main.py 140): INFO Epoch: [18][100/118] lr 0.000900 loss 1.4683 acc 37.22%
+[2026-04-07 16:51:50,604 vit_base] (main.py 76): INFO [Epoch 18]: Train Loss: 1.4767, Train Acc: 36.64%, Val Loss: 1.4507, Val Acc: 36.88%, F1: 0.3500, Precision: 0.4135, Recall: 0.3688
+[2026-04-07 16:51:50,605 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:51:51,506 vit_base] (main.py 140): INFO Epoch: [19][0/118] lr 0.000950 loss 1.5822 acc 28.12%
+[2026-04-07 16:51:59,666 vit_base] (main.py 140): INFO Epoch: [19][20/118] lr 0.000950 loss 1.5028 acc 36.31%
+[2026-04-07 16:52:07,795 vit_base] (main.py 140): INFO Epoch: [19][40/118] lr 0.000950 loss 1.4935 acc 36.28%
+[2026-04-07 16:52:15,930 vit_base] (main.py 140): INFO Epoch: [19][60/118] lr 0.000950 loss 1.4962 acc 35.09%
+[2026-04-07 16:52:24,031 vit_base] (main.py 140): INFO Epoch: [19][80/118] lr 0.000950 loss 1.4948 acc 35.03%
+[2026-04-07 16:52:32,149 vit_base] (main.py 140): INFO Epoch: [19][100/118] lr 0.000950 loss 1.4991 acc 35.30%
+[2026-04-07 16:52:56,692 vit_base] (main.py 76): INFO [Epoch 19]: Train Loss: 1.5049, Train Acc: 34.56%, Val Loss: 1.4306, Val Acc: 39.20%, F1: 0.3623, Precision: 0.4008, Recall: 0.3920
+[2026-04-07 16:52:56,693 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:52:57,556 vit_base] (main.py 140): INFO Epoch: [20][0/118] lr 0.000658 loss 1.5332 acc 34.38%
+[2026-04-07 16:53:05,668 vit_base] (main.py 140): INFO Epoch: [20][20/118] lr 0.000658 loss 1.5209 acc 32.89%
+[2026-04-07 16:53:13,757 vit_base] (main.py 140): INFO Epoch: [20][40/118] lr 0.000658 loss 1.5078 acc 33.92%
+[2026-04-07 16:53:21,866 vit_base] (main.py 140): INFO Epoch: [20][60/118] lr 0.000658 loss 1.4968 acc 35.19%
+[2026-04-07 16:53:29,963 vit_base] (main.py 140): INFO Epoch: [20][80/118] lr 0.000658 loss 1.4843 acc 36.03%
+[2026-04-07 16:53:38,058 vit_base] (main.py 140): INFO Epoch: [20][100/118] lr 0.000658 loss 1.4816 acc 36.20%
+[2026-04-07 16:54:02,466 vit_base] (main.py 76): INFO [Epoch 20]: Train Loss: 1.4823, Train Acc: 36.61%, Val Loss: 1.5133, Val Acc: 30.64%, F1: 0.2204, Precision: 0.4531, Recall: 0.3064
+[2026-04-07 16:54:02,466 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:54:03,331 vit_base] (main.py 140): INFO Epoch: [21][0/118] lr 0.000628 loss 1.6102 acc 31.25%
+[2026-04-07 16:54:11,453 vit_base] (main.py 140): INFO Epoch: [21][20/118] lr 0.000628 loss 1.4955 acc 34.82%
+[2026-04-07 16:54:19,541 vit_base] (main.py 140): INFO Epoch: [21][40/118] lr 0.000628 loss 1.5083 acc 35.67%
+[2026-04-07 16:54:27,700 vit_base] (main.py 140): INFO Epoch: [21][60/118] lr 0.000628 loss 1.5038 acc 35.04%
+[2026-04-07 16:54:35,857 vit_base] (main.py 140): INFO Epoch: [21][80/118] lr 0.000628 loss 1.5044 acc 35.26%
+[2026-04-07 16:54:43,974 vit_base] (main.py 140): INFO Epoch: [21][100/118] lr 0.000628 loss 1.4992 acc 35.61%
+[2026-04-07 16:55:08,495 vit_base] (main.py 76): INFO [Epoch 21]: Train Loss: 1.4941, Train Acc: 35.97%, Val Loss: 1.4190, Val Acc: 36.72%, F1: 0.3419, Precision: 0.4093, Recall: 0.3672
+[2026-04-07 16:55:08,496 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:55:09,350 vit_base] (main.py 140): INFO Epoch: [22][0/118] lr 0.000598 loss 1.4854 acc 34.38%
+[2026-04-07 16:55:17,476 vit_base] (main.py 140): INFO Epoch: [22][20/118] lr 0.000598 loss 1.4903 acc 36.01%
+[2026-04-07 16:55:25,562 vit_base] (main.py 140): INFO Epoch: [22][40/118] lr 0.000598 loss 1.4702 acc 37.20%
+[2026-04-07 16:55:33,653 vit_base] (main.py 140): INFO Epoch: [22][60/118] lr 0.000598 loss 1.4692 acc 37.65%
+[2026-04-07 16:55:41,749 vit_base] (main.py 140): INFO Epoch: [22][80/118] lr 0.000598 loss 1.4770 acc 37.00%
+[2026-04-07 16:55:49,831 vit_base] (main.py 140): INFO Epoch: [22][100/118] lr 0.000598 loss 1.4769 acc 37.47%
+[2026-04-07 16:56:14,209 vit_base] (main.py 76): INFO [Epoch 22]: Train Loss: 1.4734, Train Acc: 37.68%, Val Loss: 1.3865, Val Acc: 42.96%, F1: 0.4206, Precision: 0.4543, Recall: 0.4296
+[2026-04-07 16:56:14,209 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:56:15,106 vit_base] (main.py 140): INFO Epoch: [23][0/118] lr 0.000567 loss 1.4355 acc 46.88%
+[2026-04-07 16:56:23,242 vit_base] (main.py 140): INFO Epoch: [23][20/118] lr 0.000567 loss 1.4439 acc 41.96%
+[2026-04-07 16:56:31,336 vit_base] (main.py 140): INFO Epoch: [23][40/118] lr 0.000567 loss 1.4589 acc 38.64%
+[2026-04-07 16:56:39,468 vit_base] (main.py 140): INFO Epoch: [23][60/118] lr 0.000567 loss 1.4578 acc 38.73%
+[2026-04-07 16:56:47,603 vit_base] (main.py 140): INFO Epoch: [23][80/118] lr 0.000567 loss 1.4526 acc 39.20%
+[2026-04-07 16:56:55,692 vit_base] (main.py 140): INFO Epoch: [23][100/118] lr 0.000567 loss 1.4604 acc 38.55%
+[2026-04-07 16:57:20,181 vit_base] (main.py 76): INFO [Epoch 23]: Train Loss: 1.4612, Train Acc: 38.32%, Val Loss: 1.4338, Val Acc: 38.24%, F1: 0.3727, Precision: 0.4310, Recall: 0.3824
+[2026-04-07 16:57:20,181 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:57:21,082 vit_base] (main.py 140): INFO Epoch: [24][0/118] lr 0.000536 loss 1.4574 acc 53.12%
+[2026-04-07 16:57:29,219 vit_base] (main.py 140): INFO Epoch: [24][20/118] lr 0.000536 loss 1.4670 acc 38.39%
+[2026-04-07 16:57:37,315 vit_base] (main.py 140): INFO Epoch: [24][40/118] lr 0.000536 loss 1.4608 acc 39.33%
+[2026-04-07 16:57:45,439 vit_base] (main.py 140): INFO Epoch: [24][60/118] lr 0.000536 loss 1.4591 acc 38.83%
+[2026-04-07 16:57:53,551 vit_base] (main.py 140): INFO Epoch: [24][80/118] lr 0.000536 loss 1.4683 acc 38.35%
+[2026-04-07 16:58:01,636 vit_base] (main.py 140): INFO Epoch: [24][100/118] lr 0.000536 loss 1.4664 acc 38.58%
+[2026-04-07 16:58:25,944 vit_base] (main.py 76): INFO [Epoch 24]: Train Loss: 1.4633, Train Acc: 38.43%, Val Loss: 1.3993, Val Acc: 38.24%, F1: 0.3561, Precision: 0.4121, Recall: 0.3824
+[2026-04-07 16:58:25,945 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:58:26,837 vit_base] (main.py 140): INFO Epoch: [25][0/118] lr 0.000505 loss 1.4124 acc 34.38%
+[2026-04-07 16:58:34,942 vit_base] (main.py 140): INFO Epoch: [25][20/118] lr 0.000505 loss 1.4518 acc 38.99%
+[2026-04-07 16:58:43,036 vit_base] (main.py 140): INFO Epoch: [25][40/118] lr 0.000505 loss 1.4503 acc 38.26%
+[2026-04-07 16:58:51,165 vit_base] (main.py 140): INFO Epoch: [25][60/118] lr 0.000505 loss 1.4474 acc 38.78%
+[2026-04-07 16:58:59,283 vit_base] (main.py 140): INFO Epoch: [25][80/118] lr 0.000505 loss 1.4446 acc 39.08%
+[2026-04-07 16:59:07,377 vit_base] (main.py 140): INFO Epoch: [25][100/118] lr 0.000505 loss 1.4454 acc 39.33%
+[2026-04-07 16:59:31,945 vit_base] (main.py 76): INFO [Epoch 25]: Train Loss: 1.4478, Train Acc: 39.17%, Val Loss: 1.3527, Val Acc: 42.88%, F1: 0.4255, Precision: 0.4350, Recall: 0.4288
+[2026-04-07 16:59:31,945 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 16:59:32,815 vit_base] (main.py 140): INFO Epoch: [26][0/118] lr 0.000474 loss 1.4590 acc 40.62%
+[2026-04-07 16:59:40,926 vit_base] (main.py 140): INFO Epoch: [26][20/118] lr 0.000474 loss 1.4380 acc 39.14%
+[2026-04-07 16:59:49,020 vit_base] (main.py 140): INFO Epoch: [26][40/118] lr 0.000474 loss 1.4342 acc 40.40%
+[2026-04-07 16:59:57,109 vit_base] (main.py 140): INFO Epoch: [26][60/118] lr 0.000474 loss 1.4348 acc 39.86%
+[2026-04-07 17:00:05,224 vit_base] (main.py 140): INFO Epoch: [26][80/118] lr 0.000474 loss 1.4350 acc 39.97%
+[2026-04-07 17:00:13,312 vit_base] (main.py 140): INFO Epoch: [26][100/118] lr 0.000474 loss 1.4389 acc 39.70%
+[2026-04-07 17:00:37,796 vit_base] (main.py 76): INFO [Epoch 26]: Train Loss: 1.4383, Train Acc: 39.68%, Val Loss: 1.3467, Val Acc: 42.08%, F1: 0.4156, Precision: 0.4984, Recall: 0.4208
+[2026-04-07 17:00:37,797 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:00:38,697 vit_base] (main.py 140): INFO Epoch: [27][0/118] lr 0.000443 loss 1.4071 acc 31.25%
+[2026-04-07 17:00:46,806 vit_base] (main.py 140): INFO Epoch: [27][20/118] lr 0.000443 loss 1.4189 acc 41.96%
+[2026-04-07 17:00:54,903 vit_base] (main.py 140): INFO Epoch: [27][40/118] lr 0.000443 loss 1.4296 acc 41.23%
+[2026-04-07 17:01:03,048 vit_base] (main.py 140): INFO Epoch: [27][60/118] lr 0.000443 loss 1.4378 acc 40.68%
+[2026-04-07 17:01:11,226 vit_base] (main.py 140): INFO Epoch: [27][80/118] lr 0.000443 loss 1.4338 acc 41.36%
+[2026-04-07 17:01:19,313 vit_base] (main.py 140): INFO Epoch: [27][100/118] lr 0.000443 loss 1.4309 acc 41.37%
+[2026-04-07 17:01:43,863 vit_base] (main.py 76): INFO [Epoch 27]: Train Loss: 1.4364, Train Acc: 40.99%, Val Loss: 1.4103, Val Acc: 38.16%, F1: 0.3735, Precision: 0.4287, Recall: 0.3816
+[2026-04-07 17:01:43,864 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:01:44,750 vit_base] (main.py 140): INFO Epoch: [28][0/118] lr 0.000412 loss 1.4912 acc 40.62%
+[2026-04-07 17:01:52,881 vit_base] (main.py 140): INFO Epoch: [28][20/118] lr 0.000412 loss 1.4530 acc 39.73%
+[2026-04-07 17:02:00,979 vit_base] (main.py 140): INFO Epoch: [28][40/118] lr 0.000412 loss 1.4390 acc 41.08%
+[2026-04-07 17:02:09,082 vit_base] (main.py 140): INFO Epoch: [28][60/118] lr 0.000412 loss 1.4414 acc 40.52%
+[2026-04-07 17:02:17,174 vit_base] (main.py 140): INFO Epoch: [28][80/118] lr 0.000412 loss 1.4256 acc 41.55%
+[2026-04-07 17:02:25,263 vit_base] (main.py 140): INFO Epoch: [28][100/118] lr 0.000412 loss 1.4324 acc 41.15%
+[2026-04-07 17:02:49,678 vit_base] (main.py 76): INFO [Epoch 28]: Train Loss: 1.4335, Train Acc: 41.04%, Val Loss: 1.3919, Val Acc: 39.92%, F1: 0.3754, Precision: 0.4312, Recall: 0.3992
+[2026-04-07 17:02:49,679 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:02:50,544 vit_base] (main.py 140): INFO Epoch: [29][0/118] lr 0.000382 loss 1.4221 acc 43.75%
+[2026-04-07 17:02:58,645 vit_base] (main.py 140): INFO Epoch: [29][20/118] lr 0.000382 loss 1.4303 acc 39.58%
+[2026-04-07 17:03:06,790 vit_base] (main.py 140): INFO Epoch: [29][40/118] lr 0.000382 loss 1.4270 acc 41.46%
+[2026-04-07 17:03:14,892 vit_base] (main.py 140): INFO Epoch: [29][60/118] lr 0.000382 loss 1.4197 acc 42.42%
+[2026-04-07 17:03:23,028 vit_base] (main.py 140): INFO Epoch: [29][80/118] lr 0.000382 loss 1.4195 acc 41.82%
+[2026-04-07 17:03:31,124 vit_base] (main.py 140): INFO Epoch: [29][100/118] lr 0.000382 loss 1.4195 acc 41.71%
+[2026-04-07 17:03:55,698 vit_base] (main.py 76): INFO [Epoch 29]: Train Loss: 1.4180, Train Acc: 42.13%, Val Loss: 1.2765, Val Acc: 48.00%, F1: 0.4724, Precision: 0.4773, Recall: 0.4800
+[2026-04-07 17:03:55,699 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:03:56,576 vit_base] (main.py 140): INFO Epoch: [30][0/118] lr 0.000352 loss 1.3483 acc 46.88%
+[2026-04-07 17:04:04,708 vit_base] (main.py 140): INFO Epoch: [30][20/118] lr 0.000352 loss 1.4075 acc 43.45%
+[2026-04-07 17:04:12,865 vit_base] (main.py 140): INFO Epoch: [30][40/118] lr 0.000352 loss 1.4048 acc 43.22%
+[2026-04-07 17:04:20,972 vit_base] (main.py 140): INFO Epoch: [30][60/118] lr 0.000352 loss 1.4132 acc 42.52%
+[2026-04-07 17:04:29,086 vit_base] (main.py 140): INFO Epoch: [30][80/118] lr 0.000352 loss 1.4192 acc 42.32%
+[2026-04-07 17:04:37,185 vit_base] (main.py 140): INFO Epoch: [30][100/118] lr 0.000352 loss 1.4204 acc 42.17%
+[2026-04-07 17:05:01,743 vit_base] (main.py 76): INFO [Epoch 30]: Train Loss: 1.4144, Train Acc: 42.59%, Val Loss: 1.2995, Val Acc: 48.32%, F1: 0.4687, Precision: 0.4949, Recall: 0.4832
+[2026-04-07 17:05:01,744 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:05:02,632 vit_base] (main.py 140): INFO Epoch: [31][0/118] lr 0.000323 loss 1.4579 acc 31.25%
+[2026-04-07 17:05:10,777 vit_base] (main.py 140): INFO Epoch: [31][20/118] lr 0.000323 loss 1.4299 acc 39.88%
+[2026-04-07 17:05:18,943 vit_base] (main.py 140): INFO Epoch: [31][40/118] lr 0.000323 loss 1.4058 acc 43.14%
+[2026-04-07 17:05:27,043 vit_base] (main.py 140): INFO Epoch: [31][60/118] lr 0.000323 loss 1.4075 acc 42.98%
+[2026-04-07 17:05:35,176 vit_base] (main.py 140): INFO Epoch: [31][80/118] lr 0.000323 loss 1.4086 acc 42.71%
+[2026-04-07 17:05:43,277 vit_base] (main.py 140): INFO Epoch: [31][100/118] lr 0.000323 loss 1.4069 acc 43.10%
+[2026-04-07 17:06:07,765 vit_base] (main.py 76): INFO [Epoch 31]: Train Loss: 1.4033, Train Acc: 43.65%, Val Loss: 1.4106, Val Acc: 41.04%, F1: 0.3849, Precision: 0.4519, Recall: 0.4104
+[2026-04-07 17:06:07,766 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:06:08,662 vit_base] (main.py 140): INFO Epoch: [32][0/118] lr 0.000294 loss 1.5293 acc 34.38%
+[2026-04-07 17:06:17,012 vit_base] (main.py 140): INFO Epoch: [32][20/118] lr 0.000294 loss 1.4054 acc 45.54%
+[2026-04-07 17:06:25,154 vit_base] (main.py 140): INFO Epoch: [32][40/118] lr 0.000294 loss 1.3840 acc 46.72%
+[2026-04-07 17:06:33,237 vit_base] (main.py 140): INFO Epoch: [32][60/118] lr 0.000294 loss 1.3946 acc 45.08%
+[2026-04-07 17:06:41,408 vit_base] (main.py 140): INFO Epoch: [32][80/118] lr 0.000294 loss 1.3987 acc 44.64%
+[2026-04-07 17:06:49,533 vit_base] (main.py 140): INFO Epoch: [32][100/118] lr 0.000294 loss 1.3959 acc 44.28%
+[2026-04-07 17:07:14,003 vit_base] (main.py 76): INFO [Epoch 32]: Train Loss: 1.3908, Train Acc: 44.69%, Val Loss: 1.2624, Val Acc: 47.84%, F1: 0.4522, Precision: 0.4799, Recall: 0.4784
+[2026-04-07 17:07:14,003 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:07:14,877 vit_base] (main.py 140): INFO Epoch: [33][0/118] lr 0.000267 loss 1.3310 acc 50.00%
+[2026-04-07 17:07:23,237 vit_base] (main.py 140): INFO Epoch: [33][20/118] lr 0.000267 loss 1.3856 acc 43.90%
+[2026-04-07 17:07:31,350 vit_base] (main.py 140): INFO Epoch: [33][40/118] lr 0.000267 loss 1.3749 acc 43.90%
+[2026-04-07 17:07:39,436 vit_base] (main.py 140): INFO Epoch: [33][60/118] lr 0.000267 loss 1.3844 acc 44.26%
+[2026-04-07 17:07:47,585 vit_base] (main.py 140): INFO Epoch: [33][80/118] lr 0.000267 loss 1.3787 acc 45.33%
+[2026-04-07 17:07:55,703 vit_base] (main.py 140): INFO Epoch: [33][100/118] lr 0.000267 loss 1.3847 acc 44.59%
+[2026-04-07 17:08:20,137 vit_base] (main.py 76): INFO [Epoch 33]: Train Loss: 1.3809, Train Acc: 44.91%, Val Loss: 1.2518, Val Acc: 47.84%, F1: 0.4580, Precision: 0.4828, Recall: 0.4784
+[2026-04-07 17:08:20,137 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:08:21,158 vit_base] (main.py 140): INFO Epoch: [34][0/118] lr 0.000240 loss 1.4473 acc 37.50%
+[2026-04-07 17:08:29,433 vit_base] (main.py 140): INFO Epoch: [34][20/118] lr 0.000240 loss 1.3804 acc 46.58%
+[2026-04-07 17:08:37,590 vit_base] (main.py 140): INFO Epoch: [34][40/118] lr 0.000240 loss 1.3796 acc 46.11%
+[2026-04-07 17:08:45,682 vit_base] (main.py 140): INFO Epoch: [34][60/118] lr 0.000240 loss 1.3774 acc 46.67%
+[2026-04-07 17:08:53,875 vit_base] (main.py 140): INFO Epoch: [34][80/118] lr 0.000240 loss 1.3706 acc 46.91%
+[2026-04-07 17:09:02,002 vit_base] (main.py 140): INFO Epoch: [34][100/118] lr 0.000240 loss 1.3730 acc 46.04%
+[2026-04-07 17:09:26,493 vit_base] (main.py 76): INFO [Epoch 34]: Train Loss: 1.3714, Train Acc: 46.43%, Val Loss: 1.2541, Val Acc: 49.12%, F1: 0.4804, Precision: 0.4900, Recall: 0.4912
+[2026-04-07 17:09:26,493 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:09:27,609 vit_base] (main.py 140): INFO Epoch: [35][0/118] lr 0.000214 loss 1.3300 acc 53.12%
+[2026-04-07 17:09:35,722 vit_base] (main.py 140): INFO Epoch: [35][20/118] lr 0.000214 loss 1.3555 acc 46.88%
+[2026-04-07 17:09:43,861 vit_base] (main.py 140): INFO Epoch: [35][40/118] lr 0.000214 loss 1.3714 acc 45.73%
+[2026-04-07 17:09:51,979 vit_base] (main.py 140): INFO Epoch: [35][60/118] lr 0.000214 loss 1.3813 acc 45.95%
+[2026-04-07 17:10:00,120 vit_base] (main.py 140): INFO Epoch: [35][80/118] lr 0.000214 loss 1.3799 acc 45.45%
+[2026-04-07 17:10:08,254 vit_base] (main.py 140): INFO Epoch: [35][100/118] lr 0.000214 loss 1.3793 acc 45.17%
+[2026-04-07 17:10:32,697 vit_base] (main.py 76): INFO [Epoch 35]: Train Loss: 1.3780, Train Acc: 45.15%, Val Loss: 1.2529, Val Acc: 49.12%, F1: 0.4897, Precision: 0.4961, Recall: 0.4912
+[2026-04-07 17:10:32,697 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:10:33,693 vit_base] (main.py 140): INFO Epoch: [36][0/118] lr 0.000189 loss 1.3594 acc 43.75%
+[2026-04-07 17:10:41,781 vit_base] (main.py 140): INFO Epoch: [36][20/118] lr 0.000189 loss 1.3346 acc 48.66%
+[2026-04-07 17:10:49,979 vit_base] (main.py 140): INFO Epoch: [36][40/118] lr 0.000189 loss 1.3613 acc 46.11%
+[2026-04-07 17:10:58,096 vit_base] (main.py 140): INFO Epoch: [36][60/118] lr 0.000189 loss 1.3721 acc 45.39%
+[2026-04-07 17:11:06,218 vit_base] (main.py 140): INFO Epoch: [36][80/118] lr 0.000189 loss 1.3772 acc 44.71%
+[2026-04-07 17:11:14,367 vit_base] (main.py 140): INFO Epoch: [36][100/118] lr 0.000189 loss 1.3717 acc 45.27%
+[2026-04-07 17:11:38,923 vit_base] (main.py 76): INFO [Epoch 36]: Train Loss: 1.3728, Train Acc: 45.65%, Val Loss: 1.2523, Val Acc: 49.68%, F1: 0.4889, Precision: 0.5050, Recall: 0.4968
+[2026-04-07 17:11:38,924 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:11:39,758 vit_base] (main.py 140): INFO Epoch: [37][0/118] lr 0.000166 loss 1.3589 acc 46.88%
+[2026-04-07 17:11:47,861 vit_base] (main.py 140): INFO Epoch: [37][20/118] lr 0.000166 loss 1.3676 acc 47.17%
+[2026-04-07 17:11:55,986 vit_base] (main.py 140): INFO Epoch: [37][40/118] lr 0.000166 loss 1.3646 acc 47.10%
+[2026-04-07 17:12:04,096 vit_base] (main.py 140): INFO Epoch: [37][60/118] lr 0.000166 loss 1.3695 acc 46.67%
+[2026-04-07 17:12:12,201 vit_base] (main.py 140): INFO Epoch: [37][80/118] lr 0.000166 loss 1.3649 acc 46.68%
+[2026-04-07 17:12:20,333 vit_base] (main.py 140): INFO Epoch: [37][100/118] lr 0.000166 loss 1.3568 acc 46.81%
+[2026-04-07 17:12:44,685 vit_base] (main.py 76): INFO [Epoch 37]: Train Loss: 1.3574, Train Acc: 46.61%, Val Loss: 1.2407, Val Acc: 48.88%, F1: 0.4908, Precision: 0.4970, Recall: 0.4888
+[2026-04-07 17:12:44,685 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:12:45,549 vit_base] (main.py 140): INFO Epoch: [38][0/118] lr 0.000144 loss 1.1951 acc 56.25%
+[2026-04-07 17:12:53,643 vit_base] (main.py 140): INFO Epoch: [38][20/118] lr 0.000144 loss 1.3575 acc 46.28%
+[2026-04-07 17:13:01,766 vit_base] (main.py 140): INFO Epoch: [38][40/118] lr 0.000144 loss 1.3424 acc 47.71%
+[2026-04-07 17:13:09,888 vit_base] (main.py 140): INFO Epoch: [38][60/118] lr 0.000144 loss 1.3597 acc 46.26%
+[2026-04-07 17:13:17,992 vit_base] (main.py 140): INFO Epoch: [38][80/118] lr 0.000144 loss 1.3639 acc 45.95%
+[2026-04-07 17:13:26,109 vit_base] (main.py 140): INFO Epoch: [38][100/118] lr 0.000144 loss 1.3680 acc 45.36%
+[2026-04-07 17:13:50,584 vit_base] (main.py 76): INFO [Epoch 38]: Train Loss: 1.3660, Train Acc: 45.39%, Val Loss: 1.2333, Val Acc: 49.28%, F1: 0.4796, Precision: 0.4828, Recall: 0.4928
+[2026-04-07 17:13:50,584 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:13:51,461 vit_base] (main.py 140): INFO Epoch: [39][0/118] lr 0.000124 loss 1.3517 acc 56.25%
+[2026-04-07 17:13:59,559 vit_base] (main.py 140): INFO Epoch: [39][20/118] lr 0.000124 loss 1.3449 acc 46.58%
+[2026-04-07 17:14:07,697 vit_base] (main.py 140): INFO Epoch: [39][40/118] lr 0.000124 loss 1.3510 acc 46.11%
+[2026-04-07 17:14:15,808 vit_base] (main.py 140): INFO Epoch: [39][60/118] lr 0.000124 loss 1.3479 acc 46.82%
+[2026-04-07 17:14:23,895 vit_base] (main.py 140): INFO Epoch: [39][80/118] lr 0.000124 loss 1.3485 acc 46.41%
+[2026-04-07 17:14:31,985 vit_base] (main.py 140): INFO Epoch: [39][100/118] lr 0.000124 loss 1.3442 acc 46.84%
+[2026-04-07 17:14:56,499 vit_base] (main.py 76): INFO [Epoch 39]: Train Loss: 1.3444, Train Acc: 47.09%, Val Loss: 1.2168, Val Acc: 51.28%, F1: 0.5101, Precision: 0.5246, Recall: 0.5128
+[2026-04-07 17:14:56,499 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:14:57,399 vit_base] (main.py 140): INFO Epoch: [40][0/118] lr 0.000105 loss 1.3172 acc 43.75%
+[2026-04-07 17:15:05,519 vit_base] (main.py 140): INFO Epoch: [40][20/118] lr 0.000105 loss 1.3014 acc 48.96%
+[2026-04-07 17:15:13,668 vit_base] (main.py 140): INFO Epoch: [40][40/118] lr 0.000105 loss 1.3293 acc 46.80%
+[2026-04-07 17:15:21,820 vit_base] (main.py 140): INFO Epoch: [40][60/118] lr 0.000105 loss 1.3376 acc 47.34%
+[2026-04-07 17:15:29,908 vit_base] (main.py 140): INFO Epoch: [40][80/118] lr 0.000105 loss 1.3371 acc 47.30%
+[2026-04-07 17:15:38,059 vit_base] (main.py 140): INFO Epoch: [40][100/118] lr 0.000105 loss 1.3446 acc 47.28%
+[2026-04-07 17:16:02,870 vit_base] (main.py 76): INFO [Epoch 40]: Train Loss: 1.3446, Train Acc: 47.09%, Val Loss: 1.2231, Val Acc: 50.64%, F1: 0.4870, Precision: 0.5137, Recall: 0.5064
+[2026-04-07 17:16:02,870 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:16:03,774 vit_base] (main.py 140): INFO Epoch: [41][0/118] lr 0.000087 loss 1.4491 acc 40.62%
+[2026-04-07 17:16:11,902 vit_base] (main.py 140): INFO Epoch: [41][20/118] lr 0.000087 loss 1.3182 acc 49.85%
+[2026-04-07 17:16:20,051 vit_base] (main.py 140): INFO Epoch: [41][40/118] lr 0.000087 loss 1.3183 acc 49.24%
+[2026-04-07 17:16:28,248 vit_base] (main.py 140): INFO Epoch: [41][60/118] lr 0.000087 loss 1.3262 acc 47.90%
+[2026-04-07 17:16:36,340 vit_base] (main.py 140): INFO Epoch: [41][80/118] lr 0.000087 loss 1.3236 acc 48.42%
+[2026-04-07 17:16:44,547 vit_base] (main.py 140): INFO Epoch: [41][100/118] lr 0.000087 loss 1.3199 acc 49.01%
+[2026-04-07 17:17:09,338 vit_base] (main.py 76): INFO [Epoch 41]: Train Loss: 1.3250, Train Acc: 48.72%, Val Loss: 1.1956, Val Acc: 52.00%, F1: 0.5120, Precision: 0.5156, Recall: 0.5200
+[2026-04-07 17:17:09,339 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:17:10,230 vit_base] (main.py 140): INFO Epoch: [42][0/118] lr 0.000071 loss 1.3637 acc 46.88%
+[2026-04-07 17:17:18,343 vit_base] (main.py 140): INFO Epoch: [42][20/118] lr 0.000071 loss 1.3219 acc 46.88%
+[2026-04-07 17:17:26,448 vit_base] (main.py 140): INFO Epoch: [42][40/118] lr 0.000071 loss 1.3189 acc 48.48%
+[2026-04-07 17:17:34,584 vit_base] (main.py 140): INFO Epoch: [42][60/118] lr 0.000071 loss 1.3273 acc 48.98%
+[2026-04-07 17:17:42,679 vit_base] (main.py 140): INFO Epoch: [42][80/118] lr 0.000071 loss 1.3233 acc 49.34%
+[2026-04-07 17:17:50,792 vit_base] (main.py 140): INFO Epoch: [42][100/118] lr 0.000071 loss 1.3185 acc 49.41%
+[2026-04-07 17:18:15,385 vit_base] (main.py 76): INFO [Epoch 42]: Train Loss: 1.3195, Train Acc: 49.28%, Val Loss: 1.1899, Val Acc: 52.24%, F1: 0.5135, Precision: 0.5164, Recall: 0.5224
+[2026-04-07 17:18:15,385 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:18:16,277 vit_base] (main.py 140): INFO Epoch: [43][0/118] lr 0.000057 loss 1.2189 acc 56.25%
+[2026-04-07 17:18:24,398 vit_base] (main.py 140): INFO Epoch: [43][20/118] lr 0.000057 loss 1.3090 acc 48.66%
+[2026-04-07 17:18:32,495 vit_base] (main.py 140): INFO Epoch: [43][40/118] lr 0.000057 loss 1.3017 acc 49.62%
+[2026-04-07 17:18:40,636 vit_base] (main.py 140): INFO Epoch: [43][60/118] lr 0.000057 loss 1.3144 acc 48.82%
+[2026-04-07 17:18:48,734 vit_base] (main.py 140): INFO Epoch: [43][80/118] lr 0.000057 loss 1.3168 acc 48.69%
+[2026-04-07 17:18:56,857 vit_base] (main.py 140): INFO Epoch: [43][100/118] lr 0.000057 loss 1.3131 acc 49.20%
+[2026-04-07 17:19:21,557 vit_base] (main.py 76): INFO [Epoch 43]: Train Loss: 1.3108, Train Acc: 49.25%, Val Loss: 1.1860, Val Acc: 52.24%, F1: 0.5097, Precision: 0.5156, Recall: 0.5224
+[2026-04-07 17:19:21,557 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:19:22,434 vit_base] (main.py 140): INFO Epoch: [44][0/118] lr 0.000045 loss 1.3764 acc 46.88%
+[2026-04-07 17:19:30,612 vit_base] (main.py 140): INFO Epoch: [44][20/118] lr 0.000045 loss 1.3114 acc 52.08%
+[2026-04-07 17:19:38,721 vit_base] (main.py 140): INFO Epoch: [44][40/118] lr 0.000045 loss 1.3147 acc 49.62%
+[2026-04-07 17:19:46,847 vit_base] (main.py 140): INFO Epoch: [44][60/118] lr 0.000045 loss 1.3223 acc 48.82%
+[2026-04-07 17:19:54,993 vit_base] (main.py 140): INFO Epoch: [44][80/118] lr 0.000045 loss 1.3115 acc 49.77%
+[2026-04-07 17:20:03,147 vit_base] (main.py 140): INFO Epoch: [44][100/118] lr 0.000045 loss 1.3122 acc 49.66%
+[2026-04-07 17:20:27,796 vit_base] (main.py 76): INFO [Epoch 44]: Train Loss: 1.3164, Train Acc: 49.84%, Val Loss: 1.1848, Val Acc: 52.72%, F1: 0.5216, Precision: 0.5215, Recall: 0.5272
+[2026-04-07 17:20:27,797 vit_base] (main.py 89): INFO Max accuracy: 53.44%
+[2026-04-07 17:20:28,669 vit_base] (main.py 140): INFO Epoch: [45][0/118] lr 0.000034 loss 1.5866 acc 46.88%
+[2026-04-07 17:20:36,844 vit_base] (main.py 140): INFO Epoch: [45][20/118] lr 0.000034 loss 1.3101 acc 50.74%
+[2026-04-07 17:20:44,949 vit_base] (main.py 140): INFO Epoch: [45][40/118] lr 0.000034 loss 1.3138 acc 49.85%
+[2026-04-07 17:20:53,112 vit_base] (main.py 140): INFO Epoch: [45][60/118] lr 0.000034 loss 1.3106 acc 50.20%
+[2026-04-07 17:21:01,229 vit_base] (main.py 140): INFO Epoch: [45][80/118] lr 0.000034 loss 1.3122 acc 49.73%
+[2026-04-07 17:21:09,334 vit_base] (main.py 140): INFO Epoch: [45][100/118] lr 0.000034 loss 1.3115 acc 49.38%
+[2026-04-07 17:21:33,828 vit_base] (main.py 76): INFO [Epoch 45]: Train Loss: 1.3085, Train Acc: 49.52%, Val Loss: 1.1750, Val Acc: 54.72%, F1: 0.5415, Precision: 0.5426, Recall: 0.5472
+[2026-04-07 17:21:33,828 vit_base] (main.py 87): INFO Best performance updated at epoch 45 with accuracy: 54.72%
+[2026-04-07 17:21:33,828 vit_base] (main.py 89): INFO Max accuracy: 54.72%
+[2026-04-07 17:21:34,732 vit_base] (main.py 140): INFO Epoch: [46][0/118] lr 0.000026 loss 1.2907 acc 50.00%
+[2026-04-07 17:21:42,881 vit_base] (main.py 140): INFO Epoch: [46][20/118] lr 0.000026 loss 1.3134 acc 49.55%
+[2026-04-07 17:21:50,982 vit_base] (main.py 140): INFO Epoch: [46][40/118] lr 0.000026 loss 1.3134 acc 49.62%
+[2026-04-07 17:21:59,169 vit_base] (main.py 140): INFO Epoch: [46][60/118] lr 0.000026 loss 1.2998 acc 50.20%
+[2026-04-07 17:22:07,306 vit_base] (main.py 140): INFO Epoch: [46][80/118] lr 0.000026 loss 1.3071 acc 49.69%
+[2026-04-07 17:22:15,408 vit_base] (main.py 140): INFO Epoch: [46][100/118] lr 0.000026 loss 1.3063 acc 49.81%
+[2026-04-07 17:22:40,064 vit_base] (main.py 76): INFO [Epoch 46]: Train Loss: 1.3036, Train Acc: 50.37%, Val Loss: 1.1732, Val Acc: 54.64%, F1: 0.5423, Precision: 0.5437, Recall: 0.5464
+[2026-04-07 17:22:40,065 vit_base] (main.py 89): INFO Max accuracy: 54.72%
+[2026-04-07 17:22:40,929 vit_base] (main.py 140): INFO Epoch: [47][0/118] lr 0.000019 loss 1.2198 acc 53.12%
+[2026-04-07 17:22:49,101 vit_base] (main.py 140): INFO Epoch: [47][20/118] lr 0.000019 loss 1.2493 acc 54.61%
+[2026-04-07 17:22:57,202 vit_base] (main.py 140): INFO Epoch: [47][40/118] lr 0.000019 loss 1.2925 acc 51.37%
+[2026-04-07 17:23:05,307 vit_base] (main.py 140): INFO Epoch: [47][60/118] lr 0.000019 loss 1.2885 acc 51.23%
+[2026-04-07 17:23:13,417 vit_base] (main.py 140): INFO Epoch: [47][80/118] lr 0.000019 loss 1.2933 acc 51.00%
+[2026-04-07 17:23:21,514 vit_base] (main.py 140): INFO Epoch: [47][100/118] lr 0.000019 loss 1.2908 acc 51.33%
+[2026-04-07 17:23:45,912 vit_base] (main.py 76): INFO [Epoch 47]: Train Loss: 1.2911, Train Acc: 51.33%, Val Loss: 1.1653, Val Acc: 54.00%, F1: 0.5343, Precision: 0.5352, Recall: 0.5400
+[2026-04-07 17:23:45,913 vit_base] (main.py 89): INFO Max accuracy: 54.72%
+[2026-04-07 17:23:46,797 vit_base] (main.py 140): INFO Epoch: [48][0/118] lr 0.000014 loss 1.1811 acc 56.25%
+[2026-04-07 17:23:54,964 vit_base] (main.py 140): INFO Epoch: [48][20/118] lr 0.000014 loss 1.2939 acc 49.55%
+[2026-04-07 17:24:03,068 vit_base] (main.py 140): INFO Epoch: [48][40/118] lr 0.000014 loss 1.2834 acc 50.84%
+[2026-04-07 17:24:11,252 vit_base] (main.py 140): INFO Epoch: [48][60/118] lr 0.000014 loss 1.2857 acc 51.23%
+[2026-04-07 17:24:19,433 vit_base] (main.py 140): INFO Epoch: [48][80/118] lr 0.000014 loss 1.2979 acc 49.88%
+[2026-04-07 17:24:27,544 vit_base] (main.py 140): INFO Epoch: [48][100/118] lr 0.000014 loss 1.2983 acc 50.28%
+[2026-04-07 17:24:52,219 vit_base] (main.py 76): INFO [Epoch 48]: Train Loss: 1.2998, Train Acc: 50.24%, Val Loss: 1.1668, Val Acc: 54.80%, F1: 0.5433, Precision: 0.5441, Recall: 0.5480
+[2026-04-07 17:24:52,219 vit_base] (main.py 87): INFO Best performance updated at epoch 48 with accuracy: 54.80%
+[2026-04-07 17:24:52,219 vit_base] (main.py 89): INFO Max accuracy: 54.80%
+[2026-04-07 17:24:53,098 vit_base] (main.py 140): INFO Epoch: [49][0/118] lr 0.000011 loss 1.2551 acc 53.12%
+[2026-04-07 17:25:01,246 vit_base] (main.py 140): INFO Epoch: [49][20/118] lr 0.000011 loss 1.2940 acc 49.55%
+[2026-04-07 17:25:09,365 vit_base] (main.py 140): INFO Epoch: [49][40/118] lr 0.000011 loss 1.2882 acc 49.77%
+[2026-04-07 17:25:17,491 vit_base] (main.py 140): INFO Epoch: [49][60/118] lr 0.000011 loss 1.2963 acc 50.15%
+[2026-04-07 17:25:25,648 vit_base] (main.py 140): INFO Epoch: [49][80/118] lr 0.000011 loss 1.2917 acc 50.69%
+[2026-04-07 17:25:33,734 vit_base] (main.py 140): INFO Epoch: [49][100/118] lr 0.000011 loss 1.2908 acc 50.96%
+[2026-04-07 17:25:58,122 vit_base] (main.py 76): INFO [Epoch 49]: Train Loss: 1.2887, Train Acc: 50.77%, Val Loss: 1.1612, Val Acc: 54.24%, F1: 0.5378, Precision: 0.5365, Recall: 0.5424
+[2026-04-07 17:25:58,122 vit_base] (main.py 89): INFO Max accuracy: 54.80%
+[2026-04-07 17:25:58,124 vit_base] (main.py 103): INFO Confusion matrix for best model saved to outputs/vit_base_confusion_matrix.npy
+[2026-04-07 17:25:58,124 vit_base] (main.py 107): INFO Training time 0:55:14
