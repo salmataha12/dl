@@ -1,6 +1,6 @@
-from AS_MLP.AS_MLP import as_mlp_tiny
-from DeiT.DeiT import local_deit_tiny_patch16_224
-from ResNeXt.ResNeXt import resnext50_32x4d
+from AS_MLP.AS_MLP import as_mlp_tiny, as_mlp_small
+from DeiT.DeiT import local_deit_tiny_patch16_224, local_deit_tiny_distilled_patch16_224
+from ResNeXt.ResNeXt import resnext101_32x8d, resnext50_32x4d
 from ConvMLP.ConvMLP import convmlp_s
 from DenseNet.DenseNet import densenet121
 from PVT.pvt import pvt_tiny 
@@ -14,19 +14,34 @@ import torch.nn as nn
 def get_model_config(model_name):
     if model_name == 'as_mlp_tiny':
         from AS_MLP.config import get_config
+        return get_config(variant='as_mlp_tiny')
+    elif model_name == 'as_mlp_small':
+        from AS_MLP.config import get_config
+        return get_config(variant='as_mlp_small')
     elif model_name == 'deit_tiny':
         from DeiT.config import get_config
+        return get_config(variant='deit_tiny')
+    elif model_name == 'deit_tiny_distilled':
+        from DeiT.config import get_config
+        return get_config(variant='deit_tiny_distilled')
     elif model_name == 'resnext50_local':
         from ResNeXt.config import get_config
+        return get_config(variant='resnext50_32x4d')
+    elif model_name == 'resnext101_local':
+        from ResNeXt.config import get_config
+        return get_config(variant='resnext101_32x8d')
     elif model_name == 'densenet121':
         from DenseNet.config import get_config
+        return get_config()
     elif model_name == 'convmlp_s':
         from ConvMLP.config import get_config
+        return get_config()
     elif model_name == 'pvt_v2_b0':
         from PVT.config import get_config
+        return get_config()
     else:
         raise ValueError(f"Unknown model: {model_name}")
-    return get_config()
+
 
 def build_model(config):
     model_name = config.MODEL.NAME
@@ -38,10 +53,16 @@ def build_model(config):
     # 1. Local Models
     if model_name == 'as_mlp_tiny':
         return as_mlp_tiny(**model_kwargs)
+    elif model_name == 'as_mlp_small':
+        return as_mlp_small(**model_kwargs)
     elif model_name == 'deit_tiny':
         return local_deit_tiny_patch16_224(**model_kwargs)
+    elif model_name == 'deit_tiny_distilled':
+        return local_deit_tiny_distilled_patch16_224(**model_kwargs)
     elif model_name == 'resnext50_local':
         return resnext50_32x4d(**model_kwargs)
+    elif model_name == 'resnext101_local':
+        return resnext101_32x8d(**model_kwargs)
     elif model_name == 'densenet121':
         return densenet121(**model_kwargs)
     elif model_name == 'convmlp_s':

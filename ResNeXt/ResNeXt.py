@@ -86,3 +86,9 @@ def resnext50_32x4d(num_classes=5, **kwargs):
     cardinality = kwargs.pop('cardinality', 32)
     bottleneck_width = kwargs.pop('bottleneck_width', 4)
     return ResNeXt(num_blocks=num_blocks, cardinality=cardinality, bottleneck_width=bottleneck_width, num_classes=num_classes, **kwargs)
+
+def resnext101_32x8d(num_classes=5, **kwargs):
+    num_blocks = kwargs.pop('num_blocks', [3, 4, 23, 3])
+    cardinality = kwargs.pop('cardinality', 32)
+    bottleneck_width = kwargs.pop('bottleneck_width', 8)
+    return ResNeXt(num_blocks=num_blocks, cardinality=cardinality, bottleneck_width=bottleneck_width, num_classes=num_classes, **kwargs)
