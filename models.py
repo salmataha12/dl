@@ -1,4 +1,4 @@
-from AS_MLP.AS_MLP import as_mlp_tiny, as_mlp_small
+from AS_MLP.AS_MLP import as_mlp_tiny, as_mlp_deep
 from DeiT.DeiT import local_deit_tiny_patch16_224, local_deit_tiny_distilled_patch16_224
 from ResNeXt.ResNeXt import resnext101_32x8d, resnext50_32x4d
 from ConvMLP.ConvMLP import convmlp_s
@@ -15,9 +15,9 @@ def get_model_config(model_name):
     if model_name == 'as_mlp_tiny':
         from AS_MLP.config import get_config
         return get_config(variant='as_mlp_tiny')
-    elif model_name == 'as_mlp_small':
+    elif model_name == 'as_mlp_deep':
         from AS_MLP.config import get_config
-        return get_config(variant='as_mlp_small')
+        return get_config(variant='as_mlp_deep')
     elif model_name == 'deit_tiny':
         from DeiT.config import get_config
         return get_config(variant='deit_tiny')
@@ -53,8 +53,8 @@ def build_model(config):
     # 1. Local Models
     if model_name == 'as_mlp_tiny':
         return as_mlp_tiny(**model_kwargs)
-    elif model_name == 'as_mlp_small':
-        return as_mlp_small(**model_kwargs)
+    elif model_name == 'as_mlp_deep':
+        return as_mlp_deep(**model_kwargs)
     elif model_name == 'deit_tiny':
         return local_deit_tiny_patch16_224(**model_kwargs)
     elif model_name == 'deit_tiny_distilled':

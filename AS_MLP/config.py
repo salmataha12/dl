@@ -1,4 +1,4 @@
-def get_config(variant=None): # as_mlp_tiny and as_mlp_small
+def get_config(variant=None):
     if variant == 'as_mlp_tiny':
         return {
             'MODEL': {
@@ -40,25 +40,25 @@ def get_config(variant=None): # as_mlp_tiny and as_mlp_small
             },
             'OUTPUT': None,                 # Default: 'outputs'
         }
-    elif variant == 'as_mlp_small':
+    elif variant == 'as_mlp_deep':
         return {
             'MODEL': {
-                'NAME': 'as_mlp_small',
+                'NAME': 'as_mlp_deep',
                 'TAG': 'MLP',
                 'NUM_CLASSES': 5,
-                'DROP_PATH_RATE': 0.15,      # Increased from 0.1
+                'DROP_PATH_RATE': 0.2,      # Increased stochastic depth for deeper model
                 'LABEL_SMOOTHING': 0.1,
 
-                # AS-MLP specific parameters
+                # AS-MLP specific parameters - deeper architecture
                 'IMG_SIZE': 224,
                 'PATCH_SIZE': 4,
                 'IN_CHANS': 3,
-                'EMBED_DIM': 128,            # Increased from 96
-                'DEPTHS': [3, 4, 8, 3],      # Deeper layers
-                'SHIFT_SIZE': 7,             # Increased from 5
-                'MLP_RATIO': 4.,
+                'EMBED_DIM': 96,            # Keep same width as tiny
+                'DEPTHS': [3, 3, 9, 3],     # Deeper: 50% more blocks (18 vs 12 total)
+                'SHIFT_SIZE': 5,            # Keep same shift size
+                'MLP_RATIO': 4.,            # Keep same MLP ratio
                 'AS_BIAS': True,
-                'DROP_RATE': 0.1,            # Increased from 0.0
+                'DROP_RATE': 0.05,          # Light dropout for regularization
                 'PATCH_NORM': True,
             },
             'DATA': {
@@ -70,10 +70,10 @@ def get_config(variant=None): # as_mlp_tiny and as_mlp_small
             'TRAIN': {
                 'START_EPOCH': None,
                 'EPOCHS': None,
-                'BASE_LR': 4e-4,             # Slightly lower LR for larger model
-                'WEIGHT_DECAY': 0.06,        # Increased from 0.05
+                'BASE_LR': 4.5e-4,          # Slightly lower LR for deeper model
+                'WEIGHT_DECAY': 0.06,       # Increased regularization
                 'CLIP_GRAD': None,
-                'WARMUP_EPOCHS': 25,         # Increased from 20
+                'WARMUP_EPOCHS': 25,        # Longer warmup for deeper model
                 'WARMUP_LR': None,
                 'MIN_LR': None,
                 'OPT': None,

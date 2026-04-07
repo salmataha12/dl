@@ -194,8 +194,8 @@ def as_mlp_tiny(num_classes=5, **kwargs):
     shift_size = kwargs.pop('shift_size', 5)
     return AS_MLP(depths=depths, embed_dim=embed_dim, shift_size=shift_size, num_classes=num_classes, **kwargs)
 
-def as_mlp_small(num_classes=5, **kwargs):
-    depths = kwargs.pop('depths', [3, 4, 8, 3])
-    embed_dim = kwargs.pop('embed_dim', 128)
-    shift_size = kwargs.pop('shift_size', 7)
+def as_mlp_deep(num_classes=5, **kwargs):
+    depths = kwargs.pop('depths', [3, 3, 9, 3])
+    embed_dim = kwargs.pop('embed_dim', 96)
+    shift_size = kwargs.pop('shift_size', 5)
     return AS_MLP(depths=depths, embed_dim=embed_dim, shift_size=shift_size, num_classes=num_classes, **kwargs)
