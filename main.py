@@ -108,8 +108,8 @@ def main(config, logger):
         'epoch': epoch if 'epoch' in locals() else config.TRAIN.EPOCHS - 1,
         'model_state_dict': model.state_dict(),
         'optimizer_state_dict': optimizer.state_dict(),
-        'max_accuracy': max_accuracy,
-        'config': config
+        'max_accuracy': max_accuracy
+        # Note: config not saved as it's recreated during inference using get_model_config()
     }, model_path)
     logger.info(f"Model checkpoint saved to {model_path}")
 
