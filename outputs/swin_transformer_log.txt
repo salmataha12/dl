@@ -1,0 +1,540 @@
+[2026-04-08 14:13:39,501 swin_transformer] (main.py 21): INFO Dataset loaded: 3750 train images, 1250 validation images
+[2026-04-08 14:13:39,502 swin_transformer] (main.py 23): INFO Creating model: swin_transformer
+[2026-04-08 14:13:41,056 swin_transformer] (main.py 67): INFO Start training
+[2026-04-08 14:13:47,582 swin_transformer] (main.py 151): INFO Epoch: [0][0/59] lr 0.000001 loss 1.7048 acc 20.31%
+[2026-04-08 14:13:53,168 swin_transformer] (main.py 151): INFO Epoch: [0][20/59] lr 0.000001 loss 1.6900 acc 17.93%
+[2026-04-08 14:14:02,429 swin_transformer] (main.py 151): INFO Epoch: [0][40/59] lr 0.000001 loss 1.6895 acc 17.23%
+[2026-04-08 14:14:16,667 swin_transformer] (main.py 76): INFO [Epoch 0]: Train Loss: 1.6922, Train Acc: 17.20%, Val Loss: 1.6960, Val Acc: 17.68%, F1: 0.1278, Precision: 0.2330, Recall: 0.1768
+[2026-04-08 14:14:16,667 swin_transformer] (main.py 87): INFO Best performance updated at epoch 0 with accuracy: 17.68%
+[2026-04-08 14:14:16,667 swin_transformer] (main.py 89): INFO Max accuracy: 17.68%
+[2026-04-08 14:14:18,336 swin_transformer] (main.py 151): INFO Epoch: [1][0/59] lr 0.000061 loss 1.7355 acc 14.06%
+[2026-04-08 14:14:27,417 swin_transformer] (main.py 151): INFO Epoch: [1][20/59] lr 0.000061 loss 1.6405 acc 20.98%
+[2026-04-08 14:14:35,866 swin_transformer] (main.py 151): INFO Epoch: [1][40/59] lr 0.000061 loss 1.5812 acc 26.83%
+[2026-04-08 14:14:49,932 swin_transformer] (main.py 76): INFO [Epoch 1]: Train Loss: 1.5402, Train Acc: 33.68%, Val Loss: 1.3192, Val Acc: 67.36%, F1: 0.6584, Precision: 0.7058, Recall: 0.6736
+[2026-04-08 14:14:49,932 swin_transformer] (main.py 87): INFO Best performance updated at epoch 1 with accuracy: 67.36%
+[2026-04-08 14:14:49,932 swin_transformer] (main.py 89): INFO Max accuracy: 67.36%
+[2026-04-08 14:14:52,202 swin_transformer] (main.py 151): INFO Epoch: [2][0/59] lr 0.000121 loss 1.4272 acc 54.69%
+[2026-04-08 14:15:00,075 swin_transformer] (main.py 151): INFO Epoch: [2][20/59] lr 0.000121 loss 1.3112 acc 70.83%
+[2026-04-08 14:15:08,584 swin_transformer] (main.py 151): INFO Epoch: [2][40/59] lr 0.000121 loss 1.2491 acc 75.46%
+[2026-04-08 14:15:24,126 swin_transformer] (main.py 76): INFO [Epoch 2]: Train Loss: 1.1971, Train Acc: 78.11%, Val Loss: 0.8398, Val Acc: 91.20%, F1: 0.9118, Precision: 0.9122, Recall: 0.9120
+[2026-04-08 14:15:24,126 swin_transformer] (main.py 87): INFO Best performance updated at epoch 2 with accuracy: 91.20%
+[2026-04-08 14:15:24,126 swin_transformer] (main.py 89): INFO Max accuracy: 91.20%
+[2026-04-08 14:15:25,807 swin_transformer] (main.py 151): INFO Epoch: [3][0/59] lr 0.000180 loss 1.0154 acc 84.38%
+[2026-04-08 14:15:35,083 swin_transformer] (main.py 151): INFO Epoch: [3][20/59] lr 0.000180 loss 0.9603 acc 88.54%
+[2026-04-08 14:15:44,475 swin_transformer] (main.py 151): INFO Epoch: [3][40/59] lr 0.000180 loss 0.9154 acc 88.76%
+[2026-04-08 14:15:58,405 swin_transformer] (main.py 76): INFO [Epoch 3]: Train Loss: 0.8863, Train Acc: 88.80%, Val Loss: 0.5145, Val Acc: 93.44%, F1: 0.9345, Precision: 0.9348, Recall: 0.9344
+[2026-04-08 14:15:58,405 swin_transformer] (main.py 87): INFO Best performance updated at epoch 3 with accuracy: 93.44%
+[2026-04-08 14:15:58,406 swin_transformer] (main.py 89): INFO Max accuracy: 93.44%
+[2026-04-08 14:16:00,406 swin_transformer] (main.py 151): INFO Epoch: [4][0/59] lr 0.000240 loss 0.7607 acc 95.31%
+[2026-04-08 14:16:07,798 swin_transformer] (main.py 151): INFO Epoch: [4][20/59] lr 0.000240 loss 0.7476 acc 91.00%
+[2026-04-08 14:16:17,243 swin_transformer] (main.py 151): INFO Epoch: [4][40/59] lr 0.000240 loss 0.7269 acc 91.08%
+[2026-04-08 14:16:33,022 swin_transformer] (main.py 76): INFO [Epoch 4]: Train Loss: 0.7154, Train Acc: 91.25%, Val Loss: 0.3546, Val Acc: 94.56%, F1: 0.9456, Precision: 0.9457, Recall: 0.9456
+[2026-04-08 14:16:33,023 swin_transformer] (main.py 87): INFO Best performance updated at epoch 4 with accuracy: 94.56%
+[2026-04-08 14:16:33,023 swin_transformer] (main.py 89): INFO Max accuracy: 94.56%
+[2026-04-08 14:16:34,920 swin_transformer] (main.py 151): INFO Epoch: [5][0/59] lr 0.000295 loss 0.7264 acc 85.94%
+[2026-04-08 14:16:44,698 swin_transformer] (main.py 151): INFO Epoch: [5][20/59] lr 0.000295 loss 0.6543 acc 91.59%
+[2026-04-08 14:16:54,515 swin_transformer] (main.py 151): INFO Epoch: [5][40/59] lr 0.000295 loss 0.6473 acc 91.73%
+[2026-04-08 14:17:08,986 swin_transformer] (main.py 76): INFO [Epoch 5]: Train Loss: 0.6385, Train Acc: 91.68%, Val Loss: 0.2789, Val Acc: 95.12%, F1: 0.9512, Precision: 0.9515, Recall: 0.9512
+[2026-04-08 14:17:08,986 swin_transformer] (main.py 87): INFO Best performance updated at epoch 5 with accuracy: 95.12%
+[2026-04-08 14:17:08,986 swin_transformer] (main.py 89): INFO Max accuracy: 95.12%
+[2026-04-08 14:17:11,006 swin_transformer] (main.py 151): INFO Epoch: [6][0/59] lr 0.000293 loss 0.6590 acc 90.62%
+[2026-04-08 14:17:20,072 swin_transformer] (main.py 151): INFO Epoch: [6][20/59] lr 0.000293 loss 0.6107 acc 92.63%
+[2026-04-08 14:17:28,701 swin_transformer] (main.py 151): INFO Epoch: [6][40/59] lr 0.000293 loss 0.6090 acc 92.19%
+[2026-04-08 14:17:44,287 swin_transformer] (main.py 76): INFO [Epoch 6]: Train Loss: 0.6035, Train Acc: 92.29%, Val Loss: 0.2450, Val Acc: 95.20%, F1: 0.9520, Precision: 0.9523, Recall: 0.9520
+[2026-04-08 14:17:44,287 swin_transformer] (main.py 87): INFO Best performance updated at epoch 6 with accuracy: 95.20%
+[2026-04-08 14:17:44,288 swin_transformer] (main.py 89): INFO Max accuracy: 95.20%
+[2026-04-08 14:17:46,388 swin_transformer] (main.py 151): INFO Epoch: [7][0/59] lr 0.000290 loss 0.6074 acc 92.19%
+[2026-04-08 14:17:54,105 swin_transformer] (main.py 151): INFO Epoch: [7][20/59] lr 0.000290 loss 0.5933 acc 92.34%
+[2026-04-08 14:18:03,304 swin_transformer] (main.py 151): INFO Epoch: [7][40/59] lr 0.000290 loss 0.5872 acc 92.80%
+[2026-04-08 14:18:18,712 swin_transformer] (main.py 76): INFO [Epoch 7]: Train Loss: 0.5873, Train Acc: 92.75%, Val Loss: 0.2238, Val Acc: 95.12%, F1: 0.9512, Precision: 0.9514, Recall: 0.9512
+[2026-04-08 14:18:18,712 swin_transformer] (main.py 89): INFO Max accuracy: 95.20%
+[2026-04-08 14:18:20,470 swin_transformer] (main.py 151): INFO Epoch: [8][0/59] lr 0.000288 loss 0.5771 acc 89.06%
+[2026-04-08 14:18:29,714 swin_transformer] (main.py 151): INFO Epoch: [8][20/59] lr 0.000288 loss 0.5843 acc 92.56%
+[2026-04-08 14:18:38,911 swin_transformer] (main.py 151): INFO Epoch: [8][40/59] lr 0.000288 loss 0.5790 acc 93.18%
+[2026-04-08 14:18:54,304 swin_transformer] (main.py 76): INFO [Epoch 8]: Train Loss: 0.5772, Train Acc: 93.33%, Val Loss: 0.2110, Val Acc: 95.60%, F1: 0.9560, Precision: 0.9563, Recall: 0.9560
+[2026-04-08 14:18:54,304 swin_transformer] (main.py 87): INFO Best performance updated at epoch 8 with accuracy: 95.60%
+[2026-04-08 14:18:54,305 swin_transformer] (main.py 89): INFO Max accuracy: 95.60%
+[2026-04-08 14:18:57,516 swin_transformer] (main.py 151): INFO Epoch: [9][0/59] lr 0.000284 loss 0.5226 acc 95.31%
+[2026-04-08 14:19:06,842 swin_transformer] (main.py 151): INFO Epoch: [9][20/59] lr 0.000284 loss 0.5802 acc 93.38%
+[2026-04-08 14:19:14,934 swin_transformer] (main.py 151): INFO Epoch: [9][40/59] lr 0.000284 loss 0.5668 acc 93.64%
+[2026-04-08 14:19:29,944 swin_transformer] (main.py 76): INFO [Epoch 9]: Train Loss: 0.5645, Train Acc: 93.65%, Val Loss: 0.2016, Val Acc: 95.84%, F1: 0.9583, Precision: 0.9586, Recall: 0.9584
+[2026-04-08 14:19:29,944 swin_transformer] (main.py 87): INFO Best performance updated at epoch 9 with accuracy: 95.84%
+[2026-04-08 14:19:29,945 swin_transformer] (main.py 89): INFO Max accuracy: 95.84%
+[2026-04-08 14:19:32,208 swin_transformer] (main.py 151): INFO Epoch: [10][0/59] lr 0.000281 loss 0.5905 acc 90.62%
+[2026-04-08 14:19:39,841 swin_transformer] (main.py 151): INFO Epoch: [10][20/59] lr 0.000281 loss 0.5627 acc 93.68%
+[2026-04-08 14:19:48,907 swin_transformer] (main.py 151): INFO Epoch: [10][40/59] lr 0.000281 loss 0.5626 acc 93.67%
+[2026-04-08 14:20:06,703 swin_transformer] (main.py 76): INFO [Epoch 10]: Train Loss: 0.5585, Train Acc: 93.89%, Val Loss: 0.1947, Val Acc: 95.84%, F1: 0.9584, Precision: 0.9585, Recall: 0.9584
+[2026-04-08 14:20:06,704 swin_transformer] (main.py 89): INFO Max accuracy: 95.84%
+[2026-04-08 14:20:08,970 swin_transformer] (main.py 151): INFO Epoch: [11][0/59] lr 0.000277 loss 0.6185 acc 92.19%
+[2026-04-08 14:20:17,999 swin_transformer] (main.py 151): INFO Epoch: [11][20/59] lr 0.000277 loss 0.5623 acc 93.97%
+[2026-04-08 14:20:28,583 swin_transformer] (main.py 151): INFO Epoch: [11][40/59] lr 0.000277 loss 0.5559 acc 94.47%
+[2026-04-08 14:20:43,790 swin_transformer] (main.py 76): INFO [Epoch 11]: Train Loss: 0.5577, Train Acc: 94.29%, Val Loss: 0.1912, Val Acc: 95.76%, F1: 0.9576, Precision: 0.9578, Recall: 0.9576
+[2026-04-08 14:20:43,790 swin_transformer] (main.py 89): INFO Max accuracy: 95.84%
+[2026-04-08 14:20:45,423 swin_transformer] (main.py 151): INFO Epoch: [12][0/59] lr 0.000273 loss 0.5802 acc 90.62%
+[2026-04-08 14:20:54,843 swin_transformer] (main.py 151): INFO Epoch: [12][20/59] lr 0.000273 loss 0.5475 acc 94.64%
+[2026-04-08 14:21:03,396 swin_transformer] (main.py 151): INFO Epoch: [12][40/59] lr 0.000273 loss 0.5521 acc 94.74%
+[2026-04-08 14:21:18,302 swin_transformer] (main.py 76): INFO [Epoch 12]: Train Loss: 0.5508, Train Acc: 94.43%, Val Loss: 0.1876, Val Acc: 95.92%, F1: 0.9592, Precision: 0.9594, Recall: 0.9592
+[2026-04-08 14:21:18,302 swin_transformer] (main.py 87): INFO Best performance updated at epoch 12 with accuracy: 95.92%
+[2026-04-08 14:21:18,302 swin_transformer] (main.py 89): INFO Max accuracy: 95.92%
+[2026-04-08 14:21:19,913 swin_transformer] (main.py 151): INFO Epoch: [13][0/59] lr 0.000268 loss 0.6100 acc 93.75%
+[2026-04-08 14:21:28,244 swin_transformer] (main.py 151): INFO Epoch: [13][20/59] lr 0.000268 loss 0.5610 acc 93.60%
+[2026-04-08 14:21:37,791 swin_transformer] (main.py 151): INFO Epoch: [13][40/59] lr 0.000268 loss 0.5542 acc 93.86%
+[2026-04-08 14:21:52,993 swin_transformer] (main.py 76): INFO [Epoch 13]: Train Loss: 0.5501, Train Acc: 94.13%, Val Loss: 0.1852, Val Acc: 95.92%, F1: 0.9592, Precision: 0.9595, Recall: 0.9592
+[2026-04-08 14:21:52,993 swin_transformer] (main.py 89): INFO Max accuracy: 95.92%
+[2026-04-08 14:21:55,138 swin_transformer] (main.py 151): INFO Epoch: [14][0/59] lr 0.000264 loss 0.5004 acc 96.88%
+[2026-04-08 14:22:03,848 swin_transformer] (main.py 151): INFO Epoch: [14][20/59] lr 0.000264 loss 0.5415 acc 94.35%
+[2026-04-08 14:22:13,063 swin_transformer] (main.py 151): INFO Epoch: [14][40/59] lr 0.000264 loss 0.5439 acc 94.47%
+[2026-04-08 14:22:28,088 swin_transformer] (main.py 76): INFO [Epoch 14]: Train Loss: 0.5449, Train Acc: 94.53%, Val Loss: 0.1846, Val Acc: 95.92%, F1: 0.9592, Precision: 0.9595, Recall: 0.9592
+[2026-04-08 14:22:28,089 swin_transformer] (main.py 89): INFO Max accuracy: 95.92%
+[2026-04-08 14:22:29,725 swin_transformer] (main.py 151): INFO Epoch: [15][0/59] lr 0.000259 loss 0.4950 acc 98.44%
+[2026-04-08 14:22:39,142 swin_transformer] (main.py 151): INFO Epoch: [15][20/59] lr 0.000259 loss 0.5459 acc 94.57%
+[2026-04-08 14:22:47,082 swin_transformer] (main.py 151): INFO Epoch: [15][40/59] lr 0.000259 loss 0.5434 acc 94.74%
+[2026-04-08 14:23:04,968 swin_transformer] (main.py 76): INFO [Epoch 15]: Train Loss: 0.5415, Train Acc: 94.85%, Val Loss: 0.1806, Val Acc: 96.24%, F1: 0.9624, Precision: 0.9626, Recall: 0.9624
+[2026-04-08 14:23:04,969 swin_transformer] (main.py 87): INFO Best performance updated at epoch 15 with accuracy: 96.24%
+[2026-04-08 14:23:04,969 swin_transformer] (main.py 89): INFO Max accuracy: 96.24%
+[2026-04-08 14:23:06,809 swin_transformer] (main.py 151): INFO Epoch: [16][0/59] lr 0.000254 loss 0.5216 acc 95.31%
+[2026-04-08 14:23:14,969 swin_transformer] (main.py 151): INFO Epoch: [16][20/59] lr 0.000254 loss 0.5320 acc 95.31%
+[2026-04-08 14:23:24,859 swin_transformer] (main.py 151): INFO Epoch: [16][40/59] lr 0.000254 loss 0.5378 acc 95.12%
+[2026-04-08 14:23:41,023 swin_transformer] (main.py 76): INFO [Epoch 16]: Train Loss: 0.5449, Train Acc: 94.69%, Val Loss: 0.1812, Val Acc: 96.08%, F1: 0.9608, Precision: 0.9611, Recall: 0.9608
+[2026-04-08 14:23:41,024 swin_transformer] (main.py 89): INFO Max accuracy: 96.24%
+[2026-04-08 14:23:43,156 swin_transformer] (main.py 151): INFO Epoch: [17][0/59] lr 0.000248 loss 0.5555 acc 95.31%
+[2026-04-08 14:23:52,315 swin_transformer] (main.py 151): INFO Epoch: [17][20/59] lr 0.000248 loss 0.5562 acc 93.82%
+[2026-04-08 14:24:02,027 swin_transformer] (main.py 151): INFO Epoch: [17][40/59] lr 0.000248 loss 0.5464 acc 94.40%
+[2026-04-08 14:24:17,735 swin_transformer] (main.py 76): INFO [Epoch 17]: Train Loss: 0.5434, Train Acc: 94.64%, Val Loss: 0.1787, Val Acc: 96.24%, F1: 0.9624, Precision: 0.9626, Recall: 0.9624
+[2026-04-08 14:24:17,736 swin_transformer] (main.py 89): INFO Max accuracy: 96.24%
+[2026-04-08 14:24:19,094 swin_transformer] (main.py 151): INFO Epoch: [18][0/59] lr 0.000243 loss 0.5056 acc 96.88%
+[2026-04-08 14:24:28,165 swin_transformer] (main.py 151): INFO Epoch: [18][20/59] lr 0.000243 loss 0.5416 acc 94.27%
+[2026-04-08 14:24:36,416 swin_transformer] (main.py 151): INFO Epoch: [18][40/59] lr 0.000243 loss 0.5356 acc 94.70%
+[2026-04-08 14:24:53,000 swin_transformer] (main.py 76): INFO [Epoch 18]: Train Loss: 0.5366, Train Acc: 94.77%, Val Loss: 0.1776, Val Acc: 96.24%, F1: 0.9624, Precision: 0.9626, Recall: 0.9624
+[2026-04-08 14:24:53,001 swin_transformer] (main.py 89): INFO Max accuracy: 96.24%
+[2026-04-08 14:24:55,282 swin_transformer] (main.py 151): INFO Epoch: [19][0/59] lr 0.000237 loss 0.5825 acc 90.62%
+[2026-04-08 14:25:03,495 swin_transformer] (main.py 151): INFO Epoch: [19][20/59] lr 0.000237 loss 0.5352 acc 95.09%
+[2026-04-08 14:25:12,878 swin_transformer] (main.py 151): INFO Epoch: [19][40/59] lr 0.000237 loss 0.5285 acc 95.31%
+[2026-04-08 14:25:28,021 swin_transformer] (main.py 76): INFO [Epoch 19]: Train Loss: 0.5374, Train Acc: 94.80%, Val Loss: 0.1758, Val Acc: 96.40%, F1: 0.9640, Precision: 0.9642, Recall: 0.9640
+[2026-04-08 14:25:28,022 swin_transformer] (main.py 87): INFO Best performance updated at epoch 19 with accuracy: 96.40%
+[2026-04-08 14:25:28,022 swin_transformer] (main.py 89): INFO Max accuracy: 96.40%
+[2026-04-08 14:25:29,878 swin_transformer] (main.py 151): INFO Epoch: [20][0/59] lr 0.000231 loss 0.5675 acc 93.75%
+[2026-04-08 14:25:39,462 swin_transformer] (main.py 151): INFO Epoch: [20][20/59] lr 0.000231 loss 0.5544 acc 93.60%
+[2026-04-08 14:25:48,636 swin_transformer] (main.py 151): INFO Epoch: [20][40/59] lr 0.000231 loss 0.5448 acc 94.05%
+[2026-04-08 14:26:03,484 swin_transformer] (main.py 76): INFO [Epoch 20]: Train Loss: 0.5388, Train Acc: 94.69%, Val Loss: 0.1753, Val Acc: 96.56%, F1: 0.9656, Precision: 0.9657, Recall: 0.9656
+[2026-04-08 14:26:03,485 swin_transformer] (main.py 87): INFO Best performance updated at epoch 20 with accuracy: 96.56%
+[2026-04-08 14:26:03,485 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 14:26:05,605 swin_transformer] (main.py 151): INFO Epoch: [21][0/59] lr 0.000225 loss 0.5393 acc 96.88%
+[2026-04-08 14:26:14,577 swin_transformer] (main.py 151): INFO Epoch: [21][20/59] lr 0.000225 loss 0.5359 acc 95.09%
+[2026-04-08 14:26:22,552 swin_transformer] (main.py 151): INFO Epoch: [21][40/59] lr 0.000225 loss 0.5362 acc 94.97%
+[2026-04-08 14:26:37,935 swin_transformer] (main.py 76): INFO [Epoch 21]: Train Loss: 0.5314, Train Acc: 95.55%, Val Loss: 0.1747, Val Acc: 96.40%, F1: 0.9640, Precision: 0.9642, Recall: 0.9640
+[2026-04-08 14:26:37,936 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 14:26:40,801 swin_transformer] (main.py 151): INFO Epoch: [22][0/59] lr 0.000219 loss 0.5664 acc 95.31%
+[2026-04-08 14:26:48,656 swin_transformer] (main.py 151): INFO Epoch: [22][20/59] lr 0.000219 loss 0.5308 acc 95.54%
+[2026-04-08 14:26:57,697 swin_transformer] (main.py 151): INFO Epoch: [22][40/59] lr 0.000219 loss 0.5302 acc 95.31%
+[2026-04-08 14:27:14,370 swin_transformer] (main.py 76): INFO [Epoch 22]: Train Loss: 0.5348, Train Acc: 94.93%, Val Loss: 0.1728, Val Acc: 96.48%, F1: 0.9648, Precision: 0.9649, Recall: 0.9648
+[2026-04-08 14:27:14,370 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 14:27:16,445 swin_transformer] (main.py 151): INFO Epoch: [23][0/59] lr 0.000213 loss 0.5319 acc 98.44%
+[2026-04-08 14:27:25,042 swin_transformer] (main.py 151): INFO Epoch: [23][20/59] lr 0.000213 loss 0.5348 acc 95.46%
+[2026-04-08 14:27:34,644 swin_transformer] (main.py 151): INFO Epoch: [23][40/59] lr 0.000213 loss 0.5288 acc 95.81%
+[2026-04-08 14:27:49,691 swin_transformer] (main.py 76): INFO [Epoch 23]: Train Loss: 0.5324, Train Acc: 95.28%, Val Loss: 0.1730, Val Acc: 96.48%, F1: 0.9648, Precision: 0.9649, Recall: 0.9648
+[2026-04-08 14:27:49,691 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 14:27:51,526 swin_transformer] (main.py 151): INFO Epoch: [24][0/59] lr 0.000206 loss 0.4875 acc 96.88%
+[2026-04-08 14:27:59,926 swin_transformer] (main.py 151): INFO Epoch: [24][20/59] lr 0.000206 loss 0.5290 acc 95.46%
+[2026-04-08 14:28:09,015 swin_transformer] (main.py 151): INFO Epoch: [24][40/59] lr 0.000206 loss 0.5294 acc 95.46%
+[2026-04-08 14:28:24,926 swin_transformer] (main.py 76): INFO [Epoch 24]: Train Loss: 0.5289, Train Acc: 95.55%, Val Loss: 0.1713, Val Acc: 96.56%, F1: 0.9656, Precision: 0.9657, Recall: 0.9656
+[2026-04-08 14:28:24,927 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 14:28:27,205 swin_transformer] (main.py 151): INFO Epoch: [25][0/59] lr 0.000200 loss 0.5548 acc 93.75%
+[2026-04-08 14:28:36,243 swin_transformer] (main.py 151): INFO Epoch: [25][20/59] lr 0.000200 loss 0.5416 acc 95.09%
+[2026-04-08 14:28:45,882 swin_transformer] (main.py 151): INFO Epoch: [25][40/59] lr 0.000200 loss 0.5399 acc 94.89%
+[2026-04-08 14:29:01,149 swin_transformer] (main.py 76): INFO [Epoch 25]: Train Loss: 0.5311, Train Acc: 95.52%, Val Loss: 0.1722, Val Acc: 96.32%, F1: 0.9632, Precision: 0.9634, Recall: 0.9632
+[2026-04-08 14:29:01,149 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 14:29:03,008 swin_transformer] (main.py 151): INFO Epoch: [26][0/59] lr 0.000194 loss 0.5738 acc 92.19%
+[2026-04-08 14:29:12,536 swin_transformer] (main.py 151): INFO Epoch: [26][20/59] lr 0.000194 loss 0.5339 acc 95.24%
+[2026-04-08 14:29:23,635 swin_transformer] (main.py 151): INFO Epoch: [26][40/59] lr 0.000194 loss 0.5308 acc 95.66%
+[2026-04-08 14:29:42,934 swin_transformer] (main.py 76): INFO [Epoch 26]: Train Loss: 0.5279, Train Acc: 95.68%, Val Loss: 0.1706, Val Acc: 96.40%, F1: 0.9640, Precision: 0.9641, Recall: 0.9640
+[2026-04-08 14:29:42,935 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 14:29:44,865 swin_transformer] (main.py 151): INFO Epoch: [27][0/59] lr 0.000187 loss 0.5928 acc 95.31%
+[2026-04-08 14:29:54,379 swin_transformer] (main.py 151): INFO Epoch: [27][20/59] lr 0.000187 loss 0.5315 acc 95.91%
+[2026-04-08 14:30:03,912 swin_transformer] (main.py 151): INFO Epoch: [27][40/59] lr 0.000187 loss 0.5290 acc 95.77%
+[2026-04-08 14:30:18,913 swin_transformer] (main.py 76): INFO [Epoch 27]: Train Loss: 0.5284, Train Acc: 95.57%, Val Loss: 0.1704, Val Acc: 96.56%, F1: 0.9656, Precision: 0.9657, Recall: 0.9656
+[2026-04-08 14:30:18,913 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 14:30:20,967 swin_transformer] (main.py 151): INFO Epoch: [28][0/59] lr 0.000181 loss 0.5209 acc 95.31%
+[2026-04-08 14:30:29,358 swin_transformer] (main.py 151): INFO Epoch: [28][20/59] lr 0.000181 loss 0.5159 acc 96.28%
+[2026-04-08 14:30:38,041 swin_transformer] (main.py 151): INFO Epoch: [28][40/59] lr 0.000181 loss 0.5244 acc 95.73%
+[2026-04-08 14:30:53,824 swin_transformer] (main.py 76): INFO [Epoch 28]: Train Loss: 0.5220, Train Acc: 96.00%, Val Loss: 0.1693, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9665, Recall: 0.9664
+[2026-04-08 14:30:53,824 swin_transformer] (main.py 87): INFO Best performance updated at epoch 28 with accuracy: 96.64%
+[2026-04-08 14:30:53,824 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 14:30:56,372 swin_transformer] (main.py 151): INFO Epoch: [29][0/59] lr 0.000175 loss 0.6045 acc 90.62%
+[2026-04-08 14:31:05,198 swin_transformer] (main.py 151): INFO Epoch: [29][20/59] lr 0.000175 loss 0.5313 acc 95.24%
+[2026-04-08 14:31:15,781 swin_transformer] (main.py 151): INFO Epoch: [29][40/59] lr 0.000175 loss 0.5266 acc 95.69%
+[2026-04-08 14:31:32,543 swin_transformer] (main.py 76): INFO [Epoch 29]: Train Loss: 0.5279, Train Acc: 95.41%, Val Loss: 0.1705, Val Acc: 96.56%, F1: 0.9656, Precision: 0.9657, Recall: 0.9656
+[2026-04-08 14:31:32,543 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 14:31:35,054 swin_transformer] (main.py 151): INFO Epoch: [30][0/59] lr 0.000169 loss 0.5721 acc 92.19%
+[2026-04-08 14:31:44,017 swin_transformer] (main.py 151): INFO Epoch: [30][20/59] lr 0.000169 loss 0.5280 acc 95.61%
+[2026-04-08 14:31:53,169 swin_transformer] (main.py 151): INFO Epoch: [30][40/59] lr 0.000169 loss 0.5238 acc 95.88%
+[2026-04-08 14:32:08,213 swin_transformer] (main.py 76): INFO [Epoch 30]: Train Loss: 0.5220, Train Acc: 96.19%, Val Loss: 0.1694, Val Acc: 96.48%, F1: 0.9648, Precision: 0.9649, Recall: 0.9648
+[2026-04-08 14:32:08,214 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 14:32:09,899 swin_transformer] (main.py 151): INFO Epoch: [31][0/59] lr 0.000163 loss 0.5013 acc 96.88%
+[2026-04-08 14:32:19,420 swin_transformer] (main.py 151): INFO Epoch: [31][20/59] lr 0.000163 loss 0.5180 acc 96.06%
+[2026-04-08 14:32:27,357 swin_transformer] (main.py 151): INFO Epoch: [31][40/59] lr 0.000163 loss 0.5256 acc 95.43%
+[2026-04-08 14:32:43,199 swin_transformer] (main.py 76): INFO [Epoch 31]: Train Loss: 0.5250, Train Acc: 95.31%, Val Loss: 0.1680, Val Acc: 96.56%, F1: 0.9656, Precision: 0.9657, Recall: 0.9656
+[2026-04-08 14:32:43,200 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 14:32:44,935 swin_transformer] (main.py 151): INFO Epoch: [32][0/59] lr 0.000157 loss 0.5005 acc 96.88%
+[2026-04-08 14:32:52,807 swin_transformer] (main.py 151): INFO Epoch: [32][20/59] lr 0.000157 loss 0.5200 acc 95.54%
+[2026-04-08 14:33:01,961 swin_transformer] (main.py 151): INFO Epoch: [32][40/59] lr 0.000157 loss 0.5216 acc 95.77%
+[2026-04-08 14:33:17,692 swin_transformer] (main.py 76): INFO [Epoch 32]: Train Loss: 0.5232, Train Acc: 95.73%, Val Loss: 0.1688, Val Acc: 96.56%, F1: 0.9656, Precision: 0.9657, Recall: 0.9656
+[2026-04-08 14:33:17,692 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 14:33:19,592 swin_transformer] (main.py 151): INFO Epoch: [33][0/59] lr 0.000152 loss 0.5238 acc 95.31%
+[2026-04-08 14:33:29,166 swin_transformer] (main.py 151): INFO Epoch: [33][20/59] lr 0.000152 loss 0.5214 acc 95.68%
+[2026-04-08 14:33:38,572 swin_transformer] (main.py 151): INFO Epoch: [33][40/59] lr 0.000152 loss 0.5268 acc 95.43%
+[2026-04-08 14:33:53,488 swin_transformer] (main.py 76): INFO [Epoch 33]: Train Loss: 0.5246, Train Acc: 95.60%, Val Loss: 0.1685, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9666, Recall: 0.9664
+[2026-04-08 14:33:53,489 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 14:33:55,170 swin_transformer] (main.py 151): INFO Epoch: [34][0/59] lr 0.000146 loss 0.4780 acc 96.88%
+[2026-04-08 14:34:04,447 swin_transformer] (main.py 151): INFO Epoch: [34][20/59] lr 0.000146 loss 0.5220 acc 95.39%
+[2026-04-08 14:34:12,784 swin_transformer] (main.py 151): INFO Epoch: [34][40/59] lr 0.000146 loss 0.5226 acc 95.58%
+[2026-04-08 14:34:28,216 swin_transformer] (main.py 76): INFO [Epoch 34]: Train Loss: 0.5217, Train Acc: 95.84%, Val Loss: 0.1680, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9666, Recall: 0.9664
+[2026-04-08 14:34:28,216 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 14:34:30,662 swin_transformer] (main.py 151): INFO Epoch: [35][0/59] lr 0.000141 loss 0.5068 acc 100.00%
+[2026-04-08 14:34:38,960 swin_transformer] (main.py 151): INFO Epoch: [35][20/59] lr 0.000141 loss 0.5347 acc 95.39%
+[2026-04-08 14:34:48,190 swin_transformer] (main.py 151): INFO Epoch: [35][40/59] lr 0.000141 loss 0.5308 acc 95.58%
+[2026-04-08 14:35:03,143 swin_transformer] (main.py 76): INFO [Epoch 35]: Train Loss: 0.5276, Train Acc: 95.63%, Val Loss: 0.1686, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9666, Recall: 0.9664
+[2026-04-08 14:35:03,144 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 14:35:04,856 swin_transformer] (main.py 151): INFO Epoch: [36][0/59] lr 0.000136 loss 0.5236 acc 93.75%
+[2026-04-08 14:35:13,928 swin_transformer] (main.py 151): INFO Epoch: [36][20/59] lr 0.000136 loss 0.5227 acc 95.83%
+[2026-04-08 14:35:22,998 swin_transformer] (main.py 151): INFO Epoch: [36][40/59] lr 0.000136 loss 0.5220 acc 96.00%
+[2026-04-08 14:35:38,219 swin_transformer] (main.py 76): INFO [Epoch 36]: Train Loss: 0.5224, Train Acc: 95.92%, Val Loss: 0.1682, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 14:35:38,219 swin_transformer] (main.py 87): INFO Best performance updated at epoch 36 with accuracy: 96.72%
+[2026-04-08 14:35:38,219 swin_transformer] (main.py 89): INFO Max accuracy: 96.72%
+[2026-04-08 14:35:40,265 swin_transformer] (main.py 151): INFO Epoch: [37][0/59] lr 0.000132 loss 0.5814 acc 92.19%
+[2026-04-08 14:35:49,520 swin_transformer] (main.py 151): INFO Epoch: [37][20/59] lr 0.000132 loss 0.5283 acc 95.46%
+[2026-04-08 14:35:57,206 swin_transformer] (main.py 151): INFO Epoch: [37][40/59] lr 0.000132 loss 0.5230 acc 95.66%
+[2026-04-08 14:36:12,595 swin_transformer] (main.py 76): INFO [Epoch 37]: Train Loss: 0.5238, Train Acc: 95.63%, Val Loss: 0.1677, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 14:36:12,596 swin_transformer] (main.py 89): INFO Max accuracy: 96.72%
+[2026-04-08 14:36:15,450 swin_transformer] (main.py 151): INFO Epoch: [38][0/59] lr 0.000127 loss 0.5567 acc 96.88%
+[2026-04-08 14:36:23,185 swin_transformer] (main.py 151): INFO Epoch: [38][20/59] lr 0.000127 loss 0.5194 acc 96.58%
+[2026-04-08 14:36:32,388 swin_transformer] (main.py 151): INFO Epoch: [38][40/59] lr 0.000127 loss 0.5193 acc 96.27%
+[2026-04-08 14:36:47,935 swin_transformer] (main.py 76): INFO [Epoch 38]: Train Loss: 0.5212, Train Acc: 96.08%, Val Loss: 0.1673, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 14:36:47,935 swin_transformer] (main.py 89): INFO Max accuracy: 96.72%
+[2026-04-08 14:36:49,716 swin_transformer] (main.py 151): INFO Epoch: [39][0/59] lr 0.000123 loss 0.4652 acc 100.00%
+[2026-04-08 14:36:59,173 swin_transformer] (main.py 151): INFO Epoch: [39][20/59] lr 0.000123 loss 0.5003 acc 97.02%
+[2026-04-08 14:37:08,004 swin_transformer] (main.py 151): INFO Epoch: [39][40/59] lr 0.000123 loss 0.5114 acc 96.57%
+[2026-04-08 14:37:23,190 swin_transformer] (main.py 76): INFO [Epoch 39]: Train Loss: 0.5148, Train Acc: 96.29%, Val Loss: 0.1677, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9665, Recall: 0.9664
+[2026-04-08 14:37:23,190 swin_transformer] (main.py 89): INFO Max accuracy: 96.72%
+[2026-04-08 14:37:25,219 swin_transformer] (main.py 151): INFO Epoch: [40][0/59] lr 0.000119 loss 0.5116 acc 98.44%
+[2026-04-08 14:37:32,861 swin_transformer] (main.py 151): INFO Epoch: [40][20/59] lr 0.000119 loss 0.5288 acc 95.61%
+[2026-04-08 14:37:42,274 swin_transformer] (main.py 151): INFO Epoch: [40][40/59] lr 0.000119 loss 0.5243 acc 95.92%
+[2026-04-08 14:37:57,671 swin_transformer] (main.py 76): INFO [Epoch 40]: Train Loss: 0.5221, Train Acc: 95.81%, Val Loss: 0.1670, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 14:37:57,671 swin_transformer] (main.py 89): INFO Max accuracy: 96.72%
+[2026-04-08 14:37:59,642 swin_transformer] (main.py 151): INFO Epoch: [41][0/59] lr 0.000116 loss 0.4884 acc 96.88%
+[2026-04-08 14:38:08,909 swin_transformer] (main.py 151): INFO Epoch: [41][20/59] lr 0.000116 loss 0.5222 acc 95.68%
+[2026-04-08 14:38:18,550 swin_transformer] (main.py 151): INFO Epoch: [41][40/59] lr 0.000116 loss 0.5212 acc 95.46%
+[2026-04-08 14:38:33,591 swin_transformer] (main.py 76): INFO [Epoch 41]: Train Loss: 0.5230, Train Acc: 95.36%, Val Loss: 0.1665, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9665, Recall: 0.9664
+[2026-04-08 14:38:33,592 swin_transformer] (main.py 89): INFO Max accuracy: 96.72%
+[2026-04-08 14:38:35,505 swin_transformer] (main.py 151): INFO Epoch: [42][0/59] lr 0.000112 loss 0.5384 acc 93.75%
+[2026-04-08 14:38:44,893 swin_transformer] (main.py 151): INFO Epoch: [42][20/59] lr 0.000112 loss 0.5228 acc 95.61%
+[2026-04-08 14:38:52,350 swin_transformer] (main.py 151): INFO Epoch: [42][40/59] lr 0.000112 loss 0.5193 acc 96.11%
+[2026-04-08 14:39:08,264 swin_transformer] (main.py 76): INFO [Epoch 42]: Train Loss: 0.5195, Train Acc: 96.13%, Val Loss: 0.1663, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 14:39:08,265 swin_transformer] (main.py 89): INFO Max accuracy: 96.72%
+[2026-04-08 14:39:10,602 swin_transformer] (main.py 151): INFO Epoch: [43][0/59] lr 0.000110 loss 0.5384 acc 96.88%
+[2026-04-08 14:39:18,395 swin_transformer] (main.py 151): INFO Epoch: [43][20/59] lr 0.000110 loss 0.5066 acc 96.73%
+[2026-04-08 14:39:27,227 swin_transformer] (main.py 151): INFO Epoch: [43][40/59] lr 0.000110 loss 0.5160 acc 96.19%
+[2026-04-08 14:39:43,328 swin_transformer] (main.py 76): INFO [Epoch 43]: Train Loss: 0.5164, Train Acc: 96.13%, Val Loss: 0.1665, Val Acc: 96.80%, F1: 0.9680, Precision: 0.9681, Recall: 0.9680
+[2026-04-08 14:39:43,329 swin_transformer] (main.py 87): INFO Best performance updated at epoch 43 with accuracy: 96.80%
+[2026-04-08 14:39:43,329 swin_transformer] (main.py 89): INFO Max accuracy: 96.80%
+[2026-04-08 14:39:45,257 swin_transformer] (main.py 151): INFO Epoch: [44][0/59] lr 0.000107 loss 0.5023 acc 95.31%
+[2026-04-08 14:39:54,045 swin_transformer] (main.py 151): INFO Epoch: [44][20/59] lr 0.000107 loss 0.5157 acc 96.06%
+[2026-04-08 14:40:02,909 swin_transformer] (main.py 151): INFO Epoch: [44][40/59] lr 0.000107 loss 0.5149 acc 95.85%
+[2026-04-08 14:40:18,755 swin_transformer] (main.py 76): INFO [Epoch 44]: Train Loss: 0.5168, Train Acc: 95.95%, Val Loss: 0.1664, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9674, Recall: 0.9672
+[2026-04-08 14:40:18,756 swin_transformer] (main.py 89): INFO Max accuracy: 96.80%
+[2026-04-08 14:40:20,536 swin_transformer] (main.py 151): INFO Epoch: [45][0/59] lr 0.000105 loss 0.5537 acc 95.31%
+[2026-04-08 14:40:29,624 swin_transformer] (main.py 151): INFO Epoch: [45][20/59] lr 0.000105 loss 0.5265 acc 95.76%
+[2026-04-08 14:40:38,466 swin_transformer] (main.py 151): INFO Epoch: [45][40/59] lr 0.000105 loss 0.5203 acc 96.19%
+[2026-04-08 14:40:54,344 swin_transformer] (main.py 76): INFO [Epoch 45]: Train Loss: 0.5186, Train Acc: 96.08%, Val Loss: 0.1660, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 14:40:54,345 swin_transformer] (main.py 89): INFO Max accuracy: 96.80%
+[2026-04-08 14:40:57,497 swin_transformer] (main.py 151): INFO Epoch: [46][0/59] lr 0.000103 loss 0.5103 acc 95.31%
+[2026-04-08 14:41:05,521 swin_transformer] (main.py 151): INFO Epoch: [46][20/59] lr 0.000103 loss 0.5096 acc 95.91%
+[2026-04-08 14:41:14,747 swin_transformer] (main.py 151): INFO Epoch: [46][40/59] lr 0.000103 loss 0.5170 acc 95.77%
+[2026-04-08 14:41:30,956 swin_transformer] (main.py 76): INFO [Epoch 46]: Train Loss: 0.5185, Train Acc: 95.87%, Val Loss: 0.1657, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 14:41:30,957 swin_transformer] (main.py 89): INFO Max accuracy: 96.80%
+[2026-04-08 14:41:32,972 swin_transformer] (main.py 151): INFO Epoch: [47][0/59] lr 0.000102 loss 0.5057 acc 98.44%
+[2026-04-08 14:41:41,999 swin_transformer] (main.py 151): INFO Epoch: [47][20/59] lr 0.000102 loss 0.5320 acc 95.16%
+[2026-04-08 14:41:51,416 swin_transformer] (main.py 151): INFO Epoch: [47][40/59] lr 0.000102 loss 0.5219 acc 95.77%
+[2026-04-08 14:42:07,258 swin_transformer] (main.py 76): INFO [Epoch 47]: Train Loss: 0.5200, Train Acc: 96.05%, Val Loss: 0.1655, Val Acc: 96.80%, F1: 0.9680, Precision: 0.9681, Recall: 0.9680
+[2026-04-08 14:42:07,258 swin_transformer] (main.py 89): INFO Max accuracy: 96.80%
+[2026-04-08 14:42:09,340 swin_transformer] (main.py 151): INFO Epoch: [48][0/59] lr 0.000101 loss 0.5406 acc 95.31%
+[2026-04-08 14:42:18,488 swin_transformer] (main.py 151): INFO Epoch: [48][20/59] lr 0.000101 loss 0.5195 acc 95.68%
+[2026-04-08 14:42:25,909 swin_transformer] (main.py 151): INFO Epoch: [48][40/59] lr 0.000101 loss 0.5169 acc 96.11%
+[2026-04-08 14:42:41,852 swin_transformer] (main.py 76): INFO [Epoch 48]: Train Loss: 0.5179, Train Acc: 96.00%, Val Loss: 0.1657, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 14:42:41,852 swin_transformer] (main.py 89): INFO Max accuracy: 96.80%
+[2026-04-08 14:42:45,806 swin_transformer] (main.py 151): INFO Epoch: [49][0/59] lr 0.000100 loss 0.5305 acc 95.31%
+[2026-04-08 14:42:58,067 swin_transformer] (main.py 151): INFO Epoch: [49][20/59] lr 0.000100 loss 0.5321 acc 94.79%
+[2026-04-08 14:43:06,204 swin_transformer] (main.py 151): INFO Epoch: [49][40/59] lr 0.000100 loss 0.5231 acc 95.39%
+[2026-04-08 14:43:21,805 swin_transformer] (main.py 76): INFO [Epoch 49]: Train Loss: 0.5222, Train Acc: 95.47%, Val Loss: 0.1660, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9665, Recall: 0.9664
+[2026-04-08 14:43:21,805 swin_transformer] (main.py 89): INFO Max accuracy: 96.80%
+[2026-04-08 14:43:21,810 swin_transformer] (main.py 103): INFO Confusion matrix for best model saved to outputs/swin_transformer_confusion_matrix.npy
+[2026-04-08 15:12:24,022 swin_transformer] (main.py 21): INFO Dataset loaded: 3750 train images, 1250 validation images
+[2026-04-08 15:12:24,023 swin_transformer] (main.py 23): INFO Creating model: swin_transformer
+[2026-04-08 15:12:25,120 swin_transformer] (main.py 67): INFO Start training
+[2026-04-08 15:12:30,148 swin_transformer] (main.py 151): INFO Epoch: [0][0/59] lr 0.000001 loss 1.7048 acc 20.31%
+[2026-04-08 15:12:35,255 swin_transformer] (main.py 151): INFO Epoch: [0][20/59] lr 0.000001 loss 1.6900 acc 17.93%
+[2026-04-08 15:12:44,185 swin_transformer] (main.py 151): INFO Epoch: [0][40/59] lr 0.000001 loss 1.6895 acc 17.23%
+[2026-04-08 15:12:58,639 swin_transformer] (main.py 76): INFO [Epoch 0]: Train Loss: 1.6922, Train Acc: 17.20%, Val Loss: 1.6960, Val Acc: 17.68%, F1: 0.1278, Precision: 0.2330, Recall: 0.1768
+[2026-04-08 15:12:58,640 swin_transformer] (main.py 87): INFO Best performance updated at epoch 0 with accuracy: 17.68%
+[2026-04-08 15:12:58,640 swin_transformer] (main.py 89): INFO Max accuracy: 17.68%
+[2026-04-08 15:13:00,064 swin_transformer] (main.py 151): INFO Epoch: [1][0/59] lr 0.000061 loss 1.7355 acc 14.06%
+[2026-04-08 15:13:09,165 swin_transformer] (main.py 151): INFO Epoch: [1][20/59] lr 0.000061 loss 1.6405 acc 20.98%
+[2026-04-08 15:13:17,139 swin_transformer] (main.py 151): INFO Epoch: [1][40/59] lr 0.000061 loss 1.5812 acc 26.83%
+[2026-04-08 15:13:31,391 swin_transformer] (main.py 76): INFO [Epoch 1]: Train Loss: 1.5402, Train Acc: 33.68%, Val Loss: 1.3192, Val Acc: 67.36%, F1: 0.6584, Precision: 0.7058, Recall: 0.6736
+[2026-04-08 15:13:31,392 swin_transformer] (main.py 87): INFO Best performance updated at epoch 1 with accuracy: 67.36%
+[2026-04-08 15:13:31,392 swin_transformer] (main.py 89): INFO Max accuracy: 67.36%
+[2026-04-08 15:13:33,957 swin_transformer] (main.py 151): INFO Epoch: [2][0/59] lr 0.000121 loss 1.4272 acc 54.69%
+[2026-04-08 15:13:42,608 swin_transformer] (main.py 151): INFO Epoch: [2][20/59] lr 0.000121 loss 1.3112 acc 70.83%
+[2026-04-08 15:13:53,286 swin_transformer] (main.py 151): INFO Epoch: [2][40/59] lr 0.000121 loss 1.2491 acc 75.46%
+[2026-04-08 15:14:08,656 swin_transformer] (main.py 76): INFO [Epoch 2]: Train Loss: 1.1971, Train Acc: 78.11%, Val Loss: 0.8398, Val Acc: 91.20%, F1: 0.9118, Precision: 0.9122, Recall: 0.9120
+[2026-04-08 15:14:08,656 swin_transformer] (main.py 87): INFO Best performance updated at epoch 2 with accuracy: 91.20%
+[2026-04-08 15:14:08,656 swin_transformer] (main.py 89): INFO Max accuracy: 91.20%
+[2026-04-08 15:14:10,525 swin_transformer] (main.py 151): INFO Epoch: [3][0/59] lr 0.000180 loss 1.0154 acc 84.38%
+[2026-04-08 15:14:19,095 swin_transformer] (main.py 151): INFO Epoch: [3][20/59] lr 0.000180 loss 0.9603 acc 88.54%
+[2026-04-08 15:14:28,077 swin_transformer] (main.py 151): INFO Epoch: [3][40/59] lr 0.000180 loss 0.9154 acc 88.76%
+[2026-04-08 15:14:43,130 swin_transformer] (main.py 76): INFO [Epoch 3]: Train Loss: 0.8863, Train Acc: 88.80%, Val Loss: 0.5145, Val Acc: 93.44%, F1: 0.9345, Precision: 0.9348, Recall: 0.9344
+[2026-04-08 15:14:43,130 swin_transformer] (main.py 87): INFO Best performance updated at epoch 3 with accuracy: 93.44%
+[2026-04-08 15:14:43,130 swin_transformer] (main.py 89): INFO Max accuracy: 93.44%
+[2026-04-08 15:14:44,858 swin_transformer] (main.py 151): INFO Epoch: [4][0/59] lr 0.000240 loss 0.7607 acc 95.31%
+[2026-04-08 15:14:53,668 swin_transformer] (main.py 151): INFO Epoch: [4][20/59] lr 0.000240 loss 0.7476 acc 91.00%
+[2026-04-08 15:15:01,233 swin_transformer] (main.py 151): INFO Epoch: [4][40/59] lr 0.000240 loss 0.7269 acc 91.08%
+[2026-04-08 15:15:16,424 swin_transformer] (main.py 76): INFO [Epoch 4]: Train Loss: 0.7154, Train Acc: 91.25%, Val Loss: 0.3546, Val Acc: 94.56%, F1: 0.9456, Precision: 0.9457, Recall: 0.9456
+[2026-04-08 15:15:16,424 swin_transformer] (main.py 87): INFO Best performance updated at epoch 4 with accuracy: 94.56%
+[2026-04-08 15:15:16,425 swin_transformer] (main.py 89): INFO Max accuracy: 94.56%
+[2026-04-08 15:15:18,554 swin_transformer] (main.py 151): INFO Epoch: [5][0/59] lr 0.000295 loss 0.7264 acc 85.94%
+[2026-04-08 15:15:27,728 swin_transformer] (main.py 151): INFO Epoch: [5][20/59] lr 0.000295 loss 0.6543 acc 91.59%
+[2026-04-08 15:15:38,445 swin_transformer] (main.py 151): INFO Epoch: [5][40/59] lr 0.000295 loss 0.6473 acc 91.73%
+[2026-04-08 15:15:53,617 swin_transformer] (main.py 76): INFO [Epoch 5]: Train Loss: 0.6385, Train Acc: 91.68%, Val Loss: 0.2789, Val Acc: 95.12%, F1: 0.9512, Precision: 0.9515, Recall: 0.9512
+[2026-04-08 15:15:53,617 swin_transformer] (main.py 87): INFO Best performance updated at epoch 5 with accuracy: 95.12%
+[2026-04-08 15:15:53,617 swin_transformer] (main.py 89): INFO Max accuracy: 95.12%
+[2026-04-08 15:15:55,574 swin_transformer] (main.py 151): INFO Epoch: [6][0/59] lr 0.000293 loss 0.6590 acc 90.62%
+[2026-04-08 15:16:06,858 swin_transformer] (main.py 151): INFO Epoch: [6][20/59] lr 0.000293 loss 0.6107 acc 92.63%
+[2026-04-08 15:16:15,621 swin_transformer] (main.py 151): INFO Epoch: [6][40/59] lr 0.000293 loss 0.6090 acc 92.19%
+[2026-04-08 15:16:31,016 swin_transformer] (main.py 76): INFO [Epoch 6]: Train Loss: 0.6035, Train Acc: 92.29%, Val Loss: 0.2450, Val Acc: 95.20%, F1: 0.9520, Precision: 0.9523, Recall: 0.9520
+[2026-04-08 15:16:31,016 swin_transformer] (main.py 87): INFO Best performance updated at epoch 6 with accuracy: 95.20%
+[2026-04-08 15:16:31,016 swin_transformer] (main.py 89): INFO Max accuracy: 95.20%
+[2026-04-08 15:16:33,044 swin_transformer] (main.py 151): INFO Epoch: [7][0/59] lr 0.000290 loss 0.6074 acc 92.19%
+[2026-04-08 15:16:41,530 swin_transformer] (main.py 151): INFO Epoch: [7][20/59] lr 0.000290 loss 0.5933 acc 92.34%
+[2026-04-08 15:16:49,554 swin_transformer] (main.py 151): INFO Epoch: [7][40/59] lr 0.000290 loss 0.5872 acc 92.80%
+[2026-04-08 15:17:05,496 swin_transformer] (main.py 76): INFO [Epoch 7]: Train Loss: 0.5873, Train Acc: 92.75%, Val Loss: 0.2238, Val Acc: 95.12%, F1: 0.9512, Precision: 0.9514, Recall: 0.9512
+[2026-04-08 15:17:05,497 swin_transformer] (main.py 89): INFO Max accuracy: 95.20%
+[2026-04-08 15:17:08,170 swin_transformer] (main.py 151): INFO Epoch: [8][0/59] lr 0.000288 loss 0.5771 acc 89.06%
+[2026-04-08 15:17:16,368 swin_transformer] (main.py 151): INFO Epoch: [8][20/59] lr 0.000288 loss 0.5843 acc 92.56%
+[2026-04-08 15:17:26,188 swin_transformer] (main.py 151): INFO Epoch: [8][40/59] lr 0.000288 loss 0.5790 acc 93.18%
+[2026-04-08 15:17:41,276 swin_transformer] (main.py 76): INFO [Epoch 8]: Train Loss: 0.5772, Train Acc: 93.33%, Val Loss: 0.2110, Val Acc: 95.60%, F1: 0.9560, Precision: 0.9563, Recall: 0.9560
+[2026-04-08 15:17:41,277 swin_transformer] (main.py 87): INFO Best performance updated at epoch 8 with accuracy: 95.60%
+[2026-04-08 15:17:41,277 swin_transformer] (main.py 89): INFO Max accuracy: 95.60%
+[2026-04-08 15:17:43,250 swin_transformer] (main.py 151): INFO Epoch: [9][0/59] lr 0.000284 loss 0.5226 acc 95.31%
+[2026-04-08 15:17:52,228 swin_transformer] (main.py 151): INFO Epoch: [9][20/59] lr 0.000284 loss 0.5802 acc 93.38%
+[2026-04-08 15:17:59,630 swin_transformer] (main.py 151): INFO Epoch: [9][40/59] lr 0.000284 loss 0.5668 acc 93.64%
+[2026-04-08 15:18:15,403 swin_transformer] (main.py 76): INFO [Epoch 9]: Train Loss: 0.5645, Train Acc: 93.65%, Val Loss: 0.2016, Val Acc: 95.84%, F1: 0.9583, Precision: 0.9586, Recall: 0.9584
+[2026-04-08 15:18:15,404 swin_transformer] (main.py 87): INFO Best performance updated at epoch 9 with accuracy: 95.84%
+[2026-04-08 15:18:15,404 swin_transformer] (main.py 89): INFO Max accuracy: 95.84%
+[2026-04-08 15:18:17,602 swin_transformer] (main.py 151): INFO Epoch: [10][0/59] lr 0.000281 loss 0.5905 acc 90.62%
+[2026-04-08 15:18:26,027 swin_transformer] (main.py 151): INFO Epoch: [10][20/59] lr 0.000281 loss 0.5627 acc 93.68%
+[2026-04-08 15:18:35,317 swin_transformer] (main.py 151): INFO Epoch: [10][40/59] lr 0.000281 loss 0.5626 acc 93.67%
+[2026-04-08 15:18:49,775 swin_transformer] (main.py 76): INFO [Epoch 10]: Train Loss: 0.5585, Train Acc: 93.89%, Val Loss: 0.1947, Val Acc: 95.84%, F1: 0.9584, Precision: 0.9585, Recall: 0.9584
+[2026-04-08 15:18:49,775 swin_transformer] (main.py 89): INFO Max accuracy: 95.84%
+[2026-04-08 15:18:51,627 swin_transformer] (main.py 151): INFO Epoch: [11][0/59] lr 0.000277 loss 0.6185 acc 92.19%
+[2026-04-08 15:19:00,792 swin_transformer] (main.py 151): INFO Epoch: [11][20/59] lr 0.000277 loss 0.5623 acc 93.97%
+[2026-04-08 15:19:10,622 swin_transformer] (main.py 151): INFO Epoch: [11][40/59] lr 0.000277 loss 0.5559 acc 94.47%
+[2026-04-08 15:19:26,068 swin_transformer] (main.py 76): INFO [Epoch 11]: Train Loss: 0.5577, Train Acc: 94.29%, Val Loss: 0.1912, Val Acc: 95.76%, F1: 0.9576, Precision: 0.9578, Recall: 0.9576
+[2026-04-08 15:19:26,069 swin_transformer] (main.py 89): INFO Max accuracy: 95.84%
+[2026-04-08 15:19:27,765 swin_transformer] (main.py 151): INFO Epoch: [12][0/59] lr 0.000273 loss 0.5802 acc 90.62%
+[2026-04-08 15:19:36,471 swin_transformer] (main.py 151): INFO Epoch: [12][20/59] lr 0.000273 loss 0.5475 acc 94.64%
+[2026-04-08 15:19:44,696 swin_transformer] (main.py 151): INFO Epoch: [12][40/59] lr 0.000273 loss 0.5521 acc 94.74%
+[2026-04-08 15:20:00,742 swin_transformer] (main.py 76): INFO [Epoch 12]: Train Loss: 0.5508, Train Acc: 94.43%, Val Loss: 0.1876, Val Acc: 95.92%, F1: 0.9592, Precision: 0.9594, Recall: 0.9592
+[2026-04-08 15:20:00,743 swin_transformer] (main.py 87): INFO Best performance updated at epoch 12 with accuracy: 95.92%
+[2026-04-08 15:20:00,743 swin_transformer] (main.py 89): INFO Max accuracy: 95.92%
+[2026-04-08 15:20:03,541 swin_transformer] (main.py 151): INFO Epoch: [13][0/59] lr 0.000268 loss 0.6100 acc 93.75%
+[2026-04-08 15:20:11,350 swin_transformer] (main.py 151): INFO Epoch: [13][20/59] lr 0.000268 loss 0.5610 acc 93.60%
+[2026-04-08 15:20:20,590 swin_transformer] (main.py 151): INFO Epoch: [13][40/59] lr 0.000268 loss 0.5542 acc 93.86%
+[2026-04-08 15:20:35,977 swin_transformer] (main.py 76): INFO [Epoch 13]: Train Loss: 0.5501, Train Acc: 94.13%, Val Loss: 0.1852, Val Acc: 95.92%, F1: 0.9592, Precision: 0.9595, Recall: 0.9592
+[2026-04-08 15:20:35,977 swin_transformer] (main.py 89): INFO Max accuracy: 95.92%
+[2026-04-08 15:20:37,651 swin_transformer] (main.py 151): INFO Epoch: [14][0/59] lr 0.000264 loss 0.5004 acc 96.88%
+[2026-04-08 15:20:46,930 swin_transformer] (main.py 151): INFO Epoch: [14][20/59] lr 0.000264 loss 0.5415 acc 94.35%
+[2026-04-08 15:20:55,536 swin_transformer] (main.py 151): INFO Epoch: [14][40/59] lr 0.000264 loss 0.5439 acc 94.47%
+[2026-04-08 15:21:10,782 swin_transformer] (main.py 76): INFO [Epoch 14]: Train Loss: 0.5449, Train Acc: 94.53%, Val Loss: 0.1846, Val Acc: 95.92%, F1: 0.9592, Precision: 0.9595, Recall: 0.9592
+[2026-04-08 15:21:10,782 swin_transformer] (main.py 89): INFO Max accuracy: 95.92%
+[2026-04-08 15:21:12,749 swin_transformer] (main.py 151): INFO Epoch: [15][0/59] lr 0.000259 loss 0.4950 acc 98.44%
+[2026-04-08 15:21:20,636 swin_transformer] (main.py 151): INFO Epoch: [15][20/59] lr 0.000259 loss 0.5459 acc 94.57%
+[2026-04-08 15:21:29,321 swin_transformer] (main.py 151): INFO Epoch: [15][40/59] lr 0.000259 loss 0.5434 acc 94.74%
+[2026-04-08 15:21:44,306 swin_transformer] (main.py 76): INFO [Epoch 15]: Train Loss: 0.5415, Train Acc: 94.85%, Val Loss: 0.1806, Val Acc: 96.24%, F1: 0.9624, Precision: 0.9626, Recall: 0.9624
+[2026-04-08 15:21:44,307 swin_transformer] (main.py 87): INFO Best performance updated at epoch 15 with accuracy: 96.24%
+[2026-04-08 15:21:44,307 swin_transformer] (main.py 89): INFO Max accuracy: 96.24%
+[2026-04-08 15:21:46,095 swin_transformer] (main.py 151): INFO Epoch: [16][0/59] lr 0.000254 loss 0.5216 acc 95.31%
+[2026-04-08 15:21:54,927 swin_transformer] (main.py 151): INFO Epoch: [16][20/59] lr 0.000254 loss 0.5320 acc 95.31%
+[2026-04-08 15:22:03,768 swin_transformer] (main.py 151): INFO Epoch: [16][40/59] lr 0.000254 loss 0.5378 acc 95.12%
+[2026-04-08 15:22:19,098 swin_transformer] (main.py 76): INFO [Epoch 16]: Train Loss: 0.5449, Train Acc: 94.69%, Val Loss: 0.1812, Val Acc: 96.08%, F1: 0.9608, Precision: 0.9611, Recall: 0.9608
+[2026-04-08 15:22:19,098 swin_transformer] (main.py 89): INFO Max accuracy: 96.24%
+[2026-04-08 15:22:21,036 swin_transformer] (main.py 151): INFO Epoch: [17][0/59] lr 0.000248 loss 0.5555 acc 95.31%
+[2026-04-08 15:22:30,628 swin_transformer] (main.py 151): INFO Epoch: [17][20/59] lr 0.000248 loss 0.5562 acc 93.82%
+[2026-04-08 15:22:39,216 swin_transformer] (main.py 151): INFO Epoch: [17][40/59] lr 0.000248 loss 0.5464 acc 94.40%
+[2026-04-08 15:22:54,452 swin_transformer] (main.py 76): INFO [Epoch 17]: Train Loss: 0.5434, Train Acc: 94.64%, Val Loss: 0.1787, Val Acc: 96.24%, F1: 0.9624, Precision: 0.9626, Recall: 0.9624
+[2026-04-08 15:22:54,452 swin_transformer] (main.py 89): INFO Max accuracy: 96.24%
+[2026-04-08 15:22:57,205 swin_transformer] (main.py 151): INFO Epoch: [18][0/59] lr 0.000243 loss 0.5056 acc 96.88%
+[2026-04-08 15:23:05,384 swin_transformer] (main.py 151): INFO Epoch: [18][20/59] lr 0.000243 loss 0.5416 acc 94.27%
+[2026-04-08 15:23:14,765 swin_transformer] (main.py 151): INFO Epoch: [18][40/59] lr 0.000243 loss 0.5356 acc 94.70%
+[2026-04-08 15:23:30,182 swin_transformer] (main.py 76): INFO [Epoch 18]: Train Loss: 0.5366, Train Acc: 94.77%, Val Loss: 0.1776, Val Acc: 96.24%, F1: 0.9624, Precision: 0.9626, Recall: 0.9624
+[2026-04-08 15:23:30,183 swin_transformer] (main.py 89): INFO Max accuracy: 96.24%
+[2026-04-08 15:23:31,833 swin_transformer] (main.py 151): INFO Epoch: [19][0/59] lr 0.000237 loss 0.5825 acc 90.62%
+[2026-04-08 15:23:41,276 swin_transformer] (main.py 151): INFO Epoch: [19][20/59] lr 0.000237 loss 0.5352 acc 95.09%
+[2026-04-08 15:23:50,701 swin_transformer] (main.py 151): INFO Epoch: [19][40/59] lr 0.000237 loss 0.5285 acc 95.31%
+[2026-04-08 15:24:06,163 swin_transformer] (main.py 76): INFO [Epoch 19]: Train Loss: 0.5374, Train Acc: 94.80%, Val Loss: 0.1758, Val Acc: 96.40%, F1: 0.9640, Precision: 0.9642, Recall: 0.9640
+[2026-04-08 15:24:06,163 swin_transformer] (main.py 87): INFO Best performance updated at epoch 19 with accuracy: 96.40%
+[2026-04-08 15:24:06,164 swin_transformer] (main.py 89): INFO Max accuracy: 96.40%
+[2026-04-08 15:24:08,022 swin_transformer] (main.py 151): INFO Epoch: [20][0/59] lr 0.000231 loss 0.5675 acc 93.75%
+[2026-04-08 15:24:17,324 swin_transformer] (main.py 151): INFO Epoch: [20][20/59] lr 0.000231 loss 0.5544 acc 93.60%
+[2026-04-08 15:24:25,213 swin_transformer] (main.py 151): INFO Epoch: [20][40/59] lr 0.000231 loss 0.5448 acc 94.05%
+[2026-04-08 15:24:41,067 swin_transformer] (main.py 76): INFO [Epoch 20]: Train Loss: 0.5388, Train Acc: 94.69%, Val Loss: 0.1753, Val Acc: 96.56%, F1: 0.9656, Precision: 0.9657, Recall: 0.9656
+[2026-04-08 15:24:41,068 swin_transformer] (main.py 87): INFO Best performance updated at epoch 20 with accuracy: 96.56%
+[2026-04-08 15:24:41,068 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 15:24:44,182 swin_transformer] (main.py 151): INFO Epoch: [21][0/59] lr 0.000225 loss 0.5393 acc 96.88%
+[2026-04-08 15:24:52,376 swin_transformer] (main.py 151): INFO Epoch: [21][20/59] lr 0.000225 loss 0.5359 acc 95.09%
+[2026-04-08 15:25:01,388 swin_transformer] (main.py 151): INFO Epoch: [21][40/59] lr 0.000225 loss 0.5362 acc 94.97%
+[2026-04-08 15:25:16,896 swin_transformer] (main.py 76): INFO [Epoch 21]: Train Loss: 0.5314, Train Acc: 95.55%, Val Loss: 0.1747, Val Acc: 96.40%, F1: 0.9640, Precision: 0.9642, Recall: 0.9640
+[2026-04-08 15:25:16,897 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 15:25:18,730 swin_transformer] (main.py 151): INFO Epoch: [22][0/59] lr 0.000219 loss 0.5664 acc 95.31%
+[2026-04-08 15:25:28,207 swin_transformer] (main.py 151): INFO Epoch: [22][20/59] lr 0.000219 loss 0.5308 acc 95.54%
+[2026-04-08 15:25:36,888 swin_transformer] (main.py 151): INFO Epoch: [22][40/59] lr 0.000219 loss 0.5302 acc 95.31%
+[2026-04-08 15:25:52,021 swin_transformer] (main.py 76): INFO [Epoch 22]: Train Loss: 0.5348, Train Acc: 94.93%, Val Loss: 0.1728, Val Acc: 96.48%, F1: 0.9648, Precision: 0.9649, Recall: 0.9648
+[2026-04-08 15:25:52,021 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 15:25:54,160 swin_transformer] (main.py 151): INFO Epoch: [23][0/59] lr 0.000213 loss 0.5319 acc 98.44%
+[2026-04-08 15:26:02,751 swin_transformer] (main.py 151): INFO Epoch: [23][20/59] lr 0.000213 loss 0.5348 acc 95.46%
+[2026-04-08 15:26:11,849 swin_transformer] (main.py 151): INFO Epoch: [23][40/59] lr 0.000213 loss 0.5288 acc 95.81%
+[2026-04-08 15:26:26,970 swin_transformer] (main.py 76): INFO [Epoch 23]: Train Loss: 0.5324, Train Acc: 95.28%, Val Loss: 0.1730, Val Acc: 96.48%, F1: 0.9648, Precision: 0.9649, Recall: 0.9648
+[2026-04-08 15:26:26,971 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 15:26:29,158 swin_transformer] (main.py 151): INFO Epoch: [24][0/59] lr 0.000206 loss 0.4875 acc 96.88%
+[2026-04-08 15:26:38,029 swin_transformer] (main.py 151): INFO Epoch: [24][20/59] lr 0.000206 loss 0.5290 acc 95.46%
+[2026-04-08 15:26:47,277 swin_transformer] (main.py 151): INFO Epoch: [24][40/59] lr 0.000206 loss 0.5294 acc 95.46%
+[2026-04-08 15:27:02,068 swin_transformer] (main.py 76): INFO [Epoch 24]: Train Loss: 0.5289, Train Acc: 95.55%, Val Loss: 0.1713, Val Acc: 96.56%, F1: 0.9656, Precision: 0.9657, Recall: 0.9656
+[2026-04-08 15:27:02,068 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 15:27:04,018 swin_transformer] (main.py 151): INFO Epoch: [25][0/59] lr 0.000200 loss 0.5548 acc 93.75%
+[2026-04-08 15:27:13,337 swin_transformer] (main.py 151): INFO Epoch: [25][20/59] lr 0.000200 loss 0.5416 acc 95.09%
+[2026-04-08 15:27:21,397 swin_transformer] (main.py 151): INFO Epoch: [25][40/59] lr 0.000200 loss 0.5399 acc 94.89%
+[2026-04-08 15:27:36,503 swin_transformer] (main.py 76): INFO [Epoch 25]: Train Loss: 0.5311, Train Acc: 95.52%, Val Loss: 0.1722, Val Acc: 96.32%, F1: 0.9632, Precision: 0.9634, Recall: 0.9632
+[2026-04-08 15:27:36,504 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 15:27:39,311 swin_transformer] (main.py 151): INFO Epoch: [26][0/59] lr 0.000194 loss 0.5738 acc 92.19%
+[2026-04-08 15:27:47,203 swin_transformer] (main.py 151): INFO Epoch: [26][20/59] lr 0.000194 loss 0.5339 acc 95.24%
+[2026-04-08 15:27:56,628 swin_transformer] (main.py 151): INFO Epoch: [26][40/59] lr 0.000194 loss 0.5308 acc 95.66%
+[2026-04-08 15:28:11,443 swin_transformer] (main.py 76): INFO [Epoch 26]: Train Loss: 0.5279, Train Acc: 95.68%, Val Loss: 0.1706, Val Acc: 96.40%, F1: 0.9640, Precision: 0.9641, Recall: 0.9640
+[2026-04-08 15:28:11,443 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 15:28:13,218 swin_transformer] (main.py 151): INFO Epoch: [27][0/59] lr 0.000187 loss 0.5928 acc 95.31%
+[2026-04-08 15:28:22,451 swin_transformer] (main.py 151): INFO Epoch: [27][20/59] lr 0.000187 loss 0.5315 acc 95.91%
+[2026-04-08 15:28:31,158 swin_transformer] (main.py 151): INFO Epoch: [27][40/59] lr 0.000187 loss 0.5290 acc 95.77%
+[2026-04-08 15:28:46,011 swin_transformer] (main.py 76): INFO [Epoch 27]: Train Loss: 0.5284, Train Acc: 95.57%, Val Loss: 0.1704, Val Acc: 96.56%, F1: 0.9656, Precision: 0.9657, Recall: 0.9656
+[2026-04-08 15:28:46,012 swin_transformer] (main.py 89): INFO Max accuracy: 96.56%
+[2026-04-08 15:28:48,109 swin_transformer] (main.py 151): INFO Epoch: [28][0/59] lr 0.000181 loss 0.5209 acc 95.31%
+[2026-04-08 15:28:55,797 swin_transformer] (main.py 151): INFO Epoch: [28][20/59] lr 0.000181 loss 0.5159 acc 96.28%
+[2026-04-08 15:29:05,183 swin_transformer] (main.py 151): INFO Epoch: [28][40/59] lr 0.000181 loss 0.5244 acc 95.73%
+[2026-04-08 15:29:20,515 swin_transformer] (main.py 76): INFO [Epoch 28]: Train Loss: 0.5220, Train Acc: 96.00%, Val Loss: 0.1693, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9665, Recall: 0.9664
+[2026-04-08 15:29:20,516 swin_transformer] (main.py 87): INFO Best performance updated at epoch 28 with accuracy: 96.64%
+[2026-04-08 15:29:20,516 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 15:29:22,492 swin_transformer] (main.py 151): INFO Epoch: [29][0/59] lr 0.000175 loss 0.6045 acc 90.62%
+[2026-04-08 15:29:31,987 swin_transformer] (main.py 151): INFO Epoch: [29][20/59] lr 0.000175 loss 0.5313 acc 95.24%
+[2026-04-08 15:29:41,052 swin_transformer] (main.py 151): INFO Epoch: [29][40/59] lr 0.000175 loss 0.5266 acc 95.69%
+[2026-04-08 15:29:55,443 swin_transformer] (main.py 76): INFO [Epoch 29]: Train Loss: 0.5279, Train Acc: 95.41%, Val Loss: 0.1705, Val Acc: 96.56%, F1: 0.9656, Precision: 0.9657, Recall: 0.9656
+[2026-04-08 15:29:55,444 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 15:29:57,212 swin_transformer] (main.py 151): INFO Epoch: [30][0/59] lr 0.000169 loss 0.5721 acc 92.19%
+[2026-04-08 15:30:06,578 swin_transformer] (main.py 151): INFO Epoch: [30][20/59] lr 0.000169 loss 0.5280 acc 95.61%
+[2026-04-08 15:30:14,371 swin_transformer] (main.py 151): INFO Epoch: [30][40/59] lr 0.000169 loss 0.5238 acc 95.88%
+[2026-04-08 15:30:30,137 swin_transformer] (main.py 76): INFO [Epoch 30]: Train Loss: 0.5220, Train Acc: 96.19%, Val Loss: 0.1694, Val Acc: 96.48%, F1: 0.9648, Precision: 0.9649, Recall: 0.9648
+[2026-04-08 15:30:30,137 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 15:30:33,226 swin_transformer] (main.py 151): INFO Epoch: [31][0/59] lr 0.000163 loss 0.5013 acc 96.88%
+[2026-04-08 15:30:40,940 swin_transformer] (main.py 151): INFO Epoch: [31][20/59] lr 0.000163 loss 0.5180 acc 96.06%
+[2026-04-08 15:30:49,775 swin_transformer] (main.py 151): INFO Epoch: [31][40/59] lr 0.000163 loss 0.5256 acc 95.43%
+[2026-04-08 15:31:05,314 swin_transformer] (main.py 76): INFO [Epoch 31]: Train Loss: 0.5250, Train Acc: 95.31%, Val Loss: 0.1680, Val Acc: 96.56%, F1: 0.9656, Precision: 0.9657, Recall: 0.9656
+[2026-04-08 15:31:05,314 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 15:31:07,104 swin_transformer] (main.py 151): INFO Epoch: [32][0/59] lr 0.000157 loss 0.5005 acc 96.88%
+[2026-04-08 15:31:16,248 swin_transformer] (main.py 151): INFO Epoch: [32][20/59] lr 0.000157 loss 0.5200 acc 95.54%
+[2026-04-08 15:31:25,393 swin_transformer] (main.py 151): INFO Epoch: [32][40/59] lr 0.000157 loss 0.5216 acc 95.77%
+[2026-04-08 15:31:39,939 swin_transformer] (main.py 76): INFO [Epoch 32]: Train Loss: 0.5232, Train Acc: 95.73%, Val Loss: 0.1688, Val Acc: 96.56%, F1: 0.9656, Precision: 0.9657, Recall: 0.9656
+[2026-04-08 15:31:39,939 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 15:31:41,640 swin_transformer] (main.py 151): INFO Epoch: [33][0/59] lr 0.000152 loss 0.5238 acc 95.31%
+[2026-04-08 15:31:49,415 swin_transformer] (main.py 151): INFO Epoch: [33][20/59] lr 0.000152 loss 0.5214 acc 95.68%
+[2026-04-08 15:31:58,808 swin_transformer] (main.py 151): INFO Epoch: [33][40/59] lr 0.000152 loss 0.5268 acc 95.43%
+[2026-04-08 15:32:13,827 swin_transformer] (main.py 76): INFO [Epoch 33]: Train Loss: 0.5246, Train Acc: 95.60%, Val Loss: 0.1685, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9666, Recall: 0.9664
+[2026-04-08 15:32:13,828 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 15:32:15,601 swin_transformer] (main.py 151): INFO Epoch: [34][0/59] lr 0.000146 loss 0.4780 acc 96.88%
+[2026-04-08 15:32:24,211 swin_transformer] (main.py 151): INFO Epoch: [34][20/59] lr 0.000146 loss 0.5220 acc 95.39%
+[2026-04-08 15:32:33,346 swin_transformer] (main.py 151): INFO Epoch: [34][40/59] lr 0.000146 loss 0.5226 acc 95.58%
+[2026-04-08 15:32:48,375 swin_transformer] (main.py 76): INFO [Epoch 34]: Train Loss: 0.5217, Train Acc: 95.84%, Val Loss: 0.1680, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9666, Recall: 0.9664
+[2026-04-08 15:32:48,375 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 15:32:50,172 swin_transformer] (main.py 151): INFO Epoch: [35][0/59] lr 0.000141 loss 0.5068 acc 100.00%
+[2026-04-08 15:32:58,180 swin_transformer] (main.py 151): INFO Epoch: [35][20/59] lr 0.000141 loss 0.5347 acc 95.39%
+[2026-04-08 15:33:06,685 swin_transformer] (main.py 151): INFO Epoch: [35][40/59] lr 0.000141 loss 0.5308 acc 95.58%
+[2026-04-08 15:33:22,223 swin_transformer] (main.py 76): INFO [Epoch 35]: Train Loss: 0.5276, Train Acc: 95.63%, Val Loss: 0.1686, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9666, Recall: 0.9664
+[2026-04-08 15:33:22,224 swin_transformer] (main.py 89): INFO Max accuracy: 96.64%
+[2026-04-08 15:33:24,720 swin_transformer] (main.py 151): INFO Epoch: [36][0/59] lr 0.000136 loss 0.5236 acc 93.75%
+[2026-04-08 15:33:33,342 swin_transformer] (main.py 151): INFO Epoch: [36][20/59] lr 0.000136 loss 0.5227 acc 95.83%
+[2026-04-08 15:33:42,228 swin_transformer] (main.py 151): INFO Epoch: [36][40/59] lr 0.000136 loss 0.5220 acc 96.00%
+[2026-04-08 15:33:57,371 swin_transformer] (main.py 76): INFO [Epoch 36]: Train Loss: 0.5224, Train Acc: 95.92%, Val Loss: 0.1682, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 15:33:57,371 swin_transformer] (main.py 87): INFO Best performance updated at epoch 36 with accuracy: 96.72%
+[2026-04-08 15:33:57,372 swin_transformer] (main.py 89): INFO Max accuracy: 96.72%
+[2026-04-08 15:33:59,315 swin_transformer] (main.py 151): INFO Epoch: [37][0/59] lr 0.000132 loss 0.5814 acc 92.19%
+[2026-04-08 15:34:08,144 swin_transformer] (main.py 151): INFO Epoch: [37][20/59] lr 0.000132 loss 0.5283 acc 95.46%
+[2026-04-08 15:34:15,495 swin_transformer] (main.py 151): INFO Epoch: [37][40/59] lr 0.000132 loss 0.5230 acc 95.66%
+[2026-04-08 15:34:31,493 swin_transformer] (main.py 76): INFO [Epoch 37]: Train Loss: 0.5238, Train Acc: 95.63%, Val Loss: 0.1677, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 15:34:31,494 swin_transformer] (main.py 89): INFO Max accuracy: 96.72%
+[2026-04-08 15:34:34,110 swin_transformer] (main.py 151): INFO Epoch: [38][0/59] lr 0.000127 loss 0.5567 acc 96.88%
+[2026-04-08 15:34:41,443 swin_transformer] (main.py 151): INFO Epoch: [38][20/59] lr 0.000127 loss 0.5194 acc 96.58%
+[2026-04-08 15:34:50,352 swin_transformer] (main.py 151): INFO Epoch: [38][40/59] lr 0.000127 loss 0.5193 acc 96.27%
+[2026-04-08 15:35:06,190 swin_transformer] (main.py 76): INFO [Epoch 38]: Train Loss: 0.5212, Train Acc: 96.08%, Val Loss: 0.1673, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 15:35:06,190 swin_transformer] (main.py 89): INFO Max accuracy: 96.72%
+[2026-04-08 15:35:07,935 swin_transformer] (main.py 151): INFO Epoch: [39][0/59] lr 0.000123 loss 0.4652 acc 100.00%
+[2026-04-08 15:35:17,100 swin_transformer] (main.py 151): INFO Epoch: [39][20/59] lr 0.000123 loss 0.5003 acc 97.02%
+[2026-04-08 15:35:24,345 swin_transformer] (main.py 151): INFO Epoch: [39][40/59] lr 0.000123 loss 0.5114 acc 96.57%
+[2026-04-08 15:35:40,249 swin_transformer] (main.py 76): INFO [Epoch 39]: Train Loss: 0.5148, Train Acc: 96.29%, Val Loss: 0.1677, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9665, Recall: 0.9664
+[2026-04-08 15:35:40,249 swin_transformer] (main.py 89): INFO Max accuracy: 96.72%
+[2026-04-08 15:35:42,238 swin_transformer] (main.py 151): INFO Epoch: [40][0/59] lr 0.000119 loss 0.5116 acc 98.44%
+[2026-04-08 15:35:50,021 swin_transformer] (main.py 151): INFO Epoch: [40][20/59] lr 0.000119 loss 0.5288 acc 95.61%
+[2026-04-08 15:35:59,215 swin_transformer] (main.py 151): INFO Epoch: [40][40/59] lr 0.000119 loss 0.5243 acc 95.92%
+[2026-04-08 15:36:13,900 swin_transformer] (main.py 76): INFO [Epoch 40]: Train Loss: 0.5221, Train Acc: 95.81%, Val Loss: 0.1670, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 15:36:13,900 swin_transformer] (main.py 89): INFO Max accuracy: 96.72%
+[2026-04-08 15:36:15,897 swin_transformer] (main.py 151): INFO Epoch: [41][0/59] lr 0.000116 loss 0.4884 acc 96.88%
+[2026-04-08 15:36:25,127 swin_transformer] (main.py 151): INFO Epoch: [41][20/59] lr 0.000116 loss 0.5222 acc 95.68%
+[2026-04-08 15:36:34,043 swin_transformer] (main.py 151): INFO Epoch: [41][40/59] lr 0.000116 loss 0.5212 acc 95.46%
+[2026-04-08 15:36:48,298 swin_transformer] (main.py 76): INFO [Epoch 41]: Train Loss: 0.5230, Train Acc: 95.36%, Val Loss: 0.1665, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9665, Recall: 0.9664
+[2026-04-08 15:36:48,298 swin_transformer] (main.py 89): INFO Max accuracy: 96.72%
+[2026-04-08 15:36:49,969 swin_transformer] (main.py 151): INFO Epoch: [42][0/59] lr 0.000112 loss 0.5384 acc 93.75%
+[2026-04-08 15:36:57,674 swin_transformer] (main.py 151): INFO Epoch: [42][20/59] lr 0.000112 loss 0.5228 acc 95.61%
+[2026-04-08 15:37:07,238 swin_transformer] (main.py 151): INFO Epoch: [42][40/59] lr 0.000112 loss 0.5193 acc 96.11%
+[2026-04-08 15:37:24,182 swin_transformer] (main.py 76): INFO [Epoch 42]: Train Loss: 0.5195, Train Acc: 96.13%, Val Loss: 0.1663, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 15:37:24,183 swin_transformer] (main.py 89): INFO Max accuracy: 96.72%
+[2026-04-08 15:37:26,656 swin_transformer] (main.py 151): INFO Epoch: [43][0/59] lr 0.000110 loss 0.5384 acc 96.88%
+[2026-04-08 15:37:36,100 swin_transformer] (main.py 151): INFO Epoch: [43][20/59] lr 0.000110 loss 0.5066 acc 96.73%
+[2026-04-08 15:37:46,033 swin_transformer] (main.py 151): INFO Epoch: [43][40/59] lr 0.000110 loss 0.5160 acc 96.19%
+[2026-04-08 15:38:01,483 swin_transformer] (main.py 76): INFO [Epoch 43]: Train Loss: 0.5164, Train Acc: 96.13%, Val Loss: 0.1665, Val Acc: 96.80%, F1: 0.9680, Precision: 0.9681, Recall: 0.9680
+[2026-04-08 15:38:01,483 swin_transformer] (main.py 87): INFO Best performance updated at epoch 43 with accuracy: 96.80%
+[2026-04-08 15:38:01,483 swin_transformer] (main.py 89): INFO Max accuracy: 96.80%
+[2026-04-08 15:38:03,415 swin_transformer] (main.py 151): INFO Epoch: [44][0/59] lr 0.000107 loss 0.5023 acc 95.31%
+[2026-04-08 15:38:12,567 swin_transformer] (main.py 151): INFO Epoch: [44][20/59] lr 0.000107 loss 0.5157 acc 96.06%
+[2026-04-08 15:38:20,752 swin_transformer] (main.py 151): INFO Epoch: [44][40/59] lr 0.000107 loss 0.5149 acc 95.85%
+[2026-04-08 15:38:36,645 swin_transformer] (main.py 76): INFO [Epoch 44]: Train Loss: 0.5168, Train Acc: 95.95%, Val Loss: 0.1664, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9674, Recall: 0.9672
+[2026-04-08 15:38:36,645 swin_transformer] (main.py 89): INFO Max accuracy: 96.80%
+[2026-04-08 15:38:38,388 swin_transformer] (main.py 151): INFO Epoch: [45][0/59] lr 0.000105 loss 0.5537 acc 95.31%
+[2026-04-08 15:38:46,383 swin_transformer] (main.py 151): INFO Epoch: [45][20/59] lr 0.000105 loss 0.5265 acc 95.76%
+[2026-04-08 15:38:56,084 swin_transformer] (main.py 151): INFO Epoch: [45][40/59] lr 0.000105 loss 0.5203 acc 96.19%
+[2026-04-08 15:39:11,997 swin_transformer] (main.py 76): INFO [Epoch 45]: Train Loss: 0.5186, Train Acc: 96.08%, Val Loss: 0.1660, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 15:39:11,997 swin_transformer] (main.py 89): INFO Max accuracy: 96.80%
+[2026-04-08 15:39:13,917 swin_transformer] (main.py 151): INFO Epoch: [46][0/59] lr 0.000103 loss 0.5103 acc 95.31%
+[2026-04-08 15:39:23,182 swin_transformer] (main.py 151): INFO Epoch: [46][20/59] lr 0.000103 loss 0.5096 acc 95.91%
+[2026-04-08 15:39:32,849 swin_transformer] (main.py 151): INFO Epoch: [46][40/59] lr 0.000103 loss 0.5170 acc 95.77%
+[2026-04-08 15:39:48,972 swin_transformer] (main.py 76): INFO [Epoch 46]: Train Loss: 0.5185, Train Acc: 95.87%, Val Loss: 0.1657, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 15:39:48,972 swin_transformer] (main.py 89): INFO Max accuracy: 96.80%
+[2026-04-08 15:39:50,911 swin_transformer] (main.py 151): INFO Epoch: [47][0/59] lr 0.000102 loss 0.5057 acc 98.44%
+[2026-04-08 15:39:59,935 swin_transformer] (main.py 151): INFO Epoch: [47][20/59] lr 0.000102 loss 0.5320 acc 95.16%
+[2026-04-08 15:40:08,869 swin_transformer] (main.py 151): INFO Epoch: [47][40/59] lr 0.000102 loss 0.5219 acc 95.77%
+[2026-04-08 15:40:24,128 swin_transformer] (main.py 76): INFO [Epoch 47]: Train Loss: 0.5200, Train Acc: 96.05%, Val Loss: 0.1655, Val Acc: 96.80%, F1: 0.9680, Precision: 0.9681, Recall: 0.9680
+[2026-04-08 15:40:24,128 swin_transformer] (main.py 89): INFO Max accuracy: 96.80%
+[2026-04-08 15:40:26,245 swin_transformer] (main.py 151): INFO Epoch: [48][0/59] lr 0.000101 loss 0.5406 acc 95.31%
+[2026-04-08 15:40:34,226 swin_transformer] (main.py 151): INFO Epoch: [48][20/59] lr 0.000101 loss 0.5195 acc 95.68%
+[2026-04-08 15:40:43,626 swin_transformer] (main.py 151): INFO Epoch: [48][40/59] lr 0.000101 loss 0.5169 acc 96.11%
+[2026-04-08 15:40:58,267 swin_transformer] (main.py 76): INFO [Epoch 48]: Train Loss: 0.5179, Train Acc: 96.00%, Val Loss: 0.1657, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9673, Recall: 0.9672
+[2026-04-08 15:40:58,268 swin_transformer] (main.py 89): INFO Max accuracy: 96.80%
+[2026-04-08 15:40:59,894 swin_transformer] (main.py 151): INFO Epoch: [49][0/59] lr 0.000100 loss 0.5305 acc 95.31%
+[2026-04-08 15:41:09,237 swin_transformer] (main.py 151): INFO Epoch: [49][20/59] lr 0.000100 loss 0.5321 acc 94.79%
+[2026-04-08 15:41:18,236 swin_transformer] (main.py 151): INFO Epoch: [49][40/59] lr 0.000100 loss 0.5231 acc 95.39%
+[2026-04-08 15:41:33,613 swin_transformer] (main.py 76): INFO [Epoch 49]: Train Loss: 0.5222, Train Acc: 95.47%, Val Loss: 0.1660, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9665, Recall: 0.9664
+[2026-04-08 15:41:33,613 swin_transformer] (main.py 89): INFO Max accuracy: 96.80%
+[2026-04-08 15:41:33,615 swin_transformer] (main.py 103): INFO Confusion matrix for best model saved to outputs/swin_transformer_confusion_matrix.npy

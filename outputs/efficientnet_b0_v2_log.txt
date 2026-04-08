@@ -1,0 +1,278 @@
+[2026-04-08 16:46:27,476 efficientnet_b0_v2] (main.py 21): INFO Dataset loaded: 3750 train images, 1250 validation images
+[2026-04-08 16:46:27,476 efficientnet_b0_v2] (main.py 23): INFO Creating model: efficientnet_b0_v2
+[2026-04-08 16:46:27,702 efficientnet_b0_v2] (main.py 67): INFO Start training
+[2026-04-08 16:46:38,687 efficientnet_b0_v2] (main.py 151): INFO Epoch: [0][0/59] lr 0.000001 loss 1.6235 acc 14.06%
+[2026-04-08 16:46:44,864 efficientnet_b0_v2] (main.py 151): INFO Epoch: [0][20/59] lr 0.000001 loss 1.6204 acc 19.05%
+[2026-04-08 16:46:52,535 efficientnet_b0_v2] (main.py 151): INFO Epoch: [0][40/59] lr 0.000001 loss 1.6176 acc 20.43%
+[2026-04-08 16:47:13,094 efficientnet_b0_v2] (main.py 76): INFO [Epoch 0]: Train Loss: 1.6199, Train Acc: 20.29%, Val Loss: 1.6170, Val Acc: 19.44%, F1: 0.1916, Precision: 0.2113, Recall: 0.1944
+[2026-04-08 16:47:13,095 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 0 with accuracy: 19.44%
+[2026-04-08 16:47:13,095 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 19.44%
+[2026-04-08 16:47:14,571 efficientnet_b0_v2] (main.py 151): INFO Epoch: [1][0/59] lr 0.000021 loss 1.6189 acc 21.88%
+[2026-04-08 16:47:23,186 efficientnet_b0_v2] (main.py 151): INFO Epoch: [1][20/59] lr 0.000021 loss 1.6073 acc 23.36%
+[2026-04-08 16:47:30,826 efficientnet_b0_v2] (main.py 151): INFO Epoch: [1][40/59] lr 0.000021 loss 1.6013 acc 24.09%
+[2026-04-08 16:47:43,834 efficientnet_b0_v2] (main.py 76): INFO [Epoch 1]: Train Loss: 1.5957, Train Acc: 24.75%, Val Loss: 1.5704, Val Acc: 27.92%, F1: 0.2798, Precision: 0.2953, Recall: 0.2792
+[2026-04-08 16:47:43,835 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 1 with accuracy: 27.92%
+[2026-04-08 16:47:43,835 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 27.92%
+[2026-04-08 16:47:45,302 efficientnet_b0_v2] (main.py 151): INFO Epoch: [2][0/59] lr 0.000041 loss 1.5712 acc 35.94%
+[2026-04-08 16:47:54,266 efficientnet_b0_v2] (main.py 151): INFO Epoch: [2][20/59] lr 0.000041 loss 1.5741 acc 29.24%
+[2026-04-08 16:48:02,663 efficientnet_b0_v2] (main.py 151): INFO Epoch: [2][40/59] lr 0.000041 loss 1.5609 acc 31.52%
+[2026-04-08 16:48:14,823 efficientnet_b0_v2] (main.py 76): INFO [Epoch 2]: Train Loss: 1.5499, Train Acc: 33.73%, Val Loss: 1.4859, Val Acc: 44.56%, F1: 0.4399, Precision: 0.4452, Recall: 0.4456
+[2026-04-08 16:48:14,823 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 2 with accuracy: 44.56%
+[2026-04-08 16:48:14,823 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 44.56%
+[2026-04-08 16:48:17,210 efficientnet_b0_v2] (main.py 151): INFO Epoch: [3][0/59] lr 0.000060 loss 1.5208 acc 31.25%
+[2026-04-08 16:48:24,559 efficientnet_b0_v2] (main.py 151): INFO Epoch: [3][20/59] lr 0.000060 loss 1.5038 acc 40.70%
+[2026-04-08 16:48:33,720 efficientnet_b0_v2] (main.py 151): INFO Epoch: [3][40/59] lr 0.000060 loss 1.4854 acc 45.43%
+[2026-04-08 16:48:46,176 efficientnet_b0_v2] (main.py 76): INFO [Epoch 3]: Train Loss: 1.4708, Train Acc: 48.11%, Val Loss: 1.3765, Val Acc: 60.32%, F1: 0.5949, Precision: 0.6132, Recall: 0.6032
+[2026-04-08 16:48:46,176 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 3 with accuracy: 60.32%
+[2026-04-08 16:48:46,176 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 60.32%
+[2026-04-08 16:48:48,043 efficientnet_b0_v2] (main.py 151): INFO Epoch: [4][0/59] lr 0.000080 loss 1.4608 acc 56.25%
+[2026-04-08 16:48:56,471 efficientnet_b0_v2] (main.py 151): INFO Epoch: [4][20/59] lr 0.000080 loss 1.4048 acc 60.19%
+[2026-04-08 16:49:03,999 efficientnet_b0_v2] (main.py 151): INFO Epoch: [4][40/59] lr 0.000080 loss 1.3906 acc 60.06%
+[2026-04-08 16:49:16,795 efficientnet_b0_v2] (main.py 76): INFO [Epoch 4]: Train Loss: 1.3762, Train Acc: 61.65%, Val Loss: 1.2561, Val Acc: 71.84%, F1: 0.7138, Precision: 0.7299, Recall: 0.7184
+[2026-04-08 16:49:16,796 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 4 with accuracy: 71.84%
+[2026-04-08 16:49:16,796 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 71.84%
+[2026-04-08 16:49:18,431 efficientnet_b0_v2] (main.py 151): INFO Epoch: [5][0/59] lr 0.000098 loss 1.3529 acc 56.25%
+[2026-04-08 16:49:27,143 efficientnet_b0_v2] (main.py 151): INFO Epoch: [5][20/59] lr 0.000098 loss 1.3071 acc 66.89%
+[2026-04-08 16:49:36,240 efficientnet_b0_v2] (main.py 151): INFO Epoch: [5][40/59] lr 0.000098 loss 1.2910 acc 68.83%
+[2026-04-08 16:49:48,446 efficientnet_b0_v2] (main.py 76): INFO [Epoch 5]: Train Loss: 1.2781, Train Acc: 69.52%, Val Loss: 1.1330, Val Acc: 76.72%, F1: 0.7643, Precision: 0.7703, Recall: 0.7672
+[2026-04-08 16:49:48,447 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 5 with accuracy: 76.72%
+[2026-04-08 16:49:48,447 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 76.72%
+[2026-04-08 16:49:50,901 efficientnet_b0_v2] (main.py 151): INFO Epoch: [6][0/59] lr 0.000097 loss 1.2625 acc 65.62%
+[2026-04-08 16:49:58,055 efficientnet_b0_v2] (main.py 151): INFO Epoch: [6][20/59] lr 0.000097 loss 1.2189 acc 73.21%
+[2026-04-08 16:50:06,988 efficientnet_b0_v2] (main.py 151): INFO Epoch: [6][40/59] lr 0.000097 loss 1.2021 acc 74.12%
+[2026-04-08 16:50:20,078 efficientnet_b0_v2] (main.py 76): INFO [Epoch 6]: Train Loss: 1.1937, Train Acc: 74.11%, Val Loss: 1.0364, Val Acc: 79.60%, F1: 0.7960, Precision: 0.8042, Recall: 0.7960
+[2026-04-08 16:50:20,078 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 6 with accuracy: 79.60%
+[2026-04-08 16:50:20,078 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 79.60%
+[2026-04-08 16:50:21,781 efficientnet_b0_v2] (main.py 151): INFO Epoch: [7][0/59] lr 0.000096 loss 1.2495 acc 65.62%
+[2026-04-08 16:50:31,072 efficientnet_b0_v2] (main.py 151): INFO Epoch: [7][20/59] lr 0.000096 loss 1.1366 acc 75.45%
+[2026-04-08 16:50:38,653 efficientnet_b0_v2] (main.py 151): INFO Epoch: [7][40/59] lr 0.000096 loss 1.1315 acc 75.80%
+[2026-04-08 16:50:51,474 efficientnet_b0_v2] (main.py 76): INFO [Epoch 7]: Train Loss: 1.1278, Train Acc: 75.87%, Val Loss: 0.9623, Val Acc: 81.84%, F1: 0.8184, Precision: 0.8242, Recall: 0.8184
+[2026-04-08 16:50:51,475 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 7 with accuracy: 81.84%
+[2026-04-08 16:50:51,475 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 81.84%
+[2026-04-08 16:50:53,137 efficientnet_b0_v2] (main.py 151): INFO Epoch: [8][0/59] lr 0.000094 loss 1.1708 acc 68.75%
+[2026-04-08 16:51:01,999 efficientnet_b0_v2] (main.py 151): INFO Epoch: [8][20/59] lr 0.000094 loss 1.1040 acc 74.26%
+[2026-04-08 16:51:10,939 efficientnet_b0_v2] (main.py 151): INFO Epoch: [8][40/59] lr 0.000094 loss 1.0898 acc 76.41%
+[2026-04-08 16:51:23,143 efficientnet_b0_v2] (main.py 76): INFO [Epoch 8]: Train Loss: 1.0827, Train Acc: 77.07%, Val Loss: 0.9002, Val Acc: 82.32%, F1: 0.8232, Precision: 0.8278, Recall: 0.8232
+[2026-04-08 16:51:23,143 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 8 with accuracy: 82.32%
+[2026-04-08 16:51:23,143 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 82.32%
+[2026-04-08 16:51:25,426 efficientnet_b0_v2] (main.py 151): INFO Epoch: [9][0/59] lr 0.000093 loss 1.0086 acc 85.94%
+[2026-04-08 16:51:33,159 efficientnet_b0_v2] (main.py 151): INFO Epoch: [9][20/59] lr 0.000093 loss 1.0335 acc 78.12%
+[2026-04-08 16:51:42,118 efficientnet_b0_v2] (main.py 151): INFO Epoch: [9][40/59] lr 0.000093 loss 1.0265 acc 78.54%
+[2026-04-08 16:51:54,468 efficientnet_b0_v2] (main.py 76): INFO [Epoch 9]: Train Loss: 1.0292, Train Acc: 78.19%, Val Loss: 0.8446, Val Acc: 83.04%, F1: 0.8305, Precision: 0.8342, Recall: 0.8304
+[2026-04-08 16:51:54,469 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 9 with accuracy: 83.04%
+[2026-04-08 16:51:54,469 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 83.04%
+[2026-04-08 16:51:56,448 efficientnet_b0_v2] (main.py 151): INFO Epoch: [10][0/59] lr 0.000091 loss 0.9930 acc 81.25%
+[2026-04-08 16:52:05,466 efficientnet_b0_v2] (main.py 151): INFO Epoch: [10][20/59] lr 0.000091 loss 1.0110 acc 80.21%
+[2026-04-08 16:52:12,552 efficientnet_b0_v2] (main.py 151): INFO Epoch: [10][40/59] lr 0.000091 loss 1.0043 acc 79.42%
+[2026-04-08 16:52:25,315 efficientnet_b0_v2] (main.py 76): INFO [Epoch 10]: Train Loss: 0.9994, Train Acc: 78.77%, Val Loss: 0.8022, Val Acc: 84.00%, F1: 0.8395, Precision: 0.8430, Recall: 0.8400
+[2026-04-08 16:52:25,315 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 10 with accuracy: 84.00%
+[2026-04-08 16:52:25,315 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 84.00%
+[2026-04-08 16:52:26,918 efficientnet_b0_v2] (main.py 151): INFO Epoch: [11][0/59] lr 0.000090 loss 0.9673 acc 79.69%
+[2026-04-08 16:52:36,035 efficientnet_b0_v2] (main.py 151): INFO Epoch: [11][20/59] lr 0.000090 loss 0.9743 acc 79.99%
+[2026-04-08 16:52:45,040 efficientnet_b0_v2] (main.py 151): INFO Epoch: [11][40/59] lr 0.000090 loss 0.9711 acc 79.42%
+[2026-04-08 16:52:57,159 efficientnet_b0_v2] (main.py 76): INFO [Epoch 11]: Train Loss: 0.9676, Train Acc: 79.68%, Val Loss: 0.7623, Val Acc: 84.00%, F1: 0.8398, Precision: 0.8427, Recall: 0.8400
+[2026-04-08 16:52:57,159 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 11 with accuracy: 84.00%
+[2026-04-08 16:52:57,160 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 84.00%
+[2026-04-08 16:52:59,464 efficientnet_b0_v2] (main.py 151): INFO Epoch: [12][0/59] lr 0.000088 loss 0.9146 acc 79.69%
+[2026-04-08 16:53:07,255 efficientnet_b0_v2] (main.py 151): INFO Epoch: [12][20/59] lr 0.000088 loss 0.9611 acc 77.83%
+[2026-04-08 16:53:16,548 efficientnet_b0_v2] (main.py 151): INFO Epoch: [12][40/59] lr 0.000088 loss 0.9540 acc 78.96%
+[2026-04-08 16:53:28,508 efficientnet_b0_v2] (main.py 76): INFO [Epoch 12]: Train Loss: 0.9488, Train Acc: 79.33%, Val Loss: 0.7386, Val Acc: 84.40%, F1: 0.8441, Precision: 0.8469, Recall: 0.8440
+[2026-04-08 16:53:28,508 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 12 with accuracy: 84.40%
+[2026-04-08 16:53:28,509 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 84.40%
+[2026-04-08 16:53:30,437 efficientnet_b0_v2] (main.py 151): INFO Epoch: [13][0/59] lr 0.000086 loss 0.8816 acc 84.38%
+[2026-04-08 16:53:39,363 efficientnet_b0_v2] (main.py 151): INFO Epoch: [13][20/59] lr 0.000086 loss 0.9218 acc 79.91%
+[2026-04-08 16:53:47,485 efficientnet_b0_v2] (main.py 151): INFO Epoch: [13][40/59] lr 0.000086 loss 0.9325 acc 79.69%
+[2026-04-08 16:53:59,533 efficientnet_b0_v2] (main.py 76): INFO [Epoch 13]: Train Loss: 0.9306, Train Acc: 79.89%, Val Loss: 0.7137, Val Acc: 84.32%, F1: 0.8435, Precision: 0.8458, Recall: 0.8432
+[2026-04-08 16:53:59,534 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 84.40%
+[2026-04-08 16:54:01,098 efficientnet_b0_v2] (main.py 151): INFO Epoch: [14][0/59] lr 0.000084 loss 0.8623 acc 78.12%
+[2026-04-08 16:54:10,628 efficientnet_b0_v2] (main.py 151): INFO Epoch: [14][20/59] lr 0.000084 loss 0.9138 acc 79.54%
+[2026-04-08 16:54:20,202 efficientnet_b0_v2] (main.py 151): INFO Epoch: [14][40/59] lr 0.000084 loss 0.9168 acc 79.84%
+[2026-04-08 16:54:33,021 efficientnet_b0_v2] (main.py 76): INFO [Epoch 14]: Train Loss: 0.9142, Train Acc: 80.13%, Val Loss: 0.6841, Val Acc: 84.32%, F1: 0.8432, Precision: 0.8454, Recall: 0.8432
+[2026-04-08 16:54:33,021 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 84.40%
+[2026-04-08 16:54:35,206 efficientnet_b0_v2] (main.py 151): INFO Epoch: [15][0/59] lr 0.000081 loss 0.9198 acc 81.25%
+[2026-04-08 16:54:43,629 efficientnet_b0_v2] (main.py 151): INFO Epoch: [15][20/59] lr 0.000081 loss 0.8999 acc 81.47%
+[2026-04-08 16:54:53,261 efficientnet_b0_v2] (main.py 151): INFO Epoch: [15][40/59] lr 0.000081 loss 0.8973 acc 81.29%
+[2026-04-08 16:55:06,156 efficientnet_b0_v2] (main.py 76): INFO [Epoch 15]: Train Loss: 0.8948, Train Acc: 81.07%, Val Loss: 0.6609, Val Acc: 85.04%, F1: 0.8504, Precision: 0.8529, Recall: 0.8504
+[2026-04-08 16:55:06,156 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 15 with accuracy: 85.04%
+[2026-04-08 16:55:06,156 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 85.04%
+[2026-04-08 16:55:08,184 efficientnet_b0_v2] (main.py 151): INFO Epoch: [16][0/59] lr 0.000079 loss 0.8445 acc 85.94%
+[2026-04-08 16:55:17,665 efficientnet_b0_v2] (main.py 151): INFO Epoch: [16][20/59] lr 0.000079 loss 0.8893 acc 80.88%
+[2026-04-08 16:55:27,073 efficientnet_b0_v2] (main.py 151): INFO Epoch: [16][40/59] lr 0.000079 loss 0.8815 acc 81.14%
+[2026-04-08 16:55:39,168 efficientnet_b0_v2] (main.py 76): INFO [Epoch 16]: Train Loss: 0.8845, Train Acc: 80.91%, Val Loss: 0.6446, Val Acc: 85.36%, F1: 0.8535, Precision: 0.8560, Recall: 0.8536
+[2026-04-08 16:55:39,169 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 16 with accuracy: 85.36%
+[2026-04-08 16:55:39,170 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 85.36%
+[2026-04-08 16:55:41,740 efficientnet_b0_v2] (main.py 151): INFO Epoch: [17][0/59] lr 0.000077 loss 0.8441 acc 85.94%
+[2026-04-08 16:55:49,800 efficientnet_b0_v2] (main.py 151): INFO Epoch: [17][20/59] lr 0.000077 loss 0.8615 acc 83.04%
+[2026-04-08 16:55:59,457 efficientnet_b0_v2] (main.py 151): INFO Epoch: [17][40/59] lr 0.000077 loss 0.8664 acc 81.67%
+[2026-04-08 16:56:12,305 efficientnet_b0_v2] (main.py 76): INFO [Epoch 17]: Train Loss: 0.8725, Train Acc: 81.36%, Val Loss: 0.6346, Val Acc: 85.60%, F1: 0.8560, Precision: 0.8584, Recall: 0.8560
+[2026-04-08 16:56:12,305 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 17 with accuracy: 85.60%
+[2026-04-08 16:56:12,305 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 85.60%
+[2026-04-08 16:56:13,968 efficientnet_b0_v2] (main.py 151): INFO Epoch: [18][0/59] lr 0.000074 loss 0.7555 acc 92.19%
+[2026-04-08 16:56:22,992 efficientnet_b0_v2] (main.py 151): INFO Epoch: [18][20/59] lr 0.000074 loss 0.8367 acc 82.89%
+[2026-04-08 16:56:31,006 efficientnet_b0_v2] (main.py 151): INFO Epoch: [18][40/59] lr 0.000074 loss 0.8434 acc 82.16%
+[2026-04-08 16:56:44,443 efficientnet_b0_v2] (main.py 76): INFO [Epoch 18]: Train Loss: 0.8563, Train Acc: 81.60%, Val Loss: 0.6199, Val Acc: 85.44%, F1: 0.8545, Precision: 0.8563, Recall: 0.8544
+[2026-04-08 16:56:44,443 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 85.60%
+[2026-04-08 16:56:47,314 efficientnet_b0_v2] (main.py 151): INFO Epoch: [19][0/59] lr 0.000072 loss 0.9300 acc 82.81%
+[2026-04-08 16:56:55,528 efficientnet_b0_v2] (main.py 151): INFO Epoch: [19][20/59] lr 0.000072 loss 0.8569 acc 81.85%
+[2026-04-08 16:57:04,236 efficientnet_b0_v2] (main.py 151): INFO Epoch: [19][40/59] lr 0.000072 loss 0.8600 acc 81.75%
+[2026-04-08 16:57:17,742 efficientnet_b0_v2] (main.py 76): INFO [Epoch 19]: Train Loss: 0.8565, Train Acc: 81.60%, Val Loss: 0.6085, Val Acc: 85.52%, F1: 0.8553, Precision: 0.8582, Recall: 0.8552
+[2026-04-08 16:57:17,742 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 85.60%
+[2026-04-08 16:57:19,767 efficientnet_b0_v2] (main.py 151): INFO Epoch: [20][0/59] lr 0.000069 loss 0.8519 acc 79.69%
+[2026-04-08 16:57:28,234 efficientnet_b0_v2] (main.py 151): INFO Epoch: [20][20/59] lr 0.000069 loss 0.8478 acc 82.37%
+[2026-04-08 16:57:36,032 efficientnet_b0_v2] (main.py 151): INFO Epoch: [20][40/59] lr 0.000069 loss 0.8476 acc 82.01%
+[2026-04-08 16:57:49,153 efficientnet_b0_v2] (main.py 76): INFO [Epoch 20]: Train Loss: 0.8475, Train Acc: 81.79%, Val Loss: 0.5979, Val Acc: 85.60%, F1: 0.8561, Precision: 0.8586, Recall: 0.8560
+[2026-04-08 16:57:49,153 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 85.60%
+[2026-04-08 16:57:50,996 efficientnet_b0_v2] (main.py 151): INFO Epoch: [21][0/59] lr 0.000066 loss 0.8671 acc 81.25%
+[2026-04-08 16:58:00,124 efficientnet_b0_v2] (main.py 151): INFO Epoch: [21][20/59] lr 0.000066 loss 0.8529 acc 81.85%
+[2026-04-08 16:58:08,606 efficientnet_b0_v2] (main.py 151): INFO Epoch: [21][40/59] lr 0.000066 loss 0.8381 acc 82.32%
+[2026-04-08 16:58:21,776 efficientnet_b0_v2] (main.py 76): INFO [Epoch 21]: Train Loss: 0.8368, Train Acc: 82.61%, Val Loss: 0.5853, Val Acc: 86.16%, F1: 0.8620, Precision: 0.8647, Recall: 0.8616
+[2026-04-08 16:58:21,777 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 21 with accuracy: 86.16%
+[2026-04-08 16:58:21,777 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 86.16%
+[2026-04-08 16:58:24,724 efficientnet_b0_v2] (main.py 151): INFO Epoch: [22][0/59] lr 0.000063 loss 0.8143 acc 78.12%
+[2026-04-08 16:58:32,485 efficientnet_b0_v2] (main.py 151): INFO Epoch: [22][20/59] lr 0.000063 loss 0.8197 acc 82.96%
+[2026-04-08 16:58:41,878 efficientnet_b0_v2] (main.py 151): INFO Epoch: [22][40/59] lr 0.000063 loss 0.8230 acc 82.43%
+[2026-04-08 16:58:54,868 efficientnet_b0_v2] (main.py 76): INFO [Epoch 22]: Train Loss: 0.8328, Train Acc: 81.76%, Val Loss: 0.5757, Val Acc: 86.64%, F1: 0.8665, Precision: 0.8688, Recall: 0.8664
+[2026-04-08 16:58:54,868 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 22 with accuracy: 86.64%
+[2026-04-08 16:58:54,868 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 86.64%
+[2026-04-08 16:58:56,937 efficientnet_b0_v2] (main.py 151): INFO Epoch: [23][0/59] lr 0.000061 loss 0.7843 acc 84.38%
+[2026-04-08 16:59:05,785 efficientnet_b0_v2] (main.py 151): INFO Epoch: [23][20/59] lr 0.000061 loss 0.8494 acc 80.80%
+[2026-04-08 16:59:13,565 efficientnet_b0_v2] (main.py 151): INFO Epoch: [23][40/59] lr 0.000061 loss 0.8338 acc 82.20%
+[2026-04-08 16:59:26,496 efficientnet_b0_v2] (main.py 76): INFO [Epoch 23]: Train Loss: 0.8285, Train Acc: 82.59%, Val Loss: 0.5663, Val Acc: 86.00%, F1: 0.8602, Precision: 0.8624, Recall: 0.8600
+[2026-04-08 16:59:26,497 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 86.64%
+[2026-04-08 16:59:28,483 efficientnet_b0_v2] (main.py 151): INFO Epoch: [24][0/59] lr 0.000058 loss 0.8341 acc 79.69%
+[2026-04-08 16:59:37,326 efficientnet_b0_v2] (main.py 151): INFO Epoch: [24][20/59] lr 0.000058 loss 0.8208 acc 82.51%
+[2026-04-08 16:59:46,661 efficientnet_b0_v2] (main.py 151): INFO Epoch: [24][40/59] lr 0.000058 loss 0.8207 acc 83.42%
+[2026-04-08 16:59:59,411 efficientnet_b0_v2] (main.py 76): INFO [Epoch 24]: Train Loss: 0.8237, Train Acc: 83.09%, Val Loss: 0.5577, Val Acc: 86.56%, F1: 0.8657, Precision: 0.8677, Recall: 0.8656
+[2026-04-08 16:59:59,411 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 86.64%
+[2026-04-08 17:00:01,290 efficientnet_b0_v2] (main.py 151): INFO Epoch: [25][0/59] lr 0.000055 loss 0.7973 acc 84.38%
+[2026-04-08 17:00:09,085 efficientnet_b0_v2] (main.py 151): INFO Epoch: [25][20/59] lr 0.000055 loss 0.8113 acc 83.48%
+[2026-04-08 17:00:17,307 efficientnet_b0_v2] (main.py 151): INFO Epoch: [25][40/59] lr 0.000055 loss 0.8157 acc 83.08%
+[2026-04-08 17:00:30,277 efficientnet_b0_v2] (main.py 76): INFO [Epoch 25]: Train Loss: 0.8166, Train Acc: 82.75%, Val Loss: 0.5490, Val Acc: 87.04%, F1: 0.8704, Precision: 0.8721, Recall: 0.8704
+[2026-04-08 17:00:30,277 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 25 with accuracy: 87.04%
+[2026-04-08 17:00:30,277 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.04%
+[2026-04-08 17:00:31,939 efficientnet_b0_v2] (main.py 151): INFO Epoch: [26][0/59] lr 0.000052 loss 0.8650 acc 78.12%
+[2026-04-08 17:00:40,869 efficientnet_b0_v2] (main.py 151): INFO Epoch: [26][20/59] lr 0.000052 loss 0.8155 acc 82.74%
+[2026-04-08 17:00:48,651 efficientnet_b0_v2] (main.py 151): INFO Epoch: [26][40/59] lr 0.000052 loss 0.8194 acc 82.51%
+[2026-04-08 17:01:01,430 efficientnet_b0_v2] (main.py 76): INFO [Epoch 26]: Train Loss: 0.8208, Train Acc: 82.40%, Val Loss: 0.5487, Val Acc: 86.64%, F1: 0.8666, Precision: 0.8683, Recall: 0.8664
+[2026-04-08 17:01:01,431 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.04%
+[2026-04-08 17:01:04,116 efficientnet_b0_v2] (main.py 151): INFO Epoch: [27][0/59] lr 0.000049 loss 0.7567 acc 87.50%
+[2026-04-08 17:01:12,204 efficientnet_b0_v2] (main.py 151): INFO Epoch: [27][20/59] lr 0.000049 loss 0.8041 acc 82.96%
+[2026-04-08 17:01:20,523 efficientnet_b0_v2] (main.py 151): INFO Epoch: [27][40/59] lr 0.000049 loss 0.8125 acc 83.16%
+[2026-04-08 17:01:33,401 efficientnet_b0_v2] (main.py 76): INFO [Epoch 27]: Train Loss: 0.8134, Train Acc: 82.93%, Val Loss: 0.5430, Val Acc: 86.80%, F1: 0.8684, Precision: 0.8714, Recall: 0.8680
+[2026-04-08 17:01:33,401 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.04%
+[2026-04-08 17:01:35,258 efficientnet_b0_v2] (main.py 151): INFO Epoch: [28][0/59] lr 0.000047 loss 0.8011 acc 82.81%
+[2026-04-08 17:01:42,590 efficientnet_b0_v2] (main.py 151): INFO Epoch: [28][20/59] lr 0.000047 loss 0.8048 acc 83.78%
+[2026-04-08 17:01:51,541 efficientnet_b0_v2] (main.py 151): INFO Epoch: [28][40/59] lr 0.000047 loss 0.8124 acc 82.85%
+[2026-04-08 17:02:04,090 efficientnet_b0_v2] (main.py 76): INFO [Epoch 28]: Train Loss: 0.8083, Train Acc: 82.96%, Val Loss: 0.5448, Val Acc: 86.08%, F1: 0.8610, Precision: 0.8635, Recall: 0.8608
+[2026-04-08 17:02:04,090 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.04%
+[2026-04-08 17:02:06,079 efficientnet_b0_v2] (main.py 151): INFO Epoch: [29][0/59] lr 0.000044 loss 0.7429 acc 89.06%
+[2026-04-08 17:02:14,923 efficientnet_b0_v2] (main.py 151): INFO Epoch: [29][20/59] lr 0.000044 loss 0.8135 acc 83.11%
+[2026-04-08 17:02:21,907 efficientnet_b0_v2] (main.py 151): INFO Epoch: [29][40/59] lr 0.000044 loss 0.8004 acc 83.46%
+[2026-04-08 17:02:35,214 efficientnet_b0_v2] (main.py 76): INFO [Epoch 29]: Train Loss: 0.7997, Train Acc: 83.55%, Val Loss: 0.5323, Val Acc: 87.12%, F1: 0.8713, Precision: 0.8731, Recall: 0.8712
+[2026-04-08 17:02:35,214 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 29 with accuracy: 87.12%
+[2026-04-08 17:02:35,214 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.12%
+[2026-04-08 17:02:36,922 efficientnet_b0_v2] (main.py 151): INFO Epoch: [30][0/59] lr 0.000041 loss 0.8580 acc 75.00%
+[2026-04-08 17:02:45,915 efficientnet_b0_v2] (main.py 151): INFO Epoch: [30][20/59] lr 0.000041 loss 0.8107 acc 81.25%
+[2026-04-08 17:02:54,184 efficientnet_b0_v2] (main.py 151): INFO Epoch: [30][40/59] lr 0.000041 loss 0.8081 acc 82.13%
+[2026-04-08 17:03:07,851 efficientnet_b0_v2] (main.py 76): INFO [Epoch 30]: Train Loss: 0.8070, Train Acc: 82.21%, Val Loss: 0.5299, Val Acc: 86.96%, F1: 0.8698, Precision: 0.8724, Recall: 0.8696
+[2026-04-08 17:03:07,852 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.12%
+[2026-04-08 17:03:09,700 efficientnet_b0_v2] (main.py 151): INFO Epoch: [31][0/59] lr 0.000038 loss 0.8178 acc 85.94%
+[2026-04-08 17:03:17,320 efficientnet_b0_v2] (main.py 151): INFO Epoch: [31][20/59] lr 0.000038 loss 0.8149 acc 82.51%
+[2026-04-08 17:03:26,002 efficientnet_b0_v2] (main.py 151): INFO Epoch: [31][40/59] lr 0.000038 loss 0.7978 acc 83.27%
+[2026-04-08 17:03:39,079 efficientnet_b0_v2] (main.py 76): INFO [Epoch 31]: Train Loss: 0.8039, Train Acc: 82.96%, Val Loss: 0.5246, Val Acc: 87.12%, F1: 0.8712, Precision: 0.8731, Recall: 0.8712
+[2026-04-08 17:03:39,080 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.12%
+[2026-04-08 17:03:41,055 efficientnet_b0_v2] (main.py 151): INFO Epoch: [32][0/59] lr 0.000036 loss 0.8697 acc 78.12%
+[2026-04-08 17:03:50,415 efficientnet_b0_v2] (main.py 151): INFO Epoch: [32][20/59] lr 0.000036 loss 0.8112 acc 82.29%
+[2026-04-08 17:03:58,021 efficientnet_b0_v2] (main.py 151): INFO Epoch: [32][40/59] lr 0.000036 loss 0.7953 acc 83.00%
+[2026-04-08 17:04:10,624 efficientnet_b0_v2] (main.py 76): INFO [Epoch 32]: Train Loss: 0.7960, Train Acc: 83.33%, Val Loss: 0.5200, Val Acc: 86.56%, F1: 0.8657, Precision: 0.8670, Recall: 0.8656
+[2026-04-08 17:04:10,624 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.12%
+[2026-04-08 17:04:13,228 efficientnet_b0_v2] (main.py 151): INFO Epoch: [33][0/59] lr 0.000033 loss 0.7096 acc 89.06%
+[2026-04-08 17:04:21,478 efficientnet_b0_v2] (main.py 151): INFO Epoch: [33][20/59] lr 0.000033 loss 0.7962 acc 82.59%
+[2026-04-08 17:04:30,505 efficientnet_b0_v2] (main.py 151): INFO Epoch: [33][40/59] lr 0.000033 loss 0.7903 acc 83.54%
+[2026-04-08 17:04:43,332 efficientnet_b0_v2] (main.py 76): INFO [Epoch 33]: Train Loss: 0.7991, Train Acc: 83.20%, Val Loss: 0.5187, Val Acc: 86.88%, F1: 0.8690, Precision: 0.8711, Recall: 0.8688
+[2026-04-08 17:04:43,332 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.12%
+[2026-04-08 17:04:44,901 efficientnet_b0_v2] (main.py 151): INFO Epoch: [34][0/59] lr 0.000031 loss 0.7152 acc 87.50%
+[2026-04-08 17:04:52,963 efficientnet_b0_v2] (main.py 151): INFO Epoch: [34][20/59] lr 0.000031 loss 0.7970 acc 82.59%
+[2026-04-08 17:05:01,476 efficientnet_b0_v2] (main.py 151): INFO Epoch: [34][40/59] lr 0.000031 loss 0.7994 acc 82.93%
+[2026-04-08 17:05:14,885 efficientnet_b0_v2] (main.py 76): INFO [Epoch 34]: Train Loss: 0.7987, Train Acc: 83.09%, Val Loss: 0.5168, Val Acc: 86.64%, F1: 0.8667, Precision: 0.8691, Recall: 0.8664
+[2026-04-08 17:05:14,885 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.12%
+[2026-04-08 17:05:16,619 efficientnet_b0_v2] (main.py 151): INFO Epoch: [35][0/59] lr 0.000029 loss 0.7159 acc 90.62%
+[2026-04-08 17:05:25,236 efficientnet_b0_v2] (main.py 151): INFO Epoch: [35][20/59] lr 0.000029 loss 0.7858 acc 84.08%
+[2026-04-08 17:05:33,447 efficientnet_b0_v2] (main.py 151): INFO Epoch: [35][40/59] lr 0.000029 loss 0.7921 acc 83.46%
+[2026-04-08 17:05:47,048 efficientnet_b0_v2] (main.py 76): INFO [Epoch 35]: Train Loss: 0.7929, Train Acc: 83.23%, Val Loss: 0.5122, Val Acc: 87.36%, F1: 0.8738, Precision: 0.8752, Recall: 0.8736
+[2026-04-08 17:05:47,048 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 35 with accuracy: 87.36%
+[2026-04-08 17:05:47,048 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.36%
+[2026-04-08 17:05:49,491 efficientnet_b0_v2] (main.py 151): INFO Epoch: [36][0/59] lr 0.000026 loss 0.7321 acc 93.75%
+[2026-04-08 17:05:57,101 efficientnet_b0_v2] (main.py 151): INFO Epoch: [36][20/59] lr 0.000026 loss 0.7829 acc 84.08%
+[2026-04-08 17:06:06,174 efficientnet_b0_v2] (main.py 151): INFO Epoch: [36][40/59] lr 0.000026 loss 0.7897 acc 83.73%
+[2026-04-08 17:06:19,092 efficientnet_b0_v2] (main.py 76): INFO [Epoch 36]: Train Loss: 0.7864, Train Acc: 83.76%, Val Loss: 0.5127, Val Acc: 86.88%, F1: 0.8692, Precision: 0.8722, Recall: 0.8688
+[2026-04-08 17:06:19,093 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.36%
+[2026-04-08 17:06:20,980 efficientnet_b0_v2] (main.py 151): INFO Epoch: [37][0/59] lr 0.000024 loss 0.8077 acc 87.50%
+[2026-04-08 17:06:29,414 efficientnet_b0_v2] (main.py 151): INFO Epoch: [37][20/59] lr 0.000024 loss 0.7832 acc 83.71%
+[2026-04-08 17:06:37,127 efficientnet_b0_v2] (main.py 151): INFO Epoch: [37][40/59] lr 0.000024 loss 0.7862 acc 84.18%
+[2026-04-08 17:06:50,297 efficientnet_b0_v2] (main.py 76): INFO [Epoch 37]: Train Loss: 0.7947, Train Acc: 83.41%, Val Loss: 0.5126, Val Acc: 86.96%, F1: 0.8697, Precision: 0.8717, Recall: 0.8696
+[2026-04-08 17:06:50,297 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.36%
+[2026-04-08 17:06:52,304 efficientnet_b0_v2] (main.py 151): INFO Epoch: [38][0/59] lr 0.000022 loss 0.7944 acc 85.94%
+[2026-04-08 17:07:01,383 efficientnet_b0_v2] (main.py 151): INFO Epoch: [38][20/59] lr 0.000022 loss 0.7997 acc 82.81%
+[2026-04-08 17:07:10,288 efficientnet_b0_v2] (main.py 151): INFO Epoch: [38][40/59] lr 0.000022 loss 0.7985 acc 83.08%
+[2026-04-08 17:07:22,652 efficientnet_b0_v2] (main.py 76): INFO [Epoch 38]: Train Loss: 0.7928, Train Acc: 83.44%, Val Loss: 0.5106, Val Acc: 87.04%, F1: 0.8707, Precision: 0.8723, Recall: 0.8704
+[2026-04-08 17:07:22,653 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.36%
+[2026-04-08 17:07:24,785 efficientnet_b0_v2] (main.py 151): INFO Epoch: [39][0/59] lr 0.000020 loss 0.8049 acc 89.06%
+[2026-04-08 17:07:32,241 efficientnet_b0_v2] (main.py 151): INFO Epoch: [39][20/59] lr 0.000020 loss 0.7980 acc 84.00%
+[2026-04-08 17:07:40,970 efficientnet_b0_v2] (main.py 151): INFO Epoch: [39][40/59] lr 0.000020 loss 0.7861 acc 84.07%
+[2026-04-08 17:07:54,150 efficientnet_b0_v2] (main.py 76): INFO [Epoch 39]: Train Loss: 0.7835, Train Acc: 84.19%, Val Loss: 0.5057, Val Acc: 87.12%, F1: 0.8714, Precision: 0.8732, Recall: 0.8712
+[2026-04-08 17:07:54,151 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.36%
+[2026-04-08 17:07:55,704 efficientnet_b0_v2] (main.py 151): INFO Epoch: [40][0/59] lr 0.000019 loss 0.7719 acc 79.69%
+[2026-04-08 17:08:04,501 efficientnet_b0_v2] (main.py 151): INFO Epoch: [40][20/59] lr 0.000019 loss 0.7886 acc 83.48%
+[2026-04-08 17:08:14,232 efficientnet_b0_v2] (main.py 151): INFO Epoch: [40][40/59] lr 0.000019 loss 0.7849 acc 84.07%
+[2026-04-08 17:08:28,950 efficientnet_b0_v2] (main.py 76): INFO [Epoch 40]: Train Loss: 0.7854, Train Acc: 83.81%, Val Loss: 0.5032, Val Acc: 87.28%, F1: 0.8729, Precision: 0.8746, Recall: 0.8728
+[2026-04-08 17:08:28,951 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.36%
+[2026-04-08 17:08:31,163 efficientnet_b0_v2] (main.py 151): INFO Epoch: [41][0/59] lr 0.000017 loss 0.8053 acc 82.81%
+[2026-04-08 17:08:38,683 efficientnet_b0_v2] (main.py 151): INFO Epoch: [41][20/59] lr 0.000017 loss 0.7770 acc 83.41%
+[2026-04-08 17:08:47,715 efficientnet_b0_v2] (main.py 151): INFO Epoch: [41][40/59] lr 0.000017 loss 0.7909 acc 82.85%
+[2026-04-08 17:09:00,679 efficientnet_b0_v2] (main.py 76): INFO [Epoch 41]: Train Loss: 0.7857, Train Acc: 83.65%, Val Loss: 0.5011, Val Acc: 87.20%, F1: 0.8720, Precision: 0.8736, Recall: 0.8720
+[2026-04-08 17:09:00,680 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.36%
+[2026-04-08 17:09:02,251 efficientnet_b0_v2] (main.py 151): INFO Epoch: [42][0/59] lr 0.000016 loss 0.7629 acc 84.38%
+[2026-04-08 17:09:11,087 efficientnet_b0_v2] (main.py 151): INFO Epoch: [42][20/59] lr 0.000016 loss 0.8058 acc 81.62%
+[2026-04-08 17:09:18,672 efficientnet_b0_v2] (main.py 151): INFO Epoch: [42][40/59] lr 0.000016 loss 0.7959 acc 83.00%
+[2026-04-08 17:09:31,809 efficientnet_b0_v2] (main.py 76): INFO [Epoch 42]: Train Loss: 0.7950, Train Acc: 83.20%, Val Loss: 0.5043, Val Acc: 86.96%, F1: 0.8698, Precision: 0.8722, Recall: 0.8696
+[2026-04-08 17:09:31,810 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.36%
+[2026-04-08 17:09:33,615 efficientnet_b0_v2] (main.py 151): INFO Epoch: [43][0/59] lr 0.000014 loss 0.7448 acc 87.50%
+[2026-04-08 17:09:42,617 efficientnet_b0_v2] (main.py 151): INFO Epoch: [43][20/59] lr 0.000014 loss 0.7845 acc 85.27%
+[2026-04-08 17:09:51,487 efficientnet_b0_v2] (main.py 151): INFO Epoch: [43][40/59] lr 0.000014 loss 0.7809 acc 84.79%
+[2026-04-08 17:10:04,323 efficientnet_b0_v2] (main.py 76): INFO [Epoch 43]: Train Loss: 0.7820, Train Acc: 84.37%, Val Loss: 0.4994, Val Acc: 87.20%, F1: 0.8722, Precision: 0.8735, Recall: 0.8720
+[2026-04-08 17:10:04,324 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.36%
+[2026-04-08 17:10:06,298 efficientnet_b0_v2] (main.py 151): INFO Epoch: [44][0/59] lr 0.000013 loss 0.7292 acc 85.94%
+[2026-04-08 17:10:14,522 efficientnet_b0_v2] (main.py 151): INFO Epoch: [44][20/59] lr 0.000013 loss 0.7884 acc 82.29%
+[2026-04-08 17:10:22,970 efficientnet_b0_v2] (main.py 151): INFO Epoch: [44][40/59] lr 0.000013 loss 0.7832 acc 83.54%
+[2026-04-08 17:10:35,340 efficientnet_b0_v2] (main.py 76): INFO [Epoch 44]: Train Loss: 0.7851, Train Acc: 83.39%, Val Loss: 0.4978, Val Acc: 87.20%, F1: 0.8724, Precision: 0.8745, Recall: 0.8720
+[2026-04-08 17:10:35,340 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.36%
+[2026-04-08 17:10:37,125 efficientnet_b0_v2] (main.py 151): INFO Epoch: [45][0/59] lr 0.000012 loss 0.7335 acc 87.50%
+[2026-04-08 17:10:46,314 efficientnet_b0_v2] (main.py 151): INFO Epoch: [45][20/59] lr 0.000012 loss 0.7860 acc 83.26%
+[2026-04-08 17:10:55,026 efficientnet_b0_v2] (main.py 151): INFO Epoch: [45][40/59] lr 0.000012 loss 0.7804 acc 83.77%
+[2026-04-08 17:11:06,914 efficientnet_b0_v2] (main.py 76): INFO [Epoch 45]: Train Loss: 0.7840, Train Acc: 83.92%, Val Loss: 0.4999, Val Acc: 87.68%, F1: 0.8767, Precision: 0.8785, Recall: 0.8768
+[2026-04-08 17:11:06,915 efficientnet_b0_v2] (main.py 87): INFO Best performance updated at epoch 45 with accuracy: 87.68%
+[2026-04-08 17:11:06,915 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.68%
+[2026-04-08 17:11:09,626 efficientnet_b0_v2] (main.py 151): INFO Epoch: [46][0/59] lr 0.000011 loss 0.7883 acc 85.94%
+[2026-04-08 17:11:17,270 efficientnet_b0_v2] (main.py 151): INFO Epoch: [46][20/59] lr 0.000011 loss 0.7625 acc 85.27%
+[2026-04-08 17:11:26,160 efficientnet_b0_v2] (main.py 151): INFO Epoch: [46][40/59] lr 0.000011 loss 0.7770 acc 83.99%
+[2026-04-08 17:11:38,811 efficientnet_b0_v2] (main.py 76): INFO [Epoch 46]: Train Loss: 0.7860, Train Acc: 83.52%, Val Loss: 0.5013, Val Acc: 87.04%, F1: 0.8708, Precision: 0.8727, Recall: 0.8704
+[2026-04-08 17:11:38,812 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.68%
+[2026-04-08 17:11:40,631 efficientnet_b0_v2] (main.py 151): INFO Epoch: [47][0/59] lr 0.000011 loss 0.7641 acc 84.38%
+[2026-04-08 17:11:49,619 efficientnet_b0_v2] (main.py 151): INFO Epoch: [47][20/59] lr 0.000011 loss 0.7792 acc 83.85%
+[2026-04-08 17:11:57,319 efficientnet_b0_v2] (main.py 151): INFO Epoch: [47][40/59] lr 0.000011 loss 0.7808 acc 84.07%
+[2026-04-08 17:12:09,711 efficientnet_b0_v2] (main.py 76): INFO [Epoch 47]: Train Loss: 0.7838, Train Acc: 83.89%, Val Loss: 0.5003, Val Acc: 86.72%, F1: 0.8676, Precision: 0.8690, Recall: 0.8672
+[2026-04-08 17:12:09,711 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.68%
+[2026-04-08 17:12:11,635 efficientnet_b0_v2] (main.py 151): INFO Epoch: [48][0/59] lr 0.000010 loss 0.6960 acc 90.62%
+[2026-04-08 17:12:20,049 efficientnet_b0_v2] (main.py 151): INFO Epoch: [48][20/59] lr 0.000010 loss 0.7668 acc 84.67%
+[2026-04-08 17:12:29,163 efficientnet_b0_v2] (main.py 151): INFO Epoch: [48][40/59] lr 0.000010 loss 0.7736 acc 84.15%
+[2026-04-08 17:12:42,179 efficientnet_b0_v2] (main.py 76): INFO [Epoch 48]: Train Loss: 0.7801, Train Acc: 83.76%, Val Loss: 0.4996, Val Acc: 86.96%, F1: 0.8699, Precision: 0.8721, Recall: 0.8696
+[2026-04-08 17:12:42,179 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.68%
+[2026-04-08 17:12:44,116 efficientnet_b0_v2] (main.py 151): INFO Epoch: [49][0/59] lr 0.000010 loss 0.8195 acc 81.25%
+[2026-04-08 17:12:51,242 efficientnet_b0_v2] (main.py 151): INFO Epoch: [49][20/59] lr 0.000010 loss 0.7937 acc 82.07%
+[2026-04-08 17:13:00,132 efficientnet_b0_v2] (main.py 151): INFO Epoch: [49][40/59] lr 0.000010 loss 0.7892 acc 83.57%
+[2026-04-08 17:13:12,898 efficientnet_b0_v2] (main.py 76): INFO [Epoch 49]: Train Loss: 0.7850, Train Acc: 83.57%, Val Loss: 0.5016, Val Acc: 86.72%, F1: 0.8674, Precision: 0.8699, Recall: 0.8672
+[2026-04-08 17:13:12,899 efficientnet_b0_v2] (main.py 89): INFO Max accuracy: 87.68%
+[2026-04-08 17:13:12,900 efficientnet_b0_v2] (main.py 103): INFO Confusion matrix for best model saved to outputs/efficientnet_b0_v2_confusion_matrix.npy
+[2026-04-08 17:13:12,950 efficientnet_b0_v2] (main.py 114): INFO Best model saved → outputs/efficientnet_b0_v2.pth
+[2026-04-08 17:13:12,951 efficientnet_b0_v2] (main.py 118): INFO Training time 0:26:45

@@ -7,7 +7,9 @@ from PVT.pvt import pvt_tiny
 from ResNet18.ResNet18 import resnet18
 from gMLP.gMLP import gmlp_tiny
 from ViT.ViT import vit_base
-
+from Swin_Transformer.Swin_Transformer import swin_transformer
+from MLP_Mixer.MLP_Mixer import MLP_Mixer
+from EfficientNet_B0.EfficientNet_B0 import efficientnet_b0
 
 # Add imports for other models as needed
 
@@ -49,6 +51,24 @@ def get_model_config(model_name):
         from gMLP.config import get_config
     elif model_name == 'vit_base':          
         from ViT.config import get_config
+    elif model_name == 'swin_transformer':
+        from Swin_Transformer.config import get_config
+        return get_config(variant='swin_transformer')
+    elif model_name == 'swin_transformer_v2':
+        from Swin_Transformer.config import get_config
+        return get_config(variant='swin_transformer_v2')
+    elif model_name == 'efficientnet_b0':
+        from EfficientNet_B0.config import get_config
+        return get_config(variant='efficientnet_b0')
+    elif model_name == 'efficientnet_b0_v2':
+        from EfficientNet_B0.config import get_config
+        return get_config(variant='efficientnet_b0_v2')
+    elif model_name == 'mlp_mixer':
+        from MLP_Mixer.config import get_config
+        return get_config(variant='mlp_mixer')
+    elif model_name == 'mlp_mixer_v2':
+        from MLP_Mixer.config import get_config
+        return get_config(variant='mlp_mixer_v2')
     else:
         raise ValueError(f"Unknown model: {model_name}")
 
@@ -85,7 +105,12 @@ def build_model(config):
         return gmlp_tiny(**model_kwargs)
     elif model_name == 'vit_base':          
         return vit_base(**model_kwargs)
-
+    elif model_name == 'swin_transformer' or model_name == 'swin_transformer_v2':
+        return swin_transformer(**model_kwargs)
+    elif model_name == 'efficientnet_b0' or model_name == 'efficientnet_b0_v2':
+        return efficientnet_b0(**model_kwargs)
+    elif model_name == 'mlp_mixer' or model_name == 'mlp_mixer_v2':
+        return MLP_Mixer(**model_kwargs)
 
 
     # continue defining other models

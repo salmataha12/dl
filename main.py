@@ -23,28 +23,39 @@ def main(config, logger):
     logger.info(f"Creating model: {config.MODEL.NAME}")
     model = build_model(config)
     model.cuda()
-    
-    optimizer = create_optimizer(argparse_namespace(
-        opt=config.TRAIN.OPT, 
-        lr=config.TRAIN.BASE_LR, 
-        weight_decay=config.TRAIN.WEIGHT_DECAY,
-        momentum=config.TRAIN.MOMENTUM,
-        opt_eps=config.TRAIN.EPS,
-        opt_betas=config.TRAIN.BETAS
-    ), model)
     scaler = torch.amp.GradScaler('cuda', enabled=config.AMP_ENABLE)
-    
-    # Scheduler setup
-    lr_scheduler, _ = create_scheduler(argparse_namespace(
-        sched=config.TRAIN.SCHED, 
-        epochs=config.TRAIN.EPOCHS, 
-        warmup_epochs=config.TRAIN.WARMUP_EPOCHS, 
-        warmup_lr=config.TRAIN.WARMUP_LR, 
-        min_lr=config.TRAIN.MIN_LR, 
-        cooldown_epochs=config.TRAIN.COOLDOWN_EPOCHS,
-        decay_epochs=config.TRAIN.DECAY_EPOCHS,
-        decay_rate=config.TRAIN.DECAY_RATE
-    ), optimizer)
+    if config.MODEL.NAME in ('mlp_mixer', 'mlp_mixer_v2'):
+        trainable_params = [p for p in model.parameters() if p.requires_grad]
+        optimizer = torch.optim.AdamW(
+            trainable_params,
+            lr=config.TRAIN.BASE_LR,
+            weight_decay=config.TRAIN.WEIGHT_DECAY
+        )
+        lr_scheduler = torch.optim.lr_scheduler.StepLR(
+            optimizer,
+            step_size=config.TRAIN.DECAY_EPOCHS,
+            gamma=config.TRAIN.DECAY_RATE
+        )
+    else:
+        optimizer = create_optimizer(argparse_namespace(
+            opt=config.TRAIN.OPT,
+            lr=config.TRAIN.BASE_LR,
+            weight_decay=config.TRAIN.WEIGHT_DECAY,
+            momentum=config.TRAIN.MOMENTUM,
+            opt_eps=config.TRAIN.EPS,
+            opt_betas=config.TRAIN.BETAS
+        ), model)
+        lr_scheduler, _ = create_scheduler(argparse_namespace(
+            sched=config.TRAIN.SCHED,
+            epochs=config.TRAIN.EPOCHS,
+            warmup_epochs=config.TRAIN.WARMUP_EPOCHS,
+            warmup_lr=config.TRAIN.WARMUP_LR,
+            min_lr=config.TRAIN.MIN_LR,
+            cooldown_epochs=config.TRAIN.COOLDOWN_EPOCHS,
+            decay_epochs=config.TRAIN.DECAY_EPOCHS,
+            decay_rate=config.TRAIN.DECAY_RATE
+        ), optimizer)
+
 
     # Setup metrics logging to file
     log_file = os.path.join(config.OUTPUT, f'{config.MODEL.NAME}_metrics.csv')
@@ -69,7 +80,10 @@ def main(config, logger):
     for epoch in range(config.TRAIN.START_EPOCH, config.TRAIN.EPOCHS):
         train_loss, train_acc = train_one_epoch(config, model, data_loader_train, optimizer, epoch, lr_scheduler, scaler, logger)
         
-        lr_scheduler.step(epoch + 1)
+        if hasattr(lr_scheduler, 'step_update'):
+            lr_scheduler.step(epoch + 1)
+        else:
+            lr_scheduler.step()
         
         val_acc, val_loss, val_f1, val_prec, val_recall, targets, preds = validate(config, data_loader_val, model, logger)
         
@@ -130,7 +144,10 @@ def train_one_epoch(config, model, data_loader, optimizer, epoch, lr_scheduler, 
 
         with torch.amp.autocast('cuda', enabled=config.AMP_ENABLE):
             outputs = model(samples)
-            loss = torch.nn.CrossEntropyLoss(label_smoothing=config.MODEL.LABEL_SMOOTHING)(outputs, targets)
+            if config.MODEL.LABEL_SMOOTHING > 0:
+                loss = torch.nn.CrossEntropyLoss(label_smoothing=config.MODEL.LABEL_SMOOTHING)(outputs, targets)
+            else:
+                loss = torch.nn.CrossEntropyLoss()(outputs, targets)
 
         scaler.scale(loss).backward()
         if config.TRAIN.CLIP_GRAD:
@@ -140,7 +157,8 @@ def train_one_epoch(config, model, data_loader, optimizer, epoch, lr_scheduler, 
         scaler.update()
         optimizer.zero_grad()
         
-        lr_scheduler.step_update(epoch * num_steps + idx)
+        if hasattr(lr_scheduler, 'step_update'):
+          lr_scheduler.step_update(epoch * num_steps + idx)
         
         acc1, _ = accuracy(outputs, targets, topk=(1, 5))
         loss_meter.update(loss.item(), targets.size(0))

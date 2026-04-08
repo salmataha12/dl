@@ -1,0 +1,116 @@
+[2026-04-08 17:52:46,176 mlp_mixer_v2] (main.py 21): INFO Dataset loaded: 3750 train images, 1250 validation images
+[2026-04-08 17:52:46,177 mlp_mixer_v2] (main.py 23): INFO Creating model: mlp_mixer_v2
+[2026-04-08 17:52:47,299 mlp_mixer_v2] (main.py 77): INFO Start training
+[2026-04-08 17:52:51,786 mlp_mixer_v2] (main.py 167): INFO Epoch: [0][0/59] lr 0.005000 loss 1.7202 acc 23.44%
+[2026-04-08 17:53:04,677 mlp_mixer_v2] (main.py 167): INFO Epoch: [0][20/59] lr 0.005000 loss 0.6307 acc 77.83%
+[2026-04-08 18:11:55,619 mlp_mixer_v2] (main.py 21): INFO Dataset loaded: 3750 train images, 1250 validation images
+[2026-04-08 18:11:55,619 mlp_mixer_v2] (main.py 23): INFO Creating model: mlp_mixer_v2
+[2026-04-08 18:11:56,663 mlp_mixer_v2] (main.py 77): INFO Start training
+[2026-04-08 18:12:01,168 mlp_mixer_v2] (main.py 167): INFO Epoch: [0][0/59] lr 0.005000 loss 1.7202 acc 23.44%
+[2026-04-08 18:12:14,038 mlp_mixer_v2] (main.py 167): INFO Epoch: [0][20/59] lr 0.005000 loss 0.6307 acc 77.83%
+[2026-04-08 18:12:27,970 mlp_mixer_v2] (main.py 167): INFO Epoch: [0][40/59] lr 0.005000 loss 0.4923 acc 82.85%
+[2026-04-08 18:12:56,170 mlp_mixer_v2] (main.py 89): INFO [Epoch 0]: Train Loss: 0.4285, Train Acc: 85.09%, Val Loss: 0.2059, Val Acc: 92.96%, F1: 0.9298, Precision: 0.9309, Recall: 0.9296
+[2026-04-08 18:12:56,171 mlp_mixer_v2] (main.py 100): INFO Best performance updated at epoch 0 with accuracy: 92.96%
+[2026-04-08 18:12:56,171 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 92.96%
+[2026-04-08 18:12:59,763 mlp_mixer_v2] (main.py 167): INFO Epoch: [1][0/59] lr 0.005000 loss 0.2328 acc 90.62%
+[2026-04-08 18:13:12,503 mlp_mixer_v2] (main.py 167): INFO Epoch: [1][20/59] lr 0.005000 loss 0.2439 acc 91.15%
+[2026-04-08 18:13:25,470 mlp_mixer_v2] (main.py 167): INFO Epoch: [1][40/59] lr 0.005000 loss 0.2439 acc 91.12%
+[2026-04-08 18:13:52,471 mlp_mixer_v2] (main.py 89): INFO [Epoch 1]: Train Loss: 0.2354, Train Acc: 91.49%, Val Loss: 0.2048, Val Acc: 92.72%, F1: 0.9270, Precision: 0.9282, Recall: 0.9272
+[2026-04-08 18:13:52,472 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 92.96%
+[2026-04-08 18:13:54,475 mlp_mixer_v2] (main.py 167): INFO Epoch: [2][0/59] lr 0.005000 loss 0.2835 acc 87.50%
+[2026-04-08 18:14:07,901 mlp_mixer_v2] (main.py 167): INFO Epoch: [2][20/59] lr 0.005000 loss 0.1892 acc 93.45%
+[2026-04-08 18:14:21,185 mlp_mixer_v2] (main.py 167): INFO Epoch: [2][40/59] lr 0.005000 loss 0.1926 acc 93.29%
+[2026-04-08 18:14:46,732 mlp_mixer_v2] (main.py 89): INFO [Epoch 2]: Train Loss: 0.2027, Train Acc: 92.75%, Val Loss: 0.1939, Val Acc: 92.88%, F1: 0.9288, Precision: 0.9296, Recall: 0.9288
+[2026-04-08 18:14:46,732 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 92.96%
+[2026-04-08 18:14:49,242 mlp_mixer_v2] (main.py 167): INFO Epoch: [3][0/59] lr 0.005000 loss 0.1250 acc 95.31%
+[2026-04-08 18:15:02,382 mlp_mixer_v2] (main.py 167): INFO Epoch: [3][20/59] lr 0.005000 loss 0.1608 acc 94.12%
+[2026-04-08 18:15:15,805 mlp_mixer_v2] (main.py 167): INFO Epoch: [3][40/59] lr 0.005000 loss 0.1645 acc 94.02%
+[2026-04-08 18:15:42,004 mlp_mixer_v2] (main.py 89): INFO [Epoch 3]: Train Loss: 0.1667, Train Acc: 93.81%, Val Loss: 0.1854, Val Acc: 93.20%, F1: 0.9320, Precision: 0.9321, Recall: 0.9320
+[2026-04-08 18:15:42,004 mlp_mixer_v2] (main.py 100): INFO Best performance updated at epoch 3 with accuracy: 93.20%
+[2026-04-08 18:15:42,004 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 93.20%
+[2026-04-08 18:15:44,439 mlp_mixer_v2] (main.py 167): INFO Epoch: [4][0/59] lr 0.005000 loss 0.0959 acc 96.88%
+[2026-04-08 18:15:57,549 mlp_mixer_v2] (main.py 167): INFO Epoch: [4][20/59] lr 0.005000 loss 0.1692 acc 93.82%
+[2026-04-08 18:16:10,803 mlp_mixer_v2] (main.py 167): INFO Epoch: [4][40/59] lr 0.005000 loss 0.1504 acc 94.66%
+[2026-04-08 18:16:37,011 mlp_mixer_v2] (main.py 89): INFO [Epoch 4]: Train Loss: 0.1638, Train Acc: 94.21%, Val Loss: 0.2024, Val Acc: 93.44%, F1: 0.9346, Precision: 0.9360, Recall: 0.9344
+[2026-04-08 18:16:37,012 mlp_mixer_v2] (main.py 100): INFO Best performance updated at epoch 4 with accuracy: 93.44%
+[2026-04-08 18:16:37,012 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 93.44%
+[2026-04-08 18:16:39,325 mlp_mixer_v2] (main.py 167): INFO Epoch: [5][0/59] lr 0.002500 loss 0.1953 acc 93.75%
+[2026-04-08 18:16:52,690 mlp_mixer_v2] (main.py 167): INFO Epoch: [5][20/59] lr 0.002500 loss 0.1175 acc 96.43%
+[2026-04-08 18:17:06,026 mlp_mixer_v2] (main.py 167): INFO Epoch: [5][40/59] lr 0.002500 loss 0.1280 acc 95.85%
+[2026-04-08 18:17:31,783 mlp_mixer_v2] (main.py 89): INFO [Epoch 5]: Train Loss: 0.1295, Train Acc: 95.60%, Val Loss: 0.1896, Val Acc: 93.76%, F1: 0.9375, Precision: 0.9382, Recall: 0.9376
+[2026-04-08 18:17:31,783 mlp_mixer_v2] (main.py 100): INFO Best performance updated at epoch 5 with accuracy: 93.76%
+[2026-04-08 18:17:31,784 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 93.76%
+[2026-04-08 18:17:34,261 mlp_mixer_v2] (main.py 167): INFO Epoch: [6][0/59] lr 0.002500 loss 0.0920 acc 98.44%
+[2026-04-08 18:17:47,334 mlp_mixer_v2] (main.py 167): INFO Epoch: [6][20/59] lr 0.002500 loss 0.1119 acc 96.50%
+[2026-04-08 18:18:00,635 mlp_mixer_v2] (main.py 167): INFO Epoch: [6][40/59] lr 0.002500 loss 0.1204 acc 95.92%
+[2026-04-08 18:18:26,931 mlp_mixer_v2] (main.py 89): INFO [Epoch 6]: Train Loss: 0.1258, Train Acc: 95.57%, Val Loss: 0.1854, Val Acc: 93.52%, F1: 0.9351, Precision: 0.9353, Recall: 0.9352
+[2026-04-08 18:18:26,932 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 93.76%
+[2026-04-08 18:18:29,258 mlp_mixer_v2] (main.py 167): INFO Epoch: [7][0/59] lr 0.002500 loss 0.0873 acc 96.88%
+[2026-04-08 18:18:42,463 mlp_mixer_v2] (main.py 167): INFO Epoch: [7][20/59] lr 0.002500 loss 0.1207 acc 96.06%
+[2026-04-08 18:18:55,724 mlp_mixer_v2] (main.py 167): INFO Epoch: [7][40/59] lr 0.002500 loss 0.1154 acc 96.30%
+[2026-04-08 18:19:21,744 mlp_mixer_v2] (main.py 89): INFO [Epoch 7]: Train Loss: 0.1205, Train Acc: 96.08%, Val Loss: 0.1851, Val Acc: 93.60%, F1: 0.9359, Precision: 0.9359, Recall: 0.9360
+[2026-04-08 18:19:21,744 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 93.76%
+[2026-04-08 18:19:24,170 mlp_mixer_v2] (main.py 167): INFO Epoch: [8][0/59] lr 0.002500 loss 0.0998 acc 95.31%
+[2026-04-08 18:19:37,650 mlp_mixer_v2] (main.py 167): INFO Epoch: [8][20/59] lr 0.002500 loss 0.1153 acc 95.83%
+[2026-04-08 18:19:51,068 mlp_mixer_v2] (main.py 167): INFO Epoch: [8][40/59] lr 0.002500 loss 0.1162 acc 96.11%
+[2026-04-08 18:20:16,856 mlp_mixer_v2] (main.py 89): INFO [Epoch 8]: Train Loss: 0.1164, Train Acc: 95.97%, Val Loss: 0.1869, Val Acc: 93.60%, F1: 0.9359, Precision: 0.9360, Recall: 0.9360
+[2026-04-08 18:20:16,856 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 93.76%
+[2026-04-08 18:20:19,186 mlp_mixer_v2] (main.py 167): INFO Epoch: [9][0/59] lr 0.002500 loss 0.1555 acc 96.88%
+[2026-04-08 18:20:32,765 mlp_mixer_v2] (main.py 167): INFO Epoch: [9][20/59] lr 0.002500 loss 0.1218 acc 95.98%
+[2026-04-08 18:20:46,024 mlp_mixer_v2] (main.py 167): INFO Epoch: [9][40/59] lr 0.002500 loss 0.1187 acc 96.23%
+[2026-04-08 18:21:12,013 mlp_mixer_v2] (main.py 89): INFO [Epoch 9]: Train Loss: 0.1173, Train Acc: 96.08%, Val Loss: 0.1920, Val Acc: 93.44%, F1: 0.9343, Precision: 0.9347, Recall: 0.9344
+[2026-04-08 18:21:12,013 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 93.76%
+[2026-04-08 18:21:15,244 mlp_mixer_v2] (main.py 167): INFO Epoch: [10][0/59] lr 0.001250 loss 0.0989 acc 95.31%
+[2026-04-08 18:21:28,431 mlp_mixer_v2] (main.py 167): INFO Epoch: [10][20/59] lr 0.001250 loss 0.1321 acc 95.09%
+[2026-04-08 18:21:41,782 mlp_mixer_v2] (main.py 167): INFO Epoch: [10][40/59] lr 0.001250 loss 0.1178 acc 95.96%
+[2026-04-08 18:22:08,588 mlp_mixer_v2] (main.py 89): INFO [Epoch 10]: Train Loss: 0.1103, Train Acc: 96.29%, Val Loss: 0.1823, Val Acc: 93.52%, F1: 0.9351, Precision: 0.9352, Recall: 0.9352
+[2026-04-08 18:22:08,589 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 93.76%
+[2026-04-08 18:22:11,525 mlp_mixer_v2] (main.py 167): INFO Epoch: [11][0/59] lr 0.001250 loss 0.1494 acc 95.31%
+[2026-04-08 18:22:24,728 mlp_mixer_v2] (main.py 167): INFO Epoch: [11][20/59] lr 0.001250 loss 0.1057 acc 96.35%
+[2026-04-08 18:22:38,072 mlp_mixer_v2] (main.py 167): INFO Epoch: [11][40/59] lr 0.001250 loss 0.1037 acc 96.34%
+[2026-04-08 18:23:04,175 mlp_mixer_v2] (main.py 89): INFO [Epoch 11]: Train Loss: 0.1037, Train Acc: 96.45%, Val Loss: 0.1971, Val Acc: 92.96%, F1: 0.9293, Precision: 0.9302, Recall: 0.9296
+[2026-04-08 18:23:04,176 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 93.76%
+[2026-04-08 18:23:06,679 mlp_mixer_v2] (main.py 167): INFO Epoch: [12][0/59] lr 0.001250 loss 0.0655 acc 96.88%
+[2026-04-08 18:23:19,884 mlp_mixer_v2] (main.py 167): INFO Epoch: [12][20/59] lr 0.001250 loss 0.0842 acc 97.47%
+[2026-04-08 18:23:33,124 mlp_mixer_v2] (main.py 167): INFO Epoch: [12][40/59] lr 0.001250 loss 0.0924 acc 97.10%
+[2026-04-08 18:23:59,117 mlp_mixer_v2] (main.py 89): INFO [Epoch 12]: Train Loss: 0.0966, Train Acc: 96.85%, Val Loss: 0.1824, Val Acc: 93.76%, F1: 0.9376, Precision: 0.9377, Recall: 0.9376
+[2026-04-08 18:23:59,117 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 93.76%
+[2026-04-08 18:24:01,513 mlp_mixer_v2] (main.py 167): INFO Epoch: [13][0/59] lr 0.001250 loss 0.1558 acc 95.31%
+[2026-04-08 18:24:14,770 mlp_mixer_v2] (main.py 167): INFO Epoch: [13][20/59] lr 0.001250 loss 0.0963 acc 96.58%
+[2026-04-08 18:24:28,152 mlp_mixer_v2] (main.py 167): INFO Epoch: [13][40/59] lr 0.001250 loss 0.1023 acc 96.34%
+[2026-04-08 18:24:53,777 mlp_mixer_v2] (main.py 89): INFO [Epoch 13]: Train Loss: 0.0961, Train Acc: 96.75%, Val Loss: 0.1864, Val Acc: 93.60%, F1: 0.9358, Precision: 0.9359, Recall: 0.9360
+[2026-04-08 18:24:53,777 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 93.76%
+[2026-04-08 18:24:56,266 mlp_mixer_v2] (main.py 167): INFO Epoch: [14][0/59] lr 0.001250 loss 0.0938 acc 96.88%
+[2026-04-08 18:25:09,379 mlp_mixer_v2] (main.py 167): INFO Epoch: [14][20/59] lr 0.001250 loss 0.0916 acc 97.62%
+[2026-04-08 18:25:22,714 mlp_mixer_v2] (main.py 167): INFO Epoch: [14][40/59] lr 0.001250 loss 0.0905 acc 97.29%
+[2026-04-08 18:25:48,662 mlp_mixer_v2] (main.py 89): INFO [Epoch 14]: Train Loss: 0.0911, Train Acc: 97.17%, Val Loss: 0.1869, Val Acc: 93.76%, F1: 0.9375, Precision: 0.9378, Recall: 0.9376
+[2026-04-08 18:25:48,662 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 93.76%
+[2026-04-08 18:25:50,898 mlp_mixer_v2] (main.py 167): INFO Epoch: [15][0/59] lr 0.000625 loss 0.0740 acc 95.31%
+[2026-04-08 18:26:04,066 mlp_mixer_v2] (main.py 167): INFO Epoch: [15][20/59] lr 0.000625 loss 0.0885 acc 96.88%
+[2026-04-08 18:26:17,311 mlp_mixer_v2] (main.py 167): INFO Epoch: [15][40/59] lr 0.000625 loss 0.0860 acc 97.10%
+[2026-04-08 18:26:43,437 mlp_mixer_v2] (main.py 89): INFO [Epoch 15]: Train Loss: 0.0888, Train Acc: 97.01%, Val Loss: 0.1769, Val Acc: 94.24%, F1: 0.9424, Precision: 0.9424, Recall: 0.9424
+[2026-04-08 18:26:43,438 mlp_mixer_v2] (main.py 100): INFO Best performance updated at epoch 15 with accuracy: 94.24%
+[2026-04-08 18:26:43,438 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 94.24%
+[2026-04-08 18:26:45,605 mlp_mixer_v2] (main.py 167): INFO Epoch: [16][0/59] lr 0.000625 loss 0.0834 acc 96.88%
+[2026-04-08 18:26:58,891 mlp_mixer_v2] (main.py 167): INFO Epoch: [16][20/59] lr 0.000625 loss 0.0886 acc 97.17%
+[2026-04-08 18:27:12,248 mlp_mixer_v2] (main.py 167): INFO Epoch: [16][40/59] lr 0.000625 loss 0.0876 acc 97.22%
+[2026-04-08 18:27:38,261 mlp_mixer_v2] (main.py 89): INFO [Epoch 16]: Train Loss: 0.0930, Train Acc: 96.77%, Val Loss: 0.1816, Val Acc: 93.92%, F1: 0.9391, Precision: 0.9393, Recall: 0.9392
+[2026-04-08 18:27:38,261 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 94.24%
+[2026-04-08 18:27:40,848 mlp_mixer_v2] (main.py 167): INFO Epoch: [17][0/59] lr 0.000625 loss 0.0619 acc 100.00%
+[2026-04-08 18:27:54,109 mlp_mixer_v2] (main.py 167): INFO Epoch: [17][20/59] lr 0.000625 loss 0.1096 acc 96.35%
+[2026-04-08 18:28:07,435 mlp_mixer_v2] (main.py 167): INFO Epoch: [17][40/59] lr 0.000625 loss 0.0954 acc 96.91%
+[2026-04-08 18:28:33,575 mlp_mixer_v2] (main.py 89): INFO [Epoch 17]: Train Loss: 0.0906, Train Acc: 97.07%, Val Loss: 0.1835, Val Acc: 93.52%, F1: 0.9350, Precision: 0.9350, Recall: 0.9352
+[2026-04-08 18:28:33,575 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 94.24%
+[2026-04-08 18:28:36,324 mlp_mixer_v2] (main.py 167): INFO Epoch: [18][0/59] lr 0.000625 loss 0.0791 acc 96.88%
+[2026-04-08 18:28:49,687 mlp_mixer_v2] (main.py 167): INFO Epoch: [18][20/59] lr 0.000625 loss 0.0914 acc 96.88%
+[2026-04-08 18:29:03,062 mlp_mixer_v2] (main.py 167): INFO Epoch: [18][40/59] lr 0.000625 loss 0.0891 acc 97.22%
+[2026-04-08 18:29:29,748 mlp_mixer_v2] (main.py 89): INFO [Epoch 18]: Train Loss: 0.0911, Train Acc: 97.17%, Val Loss: 0.1812, Val Acc: 94.00%, F1: 0.9399, Precision: 0.9400, Recall: 0.9400
+[2026-04-08 18:29:29,749 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 94.24%
+[2026-04-08 18:29:32,459 mlp_mixer_v2] (main.py 167): INFO Epoch: [19][0/59] lr 0.000625 loss 0.0709 acc 98.44%
+[2026-04-08 18:29:45,740 mlp_mixer_v2] (main.py 167): INFO Epoch: [19][20/59] lr 0.000625 loss 0.0914 acc 97.25%
+[2026-04-08 18:29:59,121 mlp_mixer_v2] (main.py 167): INFO Epoch: [19][40/59] lr 0.000625 loss 0.0868 acc 97.26%
+[2026-04-08 18:30:25,268 mlp_mixer_v2] (main.py 89): INFO [Epoch 19]: Train Loss: 0.0829, Train Acc: 97.57%, Val Loss: 0.1803, Val Acc: 93.84%, F1: 0.9383, Precision: 0.9384, Recall: 0.9384
+[2026-04-08 18:30:25,268 mlp_mixer_v2] (main.py 102): INFO Max accuracy: 94.24%
+[2026-04-08 18:30:25,271 mlp_mixer_v2] (main.py 116): INFO Confusion matrix for best model saved to outputs/mlp_mixer_v2_confusion_matrix.npy
+[2026-04-08 18:30:30,869 mlp_mixer_v2] (main.py 127): INFO Best model saved → outputs/mlp_mixer_v2.pth
+[2026-04-08 18:30:30,871 mlp_mixer_v2] (main.py 131): INFO Training time 0:18:34
