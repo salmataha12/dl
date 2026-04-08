@@ -102,6 +102,17 @@ def main(config, logger):
         np.save(cm_path, cm)
         logger.info(f"Confusion matrix for best model saved to {cm_path}")
 
+    # Save final model checkpoint
+    model_path = os.path.join(config.OUTPUT, f'{config.MODEL.NAME}.pth')
+    torch.save({
+        'epoch': epoch if 'epoch' in locals() else config.TRAIN.EPOCHS - 1,
+        'model_state_dict': model.state_dict(),
+        'optimizer_state_dict': optimizer.state_dict(),
+        'max_accuracy': max_accuracy,
+        'config': config
+    }, model_path)
+    logger.info(f"Model checkpoint saved to {model_path}")
+
     total_time = time.time() - start_time
     total_time_str = str(datetime.timedelta(seconds=int(total_time)))
     logger.info('Training time {}'.format(total_time_str))
