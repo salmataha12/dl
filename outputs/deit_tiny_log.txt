@@ -1,536 +1,533 @@
-[2026-04-01 04:57:27,234 deit_tiny] (main.py 21): INFO Dataset loaded: 3750 train images, 1250 validation images
-[2026-04-01 04:57:27,234 deit_tiny] (main.py 23): INFO Creating model: deit_tiny
-[2026-04-01 04:57:27,347 deit_tiny] (main.py 58): INFO Start training
-[2026-04-01 04:57:29,170 deit_tiny] (main.py 124): INFO Epoch: [0][0/59] lr 0.000001 loss 6.9327 acc 0.00%
-[2026-04-01 04:57:35,228 deit_tiny] (main.py 124): INFO Epoch: [0][20/59] lr 0.000001 loss 6.8408 acc 0.67%
-[2026-04-01 04:57:42,348 deit_tiny] (main.py 124): INFO Epoch: [0][40/59] lr 0.000001 loss 6.7451 acc 3.93%
-[2026-04-01 04:57:52,861 deit_tiny] (main.py 67): INFO [Epoch 0]: Train Loss: 6.6631, Train Acc: 6.75%, Val Loss: 6.2204, Val Acc: 21.20%, F1: 0.0302, Precision: 0.0247, Recall: 0.0505
-[2026-04-01 04:57:52,861 deit_tiny] (main.py 78): INFO Best performance updated at epoch 0 with accuracy: 21.20%
-[2026-04-01 04:57:52,861 deit_tiny] (main.py 80): INFO Max accuracy: 21.20%
-[2026-04-01 04:57:53,717 deit_tiny] (main.py 124): INFO Epoch: [1][0/59] lr 0.000101 loss 6.3773 acc 20.31%
-[2026-04-01 04:58:00,879 deit_tiny] (main.py 124): INFO Epoch: [1][20/59] lr 0.000101 loss 5.2424 acc 24.48%
-[2026-04-01 04:58:07,991 deit_tiny] (main.py 124): INFO Epoch: [1][40/59] lr 0.000101 loss 4.7710 acc 24.81%
-[2026-04-01 04:58:18,344 deit_tiny] (main.py 67): INFO [Epoch 1]: Train Loss: 4.4063, Train Acc: 24.88%, Val Loss: 2.7731, Val Acc: 27.60%, F1: 0.1664, Precision: 0.1359, Recall: 0.2760
-[2026-04-01 04:58:18,345 deit_tiny] (main.py 78): INFO Best performance updated at epoch 1 with accuracy: 27.60%
-[2026-04-01 04:58:18,345 deit_tiny] (main.py 80): INFO Max accuracy: 27.60%
-[2026-04-01 04:58:19,204 deit_tiny] (main.py 124): INFO Epoch: [2][0/59] lr 0.000201 loss 3.2509 acc 21.88%
-[2026-04-01 04:58:26,323 deit_tiny] (main.py 124): INFO Epoch: [2][20/59] lr 0.000201 loss 2.8418 acc 26.79%
-[2026-04-01 04:58:33,443 deit_tiny] (main.py 124): INFO Epoch: [2][40/59] lr 0.000201 loss 2.6739 acc 26.91%
-[2026-04-01 04:58:43,813 deit_tiny] (main.py 67): INFO [Epoch 2]: Train Loss: 2.6005, Train Acc: 26.72%, Val Loss: 1.6631, Val Acc: 33.04%, F1: 0.2736, Precision: 0.3570, Recall: 0.3304
-[2026-04-01 04:58:43,813 deit_tiny] (main.py 78): INFO Best performance updated at epoch 2 with accuracy: 33.04%
-[2026-04-01 04:58:43,813 deit_tiny] (main.py 80): INFO Max accuracy: 33.04%
-[2026-04-01 04:58:44,687 deit_tiny] (main.py 124): INFO Epoch: [3][0/59] lr 0.000300 loss 2.4161 acc 25.00%
-[2026-04-01 04:58:51,954 deit_tiny] (main.py 124): INFO Epoch: [3][20/59] lr 0.000300 loss 2.6515 acc 25.89%
-[2026-04-01 04:58:59,092 deit_tiny] (main.py 124): INFO Epoch: [3][40/59] lr 0.000300 loss 2.5429 acc 26.52%
-[2026-04-01 04:59:09,559 deit_tiny] (main.py 67): INFO [Epoch 3]: Train Loss: 2.5062, Train Acc: 26.99%, Val Loss: 1.6149, Val Acc: 31.04%, F1: 0.2344, Precision: 0.2586, Recall: 0.3104
-[2026-04-01 04:59:09,559 deit_tiny] (main.py 80): INFO Max accuracy: 33.04%
-[2026-04-01 04:59:10,429 deit_tiny] (main.py 124): INFO Epoch: [4][0/59] lr 0.000400 loss 2.4072 acc 29.69%
-[2026-04-01 04:59:17,612 deit_tiny] (main.py 124): INFO Epoch: [4][20/59] lr 0.000400 loss 2.4176 acc 28.94%
-[2026-04-01 04:59:24,834 deit_tiny] (main.py 124): INFO Epoch: [4][40/59] lr 0.000400 loss 2.4162 acc 27.82%
-[2026-04-01 04:59:35,343 deit_tiny] (main.py 67): INFO [Epoch 4]: Train Loss: 2.4181, Train Acc: 27.97%, Val Loss: 1.6085, Val Acc: 35.04%, F1: 0.3075, Precision: 0.5340, Recall: 0.3504
-[2026-04-01 04:59:35,343 deit_tiny] (main.py 78): INFO Best performance updated at epoch 4 with accuracy: 35.04%
-[2026-04-01 04:59:35,343 deit_tiny] (main.py 80): INFO Max accuracy: 35.04%
-[2026-04-01 04:59:36,208 deit_tiny] (main.py 124): INFO Epoch: [5][0/59] lr 0.000497 loss 2.3345 acc 42.19%
-[2026-04-01 04:59:43,341 deit_tiny] (main.py 124): INFO Epoch: [5][20/59] lr 0.000497 loss 2.4105 acc 30.88%
-[2026-04-01 04:59:50,562 deit_tiny] (main.py 124): INFO Epoch: [5][40/59] lr 0.000497 loss 2.4008 acc 31.40%
-[2026-04-01 05:00:01,012 deit_tiny] (main.py 67): INFO [Epoch 5]: Train Loss: 2.3926, Train Acc: 31.73%, Val Loss: 1.4929, Val Acc: 44.80%, F1: 0.4281, Precision: 0.4644, Recall: 0.4480
-[2026-04-01 05:00:01,013 deit_tiny] (main.py 78): INFO Best performance updated at epoch 5 with accuracy: 44.80%
-[2026-04-01 05:00:01,013 deit_tiny] (main.py 80): INFO Max accuracy: 44.80%
-[2026-04-01 05:00:01,888 deit_tiny] (main.py 124): INFO Epoch: [6][0/59] lr 0.000496 loss 2.2062 acc 46.88%
-[2026-04-01 05:00:09,117 deit_tiny] (main.py 124): INFO Epoch: [6][20/59] lr 0.000496 loss 2.3510 acc 35.04%
-[2026-04-01 05:00:16,367 deit_tiny] (main.py 124): INFO Epoch: [6][40/59] lr 0.000496 loss 2.3606 acc 34.49%
-[2026-04-01 05:00:26,914 deit_tiny] (main.py 67): INFO [Epoch 6]: Train Loss: 2.3630, Train Acc: 33.76%, Val Loss: 1.5700, Val Acc: 34.16%, F1: 0.2644, Precision: 0.3524, Recall: 0.3416
-[2026-04-01 05:00:26,914 deit_tiny] (main.py 80): INFO Max accuracy: 44.80%
-[2026-04-01 05:00:27,771 deit_tiny] (main.py 124): INFO Epoch: [7][0/59] lr 0.000494 loss 2.3050 acc 40.62%
-[2026-04-01 05:00:34,809 deit_tiny] (main.py 124): INFO Epoch: [7][20/59] lr 0.000494 loss 2.3226 acc 38.24%
-[2026-04-01 05:00:41,872 deit_tiny] (main.py 124): INFO Epoch: [7][40/59] lr 0.000494 loss 2.3135 acc 37.69%
-[2026-04-01 05:00:52,306 deit_tiny] (main.py 67): INFO [Epoch 7]: Train Loss: 2.3173, Train Acc: 37.31%, Val Loss: 1.4272, Val Acc: 47.52%, F1: 0.4465, Precision: 0.5015, Recall: 0.4752
-[2026-04-01 05:00:52,307 deit_tiny] (main.py 78): INFO Best performance updated at epoch 7 with accuracy: 47.52%
-[2026-04-01 05:00:52,307 deit_tiny] (main.py 80): INFO Max accuracy: 47.52%
-[2026-04-01 05:00:53,177 deit_tiny] (main.py 124): INFO Epoch: [8][0/59] lr 0.000492 loss 2.2299 acc 48.44%
-[2026-04-01 05:01:00,299 deit_tiny] (main.py 124): INFO Epoch: [8][20/59] lr 0.000492 loss 2.3235 acc 34.97%
-[2026-04-01 05:01:07,326 deit_tiny] (main.py 124): INFO Epoch: [8][40/59] lr 0.000492 loss 2.3117 acc 37.58%
-[2026-04-01 05:01:17,653 deit_tiny] (main.py 67): INFO [Epoch 8]: Train Loss: 2.3026, Train Acc: 38.40%, Val Loss: 1.3775, Val Acc: 50.08%, F1: 0.4802, Precision: 0.5956, Recall: 0.5008
-[2026-04-01 05:01:17,653 deit_tiny] (main.py 78): INFO Best performance updated at epoch 8 with accuracy: 50.08%
-[2026-04-01 05:01:17,653 deit_tiny] (main.py 80): INFO Max accuracy: 50.08%
-[2026-04-01 05:01:18,521 deit_tiny] (main.py 124): INFO Epoch: [9][0/59] lr 0.000490 loss 2.2781 acc 34.38%
-[2026-04-01 05:01:25,749 deit_tiny] (main.py 124): INFO Epoch: [9][20/59] lr 0.000490 loss 2.2612 acc 40.85%
-[2026-04-01 05:01:33,004 deit_tiny] (main.py 124): INFO Epoch: [9][40/59] lr 0.000490 loss 2.2743 acc 40.09%
-[2026-04-01 05:01:43,286 deit_tiny] (main.py 67): INFO [Epoch 9]: Train Loss: 2.2741, Train Acc: 40.75%, Val Loss: 1.3828, Val Acc: 47.52%, F1: 0.4480, Precision: 0.5293, Recall: 0.4752
-[2026-04-01 05:01:43,286 deit_tiny] (main.py 80): INFO Max accuracy: 50.08%
-[2026-04-01 05:01:44,147 deit_tiny] (main.py 124): INFO Epoch: [10][0/59] lr 0.000488 loss 2.3815 acc 35.94%
-[2026-04-01 05:01:51,390 deit_tiny] (main.py 124): INFO Epoch: [10][20/59] lr 0.000488 loss 2.2637 acc 40.62%
-[2026-04-01 05:01:58,574 deit_tiny] (main.py 124): INFO Epoch: [10][40/59] lr 0.000488 loss 2.2738 acc 40.59%
-[2026-04-01 05:02:08,976 deit_tiny] (main.py 67): INFO [Epoch 10]: Train Loss: 2.2673, Train Acc: 41.47%, Val Loss: 1.3615, Val Acc: 48.72%, F1: 0.4478, Precision: 0.5431, Recall: 0.4872
-[2026-04-01 05:02:08,976 deit_tiny] (main.py 80): INFO Max accuracy: 50.08%
-[2026-04-01 05:02:09,855 deit_tiny] (main.py 124): INFO Epoch: [11][0/59] lr 0.000486 loss 2.1839 acc 45.31%
-[2026-04-01 05:02:16,934 deit_tiny] (main.py 124): INFO Epoch: [11][20/59] lr 0.000486 loss 2.2352 acc 43.23%
-[2026-04-01 05:02:23,991 deit_tiny] (main.py 124): INFO Epoch: [11][40/59] lr 0.000486 loss 2.2367 acc 42.95%
-[2026-04-01 05:02:34,353 deit_tiny] (main.py 67): INFO [Epoch 11]: Train Loss: 2.2414, Train Acc: 42.83%, Val Loss: 1.2703, Val Acc: 54.32%, F1: 0.5270, Precision: 0.5399, Recall: 0.5432
-[2026-04-01 05:02:34,354 deit_tiny] (main.py 78): INFO Best performance updated at epoch 11 with accuracy: 54.32%
-[2026-04-01 05:02:34,354 deit_tiny] (main.py 80): INFO Max accuracy: 54.32%
-[2026-04-01 05:02:35,239 deit_tiny] (main.py 124): INFO Epoch: [12][0/59] lr 0.000483 loss 2.1624 acc 46.88%
-[2026-04-01 05:02:42,309 deit_tiny] (main.py 124): INFO Epoch: [12][20/59] lr 0.000483 loss 2.2151 acc 46.65%
-[2026-04-01 05:02:49,341 deit_tiny] (main.py 124): INFO Epoch: [12][40/59] lr 0.000483 loss 2.2038 acc 46.53%
-[2026-04-01 05:02:59,704 deit_tiny] (main.py 67): INFO [Epoch 12]: Train Loss: 2.2179, Train Acc: 45.01%, Val Loss: 1.3649, Val Acc: 50.64%, F1: 0.4581, Precision: 0.5452, Recall: 0.5064
-[2026-04-01 05:02:59,704 deit_tiny] (main.py 80): INFO Max accuracy: 54.32%
-[2026-04-01 05:03:00,572 deit_tiny] (main.py 124): INFO Epoch: [13][0/59] lr 0.000480 loss 2.2763 acc 45.31%
-[2026-04-01 05:03:07,656 deit_tiny] (main.py 124): INFO Epoch: [13][20/59] lr 0.000480 loss 2.2284 acc 43.75%
-[2026-04-01 05:03:14,719 deit_tiny] (main.py 124): INFO Epoch: [13][40/59] lr 0.000480 loss 2.2062 acc 44.28%
-[2026-04-01 05:03:25,102 deit_tiny] (main.py 67): INFO [Epoch 13]: Train Loss: 2.2053, Train Acc: 44.88%, Val Loss: 1.2590, Val Acc: 53.28%, F1: 0.5050, Precision: 0.5615, Recall: 0.5328
-[2026-04-01 05:03:25,102 deit_tiny] (main.py 80): INFO Max accuracy: 54.32%
-[2026-04-01 05:03:25,970 deit_tiny] (main.py 124): INFO Epoch: [14][0/59] lr 0.000477 loss 2.1989 acc 43.75%
-[2026-04-01 05:03:33,164 deit_tiny] (main.py 124): INFO Epoch: [14][20/59] lr 0.000477 loss 2.1755 acc 47.17%
-[2026-04-01 05:03:40,316 deit_tiny] (main.py 124): INFO Epoch: [14][40/59] lr 0.000477 loss 2.1945 acc 46.23%
-[2026-04-01 05:03:50,847 deit_tiny] (main.py 67): INFO [Epoch 14]: Train Loss: 2.2028, Train Acc: 45.87%, Val Loss: 1.2174, Val Acc: 59.04%, F1: 0.5941, Precision: 0.6200, Recall: 0.5904
-[2026-04-01 05:03:50,848 deit_tiny] (main.py 78): INFO Best performance updated at epoch 14 with accuracy: 59.04%
-[2026-04-01 05:03:50,848 deit_tiny] (main.py 80): INFO Max accuracy: 59.04%
-[2026-04-01 05:03:51,703 deit_tiny] (main.py 124): INFO Epoch: [15][0/59] lr 0.000473 loss 2.0901 acc 51.56%
-[2026-04-01 05:03:58,699 deit_tiny] (main.py 124): INFO Epoch: [15][20/59] lr 0.000473 loss 2.1652 acc 47.84%
-[2026-04-01 05:04:05,729 deit_tiny] (main.py 124): INFO Epoch: [15][40/59] lr 0.000473 loss 2.1684 acc 46.88%
-[2026-04-01 05:04:16,141 deit_tiny] (main.py 67): INFO [Epoch 15]: Train Loss: 2.1766, Train Acc: 45.95%, Val Loss: 1.1841, Val Acc: 60.72%, F1: 0.6028, Precision: 0.6025, Recall: 0.6072
-[2026-04-01 05:04:16,142 deit_tiny] (main.py 78): INFO Best performance updated at epoch 15 with accuracy: 60.72%
-[2026-04-01 05:04:16,142 deit_tiny] (main.py 80): INFO Max accuracy: 60.72%
-[2026-04-01 05:04:17,011 deit_tiny] (main.py 124): INFO Epoch: [16][0/59] lr 0.000470 loss 2.0927 acc 54.69%
-[2026-04-01 05:04:24,095 deit_tiny] (main.py 124): INFO Epoch: [16][20/59] lr 0.000470 loss 2.1655 acc 47.02%
-[2026-04-01 05:04:31,161 deit_tiny] (main.py 124): INFO Epoch: [16][40/59] lr 0.000470 loss 2.1612 acc 47.52%
-[2026-04-01 05:04:41,626 deit_tiny] (main.py 67): INFO [Epoch 16]: Train Loss: 2.1594, Train Acc: 47.41%, Val Loss: 1.1511, Val Acc: 58.32%, F1: 0.5624, Precision: 0.5959, Recall: 0.5832
-[2026-04-01 05:04:41,626 deit_tiny] (main.py 80): INFO Max accuracy: 60.72%
-[2026-04-01 05:04:42,507 deit_tiny] (main.py 124): INFO Epoch: [17][0/59] lr 0.000466 loss 2.2455 acc 45.31%
-[2026-04-01 05:04:49,707 deit_tiny] (main.py 124): INFO Epoch: [17][20/59] lr 0.000466 loss 2.1868 acc 45.54%
-[2026-04-01 05:04:56,914 deit_tiny] (main.py 124): INFO Epoch: [17][40/59] lr 0.000466 loss 2.1796 acc 45.96%
-[2026-04-01 05:05:07,413 deit_tiny] (main.py 67): INFO [Epoch 17]: Train Loss: 2.1758, Train Acc: 46.29%, Val Loss: 1.1597, Val Acc: 59.28%, F1: 0.5907, Precision: 0.6080, Recall: 0.5928
-[2026-04-01 05:05:07,413 deit_tiny] (main.py 80): INFO Max accuracy: 60.72%
-[2026-04-01 05:05:08,299 deit_tiny] (main.py 124): INFO Epoch: [18][0/59] lr 0.000462 loss 2.1950 acc 53.12%
-[2026-04-01 05:05:15,494 deit_tiny] (main.py 124): INFO Epoch: [18][20/59] lr 0.000462 loss 2.1316 acc 48.44%
-[2026-04-01 05:05:22,605 deit_tiny] (main.py 124): INFO Epoch: [18][40/59] lr 0.000462 loss 2.1366 acc 49.31%
-[2026-04-01 05:05:32,918 deit_tiny] (main.py 67): INFO [Epoch 18]: Train Loss: 2.1379, Train Acc: 49.39%, Val Loss: 1.1755, Val Acc: 58.88%, F1: 0.5684, Precision: 0.6170, Recall: 0.5888
-[2026-04-01 05:05:32,918 deit_tiny] (main.py 80): INFO Max accuracy: 60.72%
-[2026-04-01 05:05:33,786 deit_tiny] (main.py 124): INFO Epoch: [19][0/59] lr 0.000458 loss 2.2160 acc 43.75%
-[2026-04-01 05:05:41,067 deit_tiny] (main.py 124): INFO Epoch: [19][20/59] lr 0.000458 loss 2.1345 acc 49.78%
-[2026-04-01 05:05:48,236 deit_tiny] (main.py 124): INFO Epoch: [19][40/59] lr 0.000458 loss 2.1364 acc 49.62%
-[2026-04-01 05:05:58,764 deit_tiny] (main.py 67): INFO [Epoch 19]: Train Loss: 2.1353, Train Acc: 49.17%, Val Loss: 1.1497, Val Acc: 60.56%, F1: 0.5946, Precision: 0.6289, Recall: 0.6056
-[2026-04-01 05:05:58,764 deit_tiny] (main.py 80): INFO Max accuracy: 60.72%
-[2026-04-01 05:05:59,614 deit_tiny] (main.py 124): INFO Epoch: [20][0/59] lr 0.000453 loss 2.1802 acc 43.75%
-[2026-04-01 05:06:06,689 deit_tiny] (main.py 124): INFO Epoch: [20][20/59] lr 0.000453 loss 2.1710 acc 47.02%
-[2026-04-01 05:06:13,759 deit_tiny] (main.py 124): INFO Epoch: [20][40/59] lr 0.000453 loss 2.1291 acc 49.05%
-[2026-04-01 05:06:24,213 deit_tiny] (main.py 67): INFO [Epoch 20]: Train Loss: 2.1320, Train Acc: 49.39%, Val Loss: 1.0986, Val Acc: 62.00%, F1: 0.6041, Precision: 0.6369, Recall: 0.6200
-[2026-04-01 05:06:24,213 deit_tiny] (main.py 78): INFO Best performance updated at epoch 20 with accuracy: 62.00%
-[2026-04-01 05:06:24,214 deit_tiny] (main.py 80): INFO Max accuracy: 62.00%
-[2026-04-01 05:06:25,080 deit_tiny] (main.py 124): INFO Epoch: [21][0/59] lr 0.000449 loss 2.1402 acc 48.44%
-[2026-04-01 05:06:32,228 deit_tiny] (main.py 124): INFO Epoch: [21][20/59] lr 0.000449 loss 2.1139 acc 50.74%
-[2026-04-01 05:06:39,414 deit_tiny] (main.py 124): INFO Epoch: [21][40/59] lr 0.000449 loss 2.1323 acc 50.42%
-[2026-04-01 05:06:49,888 deit_tiny] (main.py 67): INFO [Epoch 21]: Train Loss: 2.1249, Train Acc: 50.69%, Val Loss: 1.1510, Val Acc: 59.52%, F1: 0.5870, Precision: 0.5959, Recall: 0.5952
-[2026-04-01 05:06:49,888 deit_tiny] (main.py 80): INFO Max accuracy: 62.00%
-[2026-04-01 05:06:50,772 deit_tiny] (main.py 124): INFO Epoch: [22][0/59] lr 0.000444 loss 2.0764 acc 56.25%
-[2026-04-01 05:06:57,883 deit_tiny] (main.py 124): INFO Epoch: [22][20/59] lr 0.000444 loss 2.1181 acc 49.11%
-[2026-04-01 05:07:05,041 deit_tiny] (main.py 124): INFO Epoch: [22][40/59] lr 0.000444 loss 2.1319 acc 48.97%
-[2026-04-01 05:07:15,471 deit_tiny] (main.py 67): INFO [Epoch 22]: Train Loss: 2.1249, Train Acc: 49.31%, Val Loss: 1.2068, Val Acc: 56.96%, F1: 0.5629, Precision: 0.6087, Recall: 0.5696
-[2026-04-01 05:07:15,472 deit_tiny] (main.py 80): INFO Max accuracy: 62.00%
-[2026-04-01 05:07:16,331 deit_tiny] (main.py 124): INFO Epoch: [23][0/59] lr 0.000439 loss 2.1746 acc 53.12%
-[2026-04-01 05:07:23,532 deit_tiny] (main.py 124): INFO Epoch: [23][20/59] lr 0.000439 loss 2.1175 acc 50.97%
-[2026-04-01 05:07:30,653 deit_tiny] (main.py 124): INFO Epoch: [23][40/59] lr 0.000439 loss 2.1129 acc 50.95%
-[2026-04-01 05:07:41,094 deit_tiny] (main.py 67): INFO [Epoch 23]: Train Loss: 2.1140, Train Acc: 50.80%, Val Loss: 1.1077, Val Acc: 61.44%, F1: 0.6176, Precision: 0.6615, Recall: 0.6144
-[2026-04-01 05:07:41,094 deit_tiny] (main.py 80): INFO Max accuracy: 62.00%
-[2026-04-01 05:07:41,955 deit_tiny] (main.py 124): INFO Epoch: [24][0/59] lr 0.000434 loss 1.9979 acc 54.69%
-[2026-04-01 05:07:49,253 deit_tiny] (main.py 124): INFO Epoch: [24][20/59] lr 0.000434 loss 2.0608 acc 53.20%
-[2026-04-01 05:07:56,416 deit_tiny] (main.py 124): INFO Epoch: [24][40/59] lr 0.000434 loss 2.0853 acc 52.13%
-[2026-04-01 05:08:06,885 deit_tiny] (main.py 67): INFO [Epoch 24]: Train Loss: 2.0871, Train Acc: 52.21%, Val Loss: 1.1193, Val Acc: 61.76%, F1: 0.6116, Precision: 0.6475, Recall: 0.6176
-[2026-04-01 05:08:06,885 deit_tiny] (main.py 80): INFO Max accuracy: 62.00%
-[2026-04-01 05:08:07,751 deit_tiny] (main.py 124): INFO Epoch: [25][0/59] lr 0.000428 loss 2.0952 acc 48.44%
-[2026-04-01 05:08:14,923 deit_tiny] (main.py 124): INFO Epoch: [25][20/59] lr 0.000428 loss 2.1227 acc 47.17%
-[2026-04-01 05:08:22,077 deit_tiny] (main.py 124): INFO Epoch: [25][40/59] lr 0.000428 loss 2.1147 acc 48.63%
-[2026-04-01 05:08:32,520 deit_tiny] (main.py 67): INFO [Epoch 25]: Train Loss: 2.1073, Train Acc: 49.47%, Val Loss: 1.0906, Val Acc: 63.92%, F1: 0.6405, Precision: 0.6507, Recall: 0.6392
-[2026-04-01 05:08:32,521 deit_tiny] (main.py 78): INFO Best performance updated at epoch 25 with accuracy: 63.92%
-[2026-04-01 05:08:32,521 deit_tiny] (main.py 80): INFO Max accuracy: 63.92%
-[2026-04-01 05:08:33,385 deit_tiny] (main.py 124): INFO Epoch: [26][0/59] lr 0.000423 loss 2.1281 acc 56.25%
-[2026-04-01 05:08:40,670 deit_tiny] (main.py 124): INFO Epoch: [26][20/59] lr 0.000423 loss 2.0832 acc 51.04%
-[2026-04-01 05:08:47,983 deit_tiny] (main.py 124): INFO Epoch: [26][40/59] lr 0.000423 loss 2.0902 acc 51.56%
-[2026-04-01 05:08:58,473 deit_tiny] (main.py 67): INFO [Epoch 26]: Train Loss: 2.0768, Train Acc: 52.13%, Val Loss: 1.0006, Val Acc: 67.28%, F1: 0.6711, Precision: 0.6734, Recall: 0.6728
-[2026-04-01 05:08:58,473 deit_tiny] (main.py 78): INFO Best performance updated at epoch 26 with accuracy: 67.28%
-[2026-04-01 05:08:58,474 deit_tiny] (main.py 80): INFO Max accuracy: 67.28%
-[2026-04-01 05:08:59,327 deit_tiny] (main.py 124): INFO Epoch: [27][0/59] lr 0.000417 loss 1.9926 acc 57.81%
-[2026-04-01 05:09:06,498 deit_tiny] (main.py 124): INFO Epoch: [27][20/59] lr 0.000417 loss 2.0686 acc 53.12%
-[2026-04-01 05:09:13,689 deit_tiny] (main.py 124): INFO Epoch: [27][40/59] lr 0.000417 loss 2.0833 acc 51.71%
-[2026-04-01 05:09:24,181 deit_tiny] (main.py 67): INFO [Epoch 27]: Train Loss: 2.0756, Train Acc: 51.92%, Val Loss: 1.0405, Val Acc: 64.72%, F1: 0.6451, Precision: 0.6592, Recall: 0.6472
-[2026-04-01 05:09:24,182 deit_tiny] (main.py 80): INFO Max accuracy: 67.28%
-[2026-04-01 05:09:25,032 deit_tiny] (main.py 124): INFO Epoch: [28][0/59] lr 0.000411 loss 2.0539 acc 48.44%
-[2026-04-01 05:09:32,117 deit_tiny] (main.py 124): INFO Epoch: [28][20/59] lr 0.000411 loss 2.0437 acc 54.46%
-[2026-04-01 05:09:39,277 deit_tiny] (main.py 124): INFO Epoch: [28][40/59] lr 0.000411 loss 2.0516 acc 53.58%
-[2026-04-01 05:09:49,640 deit_tiny] (main.py 67): INFO [Epoch 28]: Train Loss: 2.0721, Train Acc: 52.21%, Val Loss: 1.0215, Val Acc: 66.40%, F1: 0.6608, Precision: 0.6717, Recall: 0.6640
-[2026-04-01 05:09:49,641 deit_tiny] (main.py 80): INFO Max accuracy: 67.28%
-[2026-04-01 05:09:50,519 deit_tiny] (main.py 124): INFO Epoch: [29][0/59] lr 0.000405 loss 2.0873 acc 51.56%
-[2026-04-01 05:09:57,681 deit_tiny] (main.py 124): INFO Epoch: [29][20/59] lr 0.000405 loss 2.0585 acc 53.20%
-[2026-04-01 05:10:04,926 deit_tiny] (main.py 124): INFO Epoch: [29][40/59] lr 0.000405 loss 2.0597 acc 53.58%
-[2026-04-01 05:10:15,402 deit_tiny] (main.py 67): INFO [Epoch 29]: Train Loss: 2.0410, Train Acc: 54.35%, Val Loss: 1.0337, Val Acc: 65.04%, F1: 0.6359, Precision: 0.6648, Recall: 0.6504
-[2026-04-01 05:10:15,402 deit_tiny] (main.py 80): INFO Max accuracy: 67.28%
-[2026-04-01 05:10:16,280 deit_tiny] (main.py 124): INFO Epoch: [30][0/59] lr 0.000399 loss 2.1842 acc 48.44%
-[2026-04-01 05:10:23,454 deit_tiny] (main.py 124): INFO Epoch: [30][20/59] lr 0.000399 loss 2.0905 acc 51.56%
-[2026-04-01 05:10:30,668 deit_tiny] (main.py 124): INFO Epoch: [30][40/59] lr 0.000399 loss 2.0723 acc 52.78%
-[2026-04-01 05:10:40,936 deit_tiny] (main.py 67): INFO [Epoch 30]: Train Loss: 2.0706, Train Acc: 52.43%, Val Loss: 1.0256, Val Acc: 64.72%, F1: 0.6436, Precision: 0.6547, Recall: 0.6472
-[2026-04-01 05:10:40,937 deit_tiny] (main.py 80): INFO Max accuracy: 67.28%
-[2026-04-01 05:10:41,824 deit_tiny] (main.py 124): INFO Epoch: [31][0/59] lr 0.000393 loss 2.0053 acc 54.69%
-[2026-04-01 05:10:49,057 deit_tiny] (main.py 124): INFO Epoch: [31][20/59] lr 0.000393 loss 2.0357 acc 54.17%
-[2026-04-01 05:10:56,356 deit_tiny] (main.py 124): INFO Epoch: [31][40/59] lr 0.000393 loss 2.0263 acc 54.50%
-[2026-04-01 05:11:06,940 deit_tiny] (main.py 67): INFO [Epoch 31]: Train Loss: 2.0387, Train Acc: 53.71%, Val Loss: 1.0207, Val Acc: 66.96%, F1: 0.6682, Precision: 0.6741, Recall: 0.6696
-[2026-04-01 05:11:06,940 deit_tiny] (main.py 80): INFO Max accuracy: 67.28%
-[2026-04-01 05:11:07,820 deit_tiny] (main.py 124): INFO Epoch: [32][0/59] lr 0.000386 loss 2.1283 acc 57.81%
-[2026-04-01 05:11:14,963 deit_tiny] (main.py 124): INFO Epoch: [32][20/59] lr 0.000386 loss 2.0355 acc 55.28%
-[2026-04-01 05:11:22,175 deit_tiny] (main.py 124): INFO Epoch: [32][40/59] lr 0.000386 loss 2.0260 acc 54.99%
-[2026-04-01 05:11:32,694 deit_tiny] (main.py 67): INFO [Epoch 32]: Train Loss: 2.0328, Train Acc: 55.28%, Val Loss: 0.9845, Val Acc: 66.48%, F1: 0.6583, Precision: 0.6725, Recall: 0.6648
-[2026-04-01 05:11:32,695 deit_tiny] (main.py 80): INFO Max accuracy: 67.28%
-[2026-04-01 05:11:33,557 deit_tiny] (main.py 124): INFO Epoch: [33][0/59] lr 0.000380 loss 1.9331 acc 51.56%
-[2026-04-01 05:11:40,690 deit_tiny] (main.py 124): INFO Epoch: [33][20/59] lr 0.000380 loss 2.0299 acc 52.75%
-[2026-04-01 05:11:47,816 deit_tiny] (main.py 124): INFO Epoch: [33][40/59] lr 0.000380 loss 2.0150 acc 54.27%
-[2026-04-01 05:11:58,588 deit_tiny] (main.py 67): INFO [Epoch 33]: Train Loss: 2.0236, Train Acc: 54.19%, Val Loss: 0.9724, Val Acc: 67.76%, F1: 0.6722, Precision: 0.6755, Recall: 0.6776
-[2026-04-01 05:11:58,589 deit_tiny] (main.py 78): INFO Best performance updated at epoch 33 with accuracy: 67.76%
-[2026-04-01 05:11:58,589 deit_tiny] (main.py 80): INFO Max accuracy: 67.76%
-[2026-04-01 05:11:59,442 deit_tiny] (main.py 124): INFO Epoch: [34][0/59] lr 0.000373 loss 2.0686 acc 54.69%
-[2026-04-01 05:12:06,559 deit_tiny] (main.py 124): INFO Epoch: [34][20/59] lr 0.000373 loss 2.0074 acc 54.99%
-[2026-04-01 05:12:13,672 deit_tiny] (main.py 124): INFO Epoch: [34][40/59] lr 0.000373 loss 1.9957 acc 55.72%
-[2026-04-01 05:12:24,024 deit_tiny] (main.py 67): INFO [Epoch 34]: Train Loss: 2.0063, Train Acc: 55.73%, Val Loss: 0.9734, Val Acc: 67.28%, F1: 0.6668, Precision: 0.6790, Recall: 0.6728
-[2026-04-01 05:12:24,025 deit_tiny] (main.py 80): INFO Max accuracy: 67.76%
-[2026-04-01 05:12:24,884 deit_tiny] (main.py 124): INFO Epoch: [35][0/59] lr 0.000366 loss 2.1618 acc 42.19%
-[2026-04-01 05:12:32,074 deit_tiny] (main.py 124): INFO Epoch: [35][20/59] lr 0.000366 loss 1.9998 acc 56.55%
-[2026-04-01 05:12:39,310 deit_tiny] (main.py 124): INFO Epoch: [35][40/59] lr 0.000366 loss 2.0072 acc 56.33%
-[2026-04-01 05:12:49,858 deit_tiny] (main.py 67): INFO [Epoch 35]: Train Loss: 2.0056, Train Acc: 56.51%, Val Loss: 0.9697, Val Acc: 67.44%, F1: 0.6762, Precision: 0.6807, Recall: 0.6744
-[2026-04-01 05:12:49,859 deit_tiny] (main.py 80): INFO Max accuracy: 67.76%
-[2026-04-01 05:12:50,725 deit_tiny] (main.py 124): INFO Epoch: [36][0/59] lr 0.000359 loss 2.0232 acc 57.81%
-[2026-04-01 05:12:57,905 deit_tiny] (main.py 124): INFO Epoch: [36][20/59] lr 0.000359 loss 2.0315 acc 55.06%
-[2026-04-01 05:13:04,997 deit_tiny] (main.py 124): INFO Epoch: [36][40/59] lr 0.000359 loss 2.0393 acc 54.27%
-[2026-04-01 05:13:15,417 deit_tiny] (main.py 67): INFO [Epoch 36]: Train Loss: 2.0227, Train Acc: 55.33%, Val Loss: 0.9275, Val Acc: 69.36%, F1: 0.6855, Precision: 0.6945, Recall: 0.6936
-[2026-04-01 05:13:15,418 deit_tiny] (main.py 78): INFO Best performance updated at epoch 36 with accuracy: 69.36%
-[2026-04-01 05:13:15,418 deit_tiny] (main.py 80): INFO Max accuracy: 69.36%
-[2026-04-01 05:13:16,277 deit_tiny] (main.py 124): INFO Epoch: [37][0/59] lr 0.000352 loss 1.8876 acc 54.69%
-[2026-04-01 05:13:23,463 deit_tiny] (main.py 124): INFO Epoch: [37][20/59] lr 0.000352 loss 2.0007 acc 56.03%
-[2026-04-01 05:13:30,644 deit_tiny] (main.py 124): INFO Epoch: [37][40/59] lr 0.000352 loss 2.0035 acc 56.17%
-[2026-04-01 05:13:41,178 deit_tiny] (main.py 67): INFO [Epoch 37]: Train Loss: 2.0036, Train Acc: 56.08%, Val Loss: 0.9418, Val Acc: 70.00%, F1: 0.6985, Precision: 0.7081, Recall: 0.7000
-[2026-04-01 05:13:41,178 deit_tiny] (main.py 78): INFO Best performance updated at epoch 37 with accuracy: 70.00%
-[2026-04-01 05:13:41,178 deit_tiny] (main.py 80): INFO Max accuracy: 70.00%
-[2026-04-01 05:13:42,034 deit_tiny] (main.py 124): INFO Epoch: [38][0/59] lr 0.000345 loss 1.8568 acc 67.19%
-[2026-04-01 05:13:49,171 deit_tiny] (main.py 124): INFO Epoch: [38][20/59] lr 0.000345 loss 1.9897 acc 55.51%
-[2026-04-01 05:13:56,179 deit_tiny] (main.py 124): INFO Epoch: [38][40/59] lr 0.000345 loss 2.0128 acc 53.73%
-[2026-04-01 05:14:06,519 deit_tiny] (main.py 67): INFO [Epoch 38]: Train Loss: 2.0080, Train Acc: 53.97%, Val Loss: 0.9787, Val Acc: 67.60%, F1: 0.6793, Precision: 0.7008, Recall: 0.6760
-[2026-04-01 05:14:06,519 deit_tiny] (main.py 80): INFO Max accuracy: 70.00%
-[2026-04-01 05:14:07,370 deit_tiny] (main.py 124): INFO Epoch: [39][0/59] lr 0.000338 loss 1.9635 acc 59.38%
-[2026-04-01 05:14:14,529 deit_tiny] (main.py 124): INFO Epoch: [39][20/59] lr 0.000338 loss 2.0011 acc 56.85%
-[2026-04-01 05:14:21,655 deit_tiny] (main.py 124): INFO Epoch: [39][40/59] lr 0.000338 loss 2.0097 acc 56.40%
-[2026-04-01 05:14:31,902 deit_tiny] (main.py 67): INFO [Epoch 39]: Train Loss: 1.9986, Train Acc: 57.20%, Val Loss: 0.9262, Val Acc: 69.28%, F1: 0.6896, Precision: 0.6930, Recall: 0.6928
-[2026-04-01 05:14:31,903 deit_tiny] (main.py 80): INFO Max accuracy: 70.00%
-[2026-04-01 05:14:32,776 deit_tiny] (main.py 124): INFO Epoch: [40][0/59] lr 0.000331 loss 2.0296 acc 51.56%
-[2026-04-01 05:14:39,958 deit_tiny] (main.py 124): INFO Epoch: [40][20/59] lr 0.000331 loss 2.0075 acc 55.58%
-[2026-04-01 05:14:47,121 deit_tiny] (main.py 124): INFO Epoch: [40][40/59] lr 0.000331 loss 1.9873 acc 57.55%
-[2026-04-01 05:14:57,539 deit_tiny] (main.py 67): INFO [Epoch 40]: Train Loss: 1.9899, Train Acc: 57.31%, Val Loss: 0.9389, Val Acc: 69.84%, F1: 0.7001, Precision: 0.7077, Recall: 0.6984
-[2026-04-01 05:14:57,539 deit_tiny] (main.py 80): INFO Max accuracy: 70.00%
-[2026-04-01 05:14:58,412 deit_tiny] (main.py 124): INFO Epoch: [41][0/59] lr 0.000323 loss 2.0159 acc 57.81%
-[2026-04-01 05:15:05,516 deit_tiny] (main.py 124): INFO Epoch: [41][20/59] lr 0.000323 loss 2.0010 acc 55.36%
-[2026-04-01 05:15:12,591 deit_tiny] (main.py 124): INFO Epoch: [41][40/59] lr 0.000323 loss 1.9736 acc 56.94%
-[2026-04-01 05:15:23,046 deit_tiny] (main.py 67): INFO [Epoch 41]: Train Loss: 1.9766, Train Acc: 57.20%, Val Loss: 0.9339, Val Acc: 70.72%, F1: 0.7083, Precision: 0.7294, Recall: 0.7072
-[2026-04-01 05:15:23,047 deit_tiny] (main.py 78): INFO Best performance updated at epoch 41 with accuracy: 70.72%
-[2026-04-01 05:15:23,047 deit_tiny] (main.py 80): INFO Max accuracy: 70.72%
-[2026-04-01 05:15:23,912 deit_tiny] (main.py 124): INFO Epoch: [42][0/59] lr 0.000316 loss 2.1424 acc 45.31%
-[2026-04-01 05:15:31,225 deit_tiny] (main.py 124): INFO Epoch: [42][20/59] lr 0.000316 loss 1.9838 acc 57.96%
-[2026-04-01 05:15:38,568 deit_tiny] (main.py 124): INFO Epoch: [42][40/59] lr 0.000316 loss 1.9632 acc 58.88%
-[2026-04-01 05:15:49,083 deit_tiny] (main.py 67): INFO [Epoch 42]: Train Loss: 1.9726, Train Acc: 57.95%, Val Loss: 0.9188, Val Acc: 70.32%, F1: 0.6937, Precision: 0.7197, Recall: 0.7032
-[2026-04-01 05:15:49,083 deit_tiny] (main.py 80): INFO Max accuracy: 70.72%
-[2026-04-01 05:15:49,934 deit_tiny] (main.py 124): INFO Epoch: [43][0/59] lr 0.000308 loss 1.9962 acc 59.38%
-[2026-04-01 05:15:57,144 deit_tiny] (main.py 124): INFO Epoch: [43][20/59] lr 0.000308 loss 1.9458 acc 58.93%
-[2026-04-01 05:16:04,322 deit_tiny] (main.py 124): INFO Epoch: [43][40/59] lr 0.000308 loss 1.9619 acc 58.84%
-[2026-04-01 05:16:15,089 deit_tiny] (main.py 67): INFO [Epoch 43]: Train Loss: 1.9590, Train Acc: 58.56%, Val Loss: 0.9078, Val Acc: 71.12%, F1: 0.7088, Precision: 0.7312, Recall: 0.7112
-[2026-04-01 05:16:15,089 deit_tiny] (main.py 78): INFO Best performance updated at epoch 43 with accuracy: 71.12%
-[2026-04-01 05:16:15,089 deit_tiny] (main.py 80): INFO Max accuracy: 71.12%
-[2026-04-01 05:16:15,958 deit_tiny] (main.py 124): INFO Epoch: [44][0/59] lr 0.000301 loss 1.9477 acc 57.81%
-[2026-04-01 05:16:23,152 deit_tiny] (main.py 124): INFO Epoch: [44][20/59] lr 0.000301 loss 1.9550 acc 59.23%
-[2026-04-01 05:16:30,356 deit_tiny] (main.py 124): INFO Epoch: [44][40/59] lr 0.000301 loss 1.9659 acc 58.38%
-[2026-04-01 05:16:40,873 deit_tiny] (main.py 67): INFO [Epoch 44]: Train Loss: 1.9646, Train Acc: 58.43%, Val Loss: 0.9093, Val Acc: 71.28%, F1: 0.7116, Precision: 0.7267, Recall: 0.7128
-[2026-04-01 05:16:40,874 deit_tiny] (main.py 78): INFO Best performance updated at epoch 44 with accuracy: 71.28%
-[2026-04-01 05:16:40,874 deit_tiny] (main.py 80): INFO Max accuracy: 71.28%
-[2026-04-01 05:16:41,732 deit_tiny] (main.py 124): INFO Epoch: [45][0/59] lr 0.000293 loss 1.9256 acc 59.38%
-[2026-04-01 05:16:48,891 deit_tiny] (main.py 124): INFO Epoch: [45][20/59] lr 0.000293 loss 1.9155 acc 61.01%
-[2026-04-01 05:16:56,072 deit_tiny] (main.py 124): INFO Epoch: [45][40/59] lr 0.000293 loss 1.9239 acc 60.75%
-[2026-04-01 05:17:06,531 deit_tiny] (main.py 67): INFO [Epoch 45]: Train Loss: 1.9448, Train Acc: 59.71%, Val Loss: 0.9206, Val Acc: 68.88%, F1: 0.6845, Precision: 0.7178, Recall: 0.6888
-[2026-04-01 05:17:06,532 deit_tiny] (main.py 80): INFO Max accuracy: 71.28%
-[2026-04-01 05:17:07,408 deit_tiny] (main.py 124): INFO Epoch: [46][0/59] lr 0.000286 loss 2.0231 acc 51.56%
-[2026-04-01 05:17:14,567 deit_tiny] (main.py 124): INFO Epoch: [46][20/59] lr 0.000286 loss 1.9641 acc 58.48%
-[2026-04-01 05:17:21,734 deit_tiny] (main.py 124): INFO Epoch: [46][40/59] lr 0.000286 loss 1.9442 acc 59.57%
-[2026-04-01 05:17:32,084 deit_tiny] (main.py 67): INFO [Epoch 46]: Train Loss: 1.9499, Train Acc: 58.77%, Val Loss: 0.8966, Val Acc: 70.56%, F1: 0.6975, Precision: 0.7071, Recall: 0.7056
-[2026-04-01 05:17:32,085 deit_tiny] (main.py 80): INFO Max accuracy: 71.28%
-[2026-04-01 05:17:32,954 deit_tiny] (main.py 124): INFO Epoch: [47][0/59] lr 0.000278 loss 1.9389 acc 62.50%
-[2026-04-01 05:17:40,076 deit_tiny] (main.py 124): INFO Epoch: [47][20/59] lr 0.000278 loss 1.9437 acc 59.97%
-[2026-04-01 05:17:47,170 deit_tiny] (main.py 124): INFO Epoch: [47][40/59] lr 0.000278 loss 1.9361 acc 59.22%
-[2026-04-01 05:17:57,557 deit_tiny] (main.py 67): INFO [Epoch 47]: Train Loss: 1.9439, Train Acc: 59.15%, Val Loss: 0.8875, Val Acc: 72.64%, F1: 0.7286, Precision: 0.7437, Recall: 0.7264
-[2026-04-01 05:17:57,557 deit_tiny] (main.py 78): INFO Best performance updated at epoch 47 with accuracy: 72.64%
-[2026-04-01 05:17:57,557 deit_tiny] (main.py 80): INFO Max accuracy: 72.64%
-[2026-04-01 05:17:58,437 deit_tiny] (main.py 124): INFO Epoch: [48][0/59] lr 0.000270 loss 1.9722 acc 64.06%
-[2026-04-01 05:18:05,530 deit_tiny] (main.py 124): INFO Epoch: [48][20/59] lr 0.000270 loss 1.9353 acc 59.23%
-[2026-04-01 05:18:12,607 deit_tiny] (main.py 124): INFO Epoch: [48][40/59] lr 0.000270 loss 1.9251 acc 59.26%
-[2026-04-01 05:18:22,937 deit_tiny] (main.py 67): INFO [Epoch 48]: Train Loss: 1.9338, Train Acc: 59.04%, Val Loss: 0.9003, Val Acc: 70.16%, F1: 0.6978, Precision: 0.7180, Recall: 0.7016
-[2026-04-01 05:18:22,937 deit_tiny] (main.py 80): INFO Max accuracy: 72.64%
-[2026-04-01 05:18:23,831 deit_tiny] (main.py 124): INFO Epoch: [49][0/59] lr 0.000263 loss 1.9606 acc 53.12%
-[2026-04-01 05:18:31,030 deit_tiny] (main.py 124): INFO Epoch: [49][20/59] lr 0.000263 loss 1.9469 acc 57.51%
-[2026-04-01 05:18:38,286 deit_tiny] (main.py 124): INFO Epoch: [49][40/59] lr 0.000263 loss 1.9359 acc 58.16%
-[2026-04-01 05:18:48,813 deit_tiny] (main.py 67): INFO [Epoch 49]: Train Loss: 1.9319, Train Acc: 58.85%, Val Loss: 0.8529, Val Acc: 72.32%, F1: 0.7185, Precision: 0.7473, Recall: 0.7232
-[2026-04-01 05:18:48,814 deit_tiny] (main.py 80): INFO Max accuracy: 72.64%
-[2026-04-01 05:18:49,673 deit_tiny] (main.py 124): INFO Epoch: [50][0/59] lr 0.000255 loss 2.0794 acc 59.38%
-[2026-04-01 05:18:56,799 deit_tiny] (main.py 124): INFO Epoch: [50][20/59] lr 0.000255 loss 1.9226 acc 59.90%
-[2026-04-01 05:19:03,891 deit_tiny] (main.py 124): INFO Epoch: [50][40/59] lr 0.000255 loss 1.9362 acc 59.26%
-[2026-04-01 05:19:14,373 deit_tiny] (main.py 67): INFO [Epoch 50]: Train Loss: 1.9339, Train Acc: 59.87%, Val Loss: 0.8198, Val Acc: 73.20%, F1: 0.7270, Precision: 0.7333, Recall: 0.7320
-[2026-04-01 05:19:14,374 deit_tiny] (main.py 78): INFO Best performance updated at epoch 50 with accuracy: 73.20%
-[2026-04-01 05:19:14,374 deit_tiny] (main.py 80): INFO Max accuracy: 73.20%
-[2026-04-01 05:19:15,260 deit_tiny] (main.py 124): INFO Epoch: [51][0/59] lr 0.000247 loss 1.8853 acc 62.50%
-[2026-04-01 05:19:22,406 deit_tiny] (main.py 124): INFO Epoch: [51][20/59] lr 0.000247 loss 1.9211 acc 60.71%
-[2026-04-01 05:19:29,484 deit_tiny] (main.py 124): INFO Epoch: [51][40/59] lr 0.000247 loss 1.9358 acc 59.60%
-[2026-04-01 05:19:40,007 deit_tiny] (main.py 67): INFO [Epoch 51]: Train Loss: 1.9348, Train Acc: 59.73%, Val Loss: 0.8932, Val Acc: 70.64%, F1: 0.6880, Precision: 0.7366, Recall: 0.7064
-[2026-04-01 05:19:40,008 deit_tiny] (main.py 80): INFO Max accuracy: 73.20%
-[2026-04-01 05:19:40,872 deit_tiny] (main.py 124): INFO Epoch: [52][0/59] lr 0.000240 loss 1.9811 acc 57.81%
-[2026-04-01 05:19:47,968 deit_tiny] (main.py 124): INFO Epoch: [52][20/59] lr 0.000240 loss 1.9095 acc 60.19%
-[2026-04-01 05:19:55,107 deit_tiny] (main.py 124): INFO Epoch: [52][40/59] lr 0.000240 loss 1.9128 acc 60.14%
-[2026-04-01 05:20:05,574 deit_tiny] (main.py 67): INFO [Epoch 52]: Train Loss: 1.9150, Train Acc: 60.61%, Val Loss: 0.8251, Val Acc: 73.76%, F1: 0.7361, Precision: 0.7406, Recall: 0.7376
-[2026-04-01 05:20:05,574 deit_tiny] (main.py 78): INFO Best performance updated at epoch 52 with accuracy: 73.76%
-[2026-04-01 05:20:05,574 deit_tiny] (main.py 80): INFO Max accuracy: 73.76%
-[2026-04-01 05:20:06,434 deit_tiny] (main.py 124): INFO Epoch: [53][0/59] lr 0.000232 loss 1.9583 acc 62.50%
-[2026-04-01 05:20:13,477 deit_tiny] (main.py 124): INFO Epoch: [53][20/59] lr 0.000232 loss 1.9448 acc 58.63%
-[2026-04-01 05:20:20,541 deit_tiny] (main.py 124): INFO Epoch: [53][40/59] lr 0.000232 loss 1.9210 acc 60.14%
-[2026-04-01 05:20:30,829 deit_tiny] (main.py 67): INFO [Epoch 53]: Train Loss: 1.9114, Train Acc: 60.56%, Val Loss: 0.8622, Val Acc: 71.04%, F1: 0.7116, Precision: 0.7225, Recall: 0.7104
-[2026-04-01 05:20:30,830 deit_tiny] (main.py 80): INFO Max accuracy: 73.76%
-[2026-04-01 05:20:31,695 deit_tiny] (main.py 124): INFO Epoch: [54][0/59] lr 0.000224 loss 1.9395 acc 56.25%
-[2026-04-01 05:20:38,868 deit_tiny] (main.py 124): INFO Epoch: [54][20/59] lr 0.000224 loss 1.8984 acc 60.49%
-[2026-04-01 05:20:46,039 deit_tiny] (main.py 124): INFO Epoch: [54][40/59] lr 0.000224 loss 1.8925 acc 61.09%
-[2026-04-01 05:20:56,460 deit_tiny] (main.py 67): INFO [Epoch 54]: Train Loss: 1.8899, Train Acc: 61.49%, Val Loss: 0.8952, Val Acc: 69.68%, F1: 0.6839, Precision: 0.7146, Recall: 0.6968
-[2026-04-01 05:20:56,461 deit_tiny] (main.py 80): INFO Max accuracy: 73.76%
-[2026-04-01 05:20:57,346 deit_tiny] (main.py 124): INFO Epoch: [55][0/59] lr 0.000217 loss 1.9418 acc 54.69%
-[2026-04-01 05:21:04,544 deit_tiny] (main.py 124): INFO Epoch: [55][20/59] lr 0.000217 loss 1.9257 acc 59.60%
-[2026-04-01 05:21:11,657 deit_tiny] (main.py 124): INFO Epoch: [55][40/59] lr 0.000217 loss 1.9087 acc 60.75%
-[2026-04-01 05:21:22,144 deit_tiny] (main.py 67): INFO [Epoch 55]: Train Loss: 1.8937, Train Acc: 61.47%, Val Loss: 0.7910, Val Acc: 76.24%, F1: 0.7607, Precision: 0.7661, Recall: 0.7624
-[2026-04-01 05:21:22,144 deit_tiny] (main.py 78): INFO Best performance updated at epoch 55 with accuracy: 76.24%
-[2026-04-01 05:21:22,144 deit_tiny] (main.py 80): INFO Max accuracy: 76.24%
-[2026-04-01 05:21:23,017 deit_tiny] (main.py 124): INFO Epoch: [56][0/59] lr 0.000209 loss 1.9010 acc 64.06%
-[2026-04-01 05:21:30,173 deit_tiny] (main.py 124): INFO Epoch: [56][20/59] lr 0.000209 loss 1.8785 acc 63.62%
-[2026-04-01 05:21:37,333 deit_tiny] (main.py 124): INFO Epoch: [56][40/59] lr 0.000209 loss 1.8959 acc 62.50%
-[2026-04-01 05:21:47,959 deit_tiny] (main.py 67): INFO [Epoch 56]: Train Loss: 1.8940, Train Acc: 62.48%, Val Loss: 0.8157, Val Acc: 75.44%, F1: 0.7560, Precision: 0.7726, Recall: 0.7544
-[2026-04-01 05:21:47,960 deit_tiny] (main.py 80): INFO Max accuracy: 76.24%
-[2026-04-01 05:21:48,823 deit_tiny] (main.py 124): INFO Epoch: [57][0/59] lr 0.000202 loss 1.9093 acc 60.94%
-[2026-04-01 05:21:55,922 deit_tiny] (main.py 124): INFO Epoch: [57][20/59] lr 0.000202 loss 1.8877 acc 60.79%
-[2026-04-01 05:22:02,955 deit_tiny] (main.py 124): INFO Epoch: [57][40/59] lr 0.000202 loss 1.8785 acc 61.59%
-[2026-04-01 05:22:13,500 deit_tiny] (main.py 67): INFO [Epoch 57]: Train Loss: 1.8816, Train Acc: 61.68%, Val Loss: 0.8082, Val Acc: 74.72%, F1: 0.7451, Precision: 0.7522, Recall: 0.7472
-[2026-04-01 05:22:13,501 deit_tiny] (main.py 80): INFO Max accuracy: 76.24%
-[2026-04-01 05:22:14,374 deit_tiny] (main.py 124): INFO Epoch: [58][0/59] lr 0.000194 loss 2.0323 acc 60.94%
-[2026-04-01 05:22:21,426 deit_tiny] (main.py 124): INFO Epoch: [58][20/59] lr 0.000194 loss 1.8807 acc 61.53%
-[2026-04-01 05:22:28,442 deit_tiny] (main.py 124): INFO Epoch: [58][40/59] lr 0.000194 loss 1.8852 acc 61.39%
-[2026-04-01 05:22:38,749 deit_tiny] (main.py 67): INFO [Epoch 58]: Train Loss: 1.8998, Train Acc: 60.77%, Val Loss: 0.8180, Val Acc: 74.08%, F1: 0.7285, Precision: 0.7483, Recall: 0.7408
-[2026-04-01 05:22:38,749 deit_tiny] (main.py 80): INFO Max accuracy: 76.24%
-[2026-04-01 05:22:39,625 deit_tiny] (main.py 124): INFO Epoch: [59][0/59] lr 0.000187 loss 1.8806 acc 70.31%
-[2026-04-01 05:22:46,719 deit_tiny] (main.py 124): INFO Epoch: [59][20/59] lr 0.000187 loss 1.8947 acc 62.35%
-[2026-04-01 05:22:53,863 deit_tiny] (main.py 124): INFO Epoch: [59][40/59] lr 0.000187 loss 1.8740 acc 63.19%
-[2026-04-01 05:23:04,343 deit_tiny] (main.py 67): INFO [Epoch 59]: Train Loss: 1.8703, Train Acc: 62.75%, Val Loss: 0.7730, Val Acc: 76.24%, F1: 0.7597, Precision: 0.7607, Recall: 0.7624
-[2026-04-01 05:23:04,343 deit_tiny] (main.py 78): INFO Best performance updated at epoch 59 with accuracy: 76.24%
-[2026-04-01 05:23:04,344 deit_tiny] (main.py 80): INFO Max accuracy: 76.24%
-[2026-04-01 05:23:05,218 deit_tiny] (main.py 124): INFO Epoch: [60][0/59] lr 0.000179 loss 1.7897 acc 68.75%
-[2026-04-01 05:23:12,378 deit_tiny] (main.py 124): INFO Epoch: [60][20/59] lr 0.000179 loss 1.8692 acc 62.28%
-[2026-04-01 05:23:19,559 deit_tiny] (main.py 124): INFO Epoch: [60][40/59] lr 0.000179 loss 1.8719 acc 62.54%
-[2026-04-01 05:23:30,080 deit_tiny] (main.py 67): INFO [Epoch 60]: Train Loss: 1.8766, Train Acc: 62.59%, Val Loss: 0.7499, Val Acc: 78.08%, F1: 0.7783, Precision: 0.7805, Recall: 0.7808
-[2026-04-01 05:23:30,081 deit_tiny] (main.py 78): INFO Best performance updated at epoch 60 with accuracy: 78.08%
-[2026-04-01 05:23:30,081 deit_tiny] (main.py 80): INFO Max accuracy: 78.08%
-[2026-04-01 05:23:30,944 deit_tiny] (main.py 124): INFO Epoch: [61][0/59] lr 0.000172 loss 1.7963 acc 65.62%
-[2026-04-01 05:23:38,122 deit_tiny] (main.py 124): INFO Epoch: [61][20/59] lr 0.000172 loss 1.8510 acc 65.40%
-[2026-04-01 05:23:45,242 deit_tiny] (main.py 124): INFO Epoch: [61][40/59] lr 0.000172 loss 1.8458 acc 65.28%
-[2026-04-01 05:23:55,681 deit_tiny] (main.py 67): INFO [Epoch 61]: Train Loss: 1.8519, Train Acc: 64.77%, Val Loss: 0.8006, Val Acc: 74.24%, F1: 0.7409, Precision: 0.7484, Recall: 0.7424
-[2026-04-01 05:23:55,681 deit_tiny] (main.py 80): INFO Max accuracy: 78.08%
-[2026-04-01 05:23:56,557 deit_tiny] (main.py 124): INFO Epoch: [62][0/59] lr 0.000165 loss 1.9697 acc 56.25%
-[2026-04-01 05:24:03,811 deit_tiny] (main.py 124): INFO Epoch: [62][20/59] lr 0.000165 loss 1.8298 acc 63.91%
-[2026-04-01 05:24:10,951 deit_tiny] (main.py 124): INFO Epoch: [62][40/59] lr 0.000165 loss 1.8556 acc 62.84%
-[2026-04-01 05:24:21,380 deit_tiny] (main.py 67): INFO [Epoch 62]: Train Loss: 1.8507, Train Acc: 63.12%, Val Loss: 0.8234, Val Acc: 75.04%, F1: 0.7431, Precision: 0.7587, Recall: 0.7504
-[2026-04-01 05:24:21,380 deit_tiny] (main.py 80): INFO Max accuracy: 78.08%
-[2026-04-01 05:24:22,241 deit_tiny] (main.py 124): INFO Epoch: [63][0/59] lr 0.000158 loss 2.0032 acc 48.44%
-[2026-04-01 05:24:29,327 deit_tiny] (main.py 124): INFO Epoch: [63][20/59] lr 0.000158 loss 1.8692 acc 62.95%
-[2026-04-01 05:24:36,458 deit_tiny] (main.py 124): INFO Epoch: [63][40/59] lr 0.000158 loss 1.8509 acc 63.95%
-[2026-04-01 05:24:46,834 deit_tiny] (main.py 67): INFO [Epoch 63]: Train Loss: 1.8509, Train Acc: 63.89%, Val Loss: 0.7887, Val Acc: 75.28%, F1: 0.7452, Precision: 0.7603, Recall: 0.7528
-[2026-04-01 05:24:46,835 deit_tiny] (main.py 80): INFO Max accuracy: 78.08%
-[2026-04-01 05:24:47,697 deit_tiny] (main.py 124): INFO Epoch: [64][0/59] lr 0.000151 loss 1.8952 acc 54.69%
-[2026-04-01 05:24:54,767 deit_tiny] (main.py 124): INFO Epoch: [64][20/59] lr 0.000151 loss 1.8521 acc 64.14%
-[2026-04-01 05:25:01,839 deit_tiny] (main.py 124): INFO Epoch: [64][40/59] lr 0.000151 loss 1.8693 acc 63.57%
-[2026-04-01 05:25:12,183 deit_tiny] (main.py 67): INFO [Epoch 64]: Train Loss: 1.8510, Train Acc: 64.08%, Val Loss: 0.7759, Val Acc: 75.36%, F1: 0.7523, Precision: 0.7527, Recall: 0.7536
-[2026-04-01 05:25:12,183 deit_tiny] (main.py 80): INFO Max accuracy: 78.08%
-[2026-04-01 05:25:13,043 deit_tiny] (main.py 124): INFO Epoch: [65][0/59] lr 0.000144 loss 1.7824 acc 71.88%
-[2026-04-01 05:25:20,163 deit_tiny] (main.py 124): INFO Epoch: [65][20/59] lr 0.000144 loss 1.8561 acc 64.06%
-[2026-04-01 05:25:27,299 deit_tiny] (main.py 124): INFO Epoch: [65][40/59] lr 0.000144 loss 1.8314 acc 64.41%
-[2026-04-01 05:25:37,709 deit_tiny] (main.py 67): INFO [Epoch 65]: Train Loss: 1.8474, Train Acc: 64.00%, Val Loss: 0.7721, Val Acc: 76.72%, F1: 0.7634, Precision: 0.7663, Recall: 0.7672
-[2026-04-01 05:25:37,710 deit_tiny] (main.py 80): INFO Max accuracy: 78.08%
-[2026-04-01 05:25:38,557 deit_tiny] (main.py 124): INFO Epoch: [66][0/59] lr 0.000137 loss 1.9076 acc 62.50%
-[2026-04-01 05:25:45,679 deit_tiny] (main.py 124): INFO Epoch: [66][20/59] lr 0.000137 loss 1.8397 acc 64.96%
-[2026-04-01 05:25:52,692 deit_tiny] (main.py 124): INFO Epoch: [66][40/59] lr 0.000137 loss 1.8328 acc 65.13%
-[2026-04-01 05:26:03,126 deit_tiny] (main.py 67): INFO [Epoch 66]: Train Loss: 1.8366, Train Acc: 64.93%, Val Loss: 0.8067, Val Acc: 74.48%, F1: 0.7448, Precision: 0.7557, Recall: 0.7448
-[2026-04-01 05:26:03,127 deit_tiny] (main.py 80): INFO Max accuracy: 78.08%
-[2026-04-01 05:26:04,012 deit_tiny] (main.py 124): INFO Epoch: [67][0/59] lr 0.000130 loss 1.7695 acc 68.75%
-[2026-04-01 05:26:11,195 deit_tiny] (main.py 124): INFO Epoch: [67][20/59] lr 0.000130 loss 1.8136 acc 65.48%
-[2026-04-01 05:26:18,414 deit_tiny] (main.py 124): INFO Epoch: [67][40/59] lr 0.000130 loss 1.8082 acc 65.74%
-[2026-04-01 05:26:28,763 deit_tiny] (main.py 67): INFO [Epoch 67]: Train Loss: 1.8174, Train Acc: 65.31%, Val Loss: 0.7772, Val Acc: 76.16%, F1: 0.7566, Precision: 0.7609, Recall: 0.7616
-[2026-04-01 05:26:28,764 deit_tiny] (main.py 80): INFO Max accuracy: 78.08%
-[2026-04-01 05:26:29,621 deit_tiny] (main.py 124): INFO Epoch: [68][0/59] lr 0.000124 loss 1.6396 acc 71.88%
-[2026-04-01 05:26:36,703 deit_tiny] (main.py 124): INFO Epoch: [68][20/59] lr 0.000124 loss 1.7957 acc 67.04%
-[2026-04-01 05:26:43,811 deit_tiny] (main.py 124): INFO Epoch: [68][40/59] lr 0.000124 loss 1.8128 acc 65.62%
-[2026-04-01 05:26:54,363 deit_tiny] (main.py 67): INFO [Epoch 68]: Train Loss: 1.8174, Train Acc: 65.79%, Val Loss: 0.7622, Val Acc: 77.44%, F1: 0.7759, Precision: 0.7802, Recall: 0.7744
-[2026-04-01 05:26:54,363 deit_tiny] (main.py 80): INFO Max accuracy: 78.08%
-[2026-04-01 05:26:55,221 deit_tiny] (main.py 124): INFO Epoch: [69][0/59] lr 0.000117 loss 2.1000 acc 50.00%
-[2026-04-01 05:27:02,318 deit_tiny] (main.py 124): INFO Epoch: [69][20/59] lr 0.000117 loss 1.8123 acc 65.18%
-[2026-04-01 05:27:09,407 deit_tiny] (main.py 124): INFO Epoch: [69][40/59] lr 0.000117 loss 1.8150 acc 65.43%
-[2026-04-01 05:27:19,805 deit_tiny] (main.py 67): INFO [Epoch 69]: Train Loss: 1.8185, Train Acc: 65.36%, Val Loss: 0.7721, Val Acc: 75.68%, F1: 0.7565, Precision: 0.7639, Recall: 0.7568
-[2026-04-01 05:27:19,805 deit_tiny] (main.py 80): INFO Max accuracy: 78.08%
-[2026-04-01 05:27:20,652 deit_tiny] (main.py 124): INFO Epoch: [70][0/59] lr 0.000111 loss 1.9994 acc 54.69%
-[2026-04-01 05:27:27,797 deit_tiny] (main.py 124): INFO Epoch: [70][20/59] lr 0.000111 loss 1.8225 acc 64.66%
-[2026-04-01 05:27:34,776 deit_tiny] (main.py 124): INFO Epoch: [70][40/59] lr 0.000111 loss 1.8112 acc 64.94%
-[2026-04-01 05:27:45,219 deit_tiny] (main.py 67): INFO [Epoch 70]: Train Loss: 1.8006, Train Acc: 65.39%, Val Loss: 0.7824, Val Acc: 76.64%, F1: 0.7670, Precision: 0.7763, Recall: 0.7664
-[2026-04-01 05:27:45,219 deit_tiny] (main.py 80): INFO Max accuracy: 78.08%
-[2026-04-01 05:27:46,085 deit_tiny] (main.py 124): INFO Epoch: [71][0/59] lr 0.000105 loss 1.7772 acc 60.94%
-[2026-04-01 05:27:53,324 deit_tiny] (main.py 124): INFO Epoch: [71][20/59] lr 0.000105 loss 1.8100 acc 65.18%
-[2026-04-01 05:28:00,361 deit_tiny] (main.py 124): INFO Epoch: [71][40/59] lr 0.000105 loss 1.8225 acc 64.90%
-[2026-04-01 05:28:10,739 deit_tiny] (main.py 67): INFO [Epoch 71]: Train Loss: 1.8222, Train Acc: 65.15%, Val Loss: 0.7615, Val Acc: 77.04%, F1: 0.7661, Precision: 0.7759, Recall: 0.7704
-[2026-04-01 05:28:10,740 deit_tiny] (main.py 80): INFO Max accuracy: 78.08%
-[2026-04-01 05:28:11,621 deit_tiny] (main.py 124): INFO Epoch: [72][0/59] lr 0.000099 loss 1.8346 acc 60.94%
-[2026-04-01 05:28:18,736 deit_tiny] (main.py 124): INFO Epoch: [72][20/59] lr 0.000099 loss 1.8024 acc 66.15%
-[2026-04-01 05:28:25,886 deit_tiny] (main.py 124): INFO Epoch: [72][40/59] lr 0.000099 loss 1.8054 acc 66.73%
-[2026-04-01 05:28:36,343 deit_tiny] (main.py 67): INFO [Epoch 72]: Train Loss: 1.8076, Train Acc: 66.61%, Val Loss: 0.7432, Val Acc: 77.60%, F1: 0.7758, Precision: 0.7777, Recall: 0.7760
-[2026-04-01 05:28:36,344 deit_tiny] (main.py 80): INFO Max accuracy: 78.08%
-[2026-04-01 05:28:37,203 deit_tiny] (main.py 124): INFO Epoch: [73][0/59] lr 0.000093 loss 1.7797 acc 67.19%
-[2026-04-01 05:28:44,429 deit_tiny] (main.py 124): INFO Epoch: [73][20/59] lr 0.000093 loss 1.7949 acc 66.89%
-[2026-04-01 05:28:51,711 deit_tiny] (main.py 124): INFO Epoch: [73][40/59] lr 0.000093 loss 1.7880 acc 66.23%
-[2026-04-01 05:29:02,112 deit_tiny] (main.py 67): INFO [Epoch 73]: Train Loss: 1.7940, Train Acc: 65.81%, Val Loss: 0.7331, Val Acc: 78.48%, F1: 0.7839, Precision: 0.7884, Recall: 0.7848
-[2026-04-01 05:29:02,113 deit_tiny] (main.py 78): INFO Best performance updated at epoch 73 with accuracy: 78.48%
-[2026-04-01 05:29:02,113 deit_tiny] (main.py 80): INFO Max accuracy: 78.48%
-[2026-04-01 05:29:02,962 deit_tiny] (main.py 124): INFO Epoch: [74][0/59] lr 0.000087 loss 1.6815 acc 68.75%
-[2026-04-01 05:29:10,071 deit_tiny] (main.py 124): INFO Epoch: [74][20/59] lr 0.000087 loss 1.8168 acc 64.36%
-[2026-04-01 05:29:17,197 deit_tiny] (main.py 124): INFO Epoch: [74][40/59] lr 0.000087 loss 1.7935 acc 65.93%
-[2026-04-01 05:29:27,577 deit_tiny] (main.py 67): INFO [Epoch 74]: Train Loss: 1.7998, Train Acc: 65.76%, Val Loss: 0.7265, Val Acc: 77.92%, F1: 0.7752, Precision: 0.7770, Recall: 0.7792
-[2026-04-01 05:29:27,578 deit_tiny] (main.py 80): INFO Max accuracy: 78.48%
-[2026-04-01 05:29:28,437 deit_tiny] (main.py 124): INFO Epoch: [75][0/59] lr 0.000082 loss 1.6776 acc 78.12%
-[2026-04-01 05:29:35,552 deit_tiny] (main.py 124): INFO Epoch: [75][20/59] lr 0.000082 loss 1.7843 acc 66.29%
-[2026-04-01 05:29:42,681 deit_tiny] (main.py 124): INFO Epoch: [75][40/59] lr 0.000082 loss 1.8030 acc 65.24%
-[2026-04-01 05:29:53,094 deit_tiny] (main.py 67): INFO [Epoch 75]: Train Loss: 1.8085, Train Acc: 65.55%, Val Loss: 0.7340, Val Acc: 77.44%, F1: 0.7712, Precision: 0.7725, Recall: 0.7744
-[2026-04-01 05:29:53,095 deit_tiny] (main.py 80): INFO Max accuracy: 78.48%
-[2026-04-01 05:29:53,955 deit_tiny] (main.py 124): INFO Epoch: [76][0/59] lr 0.000076 loss 1.8201 acc 60.94%
-[2026-04-01 05:30:01,026 deit_tiny] (main.py 124): INFO Epoch: [76][20/59] lr 0.000076 loss 1.8175 acc 64.96%
-[2026-04-01 05:30:08,185 deit_tiny] (main.py 124): INFO Epoch: [76][40/59] lr 0.000076 loss 1.8212 acc 65.17%
-[2026-04-01 05:30:18,665 deit_tiny] (main.py 67): INFO [Epoch 76]: Train Loss: 1.8089, Train Acc: 65.89%, Val Loss: 0.7514, Val Acc: 75.84%, F1: 0.7585, Precision: 0.7645, Recall: 0.7584
-[2026-04-01 05:30:18,666 deit_tiny] (main.py 80): INFO Max accuracy: 78.48%
-[2026-04-01 05:30:19,546 deit_tiny] (main.py 124): INFO Epoch: [77][0/59] lr 0.000071 loss 1.7735 acc 64.06%
-[2026-04-01 05:30:26,832 deit_tiny] (main.py 124): INFO Epoch: [77][20/59] lr 0.000071 loss 1.7755 acc 66.89%
-[2026-04-01 05:30:34,104 deit_tiny] (main.py 124): INFO Epoch: [77][40/59] lr 0.000071 loss 1.7850 acc 66.31%
-[2026-04-01 05:30:44,668 deit_tiny] (main.py 67): INFO [Epoch 77]: Train Loss: 1.7849, Train Acc: 66.37%, Val Loss: 0.7354, Val Acc: 77.60%, F1: 0.7735, Precision: 0.7750, Recall: 0.7760
-[2026-04-01 05:30:44,668 deit_tiny] (main.py 80): INFO Max accuracy: 78.48%
-[2026-04-01 05:30:45,523 deit_tiny] (main.py 124): INFO Epoch: [78][0/59] lr 0.000066 loss 1.7672 acc 64.06%
-[2026-04-01 05:30:52,605 deit_tiny] (main.py 124): INFO Epoch: [78][20/59] lr 0.000066 loss 1.8178 acc 64.58%
-[2026-04-01 05:30:59,713 deit_tiny] (main.py 124): INFO Epoch: [78][40/59] lr 0.000066 loss 1.7880 acc 65.85%
-[2026-04-01 05:31:10,037 deit_tiny] (main.py 67): INFO [Epoch 78]: Train Loss: 1.7787, Train Acc: 66.80%, Val Loss: 0.7080, Val Acc: 78.32%, F1: 0.7820, Precision: 0.7839, Recall: 0.7832
-[2026-04-01 05:31:10,037 deit_tiny] (main.py 80): INFO Max accuracy: 78.48%
-[2026-04-01 05:31:10,890 deit_tiny] (main.py 124): INFO Epoch: [79][0/59] lr 0.000061 loss 1.8719 acc 65.62%
-[2026-04-01 05:31:17,932 deit_tiny] (main.py 124): INFO Epoch: [79][20/59] lr 0.000061 loss 1.7814 acc 67.56%
-[2026-04-01 05:31:24,985 deit_tiny] (main.py 124): INFO Epoch: [79][40/59] lr 0.000061 loss 1.7981 acc 66.73%
-[2026-04-01 05:31:35,329 deit_tiny] (main.py 67): INFO [Epoch 79]: Train Loss: 1.7870, Train Acc: 67.01%, Val Loss: 0.7369, Val Acc: 76.24%, F1: 0.7594, Precision: 0.7642, Recall: 0.7624
-[2026-04-01 05:31:35,330 deit_tiny] (main.py 80): INFO Max accuracy: 78.48%
-[2026-04-01 05:31:36,210 deit_tiny] (main.py 124): INFO Epoch: [80][0/59] lr 0.000057 loss 1.9094 acc 57.81%
-[2026-04-01 05:31:43,351 deit_tiny] (main.py 124): INFO Epoch: [80][20/59] lr 0.000057 loss 1.7782 acc 67.93%
-[2026-04-01 05:31:50,495 deit_tiny] (main.py 124): INFO Epoch: [80][40/59] lr 0.000057 loss 1.7843 acc 66.73%
-[2026-04-01 05:32:00,848 deit_tiny] (main.py 67): INFO [Epoch 80]: Train Loss: 1.7820, Train Acc: 67.23%, Val Loss: 0.7214, Val Acc: 78.16%, F1: 0.7789, Precision: 0.7816, Recall: 0.7816
-[2026-04-01 05:32:00,848 deit_tiny] (main.py 80): INFO Max accuracy: 78.48%
-[2026-04-01 05:32:01,735 deit_tiny] (main.py 124): INFO Epoch: [81][0/59] lr 0.000052 loss 1.7734 acc 67.19%
-[2026-04-01 05:32:08,853 deit_tiny] (main.py 124): INFO Epoch: [81][20/59] lr 0.000052 loss 1.7778 acc 66.29%
-[2026-04-01 05:32:15,985 deit_tiny] (main.py 124): INFO Epoch: [81][40/59] lr 0.000052 loss 1.7904 acc 65.70%
-[2026-04-01 05:32:26,470 deit_tiny] (main.py 67): INFO [Epoch 81]: Train Loss: 1.7833, Train Acc: 66.51%, Val Loss: 0.7188, Val Acc: 77.84%, F1: 0.7777, Precision: 0.7819, Recall: 0.7784
-[2026-04-01 05:32:26,471 deit_tiny] (main.py 80): INFO Max accuracy: 78.48%
-[2026-04-01 05:32:27,318 deit_tiny] (main.py 124): INFO Epoch: [82][0/59] lr 0.000048 loss 1.8660 acc 65.62%
-[2026-04-01 05:32:34,439 deit_tiny] (main.py 124): INFO Epoch: [82][20/59] lr 0.000048 loss 1.7850 acc 67.11%
-[2026-04-01 05:32:41,501 deit_tiny] (main.py 124): INFO Epoch: [82][40/59] lr 0.000048 loss 1.7747 acc 67.26%
-[2026-04-01 05:32:51,896 deit_tiny] (main.py 67): INFO [Epoch 82]: Train Loss: 1.7690, Train Acc: 68.05%, Val Loss: 0.7155, Val Acc: 78.48%, F1: 0.7842, Precision: 0.7844, Recall: 0.7848
-[2026-04-01 05:32:51,897 deit_tiny] (main.py 80): INFO Max accuracy: 78.48%
-[2026-04-01 05:32:52,773 deit_tiny] (main.py 124): INFO Epoch: [83][0/59] lr 0.000044 loss 1.6583 acc 71.88%
-[2026-04-01 05:32:59,928 deit_tiny] (main.py 124): INFO Epoch: [83][20/59] lr 0.000044 loss 1.7771 acc 67.63%
-[2026-04-01 05:33:07,081 deit_tiny] (main.py 124): INFO Epoch: [83][40/59] lr 0.000044 loss 1.7756 acc 67.76%
-[2026-04-01 05:33:17,512 deit_tiny] (main.py 67): INFO [Epoch 83]: Train Loss: 1.7649, Train Acc: 68.27%, Val Loss: 0.7308, Val Acc: 77.60%, F1: 0.7729, Precision: 0.7756, Recall: 0.7760
-[2026-04-01 05:33:17,513 deit_tiny] (main.py 80): INFO Max accuracy: 78.48%
-[2026-04-01 05:33:18,373 deit_tiny] (main.py 124): INFO Epoch: [84][0/59] lr 0.000040 loss 1.8082 acc 64.06%
-[2026-04-01 05:33:25,529 deit_tiny] (main.py 124): INFO Epoch: [84][20/59] lr 0.000040 loss 1.7966 acc 66.29%
-[2026-04-01 05:33:32,649 deit_tiny] (main.py 124): INFO Epoch: [84][40/59] lr 0.000040 loss 1.7902 acc 66.23%
-[2026-04-01 05:33:43,286 deit_tiny] (main.py 67): INFO [Epoch 84]: Train Loss: 1.7695, Train Acc: 67.44%, Val Loss: 0.7176, Val Acc: 77.68%, F1: 0.7740, Precision: 0.7775, Recall: 0.7768
-[2026-04-01 05:33:43,286 deit_tiny] (main.py 80): INFO Max accuracy: 78.48%
-[2026-04-01 05:33:44,152 deit_tiny] (main.py 124): INFO Epoch: [85][0/59] lr 0.000037 loss 1.7829 acc 67.19%
-[2026-04-01 05:33:51,381 deit_tiny] (main.py 124): INFO Epoch: [85][20/59] lr 0.000037 loss 1.7740 acc 67.93%
-[2026-04-01 05:33:58,612 deit_tiny] (main.py 124): INFO Epoch: [85][40/59] lr 0.000037 loss 1.7707 acc 67.95%
-[2026-04-01 05:34:09,082 deit_tiny] (main.py 67): INFO [Epoch 85]: Train Loss: 1.7718, Train Acc: 67.49%, Val Loss: 0.7009, Val Acc: 78.56%, F1: 0.7855, Precision: 0.7864, Recall: 0.7856
-[2026-04-01 05:34:09,083 deit_tiny] (main.py 78): INFO Best performance updated at epoch 85 with accuracy: 78.56%
-[2026-04-01 05:34:09,083 deit_tiny] (main.py 80): INFO Max accuracy: 78.56%
-[2026-04-01 05:34:09,945 deit_tiny] (main.py 124): INFO Epoch: [86][0/59] lr 0.000033 loss 1.9005 acc 57.81%
-[2026-04-01 05:34:17,015 deit_tiny] (main.py 124): INFO Epoch: [86][20/59] lr 0.000033 loss 1.7983 acc 66.96%
-[2026-04-01 05:34:24,095 deit_tiny] (main.py 124): INFO Epoch: [86][40/59] lr 0.000033 loss 1.7747 acc 67.76%
-[2026-04-01 05:34:34,541 deit_tiny] (main.py 67): INFO [Epoch 86]: Train Loss: 1.7576, Train Acc: 68.80%, Val Loss: 0.7180, Val Acc: 78.08%, F1: 0.7786, Precision: 0.7811, Recall: 0.7808
-[2026-04-01 05:34:34,541 deit_tiny] (main.py 80): INFO Max accuracy: 78.56%
-[2026-04-01 05:34:35,391 deit_tiny] (main.py 124): INFO Epoch: [87][0/59] lr 0.000030 loss 1.7735 acc 62.50%
-[2026-04-01 05:34:42,578 deit_tiny] (main.py 124): INFO Epoch: [87][20/59] lr 0.000030 loss 1.7723 acc 67.11%
-[2026-04-01 05:34:49,739 deit_tiny] (main.py 124): INFO Epoch: [87][40/59] lr 0.000030 loss 1.7552 acc 67.87%
-[2026-04-01 05:35:00,145 deit_tiny] (main.py 67): INFO [Epoch 87]: Train Loss: 1.7478, Train Acc: 68.48%, Val Loss: 0.7129, Val Acc: 78.40%, F1: 0.7816, Precision: 0.7831, Recall: 0.7840
-[2026-04-01 05:35:00,145 deit_tiny] (main.py 80): INFO Max accuracy: 78.56%
-[2026-04-01 05:35:01,013 deit_tiny] (main.py 124): INFO Epoch: [88][0/59] lr 0.000027 loss 1.8772 acc 64.06%
-[2026-04-01 05:35:08,267 deit_tiny] (main.py 124): INFO Epoch: [88][20/59] lr 0.000027 loss 1.7692 acc 67.34%
-[2026-04-01 05:35:15,562 deit_tiny] (main.py 124): INFO Epoch: [88][40/59] lr 0.000027 loss 1.7633 acc 67.15%
-[2026-04-01 05:35:26,081 deit_tiny] (main.py 67): INFO [Epoch 88]: Train Loss: 1.7517, Train Acc: 68.03%, Val Loss: 0.7222, Val Acc: 76.88%, F1: 0.7674, Precision: 0.7672, Recall: 0.7688
-[2026-04-01 05:35:26,082 deit_tiny] (main.py 80): INFO Max accuracy: 78.56%
-[2026-04-01 05:35:26,941 deit_tiny] (main.py 124): INFO Epoch: [89][0/59] lr 0.000024 loss 1.6474 acc 79.69%
-[2026-04-01 05:35:34,112 deit_tiny] (main.py 124): INFO Epoch: [89][20/59] lr 0.000024 loss 1.7407 acc 70.68%
-[2026-04-01 05:35:41,218 deit_tiny] (main.py 124): INFO Epoch: [89][40/59] lr 0.000024 loss 1.7556 acc 69.47%
-[2026-04-01 05:35:51,608 deit_tiny] (main.py 67): INFO [Epoch 89]: Train Loss: 1.7538, Train Acc: 69.44%, Val Loss: 0.7034, Val Acc: 77.92%, F1: 0.7777, Precision: 0.7781, Recall: 0.7792
-[2026-04-01 05:35:51,608 deit_tiny] (main.py 80): INFO Max accuracy: 78.56%
-[2026-04-01 05:35:52,483 deit_tiny] (main.py 124): INFO Epoch: [90][0/59] lr 0.000022 loss 1.7103 acc 81.25%
-[2026-04-01 05:35:59,604 deit_tiny] (main.py 124): INFO Epoch: [90][20/59] lr 0.000022 loss 1.7654 acc 68.38%
-[2026-04-01 05:36:06,697 deit_tiny] (main.py 124): INFO Epoch: [90][40/59] lr 0.000022 loss 1.7444 acc 69.05%
-[2026-04-01 05:36:17,101 deit_tiny] (main.py 67): INFO [Epoch 90]: Train Loss: 1.7363, Train Acc: 69.87%, Val Loss: 0.7169, Val Acc: 78.64%, F1: 0.7829, Precision: 0.7855, Recall: 0.7864
-[2026-04-01 05:36:17,102 deit_tiny] (main.py 78): INFO Best performance updated at epoch 90 with accuracy: 78.64%
-[2026-04-01 05:36:17,102 deit_tiny] (main.py 80): INFO Max accuracy: 78.64%
-[2026-04-01 05:36:17,954 deit_tiny] (main.py 124): INFO Epoch: [91][0/59] lr 0.000020 loss 1.5525 acc 71.88%
-[2026-04-01 05:36:25,002 deit_tiny] (main.py 124): INFO Epoch: [91][20/59] lr 0.000020 loss 1.7521 acc 68.01%
-[2026-04-01 05:36:32,174 deit_tiny] (main.py 124): INFO Epoch: [91][40/59] lr 0.000020 loss 1.7454 acc 68.41%
-[2026-04-01 05:36:42,568 deit_tiny] (main.py 67): INFO [Epoch 91]: Train Loss: 1.7499, Train Acc: 68.45%, Val Loss: 0.7165, Val Acc: 78.80%, F1: 0.7858, Precision: 0.7872, Recall: 0.7880
-[2026-04-01 05:36:42,568 deit_tiny] (main.py 78): INFO Best performance updated at epoch 91 with accuracy: 78.80%
-[2026-04-01 05:36:42,568 deit_tiny] (main.py 80): INFO Max accuracy: 78.80%
-[2026-04-01 05:36:43,437 deit_tiny] (main.py 124): INFO Epoch: [92][0/59] lr 0.000018 loss 1.6457 acc 73.44%
-[2026-04-01 05:36:50,650 deit_tiny] (main.py 124): INFO Epoch: [92][20/59] lr 0.000018 loss 1.7351 acc 69.87%
-[2026-04-01 05:36:57,790 deit_tiny] (main.py 124): INFO Epoch: [92][40/59] lr 0.000018 loss 1.7329 acc 69.93%
-[2026-04-01 05:37:08,267 deit_tiny] (main.py 67): INFO [Epoch 92]: Train Loss: 1.7391, Train Acc: 69.44%, Val Loss: 0.7048, Val Acc: 78.40%, F1: 0.7820, Precision: 0.7816, Recall: 0.7840
-[2026-04-01 05:37:08,268 deit_tiny] (main.py 80): INFO Max accuracy: 78.80%
-[2026-04-01 05:37:09,132 deit_tiny] (main.py 124): INFO Epoch: [93][0/59] lr 0.000016 loss 1.6203 acc 75.00%
-[2026-04-01 05:37:16,193 deit_tiny] (main.py 124): INFO Epoch: [93][20/59] lr 0.000016 loss 1.7623 acc 68.82%
-[2026-04-01 05:37:23,260 deit_tiny] (main.py 124): INFO Epoch: [93][40/59] lr 0.000016 loss 1.7759 acc 67.87%
-[2026-04-01 05:37:33,812 deit_tiny] (main.py 67): INFO [Epoch 93]: Train Loss: 1.7622, Train Acc: 67.81%, Val Loss: 0.7038, Val Acc: 78.64%, F1: 0.7851, Precision: 0.7855, Recall: 0.7864
-[2026-04-01 05:37:33,812 deit_tiny] (main.py 80): INFO Max accuracy: 78.80%
-[2026-04-01 05:37:34,663 deit_tiny] (main.py 124): INFO Epoch: [94][0/59] lr 0.000014 loss 1.9498 acc 59.38%
-[2026-04-01 05:37:41,872 deit_tiny] (main.py 124): INFO Epoch: [94][20/59] lr 0.000014 loss 1.7041 acc 71.50%
-[2026-04-01 05:37:49,059 deit_tiny] (main.py 124): INFO Epoch: [94][40/59] lr 0.000014 loss 1.7154 acc 70.20%
-[2026-04-01 05:37:59,745 deit_tiny] (main.py 67): INFO [Epoch 94]: Train Loss: 1.7235, Train Acc: 69.31%, Val Loss: 0.7051, Val Acc: 78.64%, F1: 0.7845, Precision: 0.7854, Recall: 0.7864
-[2026-04-01 05:37:59,745 deit_tiny] (main.py 80): INFO Max accuracy: 78.80%
-[2026-04-01 05:38:00,613 deit_tiny] (main.py 124): INFO Epoch: [95][0/59] lr 0.000013 loss 1.7668 acc 67.19%
-[2026-04-01 05:38:07,764 deit_tiny] (main.py 124): INFO Epoch: [95][20/59] lr 0.000013 loss 1.7236 acc 68.75%
-[2026-04-01 05:38:14,844 deit_tiny] (main.py 124): INFO Epoch: [95][40/59] lr 0.000013 loss 1.7309 acc 68.86%
-[2026-04-01 05:38:25,240 deit_tiny] (main.py 67): INFO [Epoch 95]: Train Loss: 1.7380, Train Acc: 68.99%, Val Loss: 0.6985, Val Acc: 79.12%, F1: 0.7897, Precision: 0.7905, Recall: 0.7912
-[2026-04-01 05:38:25,241 deit_tiny] (main.py 78): INFO Best performance updated at epoch 95 with accuracy: 79.12%
-[2026-04-01 05:38:25,241 deit_tiny] (main.py 80): INFO Max accuracy: 79.12%
-[2026-04-01 05:38:26,102 deit_tiny] (main.py 124): INFO Epoch: [96][0/59] lr 0.000012 loss 1.7350 acc 75.00%
-[2026-04-01 05:38:33,210 deit_tiny] (main.py 124): INFO Epoch: [96][20/59] lr 0.000012 loss 1.7356 acc 69.94%
-[2026-04-01 05:38:40,326 deit_tiny] (main.py 124): INFO Epoch: [96][40/59] lr 0.000012 loss 1.7473 acc 69.21%
-[2026-04-01 05:38:50,747 deit_tiny] (main.py 67): INFO [Epoch 96]: Train Loss: 1.7494, Train Acc: 69.41%, Val Loss: 0.7056, Val Acc: 78.80%, F1: 0.7847, Precision: 0.7891, Recall: 0.7880
-[2026-04-01 05:38:50,748 deit_tiny] (main.py 80): INFO Max accuracy: 79.12%
-[2026-04-01 05:38:51,614 deit_tiny] (main.py 124): INFO Epoch: [97][0/59] lr 0.000011 loss 1.8340 acc 60.94%
-[2026-04-01 05:38:58,798 deit_tiny] (main.py 124): INFO Epoch: [97][20/59] lr 0.000011 loss 1.7548 acc 69.27%
-[2026-04-01 05:39:05,969 deit_tiny] (main.py 124): INFO Epoch: [97][40/59] lr 0.000011 loss 1.7590 acc 69.17%
-[2026-04-01 05:39:16,371 deit_tiny] (main.py 67): INFO [Epoch 97]: Train Loss: 1.7444, Train Acc: 69.79%, Val Loss: 0.6978, Val Acc: 79.20%, F1: 0.7903, Precision: 0.7905, Recall: 0.7920
-[2026-04-01 05:39:16,371 deit_tiny] (main.py 78): INFO Best performance updated at epoch 97 with accuracy: 79.20%
-[2026-04-01 05:39:16,372 deit_tiny] (main.py 80): INFO Max accuracy: 79.20%
-[2026-04-01 05:39:17,240 deit_tiny] (main.py 124): INFO Epoch: [98][0/59] lr 0.000010 loss 1.7826 acc 71.88%
-[2026-04-01 05:39:24,463 deit_tiny] (main.py 124): INFO Epoch: [98][20/59] lr 0.000010 loss 1.7421 acc 69.57%
-[2026-04-01 05:39:31,693 deit_tiny] (main.py 124): INFO Epoch: [98][40/59] lr 0.000010 loss 1.7307 acc 70.05%
-[2026-04-01 05:39:42,163 deit_tiny] (main.py 67): INFO [Epoch 98]: Train Loss: 1.7408, Train Acc: 69.47%, Val Loss: 0.6961, Val Acc: 78.96%, F1: 0.7877, Precision: 0.7887, Recall: 0.7896
-[2026-04-01 05:39:42,163 deit_tiny] (main.py 80): INFO Max accuracy: 79.20%
-[2026-04-01 05:39:43,046 deit_tiny] (main.py 124): INFO Epoch: [99][0/59] lr 0.000010 loss 1.7064 acc 70.31%
-[2026-04-01 05:39:50,316 deit_tiny] (main.py 124): INFO Epoch: [99][20/59] lr 0.000010 loss 1.7166 acc 69.57%
-[2026-04-01 05:39:57,504 deit_tiny] (main.py 124): INFO Epoch: [99][40/59] lr 0.000010 loss 1.7254 acc 69.51%
-[2026-04-01 05:40:07,835 deit_tiny] (main.py 67): INFO [Epoch 99]: Train Loss: 1.7304, Train Acc: 69.07%, Val Loss: 0.7012, Val Acc: 79.04%, F1: 0.7880, Precision: 0.7906, Recall: 0.7904
-[2026-04-01 05:40:07,835 deit_tiny] (main.py 80): INFO Max accuracy: 79.20%
-[2026-04-01 05:40:07,837 deit_tiny] (main.py 87): INFO Confusion matrix for best model saved to outputs/deit_tiny_confusion_matrix.npy
-[2026-04-01 05:40:07,837 deit_tiny] (main.py 91): INFO Training time 0:42:40
+[2026-04-08 16:34:23,205 deit_tiny] (main.py 21): INFO Dataset loaded: 3750 train images, 1250 validation images
+[2026-04-08 16:34:23,205 deit_tiny] (main.py 23): INFO Creating model: deit_tiny
+[2026-04-08 16:34:23,330 deit_tiny] (main.py 67): INFO Start training
+[2026-04-08 16:34:24,888 deit_tiny] (main.py 151): INFO Epoch: [0][0/59] lr 0.000001 loss 6.8766 acc 0.00%
+[2026-04-08 16:34:28,544 deit_tiny] (main.py 151): INFO Epoch: [0][20/59] lr 0.000001 loss 6.7893 acc 1.56%
+[2026-04-08 16:34:33,001 deit_tiny] (main.py 151): INFO Epoch: [0][40/59] lr 0.000001 loss 6.6784 acc 6.17%
+[2026-04-08 16:34:40,475 deit_tiny] (main.py 76): INFO [Epoch 0]: Train Loss: 6.5882, Train Acc: 9.87%, Val Loss: 6.1700, Val Acc: 23.12%, F1: 0.0332, Precision: 0.0354, Recall: 0.0525
+[2026-04-08 16:34:40,475 deit_tiny] (main.py 87): INFO Best performance updated at epoch 0 with accuracy: 23.12%
+[2026-04-08 16:34:40,475 deit_tiny] (main.py 89): INFO Max accuracy: 23.12%
+[2026-04-08 16:34:41,078 deit_tiny] (main.py 151): INFO Epoch: [1][0/59] lr 0.000101 loss 6.2841 acc 23.44%
+[2026-04-08 16:34:45,523 deit_tiny] (main.py 151): INFO Epoch: [1][20/59] lr 0.000101 loss 5.1993 acc 25.37%
+[2026-04-08 16:34:49,929 deit_tiny] (main.py 151): INFO Epoch: [1][40/59] lr 0.000101 loss 4.7235 acc 26.45%
+[2026-04-08 16:34:57,325 deit_tiny] (main.py 76): INFO [Epoch 1]: Train Loss: 4.3572, Train Acc: 27.49%, Val Loss: 2.7386, Val Acc: 29.52%, F1: 0.1921, Precision: 0.3171, Recall: 0.2952
+[2026-04-08 16:34:57,325 deit_tiny] (main.py 87): INFO Best performance updated at epoch 1 with accuracy: 29.52%
+[2026-04-08 16:34:57,325 deit_tiny] (main.py 89): INFO Max accuracy: 29.52%
+[2026-04-08 16:34:57,909 deit_tiny] (main.py 151): INFO Epoch: [2][0/59] lr 0.000201 loss 3.1827 acc 35.94%
+[2026-04-08 16:35:02,371 deit_tiny] (main.py 151): INFO Epoch: [2][20/59] lr 0.000201 loss 2.7954 acc 33.04%
+[2026-04-08 16:35:06,807 deit_tiny] (main.py 151): INFO Epoch: [2][40/59] lr 0.000201 loss 2.6253 acc 31.90%
+[2026-04-08 16:35:14,056 deit_tiny] (main.py 76): INFO [Epoch 2]: Train Loss: 2.5468, Train Acc: 32.13%, Val Loss: 1.6075, Val Acc: 37.92%, F1: 0.3284, Precision: 0.3667, Recall: 0.3792
+[2026-04-08 16:35:14,056 deit_tiny] (main.py 87): INFO Best performance updated at epoch 2 with accuracy: 37.92%
+[2026-04-08 16:35:14,057 deit_tiny] (main.py 89): INFO Max accuracy: 37.92%
+[2026-04-08 16:35:14,660 deit_tiny] (main.py 151): INFO Epoch: [3][0/59] lr 0.000300 loss 2.3365 acc 31.25%
+[2026-04-08 16:35:19,192 deit_tiny] (main.py 151): INFO Epoch: [3][20/59] lr 0.000300 loss 2.3415 acc 33.26%
+[2026-04-08 16:35:23,819 deit_tiny] (main.py 151): INFO Epoch: [3][40/59] lr 0.000300 loss 2.3419 acc 33.35%
+[2026-04-08 16:35:31,131 deit_tiny] (main.py 76): INFO [Epoch 3]: Train Loss: 2.3466, Train Acc: 33.92%, Val Loss: 1.5407, Val Acc: 36.64%, F1: 0.2825, Precision: 0.3035, Recall: 0.3053
+[2026-04-08 16:35:31,131 deit_tiny] (main.py 89): INFO Max accuracy: 37.92%
+[2026-04-08 16:35:31,730 deit_tiny] (main.py 151): INFO Epoch: [4][0/59] lr 0.000400 loss 2.3701 acc 29.69%
+[2026-04-08 16:35:36,250 deit_tiny] (main.py 151): INFO Epoch: [4][20/59] lr 0.000400 loss 2.3685 acc 32.14%
+[2026-04-08 16:35:40,749 deit_tiny] (main.py 151): INFO Epoch: [4][40/59] lr 0.000400 loss 2.3347 acc 35.33%
+[2026-04-08 16:35:48,244 deit_tiny] (main.py 76): INFO [Epoch 4]: Train Loss: 2.3010, Train Acc: 37.63%, Val Loss: 1.4500, Val Acc: 41.92%, F1: 0.3981, Precision: 0.5091, Recall: 0.4192
+[2026-04-08 16:35:48,245 deit_tiny] (main.py 87): INFO Best performance updated at epoch 4 with accuracy: 41.92%
+[2026-04-08 16:35:48,245 deit_tiny] (main.py 89): INFO Max accuracy: 41.92%
+[2026-04-08 16:35:48,841 deit_tiny] (main.py 151): INFO Epoch: [5][0/59] lr 0.000497 loss 2.1616 acc 46.88%
+[2026-04-08 16:35:53,351 deit_tiny] (main.py 151): INFO Epoch: [5][20/59] lr 0.000497 loss 2.2644 acc 40.40%
+[2026-04-08 16:35:57,836 deit_tiny] (main.py 151): INFO Epoch: [5][40/59] lr 0.000497 loss 2.2529 acc 41.43%
+[2026-04-08 16:36:05,203 deit_tiny] (main.py 76): INFO [Epoch 5]: Train Loss: 2.2374, Train Acc: 42.75%, Val Loss: 1.3365, Val Acc: 51.12%, F1: 0.5018, Precision: 0.5201, Recall: 0.5112
+[2026-04-08 16:36:05,203 deit_tiny] (main.py 87): INFO Best performance updated at epoch 5 with accuracy: 51.12%
+[2026-04-08 16:36:05,203 deit_tiny] (main.py 89): INFO Max accuracy: 51.12%
+[2026-04-08 16:36:05,793 deit_tiny] (main.py 151): INFO Epoch: [6][0/59] lr 0.000496 loss 2.1442 acc 48.44%
+[2026-04-08 16:36:10,226 deit_tiny] (main.py 151): INFO Epoch: [6][20/59] lr 0.000496 loss 2.1762 acc 45.46%
+[2026-04-08 16:36:14,624 deit_tiny] (main.py 151): INFO Epoch: [6][40/59] lr 0.000496 loss 2.1826 acc 46.04%
+[2026-04-08 16:36:21,940 deit_tiny] (main.py 76): INFO [Epoch 6]: Train Loss: 2.1804, Train Acc: 45.73%, Val Loss: 1.3210, Val Acc: 52.24%, F1: 0.5249, Precision: 0.5533, Recall: 0.5224
+[2026-04-08 16:36:21,940 deit_tiny] (main.py 87): INFO Best performance updated at epoch 6 with accuracy: 52.24%
+[2026-04-08 16:36:21,941 deit_tiny] (main.py 89): INFO Max accuracy: 52.24%
+[2026-04-08 16:36:22,521 deit_tiny] (main.py 151): INFO Epoch: [7][0/59] lr 0.000494 loss 2.1803 acc 51.56%
+[2026-04-08 16:36:27,032 deit_tiny] (main.py 151): INFO Epoch: [7][20/59] lr 0.000494 loss 2.0956 acc 51.64%
+[2026-04-08 16:36:31,471 deit_tiny] (main.py 151): INFO Epoch: [7][40/59] lr 0.000494 loss 2.0903 acc 51.60%
+[2026-04-08 16:36:38,690 deit_tiny] (main.py 76): INFO [Epoch 7]: Train Loss: 2.1079, Train Acc: 50.85%, Val Loss: 1.2441, Val Acc: 57.44%, F1: 0.5745, Precision: 0.5850, Recall: 0.5744
+[2026-04-08 16:36:38,691 deit_tiny] (main.py 87): INFO Best performance updated at epoch 7 with accuracy: 57.44%
+[2026-04-08 16:36:38,691 deit_tiny] (main.py 89): INFO Max accuracy: 57.44%
+[2026-04-08 16:36:39,287 deit_tiny] (main.py 151): INFO Epoch: [8][0/59] lr 0.000492 loss 2.1737 acc 45.31%
+[2026-04-08 16:36:43,716 deit_tiny] (main.py 151): INFO Epoch: [8][20/59] lr 0.000492 loss 2.0988 acc 49.33%
+[2026-04-08 16:36:48,102 deit_tiny] (main.py 151): INFO Epoch: [8][40/59] lr 0.000492 loss 2.0859 acc 51.94%
+[2026-04-08 16:36:55,337 deit_tiny] (main.py 76): INFO [Epoch 8]: Train Loss: 2.0822, Train Acc: 51.97%, Val Loss: 1.3430, Val Acc: 50.48%, F1: 0.4656, Precision: 0.6052, Recall: 0.5048
+[2026-04-08 16:36:55,338 deit_tiny] (main.py 89): INFO Max accuracy: 57.44%
+[2026-04-08 16:36:55,925 deit_tiny] (main.py 151): INFO Epoch: [9][0/59] lr 0.000490 loss 2.2313 acc 34.38%
+[2026-04-08 16:37:00,392 deit_tiny] (main.py 151): INFO Epoch: [9][20/59] lr 0.000490 loss 2.0850 acc 51.49%
+[2026-04-08 16:37:04,897 deit_tiny] (main.py 151): INFO Epoch: [9][40/59] lr 0.000490 loss 2.0650 acc 52.86%
+[2026-04-08 16:37:12,207 deit_tiny] (main.py 76): INFO [Epoch 9]: Train Loss: 2.0687, Train Acc: 53.23%, Val Loss: 1.2134, Val Acc: 55.68%, F1: 0.5322, Precision: 0.5897, Recall: 0.5568
+[2026-04-08 16:37:12,207 deit_tiny] (main.py 89): INFO Max accuracy: 57.44%
+[2026-04-08 16:37:12,806 deit_tiny] (main.py 151): INFO Epoch: [10][0/59] lr 0.000488 loss 2.1146 acc 57.81%
+[2026-04-08 16:37:17,336 deit_tiny] (main.py 151): INFO Epoch: [10][20/59] lr 0.000488 loss 1.9980 acc 56.55%
+[2026-04-08 16:37:21,893 deit_tiny] (main.py 151): INFO Epoch: [10][40/59] lr 0.000488 loss 2.0229 acc 55.75%
+[2026-04-08 16:37:29,350 deit_tiny] (main.py 76): INFO [Epoch 10]: Train Loss: 2.0231, Train Acc: 55.60%, Val Loss: 1.1244, Val Acc: 60.88%, F1: 0.5811, Precision: 0.6239, Recall: 0.6088
+[2026-04-08 16:37:29,351 deit_tiny] (main.py 87): INFO Best performance updated at epoch 10 with accuracy: 60.88%
+[2026-04-08 16:37:29,351 deit_tiny] (main.py 89): INFO Max accuracy: 60.88%
+[2026-04-08 16:37:29,939 deit_tiny] (main.py 151): INFO Epoch: [11][0/59] lr 0.000486 loss 1.7729 acc 70.31%
+[2026-04-08 16:37:34,351 deit_tiny] (main.py 151): INFO Epoch: [11][20/59] lr 0.000486 loss 1.9725 acc 57.96%
+[2026-04-08 16:37:38,815 deit_tiny] (main.py 151): INFO Epoch: [11][40/59] lr 0.000486 loss 1.9731 acc 58.19%
+[2026-04-08 16:37:46,025 deit_tiny] (main.py 76): INFO [Epoch 11]: Train Loss: 1.9854, Train Acc: 57.55%, Val Loss: 1.0993, Val Acc: 61.36%, F1: 0.6080, Precision: 0.6301, Recall: 0.6136
+[2026-04-08 16:37:46,026 deit_tiny] (main.py 87): INFO Best performance updated at epoch 11 with accuracy: 61.36%
+[2026-04-08 16:37:46,026 deit_tiny] (main.py 89): INFO Max accuracy: 61.36%
+[2026-04-08 16:37:46,616 deit_tiny] (main.py 151): INFO Epoch: [12][0/59] lr 0.000483 loss 2.1028 acc 56.25%
+[2026-04-08 16:37:51,073 deit_tiny] (main.py 151): INFO Epoch: [12][20/59] lr 0.000483 loss 1.9465 acc 59.45%
+[2026-04-08 16:37:55,519 deit_tiny] (main.py 151): INFO Epoch: [12][40/59] lr 0.000483 loss 1.9443 acc 59.79%
+[2026-04-08 16:38:02,793 deit_tiny] (main.py 76): INFO [Epoch 12]: Train Loss: 1.9745, Train Acc: 57.97%, Val Loss: 1.2110, Val Acc: 54.48%, F1: 0.4992, Precision: 0.5851, Recall: 0.5448
+[2026-04-08 16:38:02,794 deit_tiny] (main.py 89): INFO Max accuracy: 61.36%
+[2026-04-08 16:38:03,399 deit_tiny] (main.py 151): INFO Epoch: [13][0/59] lr 0.000480 loss 2.0215 acc 56.25%
+[2026-04-08 16:38:07,807 deit_tiny] (main.py 151): INFO Epoch: [13][20/59] lr 0.000480 loss 1.9614 acc 58.18%
+[2026-04-08 16:38:12,199 deit_tiny] (main.py 151): INFO Epoch: [13][40/59] lr 0.000480 loss 1.9526 acc 58.57%
+[2026-04-08 16:38:19,398 deit_tiny] (main.py 76): INFO [Epoch 13]: Train Loss: 1.9412, Train Acc: 59.39%, Val Loss: 1.0123, Val Acc: 65.28%, F1: 0.6527, Precision: 0.6541, Recall: 0.6528
+[2026-04-08 16:38:19,399 deit_tiny] (main.py 87): INFO Best performance updated at epoch 13 with accuracy: 65.28%
+[2026-04-08 16:38:19,399 deit_tiny] (main.py 89): INFO Max accuracy: 65.28%
+[2026-04-08 16:38:19,991 deit_tiny] (main.py 151): INFO Epoch: [14][0/59] lr 0.000477 loss 1.9789 acc 56.25%
+[2026-04-08 16:38:24,458 deit_tiny] (main.py 151): INFO Epoch: [14][20/59] lr 0.000477 loss 1.8876 acc 61.46%
+[2026-04-08 16:38:28,834 deit_tiny] (main.py 151): INFO Epoch: [14][40/59] lr 0.000477 loss 1.9211 acc 59.49%
+[2026-04-08 16:38:36,068 deit_tiny] (main.py 76): INFO [Epoch 14]: Train Loss: 1.9307, Train Acc: 59.55%, Val Loss: 1.0466, Val Acc: 64.56%, F1: 0.6439, Precision: 0.6579, Recall: 0.6456
+[2026-04-08 16:38:36,069 deit_tiny] (main.py 89): INFO Max accuracy: 65.28%
+[2026-04-08 16:38:36,646 deit_tiny] (main.py 151): INFO Epoch: [15][0/59] lr 0.000473 loss 1.8748 acc 65.62%
+[2026-04-08 16:38:40,992 deit_tiny] (main.py 151): INFO Epoch: [15][20/59] lr 0.000473 loss 1.8890 acc 63.76%
+[2026-04-08 16:38:45,362 deit_tiny] (main.py 151): INFO Epoch: [15][40/59] lr 0.000473 loss 1.8956 acc 63.15%
+[2026-04-08 16:38:52,545 deit_tiny] (main.py 76): INFO [Epoch 15]: Train Loss: 1.9229, Train Acc: 61.49%, Val Loss: 1.0261, Val Acc: 65.92%, F1: 0.6536, Precision: 0.6675, Recall: 0.6592
+[2026-04-08 16:38:52,546 deit_tiny] (main.py 87): INFO Best performance updated at epoch 15 with accuracy: 65.92%
+[2026-04-08 16:38:52,546 deit_tiny] (main.py 89): INFO Max accuracy: 65.92%
+[2026-04-08 16:38:53,134 deit_tiny] (main.py 151): INFO Epoch: [16][0/59] lr 0.000470 loss 1.9965 acc 54.69%
+[2026-04-08 16:38:57,577 deit_tiny] (main.py 151): INFO Epoch: [16][20/59] lr 0.000470 loss 1.8521 acc 64.21%
+[2026-04-08 16:39:01,975 deit_tiny] (main.py 151): INFO Epoch: [16][40/59] lr 0.000470 loss 1.8552 acc 63.95%
+[2026-04-08 16:39:09,246 deit_tiny] (main.py 76): INFO [Epoch 16]: Train Loss: 1.8755, Train Acc: 63.33%, Val Loss: 1.0192, Val Acc: 64.64%, F1: 0.6326, Precision: 0.6671, Recall: 0.6464
+[2026-04-08 16:39:09,246 deit_tiny] (main.py 89): INFO Max accuracy: 65.92%
+[2026-04-08 16:39:09,831 deit_tiny] (main.py 151): INFO Epoch: [17][0/59] lr 0.000466 loss 1.9439 acc 54.69%
+[2026-04-08 16:39:14,212 deit_tiny] (main.py 151): INFO Epoch: [17][20/59] lr 0.000466 loss 1.8794 acc 61.46%
+[2026-04-08 16:39:18,533 deit_tiny] (main.py 151): INFO Epoch: [17][40/59] lr 0.000466 loss 1.8656 acc 62.58%
+[2026-04-08 16:39:25,809 deit_tiny] (main.py 76): INFO [Epoch 17]: Train Loss: 1.8721, Train Acc: 62.51%, Val Loss: 1.0175, Val Acc: 64.48%, F1: 0.6357, Precision: 0.6626, Recall: 0.6448
+[2026-04-08 16:39:25,810 deit_tiny] (main.py 89): INFO Max accuracy: 65.92%
+[2026-04-08 16:39:26,390 deit_tiny] (main.py 151): INFO Epoch: [18][0/59] lr 0.000462 loss 1.9748 acc 54.69%
+[2026-04-08 16:39:30,969 deit_tiny] (main.py 151): INFO Epoch: [18][20/59] lr 0.000462 loss 1.8772 acc 61.68%
+[2026-04-08 16:39:35,505 deit_tiny] (main.py 151): INFO Epoch: [18][40/59] lr 0.000462 loss 1.8460 acc 63.53%
+[2026-04-08 16:39:42,792 deit_tiny] (main.py 76): INFO [Epoch 18]: Train Loss: 1.8603, Train Acc: 62.91%, Val Loss: 0.9947, Val Acc: 65.04%, F1: 0.6425, Precision: 0.6765, Recall: 0.6504
+[2026-04-08 16:39:42,792 deit_tiny] (main.py 89): INFO Max accuracy: 65.92%
+[2026-04-08 16:39:43,393 deit_tiny] (main.py 151): INFO Epoch: [19][0/59] lr 0.000458 loss 1.9554 acc 57.81%
+[2026-04-08 16:39:47,814 deit_tiny] (main.py 151): INFO Epoch: [19][20/59] lr 0.000458 loss 1.8530 acc 64.06%
+[2026-04-08 16:39:52,223 deit_tiny] (main.py 151): INFO Epoch: [19][40/59] lr 0.000458 loss 1.8550 acc 63.87%
+[2026-04-08 16:39:59,535 deit_tiny] (main.py 76): INFO [Epoch 19]: Train Loss: 1.8412, Train Acc: 64.32%, Val Loss: 0.9383, Val Acc: 68.64%, F1: 0.6837, Precision: 0.6942, Recall: 0.6864
+[2026-04-08 16:39:59,536 deit_tiny] (main.py 87): INFO Best performance updated at epoch 19 with accuracy: 68.64%
+[2026-04-08 16:39:59,536 deit_tiny] (main.py 89): INFO Max accuracy: 68.64%
+[2026-04-08 16:40:00,112 deit_tiny] (main.py 151): INFO Epoch: [20][0/59] lr 0.000453 loss 1.9327 acc 59.38%
+[2026-04-08 16:40:04,500 deit_tiny] (main.py 151): INFO Epoch: [20][20/59] lr 0.000453 loss 1.8633 acc 62.50%
+[2026-04-08 16:40:08,919 deit_tiny] (main.py 151): INFO Epoch: [20][40/59] lr 0.000453 loss 1.8376 acc 64.63%
+[2026-04-08 16:40:16,087 deit_tiny] (main.py 76): INFO [Epoch 20]: Train Loss: 1.8408, Train Acc: 64.51%, Val Loss: 0.9350, Val Acc: 68.48%, F1: 0.6851, Precision: 0.6968, Recall: 0.6848
+[2026-04-08 16:40:16,088 deit_tiny] (main.py 89): INFO Max accuracy: 68.64%
+[2026-04-08 16:40:16,701 deit_tiny] (main.py 151): INFO Epoch: [21][0/59] lr 0.000449 loss 1.7596 acc 65.62%
+[2026-04-08 16:40:21,141 deit_tiny] (main.py 151): INFO Epoch: [21][20/59] lr 0.000449 loss 1.7932 acc 65.18%
+[2026-04-08 16:40:25,514 deit_tiny] (main.py 151): INFO Epoch: [21][40/59] lr 0.000449 loss 1.8139 acc 64.41%
+[2026-04-08 16:40:32,688 deit_tiny] (main.py 76): INFO [Epoch 21]: Train Loss: 1.8129, Train Acc: 65.55%, Val Loss: 0.8920, Val Acc: 70.72%, F1: 0.7006, Precision: 0.7042, Recall: 0.7072
+[2026-04-08 16:40:32,689 deit_tiny] (main.py 87): INFO Best performance updated at epoch 21 with accuracy: 70.72%
+[2026-04-08 16:40:32,689 deit_tiny] (main.py 89): INFO Max accuracy: 70.72%
+[2026-04-08 16:40:33,270 deit_tiny] (main.py 151): INFO Epoch: [22][0/59] lr 0.000444 loss 1.7376 acc 68.75%
+[2026-04-08 16:40:37,681 deit_tiny] (main.py 151): INFO Epoch: [22][20/59] lr 0.000444 loss 1.7644 acc 68.68%
+[2026-04-08 16:40:42,099 deit_tiny] (main.py 151): INFO Epoch: [22][40/59] lr 0.000444 loss 1.7880 acc 66.65%
+[2026-04-08 16:40:49,340 deit_tiny] (main.py 76): INFO [Epoch 22]: Train Loss: 1.7859, Train Acc: 67.15%, Val Loss: 1.0427, Val Acc: 64.88%, F1: 0.6484, Precision: 0.6969, Recall: 0.6488
+[2026-04-08 16:40:49,341 deit_tiny] (main.py 89): INFO Max accuracy: 70.72%
+[2026-04-08 16:40:49,917 deit_tiny] (main.py 151): INFO Epoch: [23][0/59] lr 0.000439 loss 1.7467 acc 62.50%
+[2026-04-08 16:40:54,313 deit_tiny] (main.py 151): INFO Epoch: [23][20/59] lr 0.000439 loss 1.7657 acc 66.37%
+[2026-04-08 16:40:58,713 deit_tiny] (main.py 151): INFO Epoch: [23][40/59] lr 0.000439 loss 1.7871 acc 66.50%
+[2026-04-08 16:41:06,028 deit_tiny] (main.py 76): INFO [Epoch 23]: Train Loss: 1.7892, Train Acc: 66.64%, Val Loss: 0.9187, Val Acc: 69.76%, F1: 0.6984, Precision: 0.7035, Recall: 0.6976
+[2026-04-08 16:41:06,028 deit_tiny] (main.py 89): INFO Max accuracy: 70.72%
+[2026-04-08 16:41:06,644 deit_tiny] (main.py 151): INFO Epoch: [24][0/59] lr 0.000434 loss 1.6975 acc 70.31%
+[2026-04-08 16:41:11,066 deit_tiny] (main.py 151): INFO Epoch: [24][20/59] lr 0.000434 loss 1.7590 acc 68.82%
+[2026-04-08 16:41:15,511 deit_tiny] (main.py 151): INFO Epoch: [24][40/59] lr 0.000434 loss 1.7781 acc 68.10%
+[2026-04-08 16:41:22,771 deit_tiny] (main.py 76): INFO [Epoch 24]: Train Loss: 1.7896, Train Acc: 67.36%, Val Loss: 0.9135, Val Acc: 69.52%, F1: 0.6908, Precision: 0.7269, Recall: 0.6952
+[2026-04-08 16:41:22,772 deit_tiny] (main.py 89): INFO Max accuracy: 70.72%
+[2026-04-08 16:41:23,357 deit_tiny] (main.py 151): INFO Epoch: [25][0/59] lr 0.000428 loss 1.8079 acc 62.50%
+[2026-04-08 16:41:27,819 deit_tiny] (main.py 151): INFO Epoch: [25][20/59] lr 0.000428 loss 1.7515 acc 69.27%
+[2026-04-08 16:41:32,228 deit_tiny] (main.py 151): INFO Epoch: [25][40/59] lr 0.000428 loss 1.7652 acc 68.29%
+[2026-04-08 16:41:39,525 deit_tiny] (main.py 76): INFO [Epoch 25]: Train Loss: 1.7762, Train Acc: 68.03%, Val Loss: 0.9143, Val Acc: 70.00%, F1: 0.6896, Precision: 0.7052, Recall: 0.7000
+[2026-04-08 16:41:39,526 deit_tiny] (main.py 89): INFO Max accuracy: 70.72%
+[2026-04-08 16:41:40,109 deit_tiny] (main.py 151): INFO Epoch: [26][0/59] lr 0.000423 loss 1.6416 acc 75.00%
+[2026-04-08 16:41:44,616 deit_tiny] (main.py 151): INFO Epoch: [26][20/59] lr 0.000423 loss 1.7371 acc 69.42%
+[2026-04-08 16:41:49,132 deit_tiny] (main.py 151): INFO Epoch: [26][40/59] lr 0.000423 loss 1.7722 acc 67.49%
+[2026-04-08 16:41:56,652 deit_tiny] (main.py 76): INFO [Epoch 26]: Train Loss: 1.7469, Train Acc: 68.93%, Val Loss: 0.9013, Val Acc: 71.36%, F1: 0.7115, Precision: 0.7334, Recall: 0.7136
+[2026-04-08 16:41:56,653 deit_tiny] (main.py 87): INFO Best performance updated at epoch 26 with accuracy: 71.36%
+[2026-04-08 16:41:56,653 deit_tiny] (main.py 89): INFO Max accuracy: 71.36%
+[2026-04-08 16:41:57,251 deit_tiny] (main.py 151): INFO Epoch: [27][0/59] lr 0.000417 loss 1.7446 acc 59.38%
+[2026-04-08 16:42:01,769 deit_tiny] (main.py 151): INFO Epoch: [27][20/59] lr 0.000417 loss 1.7059 acc 70.91%
+[2026-04-08 16:42:06,321 deit_tiny] (main.py 151): INFO Epoch: [27][40/59] lr 0.000417 loss 1.7751 acc 67.49%
+[2026-04-08 16:42:13,738 deit_tiny] (main.py 76): INFO [Epoch 27]: Train Loss: 1.7660, Train Acc: 67.60%, Val Loss: 0.8767, Val Acc: 70.64%, F1: 0.7068, Precision: 0.7120, Recall: 0.7064
+[2026-04-08 16:42:13,739 deit_tiny] (main.py 89): INFO Max accuracy: 71.36%
+[2026-04-08 16:42:14,328 deit_tiny] (main.py 151): INFO Epoch: [28][0/59] lr 0.000411 loss 1.7588 acc 68.75%
+[2026-04-08 16:42:18,843 deit_tiny] (main.py 151): INFO Epoch: [28][20/59] lr 0.000411 loss 1.6860 acc 72.92%
+[2026-04-08 16:42:23,384 deit_tiny] (main.py 151): INFO Epoch: [28][40/59] lr 0.000411 loss 1.7138 acc 71.49%
+[2026-04-08 16:42:30,747 deit_tiny] (main.py 76): INFO [Epoch 28]: Train Loss: 1.7270, Train Acc: 70.77%, Val Loss: 0.8779, Val Acc: 71.60%, F1: 0.7176, Precision: 0.7435, Recall: 0.7160
+[2026-04-08 16:42:30,747 deit_tiny] (main.py 87): INFO Best performance updated at epoch 28 with accuracy: 71.60%
+[2026-04-08 16:42:30,747 deit_tiny] (main.py 89): INFO Max accuracy: 71.60%
+[2026-04-08 16:42:31,349 deit_tiny] (main.py 151): INFO Epoch: [29][0/59] lr 0.000405 loss 1.8105 acc 70.31%
+[2026-04-08 16:42:35,853 deit_tiny] (main.py 151): INFO Epoch: [29][20/59] lr 0.000405 loss 1.7407 acc 68.30%
+[2026-04-08 16:42:40,292 deit_tiny] (main.py 151): INFO Epoch: [29][40/59] lr 0.000405 loss 1.7636 acc 67.00%
+[2026-04-08 16:42:47,790 deit_tiny] (main.py 76): INFO [Epoch 29]: Train Loss: 1.7436, Train Acc: 67.89%, Val Loss: 0.8864, Val Acc: 71.36%, F1: 0.7073, Precision: 0.7212, Recall: 0.7136
+[2026-04-08 16:42:47,791 deit_tiny] (main.py 89): INFO Max accuracy: 71.60%
+[2026-04-08 16:42:48,368 deit_tiny] (main.py 151): INFO Epoch: [30][0/59] lr 0.000399 loss 1.7631 acc 68.75%
+[2026-04-08 16:42:52,757 deit_tiny] (main.py 151): INFO Epoch: [30][20/59] lr 0.000399 loss 1.7076 acc 70.76%
+[2026-04-08 16:42:57,125 deit_tiny] (main.py 151): INFO Epoch: [30][40/59] lr 0.000399 loss 1.7036 acc 70.69%
+[2026-04-08 16:43:04,344 deit_tiny] (main.py 76): INFO [Epoch 30]: Train Loss: 1.7063, Train Acc: 70.85%, Val Loss: 0.8820, Val Acc: 71.60%, F1: 0.7076, Precision: 0.7259, Recall: 0.7160
+[2026-04-08 16:43:04,345 deit_tiny] (main.py 87): INFO Best performance updated at epoch 30 with accuracy: 71.60%
+[2026-04-08 16:43:04,345 deit_tiny] (main.py 89): INFO Max accuracy: 71.60%
+[2026-04-08 16:43:04,926 deit_tiny] (main.py 151): INFO Epoch: [31][0/59] lr 0.000393 loss 1.6368 acc 71.88%
+[2026-04-08 16:43:09,351 deit_tiny] (main.py 151): INFO Epoch: [31][20/59] lr 0.000393 loss 1.6682 acc 72.92%
+[2026-04-08 16:43:13,661 deit_tiny] (main.py 151): INFO Epoch: [31][40/59] lr 0.000393 loss 1.6886 acc 71.61%
+[2026-04-08 16:43:20,894 deit_tiny] (main.py 76): INFO [Epoch 31]: Train Loss: 1.7092, Train Acc: 70.83%, Val Loss: 0.8113, Val Acc: 72.16%, F1: 0.7207, Precision: 0.7289, Recall: 0.7216
+[2026-04-08 16:43:20,894 deit_tiny] (main.py 87): INFO Best performance updated at epoch 31 with accuracy: 72.16%
+[2026-04-08 16:43:20,894 deit_tiny] (main.py 89): INFO Max accuracy: 72.16%
+[2026-04-08 16:43:21,476 deit_tiny] (main.py 151): INFO Epoch: [32][0/59] lr 0.000386 loss 1.6347 acc 78.12%
+[2026-04-08 16:43:25,859 deit_tiny] (main.py 151): INFO Epoch: [32][20/59] lr 0.000386 loss 1.6820 acc 71.28%
+[2026-04-08 16:43:30,248 deit_tiny] (main.py 151): INFO Epoch: [32][40/59] lr 0.000386 loss 1.6824 acc 71.61%
+[2026-04-08 16:43:37,722 deit_tiny] (main.py 76): INFO [Epoch 32]: Train Loss: 1.6945, Train Acc: 71.36%, Val Loss: 0.8303, Val Acc: 72.88%, F1: 0.7259, Precision: 0.7297, Recall: 0.7288
+[2026-04-08 16:43:37,723 deit_tiny] (main.py 87): INFO Best performance updated at epoch 32 with accuracy: 72.88%
+[2026-04-08 16:43:37,723 deit_tiny] (main.py 89): INFO Max accuracy: 72.88%
+[2026-04-08 16:43:38,308 deit_tiny] (main.py 151): INFO Epoch: [33][0/59] lr 0.000380 loss 1.7366 acc 65.62%
+[2026-04-08 16:43:42,686 deit_tiny] (main.py 151): INFO Epoch: [33][20/59] lr 0.000380 loss 1.7005 acc 70.98%
+[2026-04-08 16:43:47,107 deit_tiny] (main.py 151): INFO Epoch: [33][40/59] lr 0.000380 loss 1.6865 acc 71.80%
+[2026-04-08 16:43:54,390 deit_tiny] (main.py 76): INFO [Epoch 33]: Train Loss: 1.6764, Train Acc: 72.11%, Val Loss: 0.8449, Val Acc: 71.68%, F1: 0.7098, Precision: 0.7202, Recall: 0.7168
+[2026-04-08 16:43:54,390 deit_tiny] (main.py 89): INFO Max accuracy: 72.88%
+[2026-04-08 16:43:54,990 deit_tiny] (main.py 151): INFO Epoch: [34][0/59] lr 0.000373 loss 1.6217 acc 73.44%
+[2026-04-08 16:43:59,395 deit_tiny] (main.py 151): INFO Epoch: [34][20/59] lr 0.000373 loss 1.6606 acc 72.17%
+[2026-04-08 16:44:03,812 deit_tiny] (main.py 151): INFO Epoch: [34][40/59] lr 0.000373 loss 1.6599 acc 72.45%
+[2026-04-08 16:44:11,129 deit_tiny] (main.py 76): INFO [Epoch 34]: Train Loss: 1.6633, Train Acc: 72.27%, Val Loss: 0.8200, Val Acc: 72.56%, F1: 0.7260, Precision: 0.7305, Recall: 0.7256
+[2026-04-08 16:44:11,130 deit_tiny] (main.py 89): INFO Max accuracy: 72.88%
+[2026-04-08 16:44:11,731 deit_tiny] (main.py 151): INFO Epoch: [35][0/59] lr 0.000366 loss 1.7556 acc 67.19%
+[2026-04-08 16:44:16,167 deit_tiny] (main.py 151): INFO Epoch: [35][20/59] lr 0.000366 loss 1.6568 acc 72.10%
+[2026-04-08 16:44:20,623 deit_tiny] (main.py 151): INFO Epoch: [35][40/59] lr 0.000366 loss 1.6549 acc 72.64%
+[2026-04-08 16:44:27,969 deit_tiny] (main.py 76): INFO [Epoch 35]: Train Loss: 1.6564, Train Acc: 72.48%, Val Loss: 0.8428, Val Acc: 72.48%, F1: 0.7226, Precision: 0.7365, Recall: 0.7248
+[2026-04-08 16:44:27,970 deit_tiny] (main.py 89): INFO Max accuracy: 72.88%
+[2026-04-08 16:44:28,552 deit_tiny] (main.py 151): INFO Epoch: [36][0/59] lr 0.000359 loss 1.7615 acc 64.06%
+[2026-04-08 16:44:32,971 deit_tiny] (main.py 151): INFO Epoch: [36][20/59] lr 0.000359 loss 1.6293 acc 74.40%
+[2026-04-08 16:44:37,303 deit_tiny] (main.py 151): INFO Epoch: [36][40/59] lr 0.000359 loss 1.6564 acc 72.79%
+[2026-04-08 16:44:44,656 deit_tiny] (main.py 76): INFO [Epoch 36]: Train Loss: 1.6504, Train Acc: 73.09%, Val Loss: 0.8201, Val Acc: 73.36%, F1: 0.7303, Precision: 0.7340, Recall: 0.7336
+[2026-04-08 16:44:44,656 deit_tiny] (main.py 87): INFO Best performance updated at epoch 36 with accuracy: 73.36%
+[2026-04-08 16:44:44,656 deit_tiny] (main.py 89): INFO Max accuracy: 73.36%
+[2026-04-08 16:44:45,247 deit_tiny] (main.py 151): INFO Epoch: [37][0/59] lr 0.000352 loss 1.5086 acc 81.25%
+[2026-04-08 16:44:49,679 deit_tiny] (main.py 151): INFO Epoch: [37][20/59] lr 0.000352 loss 1.6417 acc 73.21%
+[2026-04-08 16:44:54,157 deit_tiny] (main.py 151): INFO Epoch: [37][40/59] lr 0.000352 loss 1.6432 acc 72.83%
+[2026-04-08 16:45:01,403 deit_tiny] (main.py 76): INFO [Epoch 37]: Train Loss: 1.6491, Train Acc: 72.67%, Val Loss: 0.8051, Val Acc: 74.40%, F1: 0.7423, Precision: 0.7430, Recall: 0.7440
+[2026-04-08 16:45:01,403 deit_tiny] (main.py 87): INFO Best performance updated at epoch 37 with accuracy: 74.40%
+[2026-04-08 16:45:01,404 deit_tiny] (main.py 89): INFO Max accuracy: 74.40%
+[2026-04-08 16:45:01,996 deit_tiny] (main.py 151): INFO Epoch: [38][0/59] lr 0.000345 loss 1.6628 acc 73.44%
+[2026-04-08 16:45:06,486 deit_tiny] (main.py 151): INFO Epoch: [38][20/59] lr 0.000345 loss 1.6094 acc 75.22%
+[2026-04-08 16:45:10,881 deit_tiny] (main.py 151): INFO Epoch: [38][40/59] lr 0.000345 loss 1.6396 acc 74.24%
+[2026-04-08 16:45:18,105 deit_tiny] (main.py 76): INFO [Epoch 38]: Train Loss: 1.6352, Train Acc: 74.00%, Val Loss: 0.8322, Val Acc: 72.56%, F1: 0.7288, Precision: 0.7447, Recall: 0.7256
+[2026-04-08 16:45:18,106 deit_tiny] (main.py 89): INFO Max accuracy: 74.40%
+[2026-04-08 16:45:18,691 deit_tiny] (main.py 151): INFO Epoch: [39][0/59] lr 0.000338 loss 1.5555 acc 76.56%
+[2026-04-08 16:45:23,219 deit_tiny] (main.py 151): INFO Epoch: [39][20/59] lr 0.000338 loss 1.6390 acc 73.29%
+[2026-04-08 16:45:27,718 deit_tiny] (main.py 151): INFO Epoch: [39][40/59] lr 0.000338 loss 1.6341 acc 73.93%
+[2026-04-08 16:45:35,003 deit_tiny] (main.py 76): INFO [Epoch 39]: Train Loss: 1.6259, Train Acc: 74.43%, Val Loss: 0.8428, Val Acc: 72.64%, F1: 0.7206, Precision: 0.7277, Recall: 0.7264
+[2026-04-08 16:45:35,003 deit_tiny] (main.py 89): INFO Max accuracy: 74.40%
+[2026-04-08 16:45:35,580 deit_tiny] (main.py 151): INFO Epoch: [40][0/59] lr 0.000331 loss 1.6321 acc 70.31%
+[2026-04-08 16:45:39,992 deit_tiny] (main.py 151): INFO Epoch: [40][20/59] lr 0.000331 loss 1.6174 acc 74.93%
+[2026-04-08 16:45:44,393 deit_tiny] (main.py 151): INFO Epoch: [40][40/59] lr 0.000331 loss 1.6106 acc 75.30%
+[2026-04-08 16:45:51,589 deit_tiny] (main.py 76): INFO [Epoch 40]: Train Loss: 1.6092, Train Acc: 75.01%, Val Loss: 0.8084, Val Acc: 74.16%, F1: 0.7411, Precision: 0.7455, Recall: 0.7416
+[2026-04-08 16:45:51,589 deit_tiny] (main.py 89): INFO Max accuracy: 74.40%
+[2026-04-08 16:45:52,182 deit_tiny] (main.py 151): INFO Epoch: [41][0/59] lr 0.000323 loss 1.5756 acc 75.00%
+[2026-04-08 16:45:56,592 deit_tiny] (main.py 151): INFO Epoch: [41][20/59] lr 0.000323 loss 1.6135 acc 75.22%
+[2026-04-08 16:46:01,069 deit_tiny] (main.py 151): INFO Epoch: [41][40/59] lr 0.000323 loss 1.5956 acc 75.57%
+[2026-04-08 16:46:08,490 deit_tiny] (main.py 76): INFO [Epoch 41]: Train Loss: 1.6032, Train Acc: 75.33%, Val Loss: 0.7866, Val Acc: 75.76%, F1: 0.7558, Precision: 0.7682, Recall: 0.7576
+[2026-04-08 16:46:08,490 deit_tiny] (main.py 87): INFO Best performance updated at epoch 41 with accuracy: 75.76%
+[2026-04-08 16:46:08,490 deit_tiny] (main.py 89): INFO Max accuracy: 75.76%
+[2026-04-08 16:46:09,069 deit_tiny] (main.py 151): INFO Epoch: [42][0/59] lr 0.000316 loss 1.6149 acc 79.69%
+[2026-04-08 16:46:13,476 deit_tiny] (main.py 151): INFO Epoch: [42][20/59] lr 0.000316 loss 1.5722 acc 77.08%
+[2026-04-08 16:46:17,900 deit_tiny] (main.py 151): INFO Epoch: [42][40/59] lr 0.000316 loss 1.5852 acc 76.33%
+[2026-04-08 16:46:25,373 deit_tiny] (main.py 76): INFO [Epoch 42]: Train Loss: 1.5997, Train Acc: 75.81%, Val Loss: 0.8331, Val Acc: 73.36%, F1: 0.7303, Precision: 0.7400, Recall: 0.7336
+[2026-04-08 16:46:25,373 deit_tiny] (main.py 89): INFO Max accuracy: 75.76%
+[2026-04-08 16:46:25,969 deit_tiny] (main.py 151): INFO Epoch: [43][0/59] lr 0.000308 loss 1.7119 acc 67.19%
+[2026-04-08 16:46:30,383 deit_tiny] (main.py 151): INFO Epoch: [43][20/59] lr 0.000308 loss 1.5869 acc 75.30%
+[2026-04-08 16:46:34,841 deit_tiny] (main.py 151): INFO Epoch: [43][40/59] lr 0.000308 loss 1.5873 acc 76.33%
+[2026-04-08 16:46:42,275 deit_tiny] (main.py 76): INFO [Epoch 43]: Train Loss: 1.5822, Train Acc: 76.43%, Val Loss: 0.8261, Val Acc: 74.16%, F1: 0.7435, Precision: 0.7493, Recall: 0.7416
+[2026-04-08 16:46:42,276 deit_tiny] (main.py 89): INFO Max accuracy: 75.76%
+[2026-04-08 16:46:42,883 deit_tiny] (main.py 151): INFO Epoch: [44][0/59] lr 0.000301 loss 1.5133 acc 76.56%
+[2026-04-08 16:46:47,380 deit_tiny] (main.py 151): INFO Epoch: [44][20/59] lr 0.000301 loss 1.5994 acc 75.22%
+[2026-04-08 16:46:51,773 deit_tiny] (main.py 151): INFO Epoch: [44][40/59] lr 0.000301 loss 1.5911 acc 76.07%
+[2026-04-08 16:46:59,097 deit_tiny] (main.py 76): INFO [Epoch 44]: Train Loss: 1.5796, Train Acc: 76.56%, Val Loss: 0.7667, Val Acc: 75.92%, F1: 0.7578, Precision: 0.7613, Recall: 0.7592
+[2026-04-08 16:46:59,098 deit_tiny] (main.py 87): INFO Best performance updated at epoch 44 with accuracy: 75.92%
+[2026-04-08 16:46:59,098 deit_tiny] (main.py 89): INFO Max accuracy: 75.92%
+[2026-04-08 16:46:59,701 deit_tiny] (main.py 151): INFO Epoch: [45][0/59] lr 0.000293 loss 1.5483 acc 76.56%
+[2026-04-08 16:47:04,161 deit_tiny] (main.py 151): INFO Epoch: [45][20/59] lr 0.000293 loss 1.5220 acc 78.94%
+[2026-04-08 16:47:08,581 deit_tiny] (main.py 151): INFO Epoch: [45][40/59] lr 0.000293 loss 1.5463 acc 77.02%
+[2026-04-08 16:47:15,988 deit_tiny] (main.py 76): INFO [Epoch 45]: Train Loss: 1.5563, Train Acc: 76.99%, Val Loss: 0.7960, Val Acc: 74.40%, F1: 0.7447, Precision: 0.7494, Recall: 0.7440
+[2026-04-08 16:47:15,989 deit_tiny] (main.py 89): INFO Max accuracy: 75.92%
+[2026-04-08 16:47:16,562 deit_tiny] (main.py 151): INFO Epoch: [46][0/59] lr 0.000286 loss 1.5364 acc 81.25%
+[2026-04-08 16:47:20,992 deit_tiny] (main.py 151): INFO Epoch: [46][20/59] lr 0.000286 loss 1.5683 acc 75.97%
+[2026-04-08 16:47:25,384 deit_tiny] (main.py 151): INFO Epoch: [46][40/59] lr 0.000286 loss 1.5444 acc 77.67%
+[2026-04-08 16:47:32,678 deit_tiny] (main.py 76): INFO [Epoch 46]: Train Loss: 1.5414, Train Acc: 77.71%, Val Loss: 0.7738, Val Acc: 75.44%, F1: 0.7522, Precision: 0.7526, Recall: 0.7544
+[2026-04-08 16:47:32,678 deit_tiny] (main.py 89): INFO Max accuracy: 75.92%
+[2026-04-08 16:47:33,269 deit_tiny] (main.py 151): INFO Epoch: [47][0/59] lr 0.000278 loss 1.6414 acc 73.44%
+[2026-04-08 16:47:37,864 deit_tiny] (main.py 151): INFO Epoch: [47][20/59] lr 0.000278 loss 1.5168 acc 78.05%
+[2026-04-08 16:47:42,318 deit_tiny] (main.py 151): INFO Epoch: [47][40/59] lr 0.000278 loss 1.5422 acc 76.98%
+[2026-04-08 16:47:49,524 deit_tiny] (main.py 76): INFO [Epoch 47]: Train Loss: 1.5434, Train Acc: 77.65%, Val Loss: 0.7802, Val Acc: 74.56%, F1: 0.7480, Precision: 0.7610, Recall: 0.7456
+[2026-04-08 16:47:49,525 deit_tiny] (main.py 89): INFO Max accuracy: 75.92%
+[2026-04-08 16:47:50,105 deit_tiny] (main.py 151): INFO Epoch: [48][0/59] lr 0.000270 loss 1.5754 acc 68.75%
+[2026-04-08 16:47:54,457 deit_tiny] (main.py 151): INFO Epoch: [48][20/59] lr 0.000270 loss 1.4940 acc 78.72%
+[2026-04-08 16:47:58,951 deit_tiny] (main.py 151): INFO Epoch: [48][40/59] lr 0.000270 loss 1.5248 acc 78.05%
+[2026-04-08 16:48:06,181 deit_tiny] (main.py 76): INFO [Epoch 48]: Train Loss: 1.5337, Train Acc: 78.11%, Val Loss: 0.8114, Val Acc: 74.80%, F1: 0.7486, Precision: 0.7563, Recall: 0.7480
+[2026-04-08 16:48:06,181 deit_tiny] (main.py 89): INFO Max accuracy: 75.92%
+[2026-04-08 16:48:06,769 deit_tiny] (main.py 151): INFO Epoch: [49][0/59] lr 0.000263 loss 1.6116 acc 78.12%
+[2026-04-08 16:48:11,300 deit_tiny] (main.py 151): INFO Epoch: [49][20/59] lr 0.000263 loss 1.5578 acc 77.31%
+[2026-04-08 16:48:15,725 deit_tiny] (main.py 151): INFO Epoch: [49][40/59] lr 0.000263 loss 1.5305 acc 78.93%
+[2026-04-08 16:48:23,153 deit_tiny] (main.py 76): INFO [Epoch 49]: Train Loss: 1.5337, Train Acc: 78.40%, Val Loss: 0.7643, Val Acc: 76.08%, F1: 0.7611, Precision: 0.7675, Recall: 0.7608
+[2026-04-08 16:48:23,154 deit_tiny] (main.py 87): INFO Best performance updated at epoch 49 with accuracy: 76.08%
+[2026-04-08 16:48:23,154 deit_tiny] (main.py 89): INFO Max accuracy: 76.08%
+[2026-04-08 16:48:23,776 deit_tiny] (main.py 151): INFO Epoch: [50][0/59] lr 0.000255 loss 1.6486 acc 75.00%
+[2026-04-08 16:48:28,223 deit_tiny] (main.py 151): INFO Epoch: [50][20/59] lr 0.000255 loss 1.5035 acc 78.72%
+[2026-04-08 16:48:32,671 deit_tiny] (main.py 151): INFO Epoch: [50][40/59] lr 0.000255 loss 1.5062 acc 79.08%
+[2026-04-08 16:48:39,920 deit_tiny] (main.py 76): INFO [Epoch 50]: Train Loss: 1.5016, Train Acc: 79.63%, Val Loss: 0.8047, Val Acc: 75.04%, F1: 0.7476, Precision: 0.7513, Recall: 0.7504
+[2026-04-08 16:48:39,920 deit_tiny] (main.py 89): INFO Max accuracy: 76.08%
+[2026-04-08 16:48:40,516 deit_tiny] (main.py 151): INFO Epoch: [51][0/59] lr 0.000247 loss 1.3801 acc 82.81%
+[2026-04-08 16:48:45,094 deit_tiny] (main.py 151): INFO Epoch: [51][20/59] lr 0.000247 loss 1.5061 acc 79.24%
+[2026-04-08 16:48:49,512 deit_tiny] (main.py 151): INFO Epoch: [51][40/59] lr 0.000247 loss 1.5090 acc 79.19%
+[2026-04-08 16:48:56,836 deit_tiny] (main.py 76): INFO [Epoch 51]: Train Loss: 1.5153, Train Acc: 79.15%, Val Loss: 0.8155, Val Acc: 73.60%, F1: 0.7379, Precision: 0.7555, Recall: 0.7360
+[2026-04-08 16:48:56,837 deit_tiny] (main.py 89): INFO Max accuracy: 76.08%
+[2026-04-08 16:48:57,445 deit_tiny] (main.py 151): INFO Epoch: [52][0/59] lr 0.000240 loss 1.5389 acc 81.25%
+[2026-04-08 16:49:01,953 deit_tiny] (main.py 151): INFO Epoch: [52][20/59] lr 0.000240 loss 1.4826 acc 82.22%
+[2026-04-08 16:49:06,403 deit_tiny] (main.py 151): INFO Epoch: [52][40/59] lr 0.000240 loss 1.5019 acc 80.11%
+[2026-04-08 16:49:13,658 deit_tiny] (main.py 76): INFO [Epoch 52]: Train Loss: 1.5032, Train Acc: 80.29%, Val Loss: 0.8103, Val Acc: 75.52%, F1: 0.7508, Precision: 0.7582, Recall: 0.7552
+[2026-04-08 16:49:13,659 deit_tiny] (main.py 89): INFO Max accuracy: 76.08%
+[2026-04-08 16:49:14,257 deit_tiny] (main.py 151): INFO Epoch: [53][0/59] lr 0.000232 loss 1.6562 acc 78.12%
+[2026-04-08 16:49:18,699 deit_tiny] (main.py 151): INFO Epoch: [53][20/59] lr 0.000232 loss 1.5133 acc 77.83%
+[2026-04-08 16:49:23,165 deit_tiny] (main.py 151): INFO Epoch: [53][40/59] lr 0.000232 loss 1.4973 acc 78.96%
+[2026-04-08 16:49:30,554 deit_tiny] (main.py 76): INFO [Epoch 53]: Train Loss: 1.5019, Train Acc: 78.80%, Val Loss: 0.8181, Val Acc: 73.92%, F1: 0.7361, Precision: 0.7442, Recall: 0.7392
+[2026-04-08 16:49:30,555 deit_tiny] (main.py 89): INFO Max accuracy: 76.08%
+[2026-04-08 16:49:31,150 deit_tiny] (main.py 151): INFO Epoch: [54][0/59] lr 0.000224 loss 1.4603 acc 78.12%
+[2026-04-08 16:49:35,563 deit_tiny] (main.py 151): INFO Epoch: [54][20/59] lr 0.000224 loss 1.5008 acc 79.24%
+[2026-04-08 16:49:40,070 deit_tiny] (main.py 151): INFO Epoch: [54][40/59] lr 0.000224 loss 1.4796 acc 80.07%
+[2026-04-08 16:49:47,306 deit_tiny] (main.py 76): INFO [Epoch 54]: Train Loss: 1.4738, Train Acc: 80.40%, Val Loss: 0.7858, Val Acc: 74.88%, F1: 0.7483, Precision: 0.7525, Recall: 0.7488
+[2026-04-08 16:49:47,307 deit_tiny] (main.py 89): INFO Max accuracy: 76.08%
+[2026-04-08 16:49:47,905 deit_tiny] (main.py 151): INFO Epoch: [55][0/59] lr 0.000217 loss 1.5197 acc 82.81%
+[2026-04-08 16:49:52,276 deit_tiny] (main.py 151): INFO Epoch: [55][20/59] lr 0.000217 loss 1.4838 acc 81.03%
+[2026-04-08 16:49:56,599 deit_tiny] (main.py 151): INFO Epoch: [55][40/59] lr 0.000217 loss 1.4794 acc 81.55%
+[2026-04-08 16:50:03,797 deit_tiny] (main.py 76): INFO [Epoch 55]: Train Loss: 1.4701, Train Acc: 81.71%, Val Loss: 0.7963, Val Acc: 75.44%, F1: 0.7548, Precision: 0.7566, Recall: 0.7544
+[2026-04-08 16:50:03,798 deit_tiny] (main.py 89): INFO Max accuracy: 76.08%
+[2026-04-08 16:50:04,397 deit_tiny] (main.py 151): INFO Epoch: [56][0/59] lr 0.000209 loss 1.4055 acc 82.81%
+[2026-04-08 16:50:08,855 deit_tiny] (main.py 151): INFO Epoch: [56][20/59] lr 0.000209 loss 1.4239 acc 83.85%
+[2026-04-08 16:50:13,364 deit_tiny] (main.py 151): INFO Epoch: [56][40/59] lr 0.000209 loss 1.4317 acc 82.85%
+[2026-04-08 16:50:20,690 deit_tiny] (main.py 76): INFO [Epoch 56]: Train Loss: 1.4492, Train Acc: 82.32%, Val Loss: 0.8285, Val Acc: 74.40%, F1: 0.7456, Precision: 0.7528, Recall: 0.7440
+[2026-04-08 16:50:20,690 deit_tiny] (main.py 89): INFO Max accuracy: 76.08%
+[2026-04-08 16:50:21,292 deit_tiny] (main.py 151): INFO Epoch: [57][0/59] lr 0.000202 loss 1.6074 acc 84.38%
+[2026-04-08 16:50:25,874 deit_tiny] (main.py 151): INFO Epoch: [57][20/59] lr 0.000202 loss 1.4664 acc 82.81%
+[2026-04-08 16:50:30,444 deit_tiny] (main.py 151): INFO Epoch: [57][40/59] lr 0.000202 loss 1.4402 acc 83.08%
+[2026-04-08 16:50:37,714 deit_tiny] (main.py 76): INFO [Epoch 57]: Train Loss: 1.4446, Train Acc: 82.67%, Val Loss: 0.7891, Val Acc: 75.92%, F1: 0.7567, Precision: 0.7591, Recall: 0.7592
+[2026-04-08 16:50:37,714 deit_tiny] (main.py 89): INFO Max accuracy: 76.08%
+[2026-04-08 16:50:38,324 deit_tiny] (main.py 151): INFO Epoch: [58][0/59] lr 0.000194 loss 1.5081 acc 81.25%
+[2026-04-08 16:50:42,886 deit_tiny] (main.py 151): INFO Epoch: [58][20/59] lr 0.000194 loss 1.4184 acc 84.82%
+[2026-04-08 16:50:47,472 deit_tiny] (main.py 151): INFO Epoch: [58][40/59] lr 0.000194 loss 1.4343 acc 83.84%
+[2026-04-08 16:50:54,721 deit_tiny] (main.py 76): INFO [Epoch 58]: Train Loss: 1.4340, Train Acc: 83.57%, Val Loss: 0.8226, Val Acc: 74.08%, F1: 0.7376, Precision: 0.7416, Recall: 0.7408
+[2026-04-08 16:50:54,721 deit_tiny] (main.py 89): INFO Max accuracy: 76.08%
+[2026-04-08 16:50:55,317 deit_tiny] (main.py 151): INFO Epoch: [59][0/59] lr 0.000187 loss 1.3610 acc 85.94%
+[2026-04-08 16:50:59,782 deit_tiny] (main.py 151): INFO Epoch: [59][20/59] lr 0.000187 loss 1.4538 acc 82.51%
+[2026-04-08 16:51:04,206 deit_tiny] (main.py 151): INFO Epoch: [59][40/59] lr 0.000187 loss 1.4570 acc 81.63%
+[2026-04-08 16:51:11,497 deit_tiny] (main.py 76): INFO [Epoch 59]: Train Loss: 1.4476, Train Acc: 81.97%, Val Loss: 0.7701, Val Acc: 74.88%, F1: 0.7504, Precision: 0.7554, Recall: 0.7488
+[2026-04-08 16:51:11,497 deit_tiny] (main.py 89): INFO Max accuracy: 76.08%
+[2026-04-08 16:51:12,098 deit_tiny] (main.py 151): INFO Epoch: [60][0/59] lr 0.000179 loss 1.3146 acc 84.38%
+[2026-04-08 16:51:16,635 deit_tiny] (main.py 151): INFO Epoch: [60][20/59] lr 0.000179 loss 1.3981 acc 84.08%
+[2026-04-08 16:51:21,014 deit_tiny] (main.py 151): INFO Epoch: [60][40/59] lr 0.000179 loss 1.3973 acc 84.34%
+[2026-04-08 16:51:28,349 deit_tiny] (main.py 76): INFO [Epoch 60]: Train Loss: 1.4114, Train Acc: 83.81%, Val Loss: 0.7804, Val Acc: 76.48%, F1: 0.7646, Precision: 0.7655, Recall: 0.7648
+[2026-04-08 16:51:28,349 deit_tiny] (main.py 87): INFO Best performance updated at epoch 60 with accuracy: 76.48%
+[2026-04-08 16:51:28,350 deit_tiny] (main.py 89): INFO Max accuracy: 76.48%
+[2026-04-08 16:51:28,939 deit_tiny] (main.py 151): INFO Epoch: [61][0/59] lr 0.000172 loss 1.5211 acc 78.12%
+[2026-04-08 16:51:33,395 deit_tiny] (main.py 151): INFO Epoch: [61][20/59] lr 0.000172 loss 1.3908 acc 84.30%
+[2026-04-08 16:51:37,790 deit_tiny] (main.py 151): INFO Epoch: [61][40/59] lr 0.000172 loss 1.3979 acc 83.99%
+[2026-04-08 16:51:44,974 deit_tiny] (main.py 76): INFO [Epoch 61]: Train Loss: 1.4093, Train Acc: 83.81%, Val Loss: 0.8140, Val Acc: 76.32%, F1: 0.7617, Precision: 0.7677, Recall: 0.7632
+[2026-04-08 16:51:44,975 deit_tiny] (main.py 89): INFO Max accuracy: 76.48%
+[2026-04-08 16:51:45,551 deit_tiny] (main.py 151): INFO Epoch: [62][0/59] lr 0.000165 loss 1.3569 acc 84.38%
+[2026-04-08 16:51:50,120 deit_tiny] (main.py 151): INFO Epoch: [62][20/59] lr 0.000165 loss 1.3874 acc 84.75%
+[2026-04-08 16:51:54,624 deit_tiny] (main.py 151): INFO Epoch: [62][40/59] lr 0.000165 loss 1.4032 acc 83.88%
+[2026-04-08 16:52:01,881 deit_tiny] (main.py 76): INFO [Epoch 62]: Train Loss: 1.4013, Train Acc: 83.92%, Val Loss: 0.7815, Val Acc: 76.32%, F1: 0.7599, Precision: 0.7623, Recall: 0.7632
+[2026-04-08 16:52:01,881 deit_tiny] (main.py 89): INFO Max accuracy: 76.48%
+[2026-04-08 16:52:02,473 deit_tiny] (main.py 151): INFO Epoch: [63][0/59] lr 0.000158 loss 1.3943 acc 89.06%
+[2026-04-08 16:52:07,130 deit_tiny] (main.py 151): INFO Epoch: [63][20/59] lr 0.000158 loss 1.3820 acc 86.38%
+[2026-04-08 16:52:11,625 deit_tiny] (main.py 151): INFO Epoch: [63][40/59] lr 0.000158 loss 1.3727 acc 85.94%
+[2026-04-08 16:52:18,937 deit_tiny] (main.py 76): INFO [Epoch 63]: Train Loss: 1.3715, Train Acc: 86.05%, Val Loss: 0.8088, Val Acc: 75.76%, F1: 0.7541, Precision: 0.7555, Recall: 0.7576
+[2026-04-08 16:52:18,938 deit_tiny] (main.py 89): INFO Max accuracy: 76.48%
+[2026-04-08 16:52:19,525 deit_tiny] (main.py 151): INFO Epoch: [64][0/59] lr 0.000151 loss 1.4120 acc 84.38%
+[2026-04-08 16:52:24,108 deit_tiny] (main.py 151): INFO Epoch: [64][20/59] lr 0.000151 loss 1.3628 acc 85.19%
+[2026-04-08 16:52:28,616 deit_tiny] (main.py 151): INFO Epoch: [64][40/59] lr 0.000151 loss 1.3639 acc 85.02%
+[2026-04-08 16:52:35,961 deit_tiny] (main.py 76): INFO [Epoch 64]: Train Loss: 1.3820, Train Acc: 84.53%, Val Loss: 0.8030, Val Acc: 75.28%, F1: 0.7513, Precision: 0.7524, Recall: 0.7528
+[2026-04-08 16:52:35,962 deit_tiny] (main.py 89): INFO Max accuracy: 76.48%
+[2026-04-08 16:52:36,542 deit_tiny] (main.py 151): INFO Epoch: [65][0/59] lr 0.000144 loss 1.2556 acc 92.19%
+[2026-04-08 16:52:40,945 deit_tiny] (main.py 151): INFO Epoch: [65][20/59] lr 0.000144 loss 1.3336 acc 86.90%
+[2026-04-08 16:52:45,359 deit_tiny] (main.py 151): INFO Epoch: [65][40/59] lr 0.000144 loss 1.3550 acc 85.86%
+[2026-04-08 16:52:52,672 deit_tiny] (main.py 76): INFO [Epoch 65]: Train Loss: 1.3608, Train Acc: 85.73%, Val Loss: 0.7865, Val Acc: 76.40%, F1: 0.7617, Precision: 0.7630, Recall: 0.7640
+[2026-04-08 16:52:52,673 deit_tiny] (main.py 89): INFO Max accuracy: 76.48%
+[2026-04-08 16:52:53,277 deit_tiny] (main.py 151): INFO Epoch: [66][0/59] lr 0.000137 loss 1.4911 acc 78.12%
+[2026-04-08 16:52:57,929 deit_tiny] (main.py 151): INFO Epoch: [66][20/59] lr 0.000137 loss 1.3616 acc 85.79%
+[2026-04-08 16:53:02,560 deit_tiny] (main.py 151): INFO Epoch: [66][40/59] lr 0.000137 loss 1.3573 acc 85.86%
+[2026-04-08 16:53:09,870 deit_tiny] (main.py 76): INFO [Epoch 66]: Train Loss: 1.3663, Train Acc: 85.25%, Val Loss: 0.8574, Val Acc: 74.80%, F1: 0.7497, Precision: 0.7582, Recall: 0.7480
+[2026-04-08 16:53:09,870 deit_tiny] (main.py 89): INFO Max accuracy: 76.48%
+[2026-04-08 16:53:10,448 deit_tiny] (main.py 151): INFO Epoch: [67][0/59] lr 0.000130 loss 1.3884 acc 85.94%
+[2026-04-08 16:53:14,827 deit_tiny] (main.py 151): INFO Epoch: [67][20/59] lr 0.000130 loss 1.3770 acc 85.94%
+[2026-04-08 16:53:19,219 deit_tiny] (main.py 151): INFO Epoch: [67][40/59] lr 0.000130 loss 1.3637 acc 86.32%
+[2026-04-08 16:53:26,529 deit_tiny] (main.py 76): INFO [Epoch 67]: Train Loss: 1.3637, Train Acc: 86.00%, Val Loss: 0.8187, Val Acc: 76.48%, F1: 0.7616, Precision: 0.7661, Recall: 0.7648
+[2026-04-08 16:53:26,530 deit_tiny] (main.py 89): INFO Max accuracy: 76.48%
+[2026-04-08 16:53:27,136 deit_tiny] (main.py 151): INFO Epoch: [68][0/59] lr 0.000124 loss 1.2524 acc 90.62%
+[2026-04-08 16:53:31,571 deit_tiny] (main.py 151): INFO Epoch: [68][20/59] lr 0.000124 loss 1.3511 acc 86.16%
+[2026-04-08 16:53:35,967 deit_tiny] (main.py 151): INFO Epoch: [68][40/59] lr 0.000124 loss 1.3475 acc 86.66%
+[2026-04-08 16:53:43,357 deit_tiny] (main.py 76): INFO [Epoch 68]: Train Loss: 1.3409, Train Acc: 87.20%, Val Loss: 0.8032, Val Acc: 77.28%, F1: 0.7736, Precision: 0.7748, Recall: 0.7728
+[2026-04-08 16:53:43,357 deit_tiny] (main.py 87): INFO Best performance updated at epoch 68 with accuracy: 77.28%
+[2026-04-08 16:53:43,357 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:53:43,937 deit_tiny] (main.py 151): INFO Epoch: [69][0/59] lr 0.000117 loss 1.4461 acc 85.94%
+[2026-04-08 16:53:48,327 deit_tiny] (main.py 151): INFO Epoch: [69][20/59] lr 0.000117 loss 1.3281 acc 87.57%
+[2026-04-08 16:53:52,711 deit_tiny] (main.py 151): INFO Epoch: [69][40/59] lr 0.000117 loss 1.3308 acc 87.31%
+[2026-04-08 16:54:00,102 deit_tiny] (main.py 76): INFO [Epoch 69]: Train Loss: 1.3396, Train Acc: 87.01%, Val Loss: 0.7833, Val Acc: 75.76%, F1: 0.7567, Precision: 0.7566, Recall: 0.7576
+[2026-04-08 16:54:00,103 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:54:00,684 deit_tiny] (main.py 151): INFO Epoch: [70][0/59] lr 0.000111 loss 1.3488 acc 85.94%
+[2026-04-08 16:54:05,170 deit_tiny] (main.py 151): INFO Epoch: [70][20/59] lr 0.000111 loss 1.3040 acc 88.84%
+[2026-04-08 16:54:09,604 deit_tiny] (main.py 151): INFO Epoch: [70][40/59] lr 0.000111 loss 1.3178 acc 88.15%
+[2026-04-08 16:54:16,883 deit_tiny] (main.py 76): INFO [Epoch 70]: Train Loss: 1.3270, Train Acc: 87.84%, Val Loss: 0.8159, Val Acc: 76.96%, F1: 0.7705, Precision: 0.7737, Recall: 0.7696
+[2026-04-08 16:54:16,883 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:54:17,484 deit_tiny] (main.py 151): INFO Epoch: [71][0/59] lr 0.000105 loss 1.1587 acc 93.75%
+[2026-04-08 16:54:22,005 deit_tiny] (main.py 151): INFO Epoch: [71][20/59] lr 0.000105 loss 1.3248 acc 86.98%
+[2026-04-08 16:54:26,364 deit_tiny] (main.py 151): INFO Epoch: [71][40/59] lr 0.000105 loss 1.3222 acc 87.00%
+[2026-04-08 16:54:33,592 deit_tiny] (main.py 76): INFO [Epoch 71]: Train Loss: 1.3238, Train Acc: 87.07%, Val Loss: 0.7984, Val Acc: 76.32%, F1: 0.7634, Precision: 0.7654, Recall: 0.7632
+[2026-04-08 16:54:33,592 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:54:34,188 deit_tiny] (main.py 151): INFO Epoch: [72][0/59] lr 0.000099 loss 1.2731 acc 89.06%
+[2026-04-08 16:54:38,652 deit_tiny] (main.py 151): INFO Epoch: [72][20/59] lr 0.000099 loss 1.2960 acc 88.17%
+[2026-04-08 16:54:43,206 deit_tiny] (main.py 151): INFO Epoch: [72][40/59] lr 0.000099 loss 1.3008 acc 88.00%
+[2026-04-08 16:54:50,588 deit_tiny] (main.py 76): INFO [Epoch 72]: Train Loss: 1.2988, Train Acc: 87.87%, Val Loss: 0.8329, Val Acc: 76.32%, F1: 0.7633, Precision: 0.7654, Recall: 0.7632
+[2026-04-08 16:54:50,588 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:54:51,195 deit_tiny] (main.py 151): INFO Epoch: [73][0/59] lr 0.000093 loss 1.2921 acc 92.19%
+[2026-04-08 16:54:55,739 deit_tiny] (main.py 151): INFO Epoch: [73][20/59] lr 0.000093 loss 1.2710 acc 90.33%
+[2026-04-08 16:55:00,245 deit_tiny] (main.py 151): INFO Epoch: [73][40/59] lr 0.000093 loss 1.2743 acc 89.60%
+[2026-04-08 16:55:07,393 deit_tiny] (main.py 76): INFO [Epoch 73]: Train Loss: 1.2806, Train Acc: 89.23%, Val Loss: 0.8459, Val Acc: 76.08%, F1: 0.7603, Precision: 0.7640, Recall: 0.7608
+[2026-04-08 16:55:07,394 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:55:07,983 deit_tiny] (main.py 151): INFO Epoch: [74][0/59] lr 0.000087 loss 1.2580 acc 89.06%
+[2026-04-08 16:55:12,442 deit_tiny] (main.py 151): INFO Epoch: [74][20/59] lr 0.000087 loss 1.2829 acc 89.43%
+[2026-04-08 16:55:16,865 deit_tiny] (main.py 151): INFO Epoch: [74][40/59] lr 0.000087 loss 1.2852 acc 89.10%
+[2026-04-08 16:55:24,051 deit_tiny] (main.py 76): INFO [Epoch 74]: Train Loss: 1.2952, Train Acc: 88.83%, Val Loss: 0.8381, Val Acc: 75.60%, F1: 0.7545, Precision: 0.7579, Recall: 0.7560
+[2026-04-08 16:55:24,051 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:55:24,644 deit_tiny] (main.py 151): INFO Epoch: [75][0/59] lr 0.000082 loss 1.1900 acc 95.31%
+[2026-04-08 16:55:29,093 deit_tiny] (main.py 151): INFO Epoch: [75][20/59] lr 0.000082 loss 1.2825 acc 88.84%
+[2026-04-08 16:55:33,535 deit_tiny] (main.py 151): INFO Epoch: [75][40/59] lr 0.000082 loss 1.2939 acc 88.76%
+[2026-04-08 16:55:41,146 deit_tiny] (main.py 76): INFO [Epoch 75]: Train Loss: 1.2892, Train Acc: 88.88%, Val Loss: 0.8292, Val Acc: 76.08%, F1: 0.7598, Precision: 0.7598, Recall: 0.7608
+[2026-04-08 16:55:41,147 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:55:41,732 deit_tiny] (main.py 151): INFO Epoch: [76][0/59] lr 0.000076 loss 1.1874 acc 93.75%
+[2026-04-08 16:55:46,134 deit_tiny] (main.py 151): INFO Epoch: [76][20/59] lr 0.000076 loss 1.2697 acc 90.70%
+[2026-04-08 16:55:50,446 deit_tiny] (main.py 151): INFO Epoch: [76][40/59] lr 0.000076 loss 1.2780 acc 90.09%
+[2026-04-08 16:55:57,642 deit_tiny] (main.py 76): INFO [Epoch 76]: Train Loss: 1.2726, Train Acc: 89.87%, Val Loss: 0.8342, Val Acc: 76.16%, F1: 0.7606, Precision: 0.7609, Recall: 0.7616
+[2026-04-08 16:55:57,643 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:55:58,219 deit_tiny] (main.py 151): INFO Epoch: [77][0/59] lr 0.000071 loss 1.3052 acc 90.62%
+[2026-04-08 16:56:02,557 deit_tiny] (main.py 151): INFO Epoch: [77][20/59] lr 0.000071 loss 1.2584 acc 90.25%
+[2026-04-08 16:56:06,942 deit_tiny] (main.py 151): INFO Epoch: [77][40/59] lr 0.000071 loss 1.2669 acc 89.82%
+[2026-04-08 16:56:14,260 deit_tiny] (main.py 76): INFO [Epoch 77]: Train Loss: 1.2660, Train Acc: 89.97%, Val Loss: 0.8169, Val Acc: 76.56%, F1: 0.7647, Precision: 0.7651, Recall: 0.7656
+[2026-04-08 16:56:14,261 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:56:14,849 deit_tiny] (main.py 151): INFO Epoch: [78][0/59] lr 0.000066 loss 1.1535 acc 93.75%
+[2026-04-08 16:56:19,225 deit_tiny] (main.py 151): INFO Epoch: [78][20/59] lr 0.000066 loss 1.2824 acc 89.14%
+[2026-04-08 16:56:23,604 deit_tiny] (main.py 151): INFO Epoch: [78][40/59] lr 0.000066 loss 1.2775 acc 89.48%
+[2026-04-08 16:56:30,974 deit_tiny] (main.py 76): INFO [Epoch 78]: Train Loss: 1.2702, Train Acc: 89.73%, Val Loss: 0.8224, Val Acc: 76.88%, F1: 0.7690, Precision: 0.7697, Recall: 0.7688
+[2026-04-08 16:56:30,974 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:56:31,557 deit_tiny] (main.py 151): INFO Epoch: [79][0/59] lr 0.000061 loss 1.2646 acc 90.62%
+[2026-04-08 16:56:36,007 deit_tiny] (main.py 151): INFO Epoch: [79][20/59] lr 0.000061 loss 1.2345 acc 91.67%
+[2026-04-08 16:56:40,355 deit_tiny] (main.py 151): INFO Epoch: [79][40/59] lr 0.000061 loss 1.2489 acc 90.93%
+[2026-04-08 16:56:47,851 deit_tiny] (main.py 76): INFO [Epoch 79]: Train Loss: 1.2439, Train Acc: 90.96%, Val Loss: 0.8397, Val Acc: 75.92%, F1: 0.7580, Precision: 0.7582, Recall: 0.7592
+[2026-04-08 16:56:47,851 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:56:48,440 deit_tiny] (main.py 151): INFO Epoch: [80][0/59] lr 0.000057 loss 1.1506 acc 96.88%
+[2026-04-08 16:56:52,797 deit_tiny] (main.py 151): INFO Epoch: [80][20/59] lr 0.000057 loss 1.2518 acc 90.70%
+[2026-04-08 16:56:57,231 deit_tiny] (main.py 151): INFO Epoch: [80][40/59] lr 0.000057 loss 1.2399 acc 90.78%
+[2026-04-08 16:57:04,534 deit_tiny] (main.py 76): INFO [Epoch 80]: Train Loss: 1.2392, Train Acc: 90.85%, Val Loss: 0.8728, Val Acc: 76.08%, F1: 0.7604, Precision: 0.7636, Recall: 0.7608
+[2026-04-08 16:57:04,534 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:57:05,125 deit_tiny] (main.py 151): INFO Epoch: [81][0/59] lr 0.000052 loss 1.2550 acc 92.19%
+[2026-04-08 16:57:09,737 deit_tiny] (main.py 151): INFO Epoch: [81][20/59] lr 0.000052 loss 1.2450 acc 91.22%
+[2026-04-08 16:57:14,252 deit_tiny] (main.py 151): INFO Epoch: [81][40/59] lr 0.000052 loss 1.2289 acc 91.31%
+[2026-04-08 16:57:21,573 deit_tiny] (main.py 76): INFO [Epoch 81]: Train Loss: 1.2280, Train Acc: 91.39%, Val Loss: 0.8827, Val Acc: 76.16%, F1: 0.7605, Precision: 0.7618, Recall: 0.7616
+[2026-04-08 16:57:21,573 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:57:22,154 deit_tiny] (main.py 151): INFO Epoch: [82][0/59] lr 0.000048 loss 1.2653 acc 92.19%
+[2026-04-08 16:57:26,615 deit_tiny] (main.py 151): INFO Epoch: [82][20/59] lr 0.000048 loss 1.2369 acc 90.92%
+[2026-04-08 16:57:31,049 deit_tiny] (main.py 151): INFO Epoch: [82][40/59] lr 0.000048 loss 1.2277 acc 91.69%
+[2026-04-08 16:57:38,301 deit_tiny] (main.py 76): INFO [Epoch 82]: Train Loss: 1.2339, Train Acc: 91.39%, Val Loss: 0.8355, Val Acc: 77.12%, F1: 0.7713, Precision: 0.7716, Recall: 0.7712
+[2026-04-08 16:57:38,301 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:57:38,891 deit_tiny] (main.py 151): INFO Epoch: [83][0/59] lr 0.000044 loss 1.1655 acc 96.88%
+[2026-04-08 16:57:43,257 deit_tiny] (main.py 151): INFO Epoch: [83][20/59] lr 0.000044 loss 1.2206 acc 91.96%
+[2026-04-08 16:57:47,643 deit_tiny] (main.py 151): INFO Epoch: [83][40/59] lr 0.000044 loss 1.2266 acc 91.62%
+[2026-04-08 16:57:54,896 deit_tiny] (main.py 76): INFO [Epoch 83]: Train Loss: 1.2290, Train Acc: 91.49%, Val Loss: 0.8611, Val Acc: 77.20%, F1: 0.7707, Precision: 0.7722, Recall: 0.7720
+[2026-04-08 16:57:54,896 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:57:55,485 deit_tiny] (main.py 151): INFO Epoch: [84][0/59] lr 0.000040 loss 1.1666 acc 98.44%
+[2026-04-08 16:57:59,936 deit_tiny] (main.py 151): INFO Epoch: [84][20/59] lr 0.000040 loss 1.2413 acc 91.22%
+[2026-04-08 16:58:04,337 deit_tiny] (main.py 151): INFO Epoch: [84][40/59] lr 0.000040 loss 1.2309 acc 91.43%
+[2026-04-08 16:58:11,668 deit_tiny] (main.py 76): INFO [Epoch 84]: Train Loss: 1.2273, Train Acc: 91.47%, Val Loss: 0.8752, Val Acc: 77.20%, F1: 0.7697, Precision: 0.7724, Recall: 0.7720
+[2026-04-08 16:58:11,668 deit_tiny] (main.py 89): INFO Max accuracy: 77.28%
+[2026-04-08 16:58:12,249 deit_tiny] (main.py 151): INFO Epoch: [85][0/59] lr 0.000037 loss 1.1835 acc 93.75%
+[2026-04-08 16:58:16,675 deit_tiny] (main.py 151): INFO Epoch: [85][20/59] lr 0.000037 loss 1.2414 acc 90.40%
+[2026-04-08 16:58:21,113 deit_tiny] (main.py 151): INFO Epoch: [85][40/59] lr 0.000037 loss 1.2349 acc 90.62%
+[2026-04-08 16:58:28,294 deit_tiny] (main.py 76): INFO [Epoch 85]: Train Loss: 1.2289, Train Acc: 91.12%, Val Loss: 0.8473, Val Acc: 77.60%, F1: 0.7751, Precision: 0.7752, Recall: 0.7760
+[2026-04-08 16:58:28,294 deit_tiny] (main.py 87): INFO Best performance updated at epoch 85 with accuracy: 77.60%
+[2026-04-08 16:58:28,295 deit_tiny] (main.py 89): INFO Max accuracy: 77.60%
+[2026-04-08 16:58:28,868 deit_tiny] (main.py 151): INFO Epoch: [86][0/59] lr 0.000033 loss 1.2378 acc 92.19%
+[2026-04-08 16:58:33,277 deit_tiny] (main.py 151): INFO Epoch: [86][20/59] lr 0.000033 loss 1.2411 acc 91.22%
+[2026-04-08 16:58:37,668 deit_tiny] (main.py 151): INFO Epoch: [86][40/59] lr 0.000033 loss 1.2316 acc 91.58%
+[2026-04-08 16:58:45,053 deit_tiny] (main.py 76): INFO [Epoch 86]: Train Loss: 1.2280, Train Acc: 91.71%, Val Loss: 0.8514, Val Acc: 77.28%, F1: 0.7731, Precision: 0.7737, Recall: 0.7728
+[2026-04-08 16:58:45,054 deit_tiny] (main.py 89): INFO Max accuracy: 77.60%
+[2026-04-08 16:58:45,638 deit_tiny] (main.py 151): INFO Epoch: [87][0/59] lr 0.000030 loss 1.2884 acc 92.19%
+[2026-04-08 16:58:50,110 deit_tiny] (main.py 151): INFO Epoch: [87][20/59] lr 0.000030 loss 1.2209 acc 91.89%
+[2026-04-08 16:58:54,482 deit_tiny] (main.py 151): INFO Epoch: [87][40/59] lr 0.000030 loss 1.2138 acc 92.38%
+[2026-04-08 16:59:01,779 deit_tiny] (main.py 76): INFO [Epoch 87]: Train Loss: 1.2114, Train Acc: 92.56%, Val Loss: 0.8611, Val Acc: 77.20%, F1: 0.7710, Precision: 0.7709, Recall: 0.7720
+[2026-04-08 16:59:01,779 deit_tiny] (main.py 89): INFO Max accuracy: 77.60%
+[2026-04-08 16:59:02,364 deit_tiny] (main.py 151): INFO Epoch: [88][0/59] lr 0.000027 loss 1.2976 acc 89.06%
+[2026-04-08 16:59:06,736 deit_tiny] (main.py 151): INFO Epoch: [88][20/59] lr 0.000027 loss 1.2182 acc 91.89%
+[2026-04-08 16:59:11,096 deit_tiny] (main.py 151): INFO Epoch: [88][40/59] lr 0.000027 loss 1.2047 acc 92.64%
+[2026-04-08 16:59:18,304 deit_tiny] (main.py 76): INFO [Epoch 88]: Train Loss: 1.2012, Train Acc: 92.75%, Val Loss: 0.8737, Val Acc: 77.36%, F1: 0.7721, Precision: 0.7721, Recall: 0.7736
+[2026-04-08 16:59:18,304 deit_tiny] (main.py 89): INFO Max accuracy: 77.60%
+[2026-04-08 16:59:18,906 deit_tiny] (main.py 151): INFO Epoch: [89][0/59] lr 0.000024 loss 1.2665 acc 89.06%
+[2026-04-08 16:59:23,355 deit_tiny] (main.py 151): INFO Epoch: [89][20/59] lr 0.000024 loss 1.1924 acc 93.23%
+[2026-04-08 16:59:27,868 deit_tiny] (main.py 151): INFO Epoch: [89][40/59] lr 0.000024 loss 1.1953 acc 93.03%
+[2026-04-08 16:59:35,207 deit_tiny] (main.py 76): INFO [Epoch 89]: Train Loss: 1.2030, Train Acc: 92.75%, Val Loss: 0.8731, Val Acc: 77.60%, F1: 0.7744, Precision: 0.7748, Recall: 0.7760
+[2026-04-08 16:59:35,207 deit_tiny] (main.py 89): INFO Max accuracy: 77.60%
+[2026-04-08 16:59:35,790 deit_tiny] (main.py 151): INFO Epoch: [90][0/59] lr 0.000022 loss 1.3467 acc 87.50%
+[2026-04-08 16:59:40,215 deit_tiny] (main.py 151): INFO Epoch: [90][20/59] lr 0.000022 loss 1.2140 acc 91.96%
+[2026-04-08 16:59:44,663 deit_tiny] (main.py 151): INFO Epoch: [90][40/59] lr 0.000022 loss 1.2076 acc 92.34%
+[2026-04-08 16:59:51,904 deit_tiny] (main.py 76): INFO [Epoch 90]: Train Loss: 1.2057, Train Acc: 92.35%, Val Loss: 0.8773, Val Acc: 77.60%, F1: 0.7742, Precision: 0.7748, Recall: 0.7760
+[2026-04-08 16:59:51,904 deit_tiny] (main.py 89): INFO Max accuracy: 77.60%
+[2026-04-08 16:59:52,489 deit_tiny] (main.py 151): INFO Epoch: [91][0/59] lr 0.000020 loss 1.1093 acc 95.31%
+[2026-04-08 16:59:56,969 deit_tiny] (main.py 151): INFO Epoch: [91][20/59] lr 0.000020 loss 1.2027 acc 92.34%
+[2026-04-08 17:00:01,333 deit_tiny] (main.py 151): INFO Epoch: [91][40/59] lr 0.000020 loss 1.2064 acc 92.15%
+[2026-04-08 17:00:08,511 deit_tiny] (main.py 76): INFO [Epoch 91]: Train Loss: 1.2130, Train Acc: 92.24%, Val Loss: 0.8589, Val Acc: 77.60%, F1: 0.7751, Precision: 0.7751, Recall: 0.7760
+[2026-04-08 17:00:08,511 deit_tiny] (main.py 87): INFO Best performance updated at epoch 91 with accuracy: 77.60%
+[2026-04-08 17:00:08,511 deit_tiny] (main.py 89): INFO Max accuracy: 77.60%
+[2026-04-08 17:00:09,093 deit_tiny] (main.py 151): INFO Epoch: [92][0/59] lr 0.000018 loss 1.2251 acc 85.94%
+[2026-04-08 17:00:13,547 deit_tiny] (main.py 151): INFO Epoch: [92][20/59] lr 0.000018 loss 1.1929 acc 92.93%
+[2026-04-08 17:00:17,946 deit_tiny] (main.py 151): INFO Epoch: [92][40/59] lr 0.000018 loss 1.1987 acc 92.87%
+[2026-04-08 17:00:25,277 deit_tiny] (main.py 76): INFO [Epoch 92]: Train Loss: 1.1985, Train Acc: 92.93%, Val Loss: 0.8763, Val Acc: 77.04%, F1: 0.7696, Precision: 0.7700, Recall: 0.7704
+[2026-04-08 17:00:25,277 deit_tiny] (main.py 89): INFO Max accuracy: 77.60%
+[2026-04-08 17:00:25,876 deit_tiny] (main.py 151): INFO Epoch: [93][0/59] lr 0.000016 loss 1.1537 acc 93.75%
+[2026-04-08 17:00:30,189 deit_tiny] (main.py 151): INFO Epoch: [93][20/59] lr 0.000016 loss 1.1897 acc 92.41%
+[2026-04-08 17:00:34,550 deit_tiny] (main.py 151): INFO Epoch: [93][40/59] lr 0.000016 loss 1.1988 acc 92.34%
+[2026-04-08 17:00:41,926 deit_tiny] (main.py 76): INFO [Epoch 93]: Train Loss: 1.1973, Train Acc: 92.56%, Val Loss: 0.8625, Val Acc: 77.20%, F1: 0.7721, Precision: 0.7723, Recall: 0.7720
+[2026-04-08 17:00:41,927 deit_tiny] (main.py 89): INFO Max accuracy: 77.60%
+[2026-04-08 17:00:42,504 deit_tiny] (main.py 151): INFO Epoch: [94][0/59] lr 0.000014 loss 1.2231 acc 92.19%
+[2026-04-08 17:00:46,894 deit_tiny] (main.py 151): INFO Epoch: [94][20/59] lr 0.000014 loss 1.1989 acc 93.30%
+[2026-04-08 17:00:51,265 deit_tiny] (main.py 151): INFO Epoch: [94][40/59] lr 0.000014 loss 1.1941 acc 93.14%
+[2026-04-08 17:00:58,644 deit_tiny] (main.py 76): INFO [Epoch 94]: Train Loss: 1.1852, Train Acc: 93.57%, Val Loss: 0.8655, Val Acc: 76.96%, F1: 0.7694, Precision: 0.7697, Recall: 0.7696
+[2026-04-08 17:00:58,644 deit_tiny] (main.py 89): INFO Max accuracy: 77.60%
+[2026-04-08 17:00:59,252 deit_tiny] (main.py 151): INFO Epoch: [95][0/59] lr 0.000013 loss 1.1777 acc 98.44%
+[2026-04-08 17:01:03,795 deit_tiny] (main.py 151): INFO Epoch: [95][20/59] lr 0.000013 loss 1.1848 acc 93.68%
+[2026-04-08 17:01:08,240 deit_tiny] (main.py 151): INFO Epoch: [95][40/59] lr 0.000013 loss 1.1819 acc 93.67%
+[2026-04-08 17:01:15,522 deit_tiny] (main.py 76): INFO [Epoch 95]: Train Loss: 1.1898, Train Acc: 93.20%, Val Loss: 0.8779, Val Acc: 76.96%, F1: 0.7692, Precision: 0.7697, Recall: 0.7696
+[2026-04-08 17:01:15,522 deit_tiny] (main.py 89): INFO Max accuracy: 77.60%
+[2026-04-08 17:01:16,109 deit_tiny] (main.py 151): INFO Epoch: [96][0/59] lr 0.000012 loss 1.1540 acc 93.75%
+[2026-04-08 17:01:20,524 deit_tiny] (main.py 151): INFO Epoch: [96][20/59] lr 0.000012 loss 1.1881 acc 93.90%
+[2026-04-08 17:01:24,939 deit_tiny] (main.py 151): INFO Epoch: [96][40/59] lr 0.000012 loss 1.1861 acc 93.33%
+[2026-04-08 17:01:32,093 deit_tiny] (main.py 76): INFO [Epoch 96]: Train Loss: 1.1921, Train Acc: 93.25%, Val Loss: 0.8873, Val Acc: 76.64%, F1: 0.7653, Precision: 0.7650, Recall: 0.7664
+[2026-04-08 17:01:32,094 deit_tiny] (main.py 89): INFO Max accuracy: 77.60%
+[2026-04-08 17:01:32,701 deit_tiny] (main.py 151): INFO Epoch: [97][0/59] lr 0.000011 loss 1.2541 acc 90.62%
+[2026-04-08 17:01:37,202 deit_tiny] (main.py 151): INFO Epoch: [97][20/59] lr 0.000011 loss 1.1936 acc 92.93%
+[2026-04-08 17:01:41,695 deit_tiny] (main.py 151): INFO Epoch: [97][40/59] lr 0.000011 loss 1.2004 acc 92.68%
+[2026-04-08 17:01:49,015 deit_tiny] (main.py 76): INFO [Epoch 97]: Train Loss: 1.1987, Train Acc: 92.91%, Val Loss: 0.8791, Val Acc: 76.72%, F1: 0.7667, Precision: 0.7664, Recall: 0.7672
+[2026-04-08 17:01:49,015 deit_tiny] (main.py 89): INFO Max accuracy: 77.60%
+[2026-04-08 17:01:49,590 deit_tiny] (main.py 151): INFO Epoch: [98][0/59] lr 0.000010 loss 1.1123 acc 98.44%
+[2026-04-08 17:01:54,069 deit_tiny] (main.py 151): INFO Epoch: [98][20/59] lr 0.000010 loss 1.1902 acc 93.60%
+[2026-04-08 17:01:58,462 deit_tiny] (main.py 151): INFO Epoch: [98][40/59] lr 0.000010 loss 1.1868 acc 93.56%
+[2026-04-08 17:02:05,741 deit_tiny] (main.py 76): INFO [Epoch 98]: Train Loss: 1.1870, Train Acc: 93.47%, Val Loss: 0.8911, Val Acc: 76.72%, F1: 0.7662, Precision: 0.7665, Recall: 0.7672
+[2026-04-08 17:02:05,742 deit_tiny] (main.py 89): INFO Max accuracy: 77.60%
+[2026-04-08 17:02:06,344 deit_tiny] (main.py 151): INFO Epoch: [99][0/59] lr 0.000010 loss 1.1207 acc 98.44%
+[2026-04-08 17:02:10,838 deit_tiny] (main.py 151): INFO Epoch: [99][20/59] lr 0.000010 loss 1.1940 acc 93.01%
+[2026-04-08 17:02:15,270 deit_tiny] (main.py 151): INFO Epoch: [99][40/59] lr 0.000010 loss 1.1867 acc 93.64%
+[2026-04-08 17:02:22,570 deit_tiny] (main.py 76): INFO [Epoch 99]: Train Loss: 1.1930, Train Acc: 93.15%, Val Loss: 0.8826, Val Acc: 77.52%, F1: 0.7745, Precision: 0.7746, Recall: 0.7752
+[2026-04-08 17:02:22,571 deit_tiny] (main.py 89): INFO Max accuracy: 77.60%
+[2026-04-08 17:02:22,572 deit_tiny] (main.py 103): INFO Confusion matrix for best model saved to outputs/deit_tiny_confusion_matrix.npy
+[2026-04-08 17:02:22,693 deit_tiny] (main.py 114): INFO Model checkpoint saved to outputs/deit_tiny.pth
+[2026-04-08 17:02:22,694 deit_tiny] (main.py 118): INFO Training time 0:27:59
