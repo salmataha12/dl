@@ -1,0 +1,111 @@
+[2026-04-09 11:34:45,630 pvt_v2_b0_regularized] (main.py 21): INFO Dataset loaded: 3750 train images, 1250 validation images
+[2026-04-09 11:34:45,630 pvt_v2_b0_regularized] (main.py 23): INFO Creating model: pvt_v2_b0_regularized
+[2026-04-09 11:34:47,003 pvt_v2_b0_regularized] (main.py 64): INFO Outputs will be saved to: /content/dl/outputs/pvt_v2_b0_regularized
+[2026-04-09 11:34:47,004 pvt_v2_b0_regularized] (main.py 151): INFO Early stopping enabled for PVT-Tiny with patience=7
+[2026-04-09 11:34:47,004 pvt_v2_b0_regularized] (main.py 78): INFO Start training
+[2026-04-09 11:35:06,383 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [0][0/59] lr 0.000001 loss 1.5739 acc 28.12%
+[2026-04-09 11:35:14,100 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [0][20/59] lr 0.000001 loss 1.6284 acc 21.73%
+[2026-04-09 11:35:21,663 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [0][40/59] lr 0.000001 loss 1.6043 acc 25.19%
+[2026-04-09 11:35:56,507 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 0]: Train Loss: 1.5905, Train Acc: 27.31%, Val Loss: 1.5336, Val Acc: 33.84%, F1: 0.3211, Precision: 0.3217, Recall: 0.3384
+[2026-04-09 11:35:56,507 pvt_v2_b0_regularized] (main.py 101): INFO Best performance updated at epoch 0 with accuracy: 33.84%
+[2026-04-09 11:35:56,507 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 33.84%
+[2026-04-09 11:35:57,466 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [1][0/59] lr 0.000101 loss 1.5210 acc 35.94%
+[2026-04-09 11:36:06,462 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [1][20/59] lr 0.000101 loss 0.9633 acc 73.96%
+[2026-04-09 11:36:14,017 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [1][40/59] lr 0.000101 loss 0.8132 acc 80.87%
+[2026-04-09 11:36:27,031 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 1]: Train Loss: 0.7586, Train Acc: 83.65%, Val Loss: 0.2522, Val Acc: 93.92%, F1: 0.9395, Precision: 0.9416, Recall: 0.9392
+[2026-04-09 11:36:27,031 pvt_v2_b0_regularized] (main.py 101): INFO Best performance updated at epoch 1 with accuracy: 93.92%
+[2026-04-09 11:36:27,032 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 93.92%
+[2026-04-09 11:36:28,041 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [2][0/59] lr 0.000200 loss 0.5103 acc 98.44%
+[2026-04-09 11:36:39,425 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [2][20/59] lr 0.000200 loss 0.5815 acc 91.67%
+[2026-04-09 11:36:48,317 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [2][40/59] lr 0.000200 loss 0.5690 acc 92.04%
+[2026-04-09 11:37:01,787 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 2]: Train Loss: 0.5648, Train Acc: 92.29%, Val Loss: 0.2106, Val Acc: 94.80%, F1: 0.9479, Precision: 0.9496, Recall: 0.9480
+[2026-04-09 11:37:01,788 pvt_v2_b0_regularized] (main.py 101): INFO Best performance updated at epoch 2 with accuracy: 94.80%
+[2026-04-09 11:37:01,788 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 94.80%
+[2026-04-09 11:37:02,827 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [3][0/59] lr 0.000299 loss 0.5495 acc 93.75%
+[2026-04-09 11:37:11,451 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [3][20/59] lr 0.000299 loss 0.5098 acc 94.79%
+[2026-04-09 11:37:19,998 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [3][40/59] lr 0.000299 loss 0.5099 acc 94.70%
+[2026-04-09 11:37:33,136 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 3]: Train Loss: 0.5157, Train Acc: 94.53%, Val Loss: 0.2735, Val Acc: 93.44%, F1: 0.9350, Precision: 0.9390, Recall: 0.9344
+[2026-04-09 11:37:33,137 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 94.80%
+[2026-04-09 11:37:34,158 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [4][0/59] lr 0.000299 loss 0.4964 acc 95.31%
+[2026-04-09 11:37:43,105 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [4][20/59] lr 0.000299 loss 0.4830 acc 96.06%
+[2026-04-09 11:37:52,796 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [4][40/59] lr 0.000299 loss 0.4825 acc 96.38%
+[2026-04-09 11:38:06,183 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 4]: Train Loss: 0.4926, Train Acc: 95.71%, Val Loss: 0.2033, Val Acc: 95.12%, F1: 0.9513, Precision: 0.9523, Recall: 0.9512
+[2026-04-09 11:38:06,183 pvt_v2_b0_regularized] (main.py 101): INFO Best performance updated at epoch 4 with accuracy: 95.12%
+[2026-04-09 11:38:06,184 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 95.12%
+[2026-04-09 11:38:07,176 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [5][0/59] lr 0.000298 loss 0.4404 acc 98.44%
+[2026-04-09 11:38:14,523 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [5][20/59] lr 0.000298 loss 0.4673 acc 96.80%
+[2026-04-09 11:38:23,422 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [5][40/59] lr 0.000298 loss 0.4795 acc 95.88%
+[2026-04-09 11:38:37,049 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 5]: Train Loss: 0.4873, Train Acc: 95.63%, Val Loss: 0.2815, Val Acc: 93.52%, F1: 0.9351, Precision: 0.9385, Recall: 0.9352
+[2026-04-09 11:38:37,050 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 95.12%
+[2026-04-09 11:38:38,083 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [6][0/59] lr 0.000297 loss 0.4330 acc 100.00%
+[2026-04-09 11:38:47,103 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [6][20/59] lr 0.000297 loss 0.4767 acc 96.50%
+[2026-04-09 11:38:54,754 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [6][40/59] lr 0.000297 loss 0.4762 acc 96.04%
+[2026-04-09 11:39:07,836 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 6]: Train Loss: 0.4722, Train Acc: 96.43%, Val Loss: 0.2191, Val Acc: 94.80%, F1: 0.9478, Precision: 0.9481, Recall: 0.9480
+[2026-04-09 11:39:07,836 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 95.12%
+[2026-04-09 11:39:08,868 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [7][0/59] lr 0.000297 loss 0.4186 acc 100.00%
+[2026-04-09 11:39:17,512 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [7][20/59] lr 0.000297 loss 0.4368 acc 97.92%
+[2026-04-09 11:39:26,401 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [7][40/59] lr 0.000297 loss 0.4444 acc 97.60%
+[2026-04-09 11:39:39,879 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 7]: Train Loss: 0.4438, Train Acc: 97.60%, Val Loss: 0.2032, Val Acc: 95.52%, F1: 0.9553, Precision: 0.9559, Recall: 0.9552
+[2026-04-09 11:39:39,880 pvt_v2_b0_regularized] (main.py 101): INFO Best performance updated at epoch 7 with accuracy: 95.52%
+[2026-04-09 11:39:39,880 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 95.52%
+[2026-04-09 11:39:40,873 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [8][0/59] lr 0.000295 loss 0.4068 acc 100.00%
+[2026-04-09 11:39:48,603 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [8][20/59] lr 0.000295 loss 0.4210 acc 98.66%
+[2026-04-09 11:39:57,302 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [8][40/59] lr 0.000295 loss 0.4293 acc 98.17%
+[2026-04-09 11:40:10,676 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 8]: Train Loss: 0.4376, Train Acc: 97.73%, Val Loss: 0.2425, Val Acc: 93.76%, F1: 0.9381, Precision: 0.9422, Recall: 0.9376
+[2026-04-09 11:40:10,676 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 95.52%
+[2026-04-09 11:40:11,662 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [9][0/59] lr 0.000294 loss 0.5184 acc 92.19%
+[2026-04-09 11:40:20,715 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [9][20/59] lr 0.000294 loss 0.4608 acc 96.88%
+[2026-04-09 11:40:28,274 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [9][40/59] lr 0.000294 loss 0.4533 acc 97.22%
+[2026-04-09 11:40:41,241 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 9]: Train Loss: 0.4579, Train Acc: 96.96%, Val Loss: 0.2123, Val Acc: 95.04%, F1: 0.9504, Precision: 0.9517, Recall: 0.9504
+[2026-04-09 11:40:41,242 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 95.52%
+[2026-04-09 11:40:42,329 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [10][0/59] lr 0.000293 loss 0.4076 acc 98.44%
+[2026-04-09 11:40:51,085 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [10][20/59] lr 0.000293 loss 0.4209 acc 98.81%
+[2026-04-09 11:41:00,080 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [10][40/59] lr 0.000293 loss 0.4225 acc 98.51%
+[2026-04-09 11:41:13,316 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 10]: Train Loss: 0.4249, Train Acc: 98.43%, Val Loss: 0.1835, Val Acc: 95.84%, F1: 0.9584, Precision: 0.9587, Recall: 0.9584
+[2026-04-09 11:41:13,316 pvt_v2_b0_regularized] (main.py 101): INFO Best performance updated at epoch 10 with accuracy: 95.84%
+[2026-04-09 11:41:13,317 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 95.84%
+[2026-04-09 11:41:14,314 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [11][0/59] lr 0.000291 loss 0.3979 acc 100.00%
+[2026-04-09 11:41:23,001 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [11][20/59] lr 0.000291 loss 0.4107 acc 99.18%
+[2026-04-09 11:41:31,702 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [11][40/59] lr 0.000291 loss 0.4152 acc 99.01%
+[2026-04-09 11:41:45,425 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 11]: Train Loss: 0.4208, Train Acc: 98.75%, Val Loss: 0.1615, Val Acc: 96.96%, F1: 0.9697, Precision: 0.9700, Recall: 0.9696
+[2026-04-09 11:41:45,425 pvt_v2_b0_regularized] (main.py 101): INFO Best performance updated at epoch 11 with accuracy: 96.96%
+[2026-04-09 11:41:45,426 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 96.96%
+[2026-04-09 11:41:46,470 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [12][0/59] lr 0.000290 loss 0.4058 acc 98.44%
+[2026-04-09 11:41:55,977 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [12][20/59] lr 0.000290 loss 0.4180 acc 98.66%
+[2026-04-09 11:42:06,135 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [12][40/59] lr 0.000290 loss 0.4231 acc 98.40%
+[2026-04-09 11:42:19,724 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 12]: Train Loss: 0.4310, Train Acc: 98.08%, Val Loss: 0.2536, Val Acc: 93.28%, F1: 0.9319, Precision: 0.9372, Recall: 0.9328
+[2026-04-09 11:42:19,724 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 96.96%
+[2026-04-09 11:42:20,862 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [13][0/59] lr 0.000288 loss 0.4389 acc 98.44%
+[2026-04-09 11:42:28,614 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [13][20/59] lr 0.000288 loss 0.4244 acc 98.66%
+[2026-04-09 11:42:37,309 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [13][40/59] lr 0.000288 loss 0.4332 acc 97.94%
+[2026-04-09 11:42:50,632 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 13]: Train Loss: 0.4337, Train Acc: 98.13%, Val Loss: 0.1940, Val Acc: 95.92%, F1: 0.9593, Precision: 0.9605, Recall: 0.9592
+[2026-04-09 11:42:50,632 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 96.96%
+[2026-04-09 11:42:51,580 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [14][0/59] lr 0.000286 loss 0.3971 acc 100.00%
+[2026-04-09 11:43:00,464 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [14][20/59] lr 0.000286 loss 0.4233 acc 98.51%
+[2026-04-09 11:43:07,930 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [14][40/59] lr 0.000286 loss 0.4249 acc 98.29%
+[2026-04-09 11:43:21,284 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 14]: Train Loss: 0.4276, Train Acc: 98.27%, Val Loss: 0.1920, Val Acc: 96.16%, F1: 0.9615, Precision: 0.9616, Recall: 0.9616
+[2026-04-09 11:43:21,285 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 96.96%
+[2026-04-09 11:43:22,302 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [15][0/59] lr 0.000284 loss 0.3975 acc 100.00%
+[2026-04-09 11:43:31,302 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [15][20/59] lr 0.000284 loss 0.4124 acc 99.11%
+[2026-04-09 11:43:40,181 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [15][40/59] lr 0.000284 loss 0.4158 acc 98.78%
+[2026-04-09 11:43:55,067 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 15]: Train Loss: 0.4228, Train Acc: 98.56%, Val Loss: 0.2393, Val Acc: 94.08%, F1: 0.9411, Precision: 0.9438, Recall: 0.9408
+[2026-04-09 11:43:55,069 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 96.96%
+[2026-04-09 11:43:56,308 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [16][0/59] lr 0.000282 loss 0.4367 acc 98.44%
+[2026-04-09 11:44:05,140 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [16][20/59] lr 0.000282 loss 0.4130 acc 99.03%
+[2026-04-09 11:44:13,137 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [16][40/59] lr 0.000282 loss 0.4107 acc 99.24%
+[2026-04-09 11:44:26,513 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 16]: Train Loss: 0.4115, Train Acc: 99.20%, Val Loss: 0.1982, Val Acc: 95.60%, F1: 0.9560, Precision: 0.9566, Recall: 0.9560
+[2026-04-09 11:44:26,514 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 96.96%
+[2026-04-09 11:44:27,547 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [17][0/59] lr 0.000280 loss 0.4371 acc 96.88%
+[2026-04-09 11:44:36,388 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [17][20/59] lr 0.000280 loss 0.4055 acc 99.40%
+[2026-04-09 11:44:44,623 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [17][40/59] lr 0.000280 loss 0.4045 acc 99.50%
+[2026-04-09 11:44:57,990 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 17]: Train Loss: 0.4062, Train Acc: 99.36%, Val Loss: 0.1975, Val Acc: 95.68%, F1: 0.9570, Precision: 0.9576, Recall: 0.9568
+[2026-04-09 11:44:57,990 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 96.96%
+[2026-04-09 11:44:59,587 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [18][0/59] lr 0.000277 loss 0.3937 acc 100.00%
+[2026-04-09 11:45:07,409 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [18][20/59] lr 0.000277 loss 0.4100 acc 99.33%
+[2026-04-09 11:45:16,465 pvt_v2_b0_regularized] (main.py 199): INFO Epoch: [18][40/59] lr 0.000277 loss 0.4143 acc 99.20%
+[2026-04-09 11:45:29,738 pvt_v2_b0_regularized] (main.py 90): INFO [Epoch 18]: Train Loss: 0.4175, Train Acc: 99.01%, Val Loss: 0.1939, Val Acc: 95.36%, F1: 0.9534, Precision: 0.9544, Recall: 0.9536
+[2026-04-09 11:45:29,738 pvt_v2_b0_regularized] (main.py 103): INFO Max accuracy: 96.96%
+[2026-04-09 11:45:29,738 pvt_v2_b0_regularized] (main.py 108): INFO Early stopping triggered at epoch 18
+[2026-04-09 11:45:29,745 pvt_v2_b0_regularized] (main.py 116): INFO Confusion matrix for best model saved to /content/dl/outputs/pvt_v2_b0_regularized/pvt_v2_b0_regularized_confusion_matrix.npy
+[2026-04-09 11:45:29,842 pvt_v2_b0_regularized] (main.py 127): INFO Model checkpoint saved to /content/dl/outputs/pvt_v2_b0_regularized/pvt_v2_b0_regularized.pth
+[2026-04-09 11:45:29,843 pvt_v2_b0_regularized] (main.py 131): INFO Training time 0:10:42

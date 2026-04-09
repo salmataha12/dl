@@ -1,0 +1,65 @@
+[2026-04-09 10:13:19,196 densenet121_v1] (main.py 258): INFO Training model: densenet121_v1
+[2026-04-09 10:13:19,208 densenet121_v1] (main.py 25): INFO Dataset loaded: 3750 train images, 1250 validation images
+[2026-04-09 10:13:19,209 densenet121_v1] (main.py 27): INFO Creating model: densenet121_v1
+[2026-04-09 10:13:19,422 densenet121_v1] (main.py 59): INFO Outputs will be saved to: /content/dl/outputs/densenet121_v1
+[2026-04-09 10:13:19,423 densenet121_v1] (main.py 145): INFO Early stopping enabled for DenseNet-121 with patience=5
+[2026-04-09 10:13:19,424 densenet121_v1] (main.py 74): INFO Start training
+[2026-04-09 10:13:36,986 densenet121_v1] (main.py 199): INFO Epoch: [0][0/59] lr 0.000001 loss 1.7650 acc 15.62%
+[2026-04-09 10:13:46,452 densenet121_v1] (main.py 199): INFO Epoch: [0][20/59] lr 0.000001 loss 1.7445 acc 16.74%
+[2026-04-09 10:13:56,759 densenet121_v1] (main.py 199): INFO Epoch: [0][40/59] lr 0.000001 loss 1.7314 acc 16.88%
+[2026-04-09 10:14:36,626 densenet121_v1] (main.py 88): INFO [Epoch 0]: Train Loss: 1.7210, Train Acc: 18.00%, Val Loss: 1.6806, Val Acc: 19.92%, F1: 0.1469, Precision: 0.1580, Recall: 0.1992
+[2026-04-09 10:14:36,627 densenet121_v1] (main.py 104): INFO Best performance updated at epoch 0 with accuracy: 19.92%
+[2026-04-09 10:14:36,627 densenet121_v1] (main.py 106): INFO Max accuracy: 19.92%
+[2026-04-09 10:14:37,923 densenet121_v1] (main.py 199): INFO Epoch: [1][0/59] lr 0.000021 loss 1.7171 acc 21.88%
+[2026-04-09 10:14:47,902 densenet121_v1] (main.py 199): INFO Epoch: [1][20/59] lr 0.000021 loss 1.5151 acc 36.16%
+[2026-04-09 10:14:57,562 densenet121_v1] (main.py 199): INFO Epoch: [1][40/59] lr 0.000021 loss 1.3669 acc 51.26%
+[2026-04-09 10:15:13,777 densenet121_v1] (main.py 88): INFO [Epoch 1]: Train Loss: 1.2659, Train Acc: 59.60%, Val Loss: 0.7608, Val Acc: 86.40%, F1: 0.8626, Precision: 0.8688, Recall: 0.8640
+[2026-04-09 10:15:13,777 densenet121_v1] (main.py 104): INFO Best performance updated at epoch 1 with accuracy: 86.40%
+[2026-04-09 10:15:13,778 densenet121_v1] (main.py 106): INFO Max accuracy: 86.40%
+[2026-04-09 10:15:15,628 densenet121_v1] (main.py 199): INFO Epoch: [2][0/59] lr 0.000041 loss 0.9318 acc 84.38%
+[2026-04-09 10:15:24,702 densenet121_v1] (main.py 199): INFO Epoch: [2][20/59] lr 0.000041 loss 0.8076 acc 86.01%
+[2026-04-09 10:15:35,269 densenet121_v1] (main.py 199): INFO Epoch: [2][40/59] lr 0.000041 loss 0.7424 acc 87.88%
+[2026-04-09 10:15:50,603 densenet121_v1] (main.py 88): INFO [Epoch 2]: Train Loss: 0.7090, Train Acc: 88.61%, Val Loss: 0.2795, Val Acc: 94.00%, F1: 0.9401, Precision: 0.9407, Recall: 0.9400
+[2026-04-09 10:15:50,604 densenet121_v1] (main.py 104): INFO Best performance updated at epoch 2 with accuracy: 94.00%
+[2026-04-09 10:15:50,604 densenet121_v1] (main.py 106): INFO Max accuracy: 94.00%
+[2026-04-09 10:15:51,791 densenet121_v1] (main.py 199): INFO Epoch: [3][0/59] lr 0.000060 loss 0.6474 acc 90.62%
+[2026-04-09 10:16:02,052 densenet121_v1] (main.py 199): INFO Epoch: [3][20/59] lr 0.000060 loss 0.5744 acc 93.23%
+[2026-04-09 10:16:12,174 densenet121_v1] (main.py 199): INFO Epoch: [3][40/59] lr 0.000060 loss 0.5710 acc 93.03%
+[2026-04-09 10:16:27,841 densenet121_v1] (main.py 88): INFO [Epoch 3]: Train Loss: 0.5678, Train Acc: 93.04%, Val Loss: 0.2118, Val Acc: 96.16%, F1: 0.9617, Precision: 0.9621, Recall: 0.9616
+[2026-04-09 10:16:27,841 densenet121_v1] (main.py 104): INFO Best performance updated at epoch 3 with accuracy: 96.16%
+[2026-04-09 10:16:27,841 densenet121_v1] (main.py 106): INFO Max accuracy: 96.16%
+[2026-04-09 10:16:29,121 densenet121_v1] (main.py 199): INFO Epoch: [4][0/59] lr 0.000080 loss 0.5141 acc 96.88%
+[2026-04-09 10:16:39,371 densenet121_v1] (main.py 199): INFO Epoch: [4][20/59] lr 0.000080 loss 0.5090 acc 96.73%
+[2026-04-09 10:16:49,151 densenet121_v1] (main.py 199): INFO Epoch: [4][40/59] lr 0.000080 loss 0.5157 acc 96.04%
+[2026-04-09 10:17:05,444 densenet121_v1] (main.py 88): INFO [Epoch 4]: Train Loss: 0.5106, Train Acc: 96.21%, Val Loss: 0.1856, Val Acc: 97.04%, F1: 0.9705, Precision: 0.9708, Recall: 0.9704
+[2026-04-09 10:17:05,445 densenet121_v1] (main.py 104): INFO Best performance updated at epoch 4 with accuracy: 97.04%
+[2026-04-09 10:17:05,445 densenet121_v1] (main.py 106): INFO Max accuracy: 97.04%
+[2026-04-09 10:17:06,687 densenet121_v1] (main.py 199): INFO Epoch: [5][0/59] lr 0.000099 loss 0.4942 acc 96.88%
+[2026-04-09 10:17:16,490 densenet121_v1] (main.py 199): INFO Epoch: [5][20/59] lr 0.000099 loss 0.4774 acc 97.54%
+[2026-04-09 10:17:26,184 densenet121_v1] (main.py 199): INFO Epoch: [5][40/59] lr 0.000099 loss 0.4746 acc 97.52%
+[2026-04-09 10:17:42,197 densenet121_v1] (main.py 88): INFO [Epoch 5]: Train Loss: 0.4753, Train Acc: 97.31%, Val Loss: 0.1781, Val Acc: 96.32%, F1: 0.9633, Precision: 0.9639, Recall: 0.9632
+[2026-04-09 10:17:42,197 densenet121_v1] (main.py 106): INFO Max accuracy: 97.04%
+[2026-04-09 10:17:43,989 densenet121_v1] (main.py 199): INFO Epoch: [6][0/59] lr 0.000099 loss 0.4545 acc 98.44%
+[2026-04-09 10:17:53,323 densenet121_v1] (main.py 199): INFO Epoch: [6][20/59] lr 0.000099 loss 0.4478 acc 98.88%
+[2026-04-09 10:18:03,823 densenet121_v1] (main.py 199): INFO Epoch: [6][40/59] lr 0.000099 loss 0.4457 acc 98.89%
+[2026-04-09 10:18:19,263 densenet121_v1] (main.py 88): INFO [Epoch 6]: Train Loss: 0.4467, Train Acc: 98.77%, Val Loss: 0.1895, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9677, Recall: 0.9672
+[2026-04-09 10:18:19,264 densenet121_v1] (main.py 106): INFO Max accuracy: 97.04%
+[2026-04-09 10:18:20,496 densenet121_v1] (main.py 199): INFO Epoch: [7][0/59] lr 0.000099 loss 0.4170 acc 100.00%
+[2026-04-09 10:18:30,875 densenet121_v1] (main.py 199): INFO Epoch: [7][20/59] lr 0.000099 loss 0.4396 acc 99.33%
+[2026-04-09 10:18:41,429 densenet121_v1] (main.py 199): INFO Epoch: [7][40/59] lr 0.000099 loss 0.4378 acc 99.28%
+[2026-04-09 10:18:56,779 densenet121_v1] (main.py 88): INFO [Epoch 7]: Train Loss: 0.4380, Train Acc: 99.25%, Val Loss: 0.1684, Val Acc: 96.80%, F1: 0.9680, Precision: 0.9684, Recall: 0.9680
+[2026-04-09 10:18:56,779 densenet121_v1] (main.py 106): INFO Max accuracy: 97.04%
+[2026-04-09 10:18:57,977 densenet121_v1] (main.py 199): INFO Epoch: [8][0/59] lr 0.000099 loss 0.4220 acc 100.00%
+[2026-04-09 10:19:08,206 densenet121_v1] (main.py 199): INFO Epoch: [8][20/59] lr 0.000099 loss 0.4266 acc 99.55%
+[2026-04-09 10:19:18,455 densenet121_v1] (main.py 199): INFO Epoch: [8][40/59] lr 0.000099 loss 0.4279 acc 99.47%
+[2026-04-09 10:19:34,895 densenet121_v1] (main.py 88): INFO [Epoch 8]: Train Loss: 0.4294, Train Acc: 99.39%, Val Loss: 0.1670, Val Acc: 96.56%, F1: 0.9656, Precision: 0.9658, Recall: 0.9656
+[2026-04-09 10:19:34,896 densenet121_v1] (main.py 106): INFO Max accuracy: 97.04%
+[2026-04-09 10:19:36,169 densenet121_v1] (main.py 199): INFO Epoch: [9][0/59] lr 0.000098 loss 0.4165 acc 100.00%
+[2026-04-09 10:19:46,440 densenet121_v1] (main.py 199): INFO Epoch: [9][20/59] lr 0.000098 loss 0.4256 acc 99.33%
+[2026-04-09 10:19:56,383 densenet121_v1] (main.py 199): INFO Epoch: [9][40/59] lr 0.000098 loss 0.4257 acc 99.31%
+[2026-04-09 10:20:12,521 densenet121_v1] (main.py 88): INFO [Epoch 9]: Train Loss: 0.4251, Train Acc: 99.49%, Val Loss: 0.1602, Val Acc: 96.88%, F1: 0.9688, Precision: 0.9690, Recall: 0.9688
+[2026-04-09 10:20:12,522 densenet121_v1] (main.py 106): INFO Max accuracy: 97.04%
+[2026-04-09 10:20:12,522 densenet121_v1] (main.py 111): INFO Early stopping triggered at epoch 9
+[2026-04-09 10:20:12,529 densenet121_v1] (main.py 119): INFO Confusion matrix for best model saved to /content/dl/outputs/densenet121_v1/densenet121_v1_confusion_matrix.npy
+[2026-04-09 10:20:12,749 densenet121_v1] (main.py 129): INFO Model saved to /content/dl/outputs/densenet121_v1/densenet121_v1.pth
+[2026-04-09 10:20:12,749 densenet121_v1] (main.py 132): INFO Training time 0:06:53
