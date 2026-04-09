@@ -39,11 +39,23 @@ def get_model_config(model_name):
     elif model_name == 'densenet121':
         from DenseNet.config import get_config
         return get_config()
+    elif model_name == 'densenet121_v1':  
+        from DenseNet.config_variation import get_config
+        return get_config()
     elif model_name == 'convmlp_s':
         from ConvMLP.config import get_config
         return get_config()
+    elif model_name == 'convmlp_s_v1':  
+        from ConvMLP.config_variation import get_config
+        return get_config()
+    elif model_name == 'convmlp_s_v2':  
+        from ConvMLP.config_variation2 import get_config
+        return get_config()
     elif model_name == 'pvt_v2_b0':
         from PVT.config import get_config
+        return get_config()
+    elif model_name == 'pvt_v2_b0_regularized':
+        from PVT.config_variation import get_config
         return get_config()
     elif model_name == 'resnet18':          
         from ResNet18.config import get_config

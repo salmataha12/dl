@@ -1,7 +1,10 @@
+# ConvMLP/ConvMLP.py 
 """
 ConvMLP-S for Food-101 Classification
 Official implementation from SHI-Labs
 https://github.com/SHI-Labs/Convolutional-MLPs
+
+VARIATION: Wider channels (increased model capacity)
 """
 import torch
 import torch.nn as nn
@@ -90,12 +93,15 @@ class ConvMLPS(nn.Module):
         return x
 
 
-def convmlp_s(num_classes=5, **kwargs):
+def convmlp_s(num_classes=5, dim=64, **kwargs):
     """
     Load ConvMLP-S from custom implementation.
     
+    VARIATION: Configurable dim parameter for model capacity
+    
     Args:
         num_classes: Number of output classes
+        dim: Base dimension (channels) - original: 64, variant: 96
         **kwargs: Additional hyperparameters from config (safely ignored)
     
     Returns:
@@ -108,11 +114,11 @@ def convmlp_s(num_classes=5, **kwargs):
     for key in list(kwargs.keys()):
         kwargs.pop(key, None)
     
-    # Create ConvMLP-S model
+    # Create ConvMLP-S model with configurable dim
     model = ConvMLPS(
         num_classes=num_classes,
         in_channels=3,
-        dim=64,
+        dim=dim,           # VARIATION PARAMETER
         num_stages=4
     )
     
