@@ -81,6 +81,15 @@ def get_model_config(model_name):
     elif model_name == 'mlp_mixer_v2':
         from MLP_Mixer.config import get_config
         return get_config(variant='mlp_mixer_v2')
+    elif model_name == 'resnet18_v1':          
+        from ResNet18.config_v1 import get_config
+        return get_config()
+    elif model_name == 'gmlp_tiny_v1':         
+        from gMLP.config_v1 import get_config
+        return get_config()
+    elif model_name == 'vit_base_v1':          
+        from ViT.config_v1 import get_config
+        return get_config()
     else:
         raise ValueError(f"Unknown model: {model_name}")
 
@@ -123,6 +132,13 @@ def build_model(config):
         return efficientnet_b0(**model_kwargs)
     elif model_name == 'mlp_mixer' or model_name == 'mlp_mixer_v2':
         return MLP_Mixer(**model_kwargs)
+    elif model_name == 'resnet18_v1':          
+        return resnet18(**model_kwargs)
+    elif model_name == 'gmlp_tiny_v1':         
+        return gmlp_tiny(**model_kwargs)
+    elif model_name == 'vit_base_v1':          
+        return vit_base(**model_kwargs)
+
 
 
     # continue defining other models
