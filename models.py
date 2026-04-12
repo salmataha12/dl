@@ -62,10 +62,13 @@ def get_model_config(model_name):
         return get_config()
     elif model_name == 'resnet18':          
         from ResNet18.config import get_config
+        return get_config()
     elif model_name == 'gmlp_tiny':         
         from gMLP.config import get_config
+        return get_config()
     elif model_name == 'vit_base':          
         from ViT.config import get_config
+        return get_config()
     elif model_name == 'swin_transformer':
         from Swin_Transformer.config import get_config
         return get_config(variant='swin_transformer')
