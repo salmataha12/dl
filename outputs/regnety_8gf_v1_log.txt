@@ -1,0 +1,829 @@
+[2026-04-08 22:25:04,104 regnety_8gf_v1] (main.py 21): INFO Dataset loaded: 3750 train images, 1250 validation images
+[2026-04-08 22:25:04,105 regnety_8gf_v1] (main.py 23): INFO Creating model: regnety_8gf_v1
+[2026-04-08 22:26:28,820 regnety_8gf_v1] (main.py 21): INFO Dataset loaded: 3750 train images, 1250 validation images
+[2026-04-08 22:26:28,820 regnety_8gf_v1] (main.py 23): INFO Creating model: regnety_8gf_v1
+[2026-04-08 22:26:31,351 regnety_8gf_v1] (main.py 79): INFO Start training
+[2026-04-08 22:26:49,064 regnety_8gf_v1] (main.py 156): INFO Epoch: [0][0/118] lr 0.000001 loss 1.5976 acc 12.50%
+[2026-04-08 22:26:52,894 regnety_8gf_v1] (main.py 156): INFO Epoch: [0][20/118] lr 0.000001 loss 1.6481 acc 14.14%
+[2026-04-08 22:26:58,450 regnety_8gf_v1] (main.py 156): INFO Epoch: [0][40/118] lr 0.000001 loss 1.6469 acc 13.26%
+[2026-04-08 22:27:02,694 regnety_8gf_v1] (main.py 156): INFO Epoch: [0][60/118] lr 0.000001 loss 1.6480 acc 13.32%
+[2026-04-08 22:27:06,897 regnety_8gf_v1] (main.py 156): INFO Epoch: [0][80/118] lr 0.000001 loss 1.6439 acc 14.31%
+[2026-04-08 22:27:12,489 regnety_8gf_v1] (main.py 156): INFO Epoch: [0][100/118] lr 0.000001 loss 1.6389 acc 15.38%
+[2026-04-08 22:27:33,570 regnety_8gf_v1] (main.py 89): INFO [Epoch 0]: Train Loss: 1.6361, Train Acc: 16.37%, Val Loss: 1.6222, Val Acc: 17.76%, F1: 0.1587, Precision: 0.1694, Recall: 0.1776
+[2026-04-08 22:27:33,571 regnety_8gf_v1] (main.py 100): INFO Best performance updated at epoch 0 with accuracy: 17.76%
+[2026-04-08 22:27:33,640 regnety_8gf_v1] (main.py 104): INFO Best model saved to /content/dl/outputs/regnety_8gf_v1/regnety_8gf_v1_best.pth
+[2026-04-08 22:27:33,641 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 17.76%
+[2026-04-08 22:27:34,432 regnety_8gf_v1] (main.py 156): INFO Epoch: [1][0/118] lr 0.000084 loss 1.6283 acc 25.00%
+[2026-04-08 22:27:40,058 regnety_8gf_v1] (main.py 156): INFO Epoch: [1][20/118] lr 0.000084 loss 1.4517 acc 54.46%
+[2026-04-08 22:27:44,256 regnety_8gf_v1] (main.py 156): INFO Epoch: [1][40/118] lr 0.000084 loss 1.2566 acc 69.05%
+[2026-04-08 22:27:49,196 regnety_8gf_v1] (main.py 156): INFO Epoch: [1][60/118] lr 0.000084 loss 1.0953 acc 75.15%
+[2026-04-08 22:27:53,910 regnety_8gf_v1] (main.py 156): INFO Epoch: [1][80/118] lr 0.000084 loss 0.9907 acc 77.97%
+[2026-04-08 22:27:58,075 regnety_8gf_v1] (main.py 156): INFO Epoch: [1][100/118] lr 0.000084 loss 0.9170 acc 80.32%
+[2026-04-08 22:28:08,357 regnety_8gf_v1] (main.py 89): INFO [Epoch 1]: Train Loss: 0.8711, Train Acc: 81.92%, Val Loss: 0.2175, Val Acc: 95.76%, F1: 0.9576, Precision: 0.9581, Recall: 0.9576
+[2026-04-08 22:28:08,357 regnety_8gf_v1] (main.py 100): INFO Best performance updated at epoch 1 with accuracy: 95.76%
+[2026-04-08 22:28:08,432 regnety_8gf_v1] (main.py 104): INFO Best model saved to /content/dl/outputs/regnety_8gf_v1/regnety_8gf_v1_best.pth
+[2026-04-08 22:28:08,432 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 95.76%
+[2026-04-08 22:28:09,082 regnety_8gf_v1] (main.py 156): INFO Epoch: [2][0/118] lr 0.000167 loss 0.4892 acc 96.88%
+[2026-04-08 22:28:13,380 regnety_8gf_v1] (main.py 156): INFO Epoch: [2][20/118] lr 0.000167 loss 0.5351 acc 94.05%
+[2026-04-08 22:28:19,001 regnety_8gf_v1] (main.py 156): INFO Epoch: [2][40/118] lr 0.000167 loss 0.5491 acc 93.06%
+[2026-04-08 22:28:23,014 regnety_8gf_v1] (main.py 156): INFO Epoch: [2][60/118] lr 0.000167 loss 0.5422 acc 93.44%
+[2026-04-08 22:28:27,290 regnety_8gf_v1] (main.py 156): INFO Epoch: [2][80/118] lr 0.000167 loss 0.5438 acc 93.33%
+[2026-04-08 22:28:32,782 regnety_8gf_v1] (main.py 156): INFO Epoch: [2][100/118] lr 0.000167 loss 0.5468 acc 93.01%
+[2026-04-08 22:28:43,033 regnety_8gf_v1] (main.py 89): INFO [Epoch 2]: Train Loss: 0.5478, Train Acc: 92.83%, Val Loss: 0.1842, Val Acc: 96.56%, F1: 0.9656, Precision: 0.9661, Recall: 0.9656
+[2026-04-08 22:28:43,033 regnety_8gf_v1] (main.py 100): INFO Best performance updated at epoch 2 with accuracy: 96.56%
+[2026-04-08 22:28:43,137 regnety_8gf_v1] (main.py 104): INFO Best model saved to /content/dl/outputs/regnety_8gf_v1/regnety_8gf_v1_best.pth
+[2026-04-08 22:28:43,138 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 96.56%
+[2026-04-08 22:28:43,874 regnety_8gf_v1] (main.py 156): INFO Epoch: [3][0/118] lr 0.000249 loss 0.4450 acc 100.00%
+[2026-04-08 22:28:48,025 regnety_8gf_v1] (main.py 156): INFO Epoch: [3][20/118] lr 0.000249 loss 0.4865 acc 96.13%
+[2026-04-08 22:28:52,433 regnety_8gf_v1] (main.py 156): INFO Epoch: [3][40/118] lr 0.000249 loss 0.4976 acc 95.43%
+[2026-04-08 22:28:58,149 regnety_8gf_v1] (main.py 156): INFO Epoch: [3][60/118] lr 0.000249 loss 0.4961 acc 95.54%
+[2026-04-08 22:29:02,673 regnety_8gf_v1] (main.py 156): INFO Epoch: [3][80/118] lr 0.000249 loss 0.5032 acc 95.18%
+[2026-04-08 22:29:07,082 regnety_8gf_v1] (main.py 156): INFO Epoch: [3][100/118] lr 0.000249 loss 0.5083 acc 94.93%
+[2026-04-08 22:29:17,596 regnety_8gf_v1] (main.py 89): INFO [Epoch 3]: Train Loss: 0.5104, Train Acc: 94.80%, Val Loss: 0.1994, Val Acc: 96.24%, F1: 0.9623, Precision: 0.9632, Recall: 0.9624
+[2026-04-08 22:29:17,596 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 96.56%
+[2026-04-08 22:29:18,296 regnety_8gf_v1] (main.py 156): INFO Epoch: [4][0/118] lr 0.000249 loss 0.4283 acc 100.00%
+[2026-04-08 22:29:23,650 regnety_8gf_v1] (main.py 156): INFO Epoch: [4][20/118] lr 0.000249 loss 0.4712 acc 97.17%
+[2026-04-08 22:29:28,193 regnety_8gf_v1] (main.py 156): INFO Epoch: [4][40/118] lr 0.000249 loss 0.4709 acc 97.10%
+[2026-04-08 22:29:32,693 regnety_8gf_v1] (main.py 156): INFO Epoch: [4][60/118] lr 0.000249 loss 0.4727 acc 96.77%
+[2026-04-08 22:29:38,541 regnety_8gf_v1] (main.py 156): INFO Epoch: [4][80/118] lr 0.000249 loss 0.4812 acc 96.37%
+[2026-04-08 22:29:42,964 regnety_8gf_v1] (main.py 156): INFO Epoch: [4][100/118] lr 0.000249 loss 0.4829 acc 96.32%
+[2026-04-08 22:29:53,634 regnety_8gf_v1] (main.py 89): INFO [Epoch 4]: Train Loss: 0.4801, Train Acc: 96.53%, Val Loss: 0.1847, Val Acc: 96.80%, F1: 0.9680, Precision: 0.9687, Recall: 0.9680
+[2026-04-08 22:29:53,634 regnety_8gf_v1] (main.py 100): INFO Best performance updated at epoch 4 with accuracy: 96.80%
+[2026-04-08 22:29:53,707 regnety_8gf_v1] (main.py 104): INFO Best model saved to /content/dl/outputs/regnety_8gf_v1/regnety_8gf_v1_best.pth
+[2026-04-08 22:29:53,707 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 96.80%
+[2026-04-08 22:29:54,361 regnety_8gf_v1] (main.py 156): INFO Epoch: [5][0/118] lr 0.000248 loss 0.5925 acc 90.62%
+[2026-04-08 22:29:58,581 regnety_8gf_v1] (main.py 156): INFO Epoch: [5][20/118] lr 0.000248 loss 0.4778 acc 96.43%
+[2026-04-08 22:30:03,677 regnety_8gf_v1] (main.py 156): INFO Epoch: [5][40/118] lr 0.000248 loss 0.4760 acc 96.49%
+[2026-04-08 22:30:08,423 regnety_8gf_v1] (main.py 156): INFO Epoch: [5][60/118] lr 0.000248 loss 0.4761 acc 96.52%
+[2026-04-08 22:30:12,634 regnety_8gf_v1] (main.py 156): INFO Epoch: [5][80/118] lr 0.000248 loss 0.4789 acc 96.26%
+[2026-04-08 22:30:18,282 regnety_8gf_v1] (main.py 156): INFO Epoch: [5][100/118] lr 0.000248 loss 0.4751 acc 96.53%
+[2026-04-08 22:30:27,115 regnety_8gf_v1] (main.py 89): INFO [Epoch 5]: Train Loss: 0.4742, Train Acc: 96.53%, Val Loss: 0.1882, Val Acc: 96.32%, F1: 0.9632, Precision: 0.9638, Recall: 0.9632
+[2026-04-08 22:30:27,116 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 96.80%
+[2026-04-08 22:30:27,687 regnety_8gf_v1] (main.py 156): INFO Epoch: [6][0/118] lr 0.000248 loss 0.4666 acc 100.00%
+[2026-04-08 22:30:33,214 regnety_8gf_v1] (main.py 156): INFO Epoch: [6][20/118] lr 0.000248 loss 0.4572 acc 97.32%
+[2026-04-08 22:30:37,303 regnety_8gf_v1] (main.py 156): INFO Epoch: [6][40/118] lr 0.000248 loss 0.4634 acc 97.18%
+[2026-04-08 22:30:41,583 regnety_8gf_v1] (main.py 156): INFO Epoch: [6][60/118] lr 0.000248 loss 0.4571 acc 97.39%
+[2026-04-08 22:30:46,991 regnety_8gf_v1] (main.py 156): INFO Epoch: [6][80/118] lr 0.000248 loss 0.4533 acc 97.53%
+[2026-04-08 22:30:51,228 regnety_8gf_v1] (main.py 156): INFO Epoch: [6][100/118] lr 0.000248 loss 0.4551 acc 97.49%
+[2026-04-08 22:31:01,663 regnety_8gf_v1] (main.py 89): INFO [Epoch 6]: Train Loss: 0.4545, Train Acc: 97.49%, Val Loss: 0.1584, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9675, Recall: 0.9672
+[2026-04-08 22:31:01,663 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 96.80%
+[2026-04-08 22:31:02,745 regnety_8gf_v1] (main.py 156): INFO Epoch: [7][0/118] lr 0.000247 loss 0.4634 acc 96.88%
+[2026-04-08 22:31:08,021 regnety_8gf_v1] (main.py 156): INFO Epoch: [7][20/118] lr 0.000247 loss 0.4575 acc 97.62%
+[2026-04-08 22:31:13,638 regnety_8gf_v1] (main.py 156): INFO Epoch: [7][40/118] lr 0.000247 loss 0.4519 acc 97.71%
+[2026-04-08 22:31:17,933 regnety_8gf_v1] (main.py 156): INFO Epoch: [7][60/118] lr 0.000247 loss 0.4504 acc 97.69%
+[2026-04-08 22:31:22,273 regnety_8gf_v1] (main.py 156): INFO Epoch: [7][80/118] lr 0.000247 loss 0.4547 acc 97.45%
+[2026-04-08 22:31:31,441 regnety_8gf_v1] (main.py 156): INFO Epoch: [7][100/118] lr 0.000247 loss 0.4510 acc 97.68%
+[2026-04-08 22:31:43,377 regnety_8gf_v1] (main.py 89): INFO [Epoch 7]: Train Loss: 0.4518, Train Acc: 97.60%, Val Loss: 0.1610, Val Acc: 96.88%, F1: 0.9688, Precision: 0.9690, Recall: 0.9688
+[2026-04-08 22:31:43,378 regnety_8gf_v1] (main.py 100): INFO Best performance updated at epoch 7 with accuracy: 96.88%
+[2026-04-08 22:31:43,447 regnety_8gf_v1] (main.py 104): INFO Best model saved to /content/dl/outputs/regnety_8gf_v1/regnety_8gf_v1_best.pth
+[2026-04-08 22:31:43,447 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 96.88%
+[2026-04-08 22:31:44,228 regnety_8gf_v1] (main.py 156): INFO Epoch: [8][0/118] lr 0.000246 loss 0.4800 acc 96.88%
+[2026-04-08 22:31:48,310 regnety_8gf_v1] (main.py 156): INFO Epoch: [8][20/118] lr 0.000246 loss 0.4221 acc 98.96%
+[2026-04-08 22:31:53,848 regnety_8gf_v1] (main.py 156): INFO Epoch: [8][40/118] lr 0.000246 loss 0.4244 acc 98.86%
+[2026-04-08 22:31:58,031 regnety_8gf_v1] (main.py 156): INFO Epoch: [8][60/118] lr 0.000246 loss 0.4252 acc 98.92%
+[2026-04-08 22:32:02,323 regnety_8gf_v1] (main.py 156): INFO Epoch: [8][80/118] lr 0.000246 loss 0.4286 acc 98.73%
+[2026-04-08 22:32:07,918 regnety_8gf_v1] (main.py 156): INFO Epoch: [8][100/118] lr 0.000246 loss 0.4303 acc 98.51%
+[2026-04-08 22:32:18,887 regnety_8gf_v1] (main.py 89): INFO [Epoch 8]: Train Loss: 0.4326, Train Acc: 98.43%, Val Loss: 0.1751, Val Acc: 96.08%, F1: 0.9609, Precision: 0.9614, Recall: 0.9608
+[2026-04-08 22:32:18,887 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 96.88%
+[2026-04-08 22:32:19,462 regnety_8gf_v1] (main.py 156): INFO Epoch: [9][0/118] lr 0.000245 loss 0.4391 acc 100.00%
+[2026-04-08 22:32:23,868 regnety_8gf_v1] (main.py 156): INFO Epoch: [9][20/118] lr 0.000245 loss 0.4231 acc 99.26%
+[2026-04-08 22:32:28,177 regnety_8gf_v1] (main.py 156): INFO Epoch: [9][40/118] lr 0.000245 loss 0.4262 acc 98.78%
+[2026-04-08 22:32:34,035 regnety_8gf_v1] (main.py 156): INFO Epoch: [9][60/118] lr 0.000245 loss 0.4214 acc 99.03%
+[2026-04-08 22:32:38,463 regnety_8gf_v1] (main.py 156): INFO Epoch: [9][80/118] lr 0.000245 loss 0.4206 acc 99.11%
+[2026-04-08 22:32:43,505 regnety_8gf_v1] (main.py 156): INFO Epoch: [9][100/118] lr 0.000245 loss 0.4242 acc 98.89%
+[2026-04-08 22:32:54,724 regnety_8gf_v1] (main.py 89): INFO [Epoch 9]: Train Loss: 0.4270, Train Acc: 98.67%, Val Loss: 0.1813, Val Acc: 96.08%, F1: 0.9607, Precision: 0.9615, Recall: 0.9608
+[2026-04-08 22:32:54,725 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 96.88%
+[2026-04-08 22:32:55,381 regnety_8gf_v1] (main.py 156): INFO Epoch: [10][0/118] lr 0.000244 loss 0.4773 acc 96.88%
+[2026-04-08 22:33:01,482 regnety_8gf_v1] (main.py 156): INFO Epoch: [10][20/118] lr 0.000244 loss 0.4307 acc 98.51%
+[2026-04-08 22:33:05,894 regnety_8gf_v1] (main.py 156): INFO Epoch: [10][40/118] lr 0.000244 loss 0.4294 acc 98.63%
+[2026-04-08 22:33:12,090 regnety_8gf_v1] (main.py 156): INFO Epoch: [10][60/118] lr 0.000244 loss 0.4317 acc 98.51%
+[2026-04-08 22:33:17,036 regnety_8gf_v1] (main.py 156): INFO Epoch: [10][80/118] lr 0.000244 loss 0.4318 acc 98.57%
+[2026-04-08 22:33:21,317 regnety_8gf_v1] (main.py 156): INFO Epoch: [10][100/118] lr 0.000244 loss 0.4294 acc 98.70%
+[2026-04-08 22:33:31,669 regnety_8gf_v1] (main.py 89): INFO [Epoch 10]: Train Loss: 0.4294, Train Acc: 98.69%, Val Loss: 0.1634, Val Acc: 97.04%, F1: 0.9705, Precision: 0.9708, Recall: 0.9704
+[2026-04-08 22:33:31,669 regnety_8gf_v1] (main.py 100): INFO Best performance updated at epoch 10 with accuracy: 97.04%
+[2026-04-08 22:33:31,738 regnety_8gf_v1] (main.py 104): INFO Best model saved to /content/dl/outputs/regnety_8gf_v1/regnety_8gf_v1_best.pth
+[2026-04-08 22:33:31,739 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.04%
+[2026-04-08 22:33:32,305 regnety_8gf_v1] (main.py 156): INFO Epoch: [11][0/118] lr 0.000243 loss 0.3959 acc 100.00%
+[2026-04-08 22:33:36,685 regnety_8gf_v1] (main.py 156): INFO Epoch: [11][20/118] lr 0.000243 loss 0.4141 acc 99.26%
+[2026-04-08 22:33:41,999 regnety_8gf_v1] (main.py 156): INFO Epoch: [11][40/118] lr 0.000243 loss 0.4135 acc 99.24%
+[2026-04-08 22:33:46,261 regnety_8gf_v1] (main.py 156): INFO Epoch: [11][60/118] lr 0.000243 loss 0.4166 acc 98.98%
+[2026-04-08 22:33:51,056 regnety_8gf_v1] (main.py 156): INFO Epoch: [11][80/118] lr 0.000243 loss 0.4157 acc 99.07%
+[2026-04-08 22:33:56,269 regnety_8gf_v1] (main.py 156): INFO Epoch: [11][100/118] lr 0.000243 loss 0.4182 acc 99.01%
+[2026-04-08 22:34:06,670 regnety_8gf_v1] (main.py 89): INFO [Epoch 11]: Train Loss: 0.4192, Train Acc: 98.99%, Val Loss: 0.1731, Val Acc: 96.24%, F1: 0.9625, Precision: 0.9631, Recall: 0.9624
+[2026-04-08 22:34:06,671 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.04%
+[2026-04-08 22:34:07,375 regnety_8gf_v1] (main.py 156): INFO Epoch: [12][0/118] lr 0.000241 loss 0.4119 acc 100.00%
+[2026-04-08 22:34:11,490 regnety_8gf_v1] (main.py 156): INFO Epoch: [12][20/118] lr 0.000241 loss 0.4086 acc 99.40%
+[2026-04-08 22:34:15,739 regnety_8gf_v1] (main.py 156): INFO Epoch: [12][40/118] lr 0.000241 loss 0.4136 acc 99.16%
+[2026-04-08 22:34:21,393 regnety_8gf_v1] (main.py 156): INFO Epoch: [12][60/118] lr 0.000241 loss 0.4176 acc 98.92%
+[2026-04-08 22:34:25,649 regnety_8gf_v1] (main.py 156): INFO Epoch: [12][80/118] lr 0.000241 loss 0.4197 acc 98.84%
+[2026-04-08 22:34:29,806 regnety_8gf_v1] (main.py 156): INFO Epoch: [12][100/118] lr 0.000241 loss 0.4192 acc 98.92%
+[2026-04-08 22:34:40,274 regnety_8gf_v1] (main.py 89): INFO [Epoch 12]: Train Loss: 0.4196, Train Acc: 98.93%, Val Loss: 0.1837, Val Acc: 96.16%, F1: 0.9617, Precision: 0.9622, Recall: 0.9616
+[2026-04-08 22:34:40,275 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.04%
+[2026-04-08 22:34:40,930 regnety_8gf_v1] (main.py 156): INFO Epoch: [13][0/118] lr 0.000240 loss 0.4279 acc 96.88%
+[2026-04-08 22:34:46,341 regnety_8gf_v1] (main.py 156): INFO Epoch: [13][20/118] lr 0.000240 loss 0.4147 acc 99.11%
+[2026-04-08 22:34:50,723 regnety_8gf_v1] (main.py 156): INFO Epoch: [13][40/118] lr 0.000240 loss 0.4226 acc 98.63%
+[2026-04-08 22:34:55,016 regnety_8gf_v1] (main.py 156): INFO Epoch: [13][60/118] lr 0.000240 loss 0.4214 acc 98.82%
+[2026-04-08 22:35:00,684 regnety_8gf_v1] (main.py 156): INFO Epoch: [13][80/118] lr 0.000240 loss 0.4214 acc 98.92%
+[2026-04-08 22:35:04,796 regnety_8gf_v1] (main.py 156): INFO Epoch: [13][100/118] lr 0.000240 loss 0.4197 acc 99.01%
+[2026-04-08 22:35:15,282 regnety_8gf_v1] (main.py 89): INFO [Epoch 13]: Train Loss: 0.4203, Train Acc: 98.99%, Val Loss: 0.1579, Val Acc: 96.88%, F1: 0.9687, Precision: 0.9690, Recall: 0.9688
+[2026-04-08 22:35:15,282 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.04%
+[2026-04-08 22:35:15,946 regnety_8gf_v1] (main.py 156): INFO Epoch: [14][0/118] lr 0.000238 loss 0.3957 acc 100.00%
+[2026-04-08 22:35:20,187 regnety_8gf_v1] (main.py 156): INFO Epoch: [14][20/118] lr 0.000238 loss 0.4090 acc 99.55%
+[2026-04-08 22:35:25,086 regnety_8gf_v1] (main.py 156): INFO Epoch: [14][40/118] lr 0.000238 loss 0.4099 acc 99.54%
+[2026-04-08 22:35:29,880 regnety_8gf_v1] (main.py 156): INFO Epoch: [14][60/118] lr 0.000238 loss 0.4099 acc 99.49%
+[2026-04-08 22:35:34,079 regnety_8gf_v1] (main.py 156): INFO Epoch: [14][80/118] lr 0.000238 loss 0.4118 acc 99.31%
+[2026-04-08 22:35:39,582 regnety_8gf_v1] (main.py 156): INFO Epoch: [14][100/118] lr 0.000238 loss 0.4124 acc 99.29%
+[2026-04-08 22:35:48,813 regnety_8gf_v1] (main.py 89): INFO [Epoch 14]: Train Loss: 0.4111, Train Acc: 99.39%, Val Loss: 0.1598, Val Acc: 97.12%, F1: 0.9712, Precision: 0.9716, Recall: 0.9712
+[2026-04-08 22:35:48,813 regnety_8gf_v1] (main.py 100): INFO Best performance updated at epoch 14 with accuracy: 97.12%
+[2026-04-08 22:35:48,882 regnety_8gf_v1] (main.py 104): INFO Best model saved to /content/dl/outputs/regnety_8gf_v1/regnety_8gf_v1_best.pth
+[2026-04-08 22:35:48,882 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:35:49,550 regnety_8gf_v1] (main.py 156): INFO Epoch: [15][0/118] lr 0.000236 loss 0.4006 acc 100.00%
+[2026-04-08 22:35:55,149 regnety_8gf_v1] (main.py 156): INFO Epoch: [15][20/118] lr 0.000236 loss 0.4031 acc 99.70%
+[2026-04-08 22:35:59,240 regnety_8gf_v1] (main.py 156): INFO Epoch: [15][40/118] lr 0.000236 loss 0.4100 acc 99.31%
+[2026-04-08 22:36:03,499 regnety_8gf_v1] (main.py 156): INFO Epoch: [15][60/118] lr 0.000236 loss 0.4112 acc 99.28%
+[2026-04-08 22:36:08,750 regnety_8gf_v1] (main.py 156): INFO Epoch: [15][80/118] lr 0.000236 loss 0.4136 acc 99.19%
+[2026-04-08 22:36:13,090 regnety_8gf_v1] (main.py 156): INFO Epoch: [15][100/118] lr 0.000236 loss 0.4133 acc 99.23%
+[2026-04-08 22:36:23,503 regnety_8gf_v1] (main.py 89): INFO [Epoch 15]: Train Loss: 0.4174, Train Acc: 99.07%, Val Loss: 0.1668, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9669, Recall: 0.9664
+[2026-04-08 22:36:23,504 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:36:24,103 regnety_8gf_v1] (main.py 156): INFO Epoch: [16][0/118] lr 0.000235 loss 0.4018 acc 100.00%
+[2026-04-08 22:36:28,348 regnety_8gf_v1] (main.py 156): INFO Epoch: [16][20/118] lr 0.000235 loss 0.4097 acc 99.26%
+[2026-04-08 22:36:33,884 regnety_8gf_v1] (main.py 156): INFO Epoch: [16][40/118] lr 0.000235 loss 0.4116 acc 99.16%
+[2026-04-08 22:36:38,252 regnety_8gf_v1] (main.py 156): INFO Epoch: [16][60/118] lr 0.000235 loss 0.4124 acc 99.13%
+[2026-04-08 22:36:42,504 regnety_8gf_v1] (main.py 156): INFO Epoch: [16][80/118] lr 0.000235 loss 0.4127 acc 99.11%
+[2026-04-08 22:36:47,876 regnety_8gf_v1] (main.py 156): INFO Epoch: [16][100/118] lr 0.000235 loss 0.4144 acc 99.04%
+[2026-04-08 22:36:57,882 regnety_8gf_v1] (main.py 89): INFO [Epoch 16]: Train Loss: 0.4153, Train Acc: 99.07%, Val Loss: 0.1831, Val Acc: 95.68%, F1: 0.9569, Precision: 0.9573, Recall: 0.9568
+[2026-04-08 22:36:57,882 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:36:58,980 regnety_8gf_v1] (main.py 156): INFO Epoch: [17][0/118] lr 0.000233 loss 0.4067 acc 100.00%
+[2026-04-08 22:37:03,208 regnety_8gf_v1] (main.py 156): INFO Epoch: [17][20/118] lr 0.000233 loss 0.4219 acc 98.51%
+[2026-04-08 22:37:07,644 regnety_8gf_v1] (main.py 156): INFO Epoch: [17][40/118] lr 0.000233 loss 0.4187 acc 98.78%
+[2026-04-08 22:37:13,178 regnety_8gf_v1] (main.py 156): INFO Epoch: [17][60/118] lr 0.000233 loss 0.4211 acc 98.62%
+[2026-04-08 22:37:17,354 regnety_8gf_v1] (main.py 156): INFO Epoch: [17][80/118] lr 0.000233 loss 0.4217 acc 98.46%
+[2026-04-08 22:37:21,775 regnety_8gf_v1] (main.py 156): INFO Epoch: [17][100/118] lr 0.000233 loss 0.4232 acc 98.45%
+[2026-04-08 22:37:32,096 regnety_8gf_v1] (main.py 89): INFO [Epoch 17]: Train Loss: 0.4229, Train Acc: 98.51%, Val Loss: 0.1857, Val Acc: 96.32%, F1: 0.9632, Precision: 0.9635, Recall: 0.9632
+[2026-04-08 22:37:32,096 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:37:32,788 regnety_8gf_v1] (main.py 156): INFO Epoch: [18][0/118] lr 0.000231 loss 0.3982 acc 100.00%
+[2026-04-08 22:37:37,857 regnety_8gf_v1] (main.py 156): INFO Epoch: [18][20/118] lr 0.000231 loss 0.4126 acc 99.26%
+[2026-04-08 22:37:42,646 regnety_8gf_v1] (main.py 156): INFO Epoch: [18][40/118] lr 0.000231 loss 0.4134 acc 99.09%
+[2026-04-08 22:37:46,777 regnety_8gf_v1] (main.py 156): INFO Epoch: [18][60/118] lr 0.000231 loss 0.4155 acc 98.92%
+[2026-04-08 22:37:52,227 regnety_8gf_v1] (main.py 156): INFO Epoch: [18][80/118] lr 0.000231 loss 0.4129 acc 99.11%
+[2026-04-08 22:37:56,690 regnety_8gf_v1] (main.py 156): INFO Epoch: [18][100/118] lr 0.000231 loss 0.4122 acc 99.13%
+[2026-04-08 22:38:06,906 regnety_8gf_v1] (main.py 89): INFO [Epoch 18]: Train Loss: 0.4173, Train Acc: 98.93%, Val Loss: 0.1746, Val Acc: 96.16%, F1: 0.9616, Precision: 0.9619, Recall: 0.9616
+[2026-04-08 22:38:06,906 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:38:07,585 regnety_8gf_v1] (main.py 156): INFO Epoch: [19][0/118] lr 0.000228 loss 0.4015 acc 100.00%
+[2026-04-08 22:38:11,674 regnety_8gf_v1] (main.py 156): INFO Epoch: [19][20/118] lr 0.000228 loss 0.4174 acc 98.81%
+[2026-04-08 22:38:15,960 regnety_8gf_v1] (main.py 156): INFO Epoch: [19][40/118] lr 0.000228 loss 0.4288 acc 98.55%
+[2026-04-08 22:38:21,439 regnety_8gf_v1] (main.py 156): INFO Epoch: [19][60/118] lr 0.000228 loss 0.4301 acc 98.57%
+[2026-04-08 22:38:25,894 regnety_8gf_v1] (main.py 156): INFO Epoch: [19][80/118] lr 0.000228 loss 0.4256 acc 98.65%
+[2026-04-08 22:38:30,922 regnety_8gf_v1] (main.py 156): INFO Epoch: [19][100/118] lr 0.000228 loss 0.4226 acc 98.73%
+[2026-04-08 22:38:40,594 regnety_8gf_v1] (main.py 89): INFO [Epoch 19]: Train Loss: 0.4215, Train Acc: 98.80%, Val Loss: 0.1661, Val Acc: 97.12%, F1: 0.9712, Precision: 0.9714, Recall: 0.9712
+[2026-04-08 22:38:40,595 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:38:41,242 regnety_8gf_v1] (main.py 156): INFO Epoch: [20][0/118] lr 0.000226 loss 0.3947 acc 100.00%
+[2026-04-08 22:38:46,833 regnety_8gf_v1] (main.py 156): INFO Epoch: [20][20/118] lr 0.000226 loss 0.4110 acc 99.26%
+[2026-04-08 22:38:51,649 regnety_8gf_v1] (main.py 156): INFO Epoch: [20][40/118] lr 0.000226 loss 0.4152 acc 99.16%
+[2026-04-08 22:38:56,727 regnety_8gf_v1] (main.py 156): INFO Epoch: [20][60/118] lr 0.000226 loss 0.4145 acc 99.18%
+[2026-04-08 22:39:01,845 regnety_8gf_v1] (main.py 156): INFO Epoch: [20][80/118] lr 0.000226 loss 0.4138 acc 99.19%
+[2026-04-08 22:39:06,038 regnety_8gf_v1] (main.py 156): INFO Epoch: [20][100/118] lr 0.000226 loss 0.4134 acc 99.20%
+[2026-04-08 22:39:16,772 regnety_8gf_v1] (main.py 89): INFO [Epoch 20]: Train Loss: 0.4129, Train Acc: 99.25%, Val Loss: 0.1791, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9666, Recall: 0.9664
+[2026-04-08 22:39:16,772 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:39:17,481 regnety_8gf_v1] (main.py 156): INFO Epoch: [21][0/118] lr 0.000224 loss 0.4017 acc 100.00%
+[2026-04-08 22:39:21,998 regnety_8gf_v1] (main.py 156): INFO Epoch: [21][20/118] lr 0.000224 loss 0.4030 acc 99.55%
+[2026-04-08 22:39:27,809 regnety_8gf_v1] (main.py 156): INFO Epoch: [21][40/118] lr 0.000224 loss 0.4056 acc 99.54%
+[2026-04-08 22:39:32,022 regnety_8gf_v1] (main.py 156): INFO Epoch: [21][60/118] lr 0.000224 loss 0.4061 acc 99.54%
+[2026-04-08 22:39:36,582 regnety_8gf_v1] (main.py 156): INFO Epoch: [21][80/118] lr 0.000224 loss 0.4062 acc 99.46%
+[2026-04-08 22:39:41,758 regnety_8gf_v1] (main.py 156): INFO Epoch: [21][100/118] lr 0.000224 loss 0.4050 acc 99.54%
+[2026-04-08 22:39:52,156 regnety_8gf_v1] (main.py 89): INFO [Epoch 21]: Train Loss: 0.4064, Train Acc: 99.47%, Val Loss: 0.1792, Val Acc: 96.48%, F1: 0.9649, Precision: 0.9659, Recall: 0.9648
+[2026-04-08 22:39:52,156 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:39:52,945 regnety_8gf_v1] (main.py 156): INFO Epoch: [22][0/118] lr 0.000221 loss 0.3922 acc 100.00%
+[2026-04-08 22:39:57,379 regnety_8gf_v1] (main.py 156): INFO Epoch: [22][20/118] lr 0.000221 loss 0.4051 acc 99.40%
+[2026-04-08 22:40:01,596 regnety_8gf_v1] (main.py 156): INFO Epoch: [22][40/118] lr 0.000221 loss 0.4050 acc 99.39%
+[2026-04-08 22:40:07,118 regnety_8gf_v1] (main.py 156): INFO Epoch: [22][60/118] lr 0.000221 loss 0.4082 acc 99.18%
+[2026-04-08 22:40:11,525 regnety_8gf_v1] (main.py 156): INFO Epoch: [22][80/118] lr 0.000221 loss 0.4054 acc 99.34%
+[2026-04-08 22:40:15,776 regnety_8gf_v1] (main.py 156): INFO Epoch: [22][100/118] lr 0.000221 loss 0.4053 acc 99.38%
+[2026-04-08 22:40:26,331 regnety_8gf_v1] (main.py 89): INFO [Epoch 22]: Train Loss: 0.4055, Train Acc: 99.41%, Val Loss: 0.1847, Val Acc: 96.24%, F1: 0.9625, Precision: 0.9635, Recall: 0.9624
+[2026-04-08 22:40:26,331 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:40:26,928 regnety_8gf_v1] (main.py 156): INFO Epoch: [23][0/118] lr 0.000219 loss 0.3975 acc 100.00%
+[2026-04-08 22:40:32,498 regnety_8gf_v1] (main.py 156): INFO Epoch: [23][20/118] lr 0.000219 loss 0.4071 acc 99.40%
+[2026-04-08 22:40:36,818 regnety_8gf_v1] (main.py 156): INFO Epoch: [23][40/118] lr 0.000219 loss 0.4160 acc 98.93%
+[2026-04-08 22:40:41,088 regnety_8gf_v1] (main.py 156): INFO Epoch: [23][60/118] lr 0.000219 loss 0.4175 acc 98.98%
+[2026-04-08 22:40:46,577 regnety_8gf_v1] (main.py 156): INFO Epoch: [23][80/118] lr 0.000219 loss 0.4149 acc 99.07%
+[2026-04-08 22:40:50,876 regnety_8gf_v1] (main.py 156): INFO Epoch: [23][100/118] lr 0.000219 loss 0.4135 acc 99.13%
+[2026-04-08 22:41:01,268 regnety_8gf_v1] (main.py 89): INFO [Epoch 23]: Train Loss: 0.4131, Train Acc: 99.07%, Val Loss: 0.1868, Val Acc: 96.00%, F1: 0.9602, Precision: 0.9619, Recall: 0.9600
+[2026-04-08 22:41:01,268 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:41:01,964 regnety_8gf_v1] (main.py 156): INFO Epoch: [24][0/118] lr 0.000216 loss 0.3919 acc 100.00%
+[2026-04-08 22:41:06,144 regnety_8gf_v1] (main.py 156): INFO Epoch: [24][20/118] lr 0.000216 loss 0.4120 acc 99.11%
+[2026-04-08 22:41:11,322 regnety_8gf_v1] (main.py 156): INFO Epoch: [24][40/118] lr 0.000216 loss 0.4057 acc 99.47%
+[2026-04-08 22:41:16,105 regnety_8gf_v1] (main.py 156): INFO Epoch: [24][60/118] lr 0.000216 loss 0.4044 acc 99.49%
+[2026-04-08 22:41:20,260 regnety_8gf_v1] (main.py 156): INFO Epoch: [24][80/118] lr 0.000216 loss 0.4039 acc 99.54%
+[2026-04-08 22:41:25,733 regnety_8gf_v1] (main.py 156): INFO Epoch: [24][100/118] lr 0.000216 loss 0.4025 acc 99.63%
+[2026-04-08 22:41:35,189 regnety_8gf_v1] (main.py 89): INFO [Epoch 24]: Train Loss: 0.4024, Train Acc: 99.60%, Val Loss: 0.1724, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9666, Recall: 0.9664
+[2026-04-08 22:41:35,190 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:41:35,808 regnety_8gf_v1] (main.py 156): INFO Epoch: [25][0/118] lr 0.000214 loss 0.3971 acc 100.00%
+[2026-04-08 22:41:41,328 regnety_8gf_v1] (main.py 156): INFO Epoch: [25][20/118] lr 0.000214 loss 0.4068 acc 99.40%
+[2026-04-08 22:41:45,511 regnety_8gf_v1] (main.py 156): INFO Epoch: [25][40/118] lr 0.000214 loss 0.4025 acc 99.62%
+[2026-04-08 22:41:50,053 regnety_8gf_v1] (main.py 156): INFO Epoch: [25][60/118] lr 0.000214 loss 0.4024 acc 99.54%
+[2026-04-08 22:41:55,387 regnety_8gf_v1] (main.py 156): INFO Epoch: [25][80/118] lr 0.000214 loss 0.4012 acc 99.61%
+[2026-04-08 22:41:59,915 regnety_8gf_v1] (main.py 156): INFO Epoch: [25][100/118] lr 0.000214 loss 0.4030 acc 99.50%
+[2026-04-08 22:42:10,348 regnety_8gf_v1] (main.py 89): INFO [Epoch 25]: Train Loss: 0.4042, Train Acc: 99.47%, Val Loss: 0.2013, Val Acc: 95.68%, F1: 0.9568, Precision: 0.9576, Recall: 0.9568
+[2026-04-08 22:42:10,348 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:42:11,007 regnety_8gf_v1] (main.py 156): INFO Epoch: [26][0/118] lr 0.000211 loss 0.3928 acc 100.00%
+[2026-04-08 22:42:15,053 regnety_8gf_v1] (main.py 156): INFO Epoch: [26][20/118] lr 0.000211 loss 0.3989 acc 99.85%
+[2026-04-08 22:42:20,540 regnety_8gf_v1] (main.py 156): INFO Epoch: [26][40/118] lr 0.000211 loss 0.4043 acc 99.47%
+[2026-04-08 22:42:24,838 regnety_8gf_v1] (main.py 156): INFO Epoch: [26][60/118] lr 0.000211 loss 0.4013 acc 99.64%
+[2026-04-08 22:42:29,155 regnety_8gf_v1] (main.py 156): INFO Epoch: [26][80/118] lr 0.000211 loss 0.4030 acc 99.65%
+[2026-04-08 22:42:34,702 regnety_8gf_v1] (main.py 156): INFO Epoch: [26][100/118] lr 0.000211 loss 0.4039 acc 99.54%
+[2026-04-08 22:42:44,225 regnety_8gf_v1] (main.py 89): INFO [Epoch 26]: Train Loss: 0.4037, Train Acc: 99.55%, Val Loss: 0.1758, Val Acc: 96.72%, F1: 0.9672, Precision: 0.9675, Recall: 0.9672
+[2026-04-08 22:42:44,226 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:42:45,287 regnety_8gf_v1] (main.py 156): INFO Epoch: [27][0/118] lr 0.000208 loss 0.3929 acc 100.00%
+[2026-04-08 22:42:49,825 regnety_8gf_v1] (main.py 156): INFO Epoch: [27][20/118] lr 0.000208 loss 0.4171 acc 98.96%
+[2026-04-08 22:42:54,159 regnety_8gf_v1] (main.py 156): INFO Epoch: [27][40/118] lr 0.000208 loss 0.4097 acc 99.39%
+[2026-04-08 22:42:59,719 regnety_8gf_v1] (main.py 156): INFO Epoch: [27][60/118] lr 0.000208 loss 0.4076 acc 99.39%
+[2026-04-08 22:43:04,104 regnety_8gf_v1] (main.py 156): INFO Epoch: [27][80/118] lr 0.000208 loss 0.4069 acc 99.42%
+[2026-04-08 22:43:08,306 regnety_8gf_v1] (main.py 156): INFO Epoch: [27][100/118] lr 0.000208 loss 0.4075 acc 99.35%
+[2026-04-08 22:43:18,684 regnety_8gf_v1] (main.py 89): INFO [Epoch 27]: Train Loss: 0.4088, Train Acc: 99.25%, Val Loss: 0.1841, Val Acc: 96.16%, F1: 0.9616, Precision: 0.9619, Recall: 0.9616
+[2026-04-08 22:43:18,685 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:43:19,378 regnety_8gf_v1] (main.py 156): INFO Epoch: [28][0/118] lr 0.000205 loss 0.3911 acc 100.00%
+[2026-04-08 22:43:23,904 regnety_8gf_v1] (main.py 156): INFO Epoch: [28][20/118] lr 0.000205 loss 0.3981 acc 99.85%
+[2026-04-08 22:43:29,346 regnety_8gf_v1] (main.py 156): INFO Epoch: [28][40/118] lr 0.000205 loss 0.4038 acc 99.47%
+[2026-04-08 22:43:33,669 regnety_8gf_v1] (main.py 156): INFO Epoch: [28][60/118] lr 0.000205 loss 0.4053 acc 99.28%
+[2026-04-08 22:43:38,828 regnety_8gf_v1] (main.py 156): INFO Epoch: [28][80/118] lr 0.000205 loss 0.4052 acc 99.27%
+[2026-04-08 22:43:43,441 regnety_8gf_v1] (main.py 156): INFO Epoch: [28][100/118] lr 0.000205 loss 0.4053 acc 99.35%
+[2026-04-08 22:43:53,711 regnety_8gf_v1] (main.py 89): INFO [Epoch 28]: Train Loss: 0.4057, Train Acc: 99.36%, Val Loss: 0.1769, Val Acc: 96.40%, F1: 0.9642, Precision: 0.9648, Recall: 0.9640
+[2026-04-08 22:43:53,711 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:43:54,401 regnety_8gf_v1] (main.py 156): INFO Epoch: [29][0/118] lr 0.000202 loss 0.3938 acc 100.00%
+[2026-04-08 22:43:58,768 regnety_8gf_v1] (main.py 156): INFO Epoch: [29][20/118] lr 0.000202 loss 0.3964 acc 99.85%
+[2026-04-08 22:44:02,896 regnety_8gf_v1] (main.py 156): INFO Epoch: [29][40/118] lr 0.000202 loss 0.3980 acc 99.85%
+[2026-04-08 22:44:08,379 regnety_8gf_v1] (main.py 156): INFO Epoch: [29][60/118] lr 0.000202 loss 0.3977 acc 99.85%
+[2026-04-08 22:44:12,654 regnety_8gf_v1] (main.py 156): INFO Epoch: [29][80/118] lr 0.000202 loss 0.3977 acc 99.85%
+[2026-04-08 22:44:16,910 regnety_8gf_v1] (main.py 156): INFO Epoch: [29][100/118] lr 0.000202 loss 0.3968 acc 99.88%
+[2026-04-08 22:44:27,335 regnety_8gf_v1] (main.py 89): INFO [Epoch 29]: Train Loss: 0.3973, Train Acc: 99.84%, Val Loss: 0.1796, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9668, Recall: 0.9664
+[2026-04-08 22:44:27,336 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:44:28,027 regnety_8gf_v1] (main.py 156): INFO Epoch: [30][0/118] lr 0.000199 loss 0.3925 acc 100.00%
+[2026-04-08 22:44:33,655 regnety_8gf_v1] (main.py 156): INFO Epoch: [30][20/118] lr 0.000199 loss 0.4013 acc 99.55%
+[2026-04-08 22:44:37,877 regnety_8gf_v1] (main.py 156): INFO Epoch: [30][40/118] lr 0.000199 loss 0.4069 acc 99.39%
+[2026-04-08 22:44:42,127 regnety_8gf_v1] (main.py 156): INFO Epoch: [30][60/118] lr 0.000199 loss 0.4066 acc 99.44%
+[2026-04-08 22:44:47,690 regnety_8gf_v1] (main.py 156): INFO Epoch: [30][80/118] lr 0.000199 loss 0.4050 acc 99.46%
+[2026-04-08 22:44:51,921 regnety_8gf_v1] (main.py 156): INFO Epoch: [30][100/118] lr 0.000199 loss 0.4045 acc 99.41%
+[2026-04-08 22:45:02,372 regnety_8gf_v1] (main.py 89): INFO [Epoch 30]: Train Loss: 0.4042, Train Acc: 99.39%, Val Loss: 0.1848, Val Acc: 96.00%, F1: 0.9602, Precision: 0.9609, Recall: 0.9600
+[2026-04-08 22:45:02,372 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:45:03,076 regnety_8gf_v1] (main.py 156): INFO Epoch: [31][0/118] lr 0.000195 loss 0.3934 acc 100.00%
+[2026-04-08 22:45:07,158 regnety_8gf_v1] (main.py 156): INFO Epoch: [31][20/118] lr 0.000195 loss 0.4051 acc 99.55%
+[2026-04-08 22:45:12,073 regnety_8gf_v1] (main.py 156): INFO Epoch: [31][40/118] lr 0.000195 loss 0.4051 acc 99.47%
+[2026-04-08 22:45:17,005 regnety_8gf_v1] (main.py 156): INFO Epoch: [31][60/118] lr 0.000195 loss 0.4046 acc 99.39%
+[2026-04-08 22:45:21,297 regnety_8gf_v1] (main.py 156): INFO Epoch: [31][80/118] lr 0.000195 loss 0.4046 acc 99.38%
+[2026-04-08 22:45:26,965 regnety_8gf_v1] (main.py 156): INFO Epoch: [31][100/118] lr 0.000195 loss 0.4033 acc 99.47%
+[2026-04-08 22:45:35,998 regnety_8gf_v1] (main.py 89): INFO [Epoch 31]: Train Loss: 0.4042, Train Acc: 99.47%, Val Loss: 0.1850, Val Acc: 96.48%, F1: 0.9648, Precision: 0.9649, Recall: 0.9648
+[2026-04-08 22:45:35,999 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:45:36,687 regnety_8gf_v1] (main.py 156): INFO Epoch: [32][0/118] lr 0.000192 loss 0.3924 acc 100.00%
+[2026-04-08 22:45:42,152 regnety_8gf_v1] (main.py 156): INFO Epoch: [32][20/118] lr 0.000192 loss 0.4047 acc 99.26%
+[2026-04-08 22:45:46,411 regnety_8gf_v1] (main.py 156): INFO Epoch: [32][40/118] lr 0.000192 loss 0.4117 acc 98.93%
+[2026-04-08 22:45:51,264 regnety_8gf_v1] (main.py 156): INFO Epoch: [32][60/118] lr 0.000192 loss 0.4090 acc 99.13%
+[2026-04-08 22:45:56,335 regnety_8gf_v1] (main.py 156): INFO Epoch: [32][80/118] lr 0.000192 loss 0.4082 acc 99.15%
+[2026-04-08 22:46:00,613 regnety_8gf_v1] (main.py 156): INFO Epoch: [32][100/118] lr 0.000192 loss 0.4077 acc 99.13%
+[2026-04-08 22:46:10,821 regnety_8gf_v1] (main.py 89): INFO [Epoch 32]: Train Loss: 0.4087, Train Acc: 99.15%, Val Loss: 0.1618, Val Acc: 96.96%, F1: 0.9696, Precision: 0.9700, Recall: 0.9696
+[2026-04-08 22:46:10,822 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:46:11,471 regnety_8gf_v1] (main.py 156): INFO Epoch: [33][0/118] lr 0.000189 loss 0.3929 acc 100.00%
+[2026-04-08 22:46:15,490 regnety_8gf_v1] (main.py 156): INFO Epoch: [33][20/118] lr 0.000189 loss 0.3986 acc 99.85%
+[2026-04-08 22:46:21,090 regnety_8gf_v1] (main.py 156): INFO Epoch: [33][40/118] lr 0.000189 loss 0.3953 acc 99.92%
+[2026-04-08 22:46:25,330 regnety_8gf_v1] (main.py 156): INFO Epoch: [33][60/118] lr 0.000189 loss 0.3960 acc 99.90%
+[2026-04-08 22:46:29,587 regnety_8gf_v1] (main.py 156): INFO Epoch: [33][80/118] lr 0.000189 loss 0.3970 acc 99.85%
+[2026-04-08 22:46:35,293 regnety_8gf_v1] (main.py 156): INFO Epoch: [33][100/118] lr 0.000189 loss 0.3972 acc 99.81%
+[2026-04-08 22:46:45,033 regnety_8gf_v1] (main.py 89): INFO [Epoch 33]: Train Loss: 0.3979, Train Acc: 99.73%, Val Loss: 0.1777, Val Acc: 96.40%, F1: 0.9640, Precision: 0.9646, Recall: 0.9640
+[2026-04-08 22:46:45,033 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:46:45,885 regnety_8gf_v1] (main.py 156): INFO Epoch: [34][0/118] lr 0.000185 loss 0.4247 acc 96.88%
+[2026-04-08 22:46:50,387 regnety_8gf_v1] (main.py 156): INFO Epoch: [34][20/118] lr 0.000185 loss 0.3988 acc 99.55%
+[2026-04-08 22:46:54,598 regnety_8gf_v1] (main.py 156): INFO Epoch: [34][40/118] lr 0.000185 loss 0.3971 acc 99.62%
+[2026-04-08 22:47:00,247 regnety_8gf_v1] (main.py 156): INFO Epoch: [34][60/118] lr 0.000185 loss 0.3976 acc 99.59%
+[2026-04-08 22:47:04,594 regnety_8gf_v1] (main.py 156): INFO Epoch: [34][80/118] lr 0.000185 loss 0.3976 acc 99.61%
+[2026-04-08 22:47:09,057 regnety_8gf_v1] (main.py 156): INFO Epoch: [34][100/118] lr 0.000185 loss 0.3994 acc 99.54%
+[2026-04-08 22:47:19,439 regnety_8gf_v1] (main.py 89): INFO [Epoch 34]: Train Loss: 0.3998, Train Acc: 99.52%, Val Loss: 0.1704, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9668, Recall: 0.9664
+[2026-04-08 22:47:19,439 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:47:20,126 regnety_8gf_v1] (main.py 156): INFO Epoch: [35][0/118] lr 0.000182 loss 0.3961 acc 100.00%
+[2026-04-08 22:47:25,405 regnety_8gf_v1] (main.py 156): INFO Epoch: [35][20/118] lr 0.000182 loss 0.4097 acc 99.26%
+[2026-04-08 22:47:30,036 regnety_8gf_v1] (main.py 156): INFO Epoch: [35][40/118] lr 0.000182 loss 0.4034 acc 99.54%
+[2026-04-08 22:47:34,451 regnety_8gf_v1] (main.py 156): INFO Epoch: [35][60/118] lr 0.000182 loss 0.4007 acc 99.64%
+[2026-04-08 22:47:39,754 regnety_8gf_v1] (main.py 156): INFO Epoch: [35][80/118] lr 0.000182 loss 0.4002 acc 99.61%
+[2026-04-08 22:47:44,037 regnety_8gf_v1] (main.py 156): INFO Epoch: [35][100/118] lr 0.000182 loss 0.3996 acc 99.63%
+[2026-04-08 22:47:54,462 regnety_8gf_v1] (main.py 89): INFO [Epoch 35]: Train Loss: 0.4014, Train Acc: 99.55%, Val Loss: 0.1705, Val Acc: 96.64%, F1: 0.9665, Precision: 0.9672, Recall: 0.9664
+[2026-04-08 22:47:54,462 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:47:55,139 regnety_8gf_v1] (main.py 156): INFO Epoch: [36][0/118] lr 0.000179 loss 0.3959 acc 100.00%
+[2026-04-08 22:47:59,316 regnety_8gf_v1] (main.py 156): INFO Epoch: [36][20/118] lr 0.000179 loss 0.3969 acc 99.85%
+[2026-04-08 22:48:03,844 regnety_8gf_v1] (main.py 156): INFO Epoch: [36][40/118] lr 0.000179 loss 0.3973 acc 99.77%
+[2026-04-08 22:48:09,212 regnety_8gf_v1] (main.py 156): INFO Epoch: [36][60/118] lr 0.000179 loss 0.3987 acc 99.69%
+[2026-04-08 22:48:13,657 regnety_8gf_v1] (main.py 156): INFO Epoch: [36][80/118] lr 0.000179 loss 0.4000 acc 99.61%
+[2026-04-08 22:48:18,486 regnety_8gf_v1] (main.py 156): INFO Epoch: [36][100/118] lr 0.000179 loss 0.4002 acc 99.60%
+[2026-04-08 22:48:28,257 regnety_8gf_v1] (main.py 89): INFO [Epoch 36]: Train Loss: 0.4007, Train Acc: 99.57%, Val Loss: 0.1778, Val Acc: 96.40%, F1: 0.9640, Precision: 0.9645, Recall: 0.9640
+[2026-04-08 22:48:28,257 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:48:28,854 regnety_8gf_v1] (main.py 156): INFO Epoch: [37][0/118] lr 0.000175 loss 0.3913 acc 100.00%
+[2026-04-08 22:48:34,456 regnety_8gf_v1] (main.py 156): INFO Epoch: [37][20/118] lr 0.000175 loss 0.3954 acc 99.85%
+[2026-04-08 22:48:38,796 regnety_8gf_v1] (main.py 156): INFO Epoch: [37][40/118] lr 0.000175 loss 0.3974 acc 99.85%
+[2026-04-08 22:48:42,896 regnety_8gf_v1] (main.py 156): INFO Epoch: [37][60/118] lr 0.000175 loss 0.4012 acc 99.59%
+[2026-04-08 22:48:48,453 regnety_8gf_v1] (main.py 156): INFO Epoch: [37][80/118] lr 0.000175 loss 0.4020 acc 99.54%
+[2026-04-08 22:48:52,673 regnety_8gf_v1] (main.py 156): INFO Epoch: [37][100/118] lr 0.000175 loss 0.4016 acc 99.50%
+[2026-04-08 22:49:03,113 regnety_8gf_v1] (main.py 89): INFO [Epoch 37]: Train Loss: 0.4033, Train Acc: 99.47%, Val Loss: 0.1803, Val Acc: 96.16%, F1: 0.9617, Precision: 0.9629, Recall: 0.9616
+[2026-04-08 22:49:03,113 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:49:03,779 regnety_8gf_v1] (main.py 156): INFO Epoch: [38][0/118] lr 0.000171 loss 0.3923 acc 100.00%
+[2026-04-08 22:49:08,055 regnety_8gf_v1] (main.py 156): INFO Epoch: [38][20/118] lr 0.000171 loss 0.3933 acc 100.00%
+[2026-04-08 22:49:13,538 regnety_8gf_v1] (main.py 156): INFO Epoch: [38][40/118] lr 0.000171 loss 0.3951 acc 99.77%
+[2026-04-08 22:49:17,777 regnety_8gf_v1] (main.py 156): INFO Epoch: [38][60/118] lr 0.000171 loss 0.3990 acc 99.59%
+[2026-04-08 22:49:22,184 regnety_8gf_v1] (main.py 156): INFO Epoch: [38][80/118] lr 0.000171 loss 0.3979 acc 99.69%
+[2026-04-08 22:49:27,799 regnety_8gf_v1] (main.py 156): INFO Epoch: [38][100/118] lr 0.000171 loss 0.3984 acc 99.66%
+[2026-04-08 22:49:37,002 regnety_8gf_v1] (main.py 89): INFO [Epoch 38]: Train Loss: 0.3984, Train Acc: 99.68%, Val Loss: 0.1671, Val Acc: 96.88%, F1: 0.9688, Precision: 0.9689, Recall: 0.9688
+[2026-04-08 22:49:37,003 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:49:38,038 regnety_8gf_v1] (main.py 156): INFO Epoch: [39][0/118] lr 0.000168 loss 0.3922 acc 100.00%
+[2026-04-08 22:49:42,845 regnety_8gf_v1] (main.py 156): INFO Epoch: [39][20/118] lr 0.000168 loss 0.3971 acc 99.70%
+[2026-04-08 22:49:47,218 regnety_8gf_v1] (main.py 156): INFO Epoch: [39][40/118] lr 0.000168 loss 0.3959 acc 99.77%
+[2026-04-08 22:49:52,362 regnety_8gf_v1] (main.py 156): INFO Epoch: [39][60/118] lr 0.000168 loss 0.3956 acc 99.80%
+[2026-04-08 22:49:57,117 regnety_8gf_v1] (main.py 156): INFO Epoch: [39][80/118] lr 0.000168 loss 0.3957 acc 99.81%
+[2026-04-08 22:50:01,143 regnety_8gf_v1] (main.py 156): INFO Epoch: [39][100/118] lr 0.000168 loss 0.3962 acc 99.81%
+[2026-04-08 22:50:11,640 regnety_8gf_v1] (main.py 89): INFO [Epoch 39]: Train Loss: 0.3959, Train Acc: 99.81%, Val Loss: 0.1784, Val Acc: 96.32%, F1: 0.9631, Precision: 0.9636, Recall: 0.9632
+[2026-04-08 22:50:11,641 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:50:12,321 regnety_8gf_v1] (main.py 156): INFO Epoch: [40][0/118] lr 0.000164 loss 0.3910 acc 100.00%
+[2026-04-08 22:50:16,606 regnety_8gf_v1] (main.py 156): INFO Epoch: [40][20/118] lr 0.000164 loss 0.4040 acc 99.26%
+[2026-04-08 22:50:22,144 regnety_8gf_v1] (main.py 156): INFO Epoch: [40][40/118] lr 0.000164 loss 0.4009 acc 99.39%
+[2026-04-08 22:50:26,361 regnety_8gf_v1] (main.py 156): INFO Epoch: [40][60/118] lr 0.000164 loss 0.4025 acc 99.33%
+[2026-04-08 22:50:30,738 regnety_8gf_v1] (main.py 156): INFO Epoch: [40][80/118] lr 0.000164 loss 0.4018 acc 99.38%
+[2026-04-08 22:50:36,364 regnety_8gf_v1] (main.py 156): INFO Epoch: [40][100/118] lr 0.000164 loss 0.4006 acc 99.47%
+[2026-04-08 22:50:46,181 regnety_8gf_v1] (main.py 89): INFO [Epoch 40]: Train Loss: 0.4011, Train Acc: 99.47%, Val Loss: 0.2013, Val Acc: 95.76%, F1: 0.9575, Precision: 0.9587, Recall: 0.9576
+[2026-04-08 22:50:46,182 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.12%
+[2026-04-08 22:50:47,109 regnety_8gf_v1] (main.py 156): INFO Epoch: [41][0/118] lr 0.000160 loss 0.3918 acc 100.00%
+[2026-04-08 22:50:51,296 regnety_8gf_v1] (main.py 156): INFO Epoch: [41][20/118] lr 0.000160 loss 0.4017 acc 99.26%
+[2026-04-08 22:50:55,512 regnety_8gf_v1] (main.py 156): INFO Epoch: [41][40/118] lr 0.000160 loss 0.4029 acc 99.39%
+[2026-04-08 22:51:00,974 regnety_8gf_v1] (main.py 156): INFO Epoch: [41][60/118] lr 0.000160 loss 0.4020 acc 99.44%
+[2026-04-08 22:51:05,090 regnety_8gf_v1] (main.py 156): INFO Epoch: [41][80/118] lr 0.000160 loss 0.4000 acc 99.58%
+[2026-04-08 22:51:09,427 regnety_8gf_v1] (main.py 156): INFO Epoch: [41][100/118] lr 0.000160 loss 0.3990 acc 99.63%
+[2026-04-08 22:51:19,830 regnety_8gf_v1] (main.py 89): INFO [Epoch 41]: Train Loss: 0.3982, Train Acc: 99.65%, Val Loss: 0.1628, Val Acc: 97.28%, F1: 0.9729, Precision: 0.9731, Recall: 0.9728
+[2026-04-08 22:51:19,830 regnety_8gf_v1] (main.py 100): INFO Best performance updated at epoch 41 with accuracy: 97.28%
+[2026-04-08 22:51:19,905 regnety_8gf_v1] (main.py 104): INFO Best model saved to /content/dl/outputs/regnety_8gf_v1/regnety_8gf_v1_best.pth
+[2026-04-08 22:51:19,905 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:51:20,489 regnety_8gf_v1] (main.py 156): INFO Epoch: [42][0/118] lr 0.000156 loss 0.3924 acc 100.00%
+[2026-04-08 22:51:25,650 regnety_8gf_v1] (main.py 156): INFO Epoch: [42][20/118] lr 0.000156 loss 0.3924 acc 100.00%
+[2026-04-08 22:51:30,189 regnety_8gf_v1] (main.py 156): INFO Epoch: [42][40/118] lr 0.000156 loss 0.3920 acc 100.00%
+[2026-04-08 22:51:34,288 regnety_8gf_v1] (main.py 156): INFO Epoch: [42][60/118] lr 0.000156 loss 0.3927 acc 99.95%
+[2026-04-08 22:51:39,879 regnety_8gf_v1] (main.py 156): INFO Epoch: [42][80/118] lr 0.000156 loss 0.3929 acc 99.92%
+[2026-04-08 22:51:44,128 regnety_8gf_v1] (main.py 156): INFO Epoch: [42][100/118] lr 0.000156 loss 0.3937 acc 99.91%
+[2026-04-08 22:51:54,595 regnety_8gf_v1] (main.py 89): INFO [Epoch 42]: Train Loss: 0.3938, Train Acc: 99.89%, Val Loss: 0.1894, Val Acc: 96.00%, F1: 0.9601, Precision: 0.9613, Recall: 0.9600
+[2026-04-08 22:51:54,596 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:51:55,242 regnety_8gf_v1] (main.py 156): INFO Epoch: [43][0/118] lr 0.000153 loss 0.3985 acc 100.00%
+[2026-04-08 22:51:59,235 regnety_8gf_v1] (main.py 156): INFO Epoch: [43][20/118] lr 0.000153 loss 0.4026 acc 99.55%
+[2026-04-08 22:52:03,622 regnety_8gf_v1] (main.py 156): INFO Epoch: [43][40/118] lr 0.000153 loss 0.4009 acc 99.54%
+[2026-04-08 22:52:09,178 regnety_8gf_v1] (main.py 156): INFO Epoch: [43][60/118] lr 0.000153 loss 0.3984 acc 99.69%
+[2026-04-08 22:52:13,490 regnety_8gf_v1] (main.py 156): INFO Epoch: [43][80/118] lr 0.000153 loss 0.3991 acc 99.61%
+[2026-04-08 22:52:18,112 regnety_8gf_v1] (main.py 156): INFO Epoch: [43][100/118] lr 0.000153 loss 0.3982 acc 99.63%
+[2026-04-08 22:52:28,125 regnety_8gf_v1] (main.py 89): INFO [Epoch 43]: Train Loss: 0.3985, Train Acc: 99.63%, Val Loss: 0.1697, Val Acc: 96.72%, F1: 0.9673, Precision: 0.9681, Recall: 0.9672
+[2026-04-08 22:52:28,126 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:52:28,782 regnety_8gf_v1] (main.py 156): INFO Epoch: [44][0/118] lr 0.000149 loss 0.3972 acc 100.00%
+[2026-04-08 22:52:34,242 regnety_8gf_v1] (main.py 156): INFO Epoch: [44][20/118] lr 0.000149 loss 0.4005 acc 99.55%
+[2026-04-08 22:52:38,738 regnety_8gf_v1] (main.py 156): INFO Epoch: [44][40/118] lr 0.000149 loss 0.3975 acc 99.70%
+[2026-04-08 22:52:42,877 regnety_8gf_v1] (main.py 156): INFO Epoch: [44][60/118] lr 0.000149 loss 0.3959 acc 99.74%
+[2026-04-08 22:52:48,519 regnety_8gf_v1] (main.py 156): INFO Epoch: [44][80/118] lr 0.000149 loss 0.3952 acc 99.81%
+[2026-04-08 22:52:52,638 regnety_8gf_v1] (main.py 156): INFO Epoch: [44][100/118] lr 0.000149 loss 0.3945 acc 99.85%
+[2026-04-08 22:53:03,000 regnety_8gf_v1] (main.py 89): INFO [Epoch 44]: Train Loss: 0.3943, Train Acc: 99.87%, Val Loss: 0.1831, Val Acc: 96.64%, F1: 0.9665, Precision: 0.9671, Recall: 0.9664
+[2026-04-08 22:53:03,000 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:53:03,669 regnety_8gf_v1] (main.py 156): INFO Epoch: [45][0/118] lr 0.000145 loss 0.3943 acc 100.00%
+[2026-04-08 22:53:07,952 regnety_8gf_v1] (main.py 156): INFO Epoch: [45][20/118] lr 0.000145 loss 0.3955 acc 99.85%
+[2026-04-08 22:53:13,439 regnety_8gf_v1] (main.py 156): INFO Epoch: [45][40/118] lr 0.000145 loss 0.3943 acc 99.92%
+[2026-04-08 22:53:17,676 regnety_8gf_v1] (main.py 156): INFO Epoch: [45][60/118] lr 0.000145 loss 0.3946 acc 99.90%
+[2026-04-08 22:53:21,845 regnety_8gf_v1] (main.py 156): INFO Epoch: [45][80/118] lr 0.000145 loss 0.3948 acc 99.81%
+[2026-04-08 22:53:27,260 regnety_8gf_v1] (main.py 156): INFO Epoch: [45][100/118] lr 0.000145 loss 0.3956 acc 99.75%
+[2026-04-08 22:53:36,381 regnety_8gf_v1] (main.py 89): INFO [Epoch 45]: Train Loss: 0.3957, Train Acc: 99.76%, Val Loss: 0.1656, Val Acc: 96.96%, F1: 0.9696, Precision: 0.9698, Recall: 0.9696
+[2026-04-08 22:53:36,382 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:53:37,185 regnety_8gf_v1] (main.py 156): INFO Epoch: [46][0/118] lr 0.000141 loss 0.3920 acc 100.00%
+[2026-04-08 22:53:42,672 regnety_8gf_v1] (main.py 156): INFO Epoch: [46][20/118] lr 0.000141 loss 0.3917 acc 100.00%
+[2026-04-08 22:53:46,914 regnety_8gf_v1] (main.py 156): INFO Epoch: [46][40/118] lr 0.000141 loss 0.3915 acc 100.00%
+[2026-04-08 22:53:51,765 regnety_8gf_v1] (main.py 156): INFO Epoch: [46][60/118] lr 0.000141 loss 0.3914 acc 100.00%
+[2026-04-08 22:53:56,732 regnety_8gf_v1] (main.py 156): INFO Epoch: [46][80/118] lr 0.000141 loss 0.3913 acc 100.00%
+[2026-04-08 22:54:00,915 regnety_8gf_v1] (main.py 156): INFO Epoch: [46][100/118] lr 0.000141 loss 0.3920 acc 99.97%
+[2026-04-08 22:54:10,984 regnety_8gf_v1] (main.py 89): INFO [Epoch 46]: Train Loss: 0.3921, Train Acc: 99.97%, Val Loss: 0.1786, Val Acc: 96.56%, F1: 0.9654, Precision: 0.9660, Recall: 0.9656
+[2026-04-08 22:54:10,984 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:54:11,638 regnety_8gf_v1] (main.py 156): INFO Epoch: [47][0/118] lr 0.000137 loss 0.3912 acc 100.00%
+[2026-04-08 22:54:15,687 regnety_8gf_v1] (main.py 156): INFO Epoch: [47][20/118] lr 0.000137 loss 0.3959 acc 99.85%
+[2026-04-08 22:54:21,222 regnety_8gf_v1] (main.py 156): INFO Epoch: [47][40/118] lr 0.000137 loss 0.3943 acc 99.85%
+[2026-04-08 22:54:25,582 regnety_8gf_v1] (main.py 156): INFO Epoch: [47][60/118] lr 0.000137 loss 0.3933 acc 99.90%
+[2026-04-08 22:54:29,789 regnety_8gf_v1] (main.py 156): INFO Epoch: [47][80/118] lr 0.000137 loss 0.3930 acc 99.92%
+[2026-04-08 22:54:35,353 regnety_8gf_v1] (main.py 156): INFO Epoch: [47][100/118] lr 0.000137 loss 0.3930 acc 99.94%
+[2026-04-08 22:54:45,176 regnety_8gf_v1] (main.py 89): INFO [Epoch 47]: Train Loss: 0.3933, Train Acc: 99.89%, Val Loss: 0.1681, Val Acc: 96.88%, F1: 0.9687, Precision: 0.9690, Recall: 0.9688
+[2026-04-08 22:54:45,176 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:54:46,158 regnety_8gf_v1] (main.py 156): INFO Epoch: [48][0/118] lr 0.000133 loss 0.3913 acc 100.00%
+[2026-04-08 22:54:50,545 regnety_8gf_v1] (main.py 156): INFO Epoch: [48][20/118] lr 0.000133 loss 0.3913 acc 100.00%
+[2026-04-08 22:54:54,702 regnety_8gf_v1] (main.py 156): INFO Epoch: [48][40/118] lr 0.000133 loss 0.3931 acc 99.77%
+[2026-04-08 22:55:00,234 regnety_8gf_v1] (main.py 156): INFO Epoch: [48][60/118] lr 0.000133 loss 0.3927 acc 99.85%
+[2026-04-08 22:55:04,371 regnety_8gf_v1] (main.py 156): INFO Epoch: [48][80/118] lr 0.000133 loss 0.3925 acc 99.88%
+[2026-04-08 22:55:08,647 regnety_8gf_v1] (main.py 156): INFO Epoch: [48][100/118] lr 0.000133 loss 0.3931 acc 99.85%
+[2026-04-08 22:55:18,973 regnety_8gf_v1] (main.py 89): INFO [Epoch 48]: Train Loss: 0.3946, Train Acc: 99.81%, Val Loss: 0.1770, Val Acc: 96.48%, F1: 0.9648, Precision: 0.9654, Recall: 0.9648
+[2026-04-08 22:55:18,973 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:55:19,630 regnety_8gf_v1] (main.py 156): INFO Epoch: [49][0/118] lr 0.000129 loss 0.3916 acc 100.00%
+[2026-04-08 22:55:24,319 regnety_8gf_v1] (main.py 156): INFO Epoch: [49][20/118] lr 0.000129 loss 0.3915 acc 100.00%
+[2026-04-08 22:55:29,471 regnety_8gf_v1] (main.py 156): INFO Epoch: [49][40/118] lr 0.000129 loss 0.3928 acc 99.92%
+[2026-04-08 22:55:33,647 regnety_8gf_v1] (main.py 156): INFO Epoch: [49][60/118] lr 0.000129 loss 0.3923 acc 99.95%
+[2026-04-08 22:55:39,104 regnety_8gf_v1] (main.py 156): INFO Epoch: [49][80/118] lr 0.000129 loss 0.3947 acc 99.85%
+[2026-04-08 22:55:43,737 regnety_8gf_v1] (main.py 156): INFO Epoch: [49][100/118] lr 0.000129 loss 0.3942 acc 99.88%
+[2026-04-08 22:55:54,097 regnety_8gf_v1] (main.py 89): INFO [Epoch 49]: Train Loss: 0.3941, Train Acc: 99.87%, Val Loss: 0.1679, Val Acc: 97.12%, F1: 0.9712, Precision: 0.9712, Recall: 0.9712
+[2026-04-08 22:55:54,097 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:55:54,701 regnety_8gf_v1] (main.py 156): INFO Epoch: [50][0/118] lr 0.000125 loss 0.3917 acc 100.00%
+[2026-04-08 22:55:58,890 regnety_8gf_v1] (main.py 156): INFO Epoch: [50][20/118] lr 0.000125 loss 0.3937 acc 99.85%
+[2026-04-08 22:56:03,005 regnety_8gf_v1] (main.py 156): INFO Epoch: [50][40/118] lr 0.000125 loss 0.3962 acc 99.77%
+[2026-04-08 22:56:08,573 regnety_8gf_v1] (main.py 156): INFO Epoch: [50][60/118] lr 0.000125 loss 0.3945 acc 99.85%
+[2026-04-08 22:56:12,800 regnety_8gf_v1] (main.py 156): INFO Epoch: [50][80/118] lr 0.000125 loss 0.3936 acc 99.88%
+[2026-04-08 22:56:17,364 regnety_8gf_v1] (main.py 156): INFO Epoch: [50][100/118] lr 0.000125 loss 0.3930 acc 99.91%
+[2026-04-08 22:56:27,611 regnety_8gf_v1] (main.py 89): INFO [Epoch 50]: Train Loss: 0.3930, Train Acc: 99.92%, Val Loss: 0.1728, Val Acc: 96.80%, F1: 0.9680, Precision: 0.9680, Recall: 0.9680
+[2026-04-08 22:56:27,611 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:56:28,265 regnety_8gf_v1] (main.py 156): INFO Epoch: [51][0/118] lr 0.000122 loss 0.3904 acc 100.00%
+[2026-04-08 22:56:33,736 regnety_8gf_v1] (main.py 156): INFO Epoch: [51][20/118] lr 0.000122 loss 0.3914 acc 100.00%
+[2026-04-08 22:56:38,144 regnety_8gf_v1] (main.py 156): INFO Epoch: [51][40/118] lr 0.000122 loss 0.3923 acc 100.00%
+[2026-04-08 22:56:42,276 regnety_8gf_v1] (main.py 156): INFO Epoch: [51][60/118] lr 0.000122 loss 0.3939 acc 99.90%
+[2026-04-08 22:56:47,917 regnety_8gf_v1] (main.py 156): INFO Epoch: [51][80/118] lr 0.000122 loss 0.3936 acc 99.92%
+[2026-04-08 22:56:52,159 regnety_8gf_v1] (main.py 156): INFO Epoch: [51][100/118] lr 0.000122 loss 0.3930 acc 99.94%
+[2026-04-08 22:57:02,425 regnety_8gf_v1] (main.py 89): INFO [Epoch 51]: Train Loss: 0.3929, Train Acc: 99.95%, Val Loss: 0.1717, Val Acc: 96.40%, F1: 0.9641, Precision: 0.9645, Recall: 0.9640
+[2026-04-08 22:57:02,426 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:57:03,080 regnety_8gf_v1] (main.py 156): INFO Epoch: [52][0/118] lr 0.000118 loss 0.3906 acc 100.00%
+[2026-04-08 22:57:07,300 regnety_8gf_v1] (main.py 156): INFO Epoch: [52][20/118] lr 0.000118 loss 0.3915 acc 100.00%
+[2026-04-08 22:57:12,824 regnety_8gf_v1] (main.py 156): INFO Epoch: [52][40/118] lr 0.000118 loss 0.3918 acc 99.92%
+[2026-04-08 22:57:17,274 regnety_8gf_v1] (main.py 156): INFO Epoch: [52][60/118] lr 0.000118 loss 0.3917 acc 99.95%
+[2026-04-08 22:57:21,582 regnety_8gf_v1] (main.py 156): INFO Epoch: [52][80/118] lr 0.000118 loss 0.3916 acc 99.96%
+[2026-04-08 22:57:27,159 regnety_8gf_v1] (main.py 156): INFO Epoch: [52][100/118] lr 0.000118 loss 0.3917 acc 99.97%
+[2026-04-08 22:57:36,164 regnety_8gf_v1] (main.py 89): INFO [Epoch 52]: Train Loss: 0.3916, Train Acc: 99.97%, Val Loss: 0.1880, Val Acc: 96.00%, F1: 0.9601, Precision: 0.9608, Recall: 0.9600
+[2026-04-08 22:57:36,165 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:57:36,825 regnety_8gf_v1] (main.py 156): INFO Epoch: [53][0/118] lr 0.000114 loss 0.3914 acc 100.00%
+[2026-04-08 22:57:42,211 regnety_8gf_v1] (main.py 156): INFO Epoch: [53][20/118] lr 0.000114 loss 0.3908 acc 100.00%
+[2026-04-08 22:57:46,528 regnety_8gf_v1] (main.py 156): INFO Epoch: [53][40/118] lr 0.000114 loss 0.3952 acc 99.77%
+[2026-04-08 22:57:50,856 regnety_8gf_v1] (main.py 156): INFO Epoch: [53][60/118] lr 0.000114 loss 0.3942 acc 99.85%
+[2026-04-08 22:57:56,190 regnety_8gf_v1] (main.py 156): INFO Epoch: [53][80/118] lr 0.000114 loss 0.3948 acc 99.77%
+[2026-04-08 22:58:00,625 regnety_8gf_v1] (main.py 156): INFO Epoch: [53][100/118] lr 0.000114 loss 0.3941 acc 99.81%
+[2026-04-08 22:58:10,990 regnety_8gf_v1] (main.py 89): INFO [Epoch 53]: Train Loss: 0.3942, Train Acc: 99.81%, Val Loss: 0.1738, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9668, Recall: 0.9664
+[2026-04-08 22:58:10,991 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:58:11,616 regnety_8gf_v1] (main.py 156): INFO Epoch: [54][0/118] lr 0.000110 loss 0.3919 acc 100.00%
+[2026-04-08 22:58:15,851 regnety_8gf_v1] (main.py 156): INFO Epoch: [54][20/118] lr 0.000110 loss 0.3950 acc 99.85%
+[2026-04-08 22:58:21,346 regnety_8gf_v1] (main.py 156): INFO Epoch: [54][40/118] lr 0.000110 loss 0.3933 acc 99.92%
+[2026-04-08 22:58:25,701 regnety_8gf_v1] (main.py 156): INFO Epoch: [54][60/118] lr 0.000110 loss 0.3925 acc 99.95%
+[2026-04-08 22:58:29,979 regnety_8gf_v1] (main.py 156): INFO Epoch: [54][80/118] lr 0.000110 loss 0.3933 acc 99.85%
+[2026-04-08 22:58:35,530 regnety_8gf_v1] (main.py 156): INFO Epoch: [54][100/118] lr 0.000110 loss 0.3931 acc 99.88%
+[2026-04-08 22:58:45,753 regnety_8gf_v1] (main.py 89): INFO [Epoch 54]: Train Loss: 0.3939, Train Acc: 99.87%, Val Loss: 0.1785, Val Acc: 96.72%, F1: 0.9673, Precision: 0.9676, Recall: 0.9672
+[2026-04-08 22:58:45,753 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:58:46,657 regnety_8gf_v1] (main.py 156): INFO Epoch: [55][0/118] lr 0.000106 loss 0.4048 acc 100.00%
+[2026-04-08 22:58:50,791 regnety_8gf_v1] (main.py 156): INFO Epoch: [55][20/118] lr 0.000106 loss 0.3920 acc 100.00%
+[2026-04-08 22:58:55,135 regnety_8gf_v1] (main.py 156): INFO Epoch: [55][40/118] lr 0.000106 loss 0.3917 acc 100.00%
+[2026-04-08 22:59:00,635 regnety_8gf_v1] (main.py 156): INFO Epoch: [55][60/118] lr 0.000106 loss 0.3919 acc 99.95%
+[2026-04-08 22:59:04,939 regnety_8gf_v1] (main.py 156): INFO Epoch: [55][80/118] lr 0.000106 loss 0.3919 acc 99.96%
+[2026-04-08 22:59:09,122 regnety_8gf_v1] (main.py 156): INFO Epoch: [55][100/118] lr 0.000106 loss 0.3917 acc 99.97%
+[2026-04-08 22:59:19,691 regnety_8gf_v1] (main.py 89): INFO [Epoch 55]: Train Loss: 0.3927, Train Acc: 99.92%, Val Loss: 0.1759, Val Acc: 96.80%, F1: 0.9680, Precision: 0.9682, Recall: 0.9680
+[2026-04-08 22:59:19,691 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:59:20,370 regnety_8gf_v1] (main.py 156): INFO Epoch: [56][0/118] lr 0.000102 loss 0.3904 acc 100.00%
+[2026-04-08 22:59:25,489 regnety_8gf_v1] (main.py 156): INFO Epoch: [56][20/118] lr 0.000102 loss 0.3949 acc 99.70%
+[2026-04-08 22:59:30,106 regnety_8gf_v1] (main.py 156): INFO Epoch: [56][40/118] lr 0.000102 loss 0.3934 acc 99.77%
+[2026-04-08 22:59:34,481 regnety_8gf_v1] (main.py 156): INFO Epoch: [56][60/118] lr 0.000102 loss 0.3932 acc 99.80%
+[2026-04-08 22:59:40,088 regnety_8gf_v1] (main.py 156): INFO Epoch: [56][80/118] lr 0.000102 loss 0.3934 acc 99.77%
+[2026-04-08 22:59:44,317 regnety_8gf_v1] (main.py 156): INFO Epoch: [56][100/118] lr 0.000102 loss 0.3929 acc 99.81%
+[2026-04-08 22:59:54,698 regnety_8gf_v1] (main.py 89): INFO [Epoch 56]: Train Loss: 0.3929, Train Acc: 99.81%, Val Loss: 0.1925, Val Acc: 95.92%, F1: 0.9590, Precision: 0.9601, Recall: 0.9592
+[2026-04-08 22:59:54,699 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 22:59:55,399 regnety_8gf_v1] (main.py 156): INFO Epoch: [57][0/118] lr 0.000098 loss 0.3914 acc 100.00%
+[2026-04-08 22:59:59,610 regnety_8gf_v1] (main.py 156): INFO Epoch: [57][20/118] lr 0.000098 loss 0.3941 acc 99.85%
+[2026-04-08 23:00:04,532 regnety_8gf_v1] (main.py 156): INFO Epoch: [57][40/118] lr 0.000098 loss 0.3927 acc 99.92%
+[2026-04-08 23:00:09,395 regnety_8gf_v1] (main.py 156): INFO Epoch: [57][60/118] lr 0.000098 loss 0.3932 acc 99.90%
+[2026-04-08 23:00:13,527 regnety_8gf_v1] (main.py 156): INFO Epoch: [57][80/118] lr 0.000098 loss 0.3926 acc 99.92%
+[2026-04-08 23:00:18,927 regnety_8gf_v1] (main.py 156): INFO Epoch: [57][100/118] lr 0.000098 loss 0.3928 acc 99.94%
+[2026-04-08 23:00:28,459 regnety_8gf_v1] (main.py 89): INFO [Epoch 57]: Train Loss: 0.3927, Train Acc: 99.95%, Val Loss: 0.1698, Val Acc: 96.88%, F1: 0.9689, Precision: 0.9691, Recall: 0.9688
+[2026-04-08 23:00:28,460 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:00:29,143 regnety_8gf_v1] (main.py 156): INFO Epoch: [58][0/118] lr 0.000095 loss 0.3903 acc 100.00%
+[2026-04-08 23:00:34,667 regnety_8gf_v1] (main.py 156): INFO Epoch: [58][20/118] lr 0.000095 loss 0.3906 acc 100.00%
+[2026-04-08 23:00:38,891 regnety_8gf_v1] (main.py 156): INFO Epoch: [58][40/118] lr 0.000095 loss 0.3908 acc 100.00%
+[2026-04-08 23:00:43,121 regnety_8gf_v1] (main.py 156): INFO Epoch: [58][60/118] lr 0.000095 loss 0.3920 acc 99.95%
+[2026-04-08 23:00:48,726 regnety_8gf_v1] (main.py 156): INFO Epoch: [58][80/118] lr 0.000095 loss 0.3916 acc 99.96%
+[2026-04-08 23:00:53,098 regnety_8gf_v1] (main.py 156): INFO Epoch: [58][100/118] lr 0.000095 loss 0.3926 acc 99.91%
+[2026-04-08 23:01:03,542 regnety_8gf_v1] (main.py 89): INFO [Epoch 58]: Train Loss: 0.3925, Train Acc: 99.92%, Val Loss: 0.1878, Val Acc: 96.32%, F1: 0.9633, Precision: 0.9638, Recall: 0.9632
+[2026-04-08 23:01:03,542 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:01:04,222 regnety_8gf_v1] (main.py 156): INFO Epoch: [59][0/118] lr 0.000091 loss 0.3902 acc 100.00%
+[2026-04-08 23:01:08,590 regnety_8gf_v1] (main.py 156): INFO Epoch: [59][20/118] lr 0.000091 loss 0.3980 acc 99.55%
+[2026-04-08 23:01:14,060 regnety_8gf_v1] (main.py 156): INFO Epoch: [59][40/118] lr 0.000091 loss 0.3953 acc 99.70%
+[2026-04-08 23:01:18,258 regnety_8gf_v1] (main.py 156): INFO Epoch: [59][60/118] lr 0.000091 loss 0.3941 acc 99.80%
+[2026-04-08 23:01:22,532 regnety_8gf_v1] (main.py 156): INFO Epoch: [59][80/118] lr 0.000091 loss 0.3941 acc 99.81%
+[2026-04-08 23:01:28,099 regnety_8gf_v1] (main.py 156): INFO Epoch: [59][100/118] lr 0.000091 loss 0.3934 acc 99.85%
+[2026-04-08 23:01:37,031 regnety_8gf_v1] (main.py 89): INFO [Epoch 59]: Train Loss: 0.3949, Train Acc: 99.79%, Val Loss: 0.1804, Val Acc: 96.48%, F1: 0.9648, Precision: 0.9652, Recall: 0.9648
+[2026-04-08 23:01:37,032 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:01:38,198 regnety_8gf_v1] (main.py 156): INFO Epoch: [60][0/118] lr 0.000087 loss 0.3949 acc 100.00%
+[2026-04-08 23:01:43,040 regnety_8gf_v1] (main.py 156): INFO Epoch: [60][20/118] lr 0.000087 loss 0.3908 acc 100.00%
+[2026-04-08 23:01:47,173 regnety_8gf_v1] (main.py 156): INFO Epoch: [60][40/118] lr 0.000087 loss 0.3906 acc 100.00%
+[2026-04-08 23:01:52,927 regnety_8gf_v1] (main.py 156): INFO Epoch: [60][60/118] lr 0.000087 loss 0.3912 acc 99.95%
+[2026-04-08 23:01:57,319 regnety_8gf_v1] (main.py 156): INFO Epoch: [60][80/118] lr 0.000087 loss 0.3911 acc 99.96%
+[2026-04-08 23:02:01,500 regnety_8gf_v1] (main.py 156): INFO Epoch: [60][100/118] lr 0.000087 loss 0.3910 acc 99.97%
+[2026-04-08 23:02:11,714 regnety_8gf_v1] (main.py 89): INFO [Epoch 60]: Train Loss: 0.3933, Train Acc: 99.87%, Val Loss: 0.1699, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9666, Recall: 0.9664
+[2026-04-08 23:02:11,715 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:02:12,368 regnety_8gf_v1] (main.py 156): INFO Epoch: [61][0/118] lr 0.000083 loss 0.3907 acc 100.00%
+[2026-04-08 23:02:16,746 regnety_8gf_v1] (main.py 156): INFO Epoch: [61][20/118] lr 0.000083 loss 0.3908 acc 100.00%
+[2026-04-08 23:02:22,145 regnety_8gf_v1] (main.py 156): INFO Epoch: [61][40/118] lr 0.000083 loss 0.3913 acc 100.00%
+[2026-04-08 23:02:26,334 regnety_8gf_v1] (main.py 156): INFO Epoch: [61][60/118] lr 0.000083 loss 0.3912 acc 100.00%
+[2026-04-08 23:02:31,159 regnety_8gf_v1] (main.py 156): INFO Epoch: [61][80/118] lr 0.000083 loss 0.3910 acc 100.00%
+[2026-04-08 23:02:36,011 regnety_8gf_v1] (main.py 156): INFO Epoch: [61][100/118] lr 0.000083 loss 0.3909 acc 100.00%
+[2026-04-08 23:02:46,504 regnety_8gf_v1] (main.py 89): INFO [Epoch 61]: Train Loss: 0.3908, Train Acc: 100.00%, Val Loss: 0.1780, Val Acc: 96.64%, F1: 0.9663, Precision: 0.9669, Recall: 0.9664
+[2026-04-08 23:02:46,504 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:02:47,174 regnety_8gf_v1] (main.py 156): INFO Epoch: [62][0/118] lr 0.000080 loss 0.3900 acc 100.00%
+[2026-04-08 23:02:51,403 regnety_8gf_v1] (main.py 156): INFO Epoch: [62][20/118] lr 0.000080 loss 0.3904 acc 100.00%
+[2026-04-08 23:02:55,500 regnety_8gf_v1] (main.py 156): INFO Epoch: [62][40/118] lr 0.000080 loss 0.3914 acc 99.92%
+[2026-04-08 23:03:01,035 regnety_8gf_v1] (main.py 156): INFO Epoch: [62][60/118] lr 0.000080 loss 0.3912 acc 99.95%
+[2026-04-08 23:03:05,342 regnety_8gf_v1] (main.py 156): INFO Epoch: [62][80/118] lr 0.000080 loss 0.3920 acc 99.88%
+[2026-04-08 23:03:09,797 regnety_8gf_v1] (main.py 156): INFO Epoch: [62][100/118] lr 0.000080 loss 0.3933 acc 99.88%
+[2026-04-08 23:03:20,033 regnety_8gf_v1] (main.py 89): INFO [Epoch 62]: Train Loss: 0.3942, Train Acc: 99.84%, Val Loss: 0.1842, Val Acc: 96.48%, F1: 0.9648, Precision: 0.9651, Recall: 0.9648
+[2026-04-08 23:03:20,034 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:03:20,768 regnety_8gf_v1] (main.py 156): INFO Epoch: [63][0/118] lr 0.000076 loss 0.3907 acc 100.00%
+[2026-04-08 23:03:26,260 regnety_8gf_v1] (main.py 156): INFO Epoch: [63][20/118] lr 0.000076 loss 0.3907 acc 100.00%
+[2026-04-08 23:03:30,620 regnety_8gf_v1] (main.py 156): INFO Epoch: [63][40/118] lr 0.000076 loss 0.3905 acc 100.00%
+[2026-04-08 23:03:34,888 regnety_8gf_v1] (main.py 156): INFO Epoch: [63][60/118] lr 0.000076 loss 0.3907 acc 100.00%
+[2026-04-08 23:03:40,353 regnety_8gf_v1] (main.py 156): INFO Epoch: [63][80/118] lr 0.000076 loss 0.3907 acc 100.00%
+[2026-04-08 23:03:44,621 regnety_8gf_v1] (main.py 156): INFO Epoch: [63][100/118] lr 0.000076 loss 0.3908 acc 100.00%
+[2026-04-08 23:03:55,010 regnety_8gf_v1] (main.py 89): INFO [Epoch 63]: Train Loss: 0.3918, Train Acc: 99.95%, Val Loss: 0.1819, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9667, Recall: 0.9664
+[2026-04-08 23:03:55,011 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:03:55,686 regnety_8gf_v1] (main.py 156): INFO Epoch: [64][0/118] lr 0.000072 loss 0.3903 acc 100.00%
+[2026-04-08 23:03:59,863 regnety_8gf_v1] (main.py 156): INFO Epoch: [64][20/118] lr 0.000072 loss 0.3923 acc 99.85%
+[2026-04-08 23:04:05,247 regnety_8gf_v1] (main.py 156): INFO Epoch: [64][40/118] lr 0.000072 loss 0.3925 acc 99.85%
+[2026-04-08 23:04:09,797 regnety_8gf_v1] (main.py 156): INFO Epoch: [64][60/118] lr 0.000072 loss 0.3949 acc 99.74%
+[2026-04-08 23:04:13,913 regnety_8gf_v1] (main.py 156): INFO Epoch: [64][80/118] lr 0.000072 loss 0.3940 acc 99.81%
+[2026-04-08 23:04:19,543 regnety_8gf_v1] (main.py 156): INFO Epoch: [64][100/118] lr 0.000072 loss 0.3934 acc 99.85%
+[2026-04-08 23:04:28,659 regnety_8gf_v1] (main.py 89): INFO [Epoch 64]: Train Loss: 0.3930, Train Acc: 99.87%, Val Loss: 0.1823, Val Acc: 96.80%, F1: 0.9680, Precision: 0.9683, Recall: 0.9680
+[2026-04-08 23:04:28,660 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:04:29,232 regnety_8gf_v1] (main.py 156): INFO Epoch: [65][0/118] lr 0.000069 loss 0.3903 acc 100.00%
+[2026-04-08 23:04:34,738 regnety_8gf_v1] (main.py 156): INFO Epoch: [65][20/118] lr 0.000069 loss 0.3907 acc 100.00%
+[2026-04-08 23:04:38,938 regnety_8gf_v1] (main.py 156): INFO Epoch: [65][40/118] lr 0.000069 loss 0.3905 acc 100.00%
+[2026-04-08 23:04:43,413 regnety_8gf_v1] (main.py 156): INFO Epoch: [65][60/118] lr 0.000069 loss 0.3914 acc 99.95%
+[2026-04-08 23:04:48,713 regnety_8gf_v1] (main.py 156): INFO Epoch: [65][80/118] lr 0.000069 loss 0.3912 acc 99.96%
+[2026-04-08 23:04:53,017 regnety_8gf_v1] (main.py 156): INFO Epoch: [65][100/118] lr 0.000069 loss 0.3920 acc 99.94%
+[2026-04-08 23:05:03,243 regnety_8gf_v1] (main.py 89): INFO [Epoch 65]: Train Loss: 0.3920, Train Acc: 99.92%, Val Loss: 0.1851, Val Acc: 96.40%, F1: 0.9640, Precision: 0.9643, Recall: 0.9640
+[2026-04-08 23:05:03,244 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:05:03,932 regnety_8gf_v1] (main.py 156): INFO Epoch: [66][0/118] lr 0.000066 loss 0.3901 acc 100.00%
+[2026-04-08 23:05:08,094 regnety_8gf_v1] (main.py 156): INFO Epoch: [66][20/118] lr 0.000066 loss 0.3908 acc 100.00%
+[2026-04-08 23:05:13,665 regnety_8gf_v1] (main.py 156): INFO Epoch: [66][40/118] lr 0.000066 loss 0.3915 acc 99.92%
+[2026-04-08 23:05:17,796 regnety_8gf_v1] (main.py 156): INFO Epoch: [66][60/118] lr 0.000066 loss 0.3911 acc 99.95%
+[2026-04-08 23:05:22,108 regnety_8gf_v1] (main.py 156): INFO Epoch: [66][80/118] lr 0.000066 loss 0.3910 acc 99.96%
+[2026-04-08 23:05:27,919 regnety_8gf_v1] (main.py 156): INFO Epoch: [66][100/118] lr 0.000066 loss 0.3909 acc 99.97%
+[2026-04-08 23:05:37,546 regnety_8gf_v1] (main.py 89): INFO [Epoch 66]: Train Loss: 0.3913, Train Acc: 99.95%, Val Loss: 0.1851, Val Acc: 96.24%, F1: 0.9624, Precision: 0.9632, Recall: 0.9624
+[2026-04-08 23:05:37,547 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:05:38,531 regnety_8gf_v1] (main.py 156): INFO Epoch: [67][0/118] lr 0.000062 loss 0.3904 acc 100.00%
+[2026-04-08 23:05:42,994 regnety_8gf_v1] (main.py 156): INFO Epoch: [67][20/118] lr 0.000062 loss 0.3906 acc 100.00%
+[2026-04-08 23:05:47,230 regnety_8gf_v1] (main.py 156): INFO Epoch: [67][40/118] lr 0.000062 loss 0.3906 acc 100.00%
+[2026-04-08 23:05:52,846 regnety_8gf_v1] (main.py 156): INFO Epoch: [67][60/118] lr 0.000062 loss 0.3911 acc 100.00%
+[2026-04-08 23:05:57,256 regnety_8gf_v1] (main.py 156): INFO Epoch: [67][80/118] lr 0.000062 loss 0.3910 acc 100.00%
+[2026-04-08 23:06:01,587 regnety_8gf_v1] (main.py 156): INFO Epoch: [67][100/118] lr 0.000062 loss 0.3913 acc 99.97%
+[2026-04-08 23:06:11,882 regnety_8gf_v1] (main.py 89): INFO [Epoch 67]: Train Loss: 0.3912, Train Acc: 99.97%, Val Loss: 0.1741, Val Acc: 97.04%, F1: 0.9704, Precision: 0.9708, Recall: 0.9704
+[2026-04-08 23:06:11,882 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:06:12,478 regnety_8gf_v1] (main.py 156): INFO Epoch: [68][0/118] lr 0.000059 loss 0.3903 acc 100.00%
+[2026-04-08 23:06:17,369 regnety_8gf_v1] (main.py 156): INFO Epoch: [68][20/118] lr 0.000059 loss 0.3905 acc 100.00%
+[2026-04-08 23:06:22,389 regnety_8gf_v1] (main.py 156): INFO Epoch: [68][40/118] lr 0.000059 loss 0.3911 acc 99.92%
+[2026-04-08 23:06:26,762 regnety_8gf_v1] (main.py 156): INFO Epoch: [68][60/118] lr 0.000059 loss 0.3909 acc 99.95%
+[2026-04-08 23:06:32,326 regnety_8gf_v1] (main.py 156): INFO Epoch: [68][80/118] lr 0.000059 loss 0.3907 acc 99.96%
+[2026-04-08 23:06:36,644 regnety_8gf_v1] (main.py 156): INFO Epoch: [68][100/118] lr 0.000059 loss 0.3909 acc 99.97%
+[2026-04-08 23:06:46,955 regnety_8gf_v1] (main.py 89): INFO [Epoch 68]: Train Loss: 0.3910, Train Acc: 99.97%, Val Loss: 0.1679, Val Acc: 97.12%, F1: 0.9712, Precision: 0.9714, Recall: 0.9712
+[2026-04-08 23:06:46,956 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:06:47,611 regnety_8gf_v1] (main.py 156): INFO Epoch: [69][0/118] lr 0.000056 loss 0.3900 acc 100.00%
+[2026-04-08 23:06:51,855 regnety_8gf_v1] (main.py 156): INFO Epoch: [69][20/118] lr 0.000056 loss 0.3945 acc 99.70%
+[2026-04-08 23:06:56,352 regnety_8gf_v1] (main.py 156): INFO Epoch: [69][40/118] lr 0.000056 loss 0.3924 acc 99.85%
+[2026-04-08 23:07:01,791 regnety_8gf_v1] (main.py 156): INFO Epoch: [69][60/118] lr 0.000056 loss 0.3920 acc 99.90%
+[2026-04-08 23:07:05,924 regnety_8gf_v1] (main.py 156): INFO Epoch: [69][80/118] lr 0.000056 loss 0.3915 acc 99.92%
+[2026-04-08 23:07:10,534 regnety_8gf_v1] (main.py 156): INFO Epoch: [69][100/118] lr 0.000056 loss 0.3913 acc 99.94%
+[2026-04-08 23:07:20,660 regnety_8gf_v1] (main.py 89): INFO [Epoch 69]: Train Loss: 0.3918, Train Acc: 99.92%, Val Loss: 0.1625, Val Acc: 97.20%, F1: 0.9721, Precision: 0.9724, Recall: 0.9720
+[2026-04-08 23:07:20,661 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:07:21,368 regnety_8gf_v1] (main.py 156): INFO Epoch: [70][0/118] lr 0.000052 loss 0.3901 acc 100.00%
+[2026-04-08 23:07:26,929 regnety_8gf_v1] (main.py 156): INFO Epoch: [70][20/118] lr 0.000052 loss 0.3912 acc 100.00%
+[2026-04-08 23:07:31,220 regnety_8gf_v1] (main.py 156): INFO Epoch: [70][40/118] lr 0.000052 loss 0.3920 acc 99.92%
+[2026-04-08 23:07:35,581 regnety_8gf_v1] (main.py 156): INFO Epoch: [70][60/118] lr 0.000052 loss 0.3920 acc 99.90%
+[2026-04-08 23:07:41,132 regnety_8gf_v1] (main.py 156): INFO Epoch: [70][80/118] lr 0.000052 loss 0.3919 acc 99.88%
+[2026-04-08 23:07:45,218 regnety_8gf_v1] (main.py 156): INFO Epoch: [70][100/118] lr 0.000052 loss 0.3916 acc 99.91%
+[2026-04-08 23:07:55,698 regnety_8gf_v1] (main.py 89): INFO [Epoch 70]: Train Loss: 0.3915, Train Acc: 99.92%, Val Loss: 0.1706, Val Acc: 97.12%, F1: 0.9712, Precision: 0.9718, Recall: 0.9712
+[2026-04-08 23:07:55,699 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:07:56,445 regnety_8gf_v1] (main.py 156): INFO Epoch: [71][0/118] lr 0.000049 loss 0.3900 acc 100.00%
+[2026-04-08 23:08:00,816 regnety_8gf_v1] (main.py 156): INFO Epoch: [71][20/118] lr 0.000049 loss 0.3909 acc 100.00%
+[2026-04-08 23:08:05,832 regnety_8gf_v1] (main.py 156): INFO Epoch: [71][40/118] lr 0.000049 loss 0.3908 acc 100.00%
+[2026-04-08 23:08:10,532 regnety_8gf_v1] (main.py 156): INFO Epoch: [71][60/118] lr 0.000049 loss 0.3908 acc 100.00%
+[2026-04-08 23:08:14,753 regnety_8gf_v1] (main.py 156): INFO Epoch: [71][80/118] lr 0.000049 loss 0.3911 acc 99.96%
+[2026-04-08 23:08:20,440 regnety_8gf_v1] (main.py 156): INFO Epoch: [71][100/118] lr 0.000049 loss 0.3909 acc 99.97%
+[2026-04-08 23:08:29,800 regnety_8gf_v1] (main.py 89): INFO [Epoch 71]: Train Loss: 0.3911, Train Acc: 99.97%, Val Loss: 0.1636, Val Acc: 97.04%, F1: 0.9704, Precision: 0.9708, Recall: 0.9704
+[2026-04-08 23:08:29,800 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:08:30,415 regnety_8gf_v1] (main.py 156): INFO Epoch: [72][0/118] lr 0.000046 loss 0.3909 acc 100.00%
+[2026-04-08 23:08:36,075 regnety_8gf_v1] (main.py 156): INFO Epoch: [72][20/118] lr 0.000046 loss 0.3908 acc 100.00%
+[2026-04-08 23:08:40,344 regnety_8gf_v1] (main.py 156): INFO Epoch: [72][40/118] lr 0.000046 loss 0.3905 acc 100.00%
+[2026-04-08 23:08:45,198 regnety_8gf_v1] (main.py 156): INFO Epoch: [72][60/118] lr 0.000046 loss 0.3907 acc 100.00%
+[2026-04-08 23:08:50,204 regnety_8gf_v1] (main.py 156): INFO Epoch: [72][80/118] lr 0.000046 loss 0.3906 acc 100.00%
+[2026-04-08 23:08:54,615 regnety_8gf_v1] (main.py 156): INFO Epoch: [72][100/118] lr 0.000046 loss 0.3905 acc 100.00%
+[2026-04-08 23:09:05,052 regnety_8gf_v1] (main.py 89): INFO [Epoch 72]: Train Loss: 0.3908, Train Acc: 99.97%, Val Loss: 0.1644, Val Acc: 96.96%, F1: 0.9696, Precision: 0.9700, Recall: 0.9696
+[2026-04-08 23:09:05,053 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:09:05,658 regnety_8gf_v1] (main.py 156): INFO Epoch: [73][0/118] lr 0.000043 loss 0.3902 acc 100.00%
+[2026-04-08 23:09:09,904 regnety_8gf_v1] (main.py 156): INFO Epoch: [73][20/118] lr 0.000043 loss 0.3908 acc 100.00%
+[2026-04-08 23:09:15,605 regnety_8gf_v1] (main.py 156): INFO Epoch: [73][40/118] lr 0.000043 loss 0.3919 acc 99.92%
+[2026-04-08 23:09:19,748 regnety_8gf_v1] (main.py 156): INFO Epoch: [73][60/118] lr 0.000043 loss 0.3915 acc 99.95%
+[2026-04-08 23:09:24,115 regnety_8gf_v1] (main.py 156): INFO Epoch: [73][80/118] lr 0.000043 loss 0.3912 acc 99.96%
+[2026-04-08 23:09:29,740 regnety_8gf_v1] (main.py 156): INFO Epoch: [73][100/118] lr 0.000043 loss 0.3910 acc 99.97%
+[2026-04-08 23:09:39,504 regnety_8gf_v1] (main.py 89): INFO [Epoch 73]: Train Loss: 0.3921, Train Acc: 99.92%, Val Loss: 0.1563, Val Acc: 97.28%, F1: 0.9729, Precision: 0.9731, Recall: 0.9728
+[2026-04-08 23:09:39,505 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.28%
+[2026-04-08 23:09:40,539 regnety_8gf_v1] (main.py 156): INFO Epoch: [74][0/118] lr 0.000040 loss 0.3901 acc 100.00%
+[2026-04-08 23:09:44,677 regnety_8gf_v1] (main.py 156): INFO Epoch: [74][20/118] lr 0.000040 loss 0.3917 acc 99.85%
+[2026-04-08 23:09:48,994 regnety_8gf_v1] (main.py 156): INFO Epoch: [74][40/118] lr 0.000040 loss 0.3918 acc 99.92%
+[2026-04-08 23:09:54,530 regnety_8gf_v1] (main.py 156): INFO Epoch: [74][60/118] lr 0.000040 loss 0.3913 acc 99.95%
+[2026-04-08 23:09:58,820 regnety_8gf_v1] (main.py 156): INFO Epoch: [74][80/118] lr 0.000040 loss 0.3911 acc 99.96%
+[2026-04-08 23:10:03,001 regnety_8gf_v1] (main.py 156): INFO Epoch: [74][100/118] lr 0.000040 loss 0.3910 acc 99.97%
+[2026-04-08 23:10:13,429 regnety_8gf_v1] (main.py 89): INFO [Epoch 74]: Train Loss: 0.3916, Train Acc: 99.95%, Val Loss: 0.1556, Val Acc: 97.44%, F1: 0.9745, Precision: 0.9747, Recall: 0.9744
+[2026-04-08 23:10:13,430 regnety_8gf_v1] (main.py 100): INFO Best performance updated at epoch 74 with accuracy: 97.44%
+[2026-04-08 23:10:13,501 regnety_8gf_v1] (main.py 104): INFO Best model saved to /content/dl/outputs/regnety_8gf_v1/regnety_8gf_v1_best.pth
+[2026-04-08 23:10:13,502 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.44%
+[2026-04-08 23:10:14,200 regnety_8gf_v1] (main.py 156): INFO Epoch: [75][0/118] lr 0.000037 loss 0.3904 acc 100.00%
+[2026-04-08 23:10:19,113 regnety_8gf_v1] (main.py 156): INFO Epoch: [75][20/118] lr 0.000037 loss 0.3902 acc 100.00%
+[2026-04-08 23:10:23,753 regnety_8gf_v1] (main.py 156): INFO Epoch: [75][40/118] lr 0.000037 loss 0.3903 acc 100.00%
+[2026-04-08 23:10:28,084 regnety_8gf_v1] (main.py 156): INFO Epoch: [75][60/118] lr 0.000037 loss 0.3903 acc 100.00%
+[2026-04-08 23:10:33,403 regnety_8gf_v1] (main.py 156): INFO Epoch: [75][80/118] lr 0.000037 loss 0.3913 acc 99.96%
+[2026-04-08 23:10:37,811 regnety_8gf_v1] (main.py 156): INFO Epoch: [75][100/118] lr 0.000037 loss 0.3912 acc 99.97%
+[2026-04-08 23:10:48,191 regnety_8gf_v1] (main.py 89): INFO [Epoch 75]: Train Loss: 0.3913, Train Acc: 99.97%, Val Loss: 0.1534, Val Acc: 97.52%, F1: 0.9752, Precision: 0.9753, Recall: 0.9752
+[2026-04-08 23:10:48,192 regnety_8gf_v1] (main.py 100): INFO Best performance updated at epoch 75 with accuracy: 97.52%
+[2026-04-08 23:10:48,258 regnety_8gf_v1] (main.py 104): INFO Best model saved to /content/dl/outputs/regnety_8gf_v1/regnety_8gf_v1_best.pth
+[2026-04-08 23:10:48,259 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.52%
+[2026-04-08 23:10:48,905 regnety_8gf_v1] (main.py 156): INFO Epoch: [76][0/118] lr 0.000035 loss 0.3902 acc 100.00%
+[2026-04-08 23:10:53,155 regnety_8gf_v1] (main.py 156): INFO Epoch: [76][20/118] lr 0.000035 loss 0.3922 acc 99.85%
+[2026-04-08 23:10:57,391 regnety_8gf_v1] (main.py 156): INFO Epoch: [76][40/118] lr 0.000035 loss 0.3934 acc 99.85%
+[2026-04-08 23:11:02,947 regnety_8gf_v1] (main.py 156): INFO Epoch: [76][60/118] lr 0.000035 loss 0.3923 acc 99.90%
+[2026-04-08 23:11:07,198 regnety_8gf_v1] (main.py 156): INFO Epoch: [76][80/118] lr 0.000035 loss 0.3918 acc 99.92%
+[2026-04-08 23:11:12,081 regnety_8gf_v1] (main.py 156): INFO Epoch: [76][100/118] lr 0.000035 loss 0.3917 acc 99.91%
+[2026-04-08 23:11:21,908 regnety_8gf_v1] (main.py 89): INFO [Epoch 76]: Train Loss: 0.3915, Train Acc: 99.92%, Val Loss: 0.1601, Val Acc: 97.60%, F1: 0.9760, Precision: 0.9762, Recall: 0.9760
+[2026-04-08 23:11:21,909 regnety_8gf_v1] (main.py 100): INFO Best performance updated at epoch 76 with accuracy: 97.60%
+[2026-04-08 23:11:21,981 regnety_8gf_v1] (main.py 104): INFO Best model saved to /content/dl/outputs/regnety_8gf_v1/regnety_8gf_v1_best.pth
+[2026-04-08 23:11:21,981 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:11:22,649 regnety_8gf_v1] (main.py 156): INFO Epoch: [77][0/118] lr 0.000032 loss 0.3900 acc 100.00%
+[2026-04-08 23:11:28,185 regnety_8gf_v1] (main.py 156): INFO Epoch: [77][20/118] lr 0.000032 loss 0.3905 acc 100.00%
+[2026-04-08 23:11:32,552 regnety_8gf_v1] (main.py 156): INFO Epoch: [77][40/118] lr 0.000032 loss 0.3904 acc 100.00%
+[2026-04-08 23:11:36,705 regnety_8gf_v1] (main.py 156): INFO Epoch: [77][60/118] lr 0.000032 loss 0.3904 acc 100.00%
+[2026-04-08 23:11:42,131 regnety_8gf_v1] (main.py 156): INFO Epoch: [77][80/118] lr 0.000032 loss 0.3904 acc 100.00%
+[2026-04-08 23:11:46,413 regnety_8gf_v1] (main.py 156): INFO Epoch: [77][100/118] lr 0.000032 loss 0.3904 acc 100.00%
+[2026-04-08 23:11:56,849 regnety_8gf_v1] (main.py 89): INFO [Epoch 77]: Train Loss: 0.3904, Train Acc: 100.00%, Val Loss: 0.1566, Val Acc: 97.52%, F1: 0.9752, Precision: 0.9753, Recall: 0.9752
+[2026-04-08 23:11:56,849 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:11:57,478 regnety_8gf_v1] (main.py 156): INFO Epoch: [78][0/118] lr 0.000030 loss 0.3906 acc 100.00%
+[2026-04-08 23:12:01,746 regnety_8gf_v1] (main.py 156): INFO Epoch: [78][20/118] lr 0.000030 loss 0.3902 acc 100.00%
+[2026-04-08 23:12:07,163 regnety_8gf_v1] (main.py 156): INFO Epoch: [78][40/118] lr 0.000030 loss 0.3903 acc 100.00%
+[2026-04-08 23:12:11,584 regnety_8gf_v1] (main.py 156): INFO Epoch: [78][60/118] lr 0.000030 loss 0.3903 acc 100.00%
+[2026-04-08 23:12:15,640 regnety_8gf_v1] (main.py 156): INFO Epoch: [78][80/118] lr 0.000030 loss 0.3910 acc 99.96%
+[2026-04-08 23:12:21,237 regnety_8gf_v1] (main.py 156): INFO Epoch: [78][100/118] lr 0.000030 loss 0.3908 acc 99.97%
+[2026-04-08 23:12:30,351 regnety_8gf_v1] (main.py 89): INFO [Epoch 78]: Train Loss: 0.3909, Train Acc: 99.95%, Val Loss: 0.1579, Val Acc: 97.28%, F1: 0.9728, Precision: 0.9730, Recall: 0.9728
+[2026-04-08 23:12:30,351 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:12:31,279 regnety_8gf_v1] (main.py 156): INFO Epoch: [79][0/118] lr 0.000027 loss 0.3900 acc 100.00%
+[2026-04-08 23:12:36,683 regnety_8gf_v1] (main.py 156): INFO Epoch: [79][20/118] lr 0.000027 loss 0.3901 acc 100.00%
+[2026-04-08 23:12:40,940 regnety_8gf_v1] (main.py 156): INFO Epoch: [79][40/118] lr 0.000027 loss 0.3901 acc 100.00%
+[2026-04-08 23:12:45,905 regnety_8gf_v1] (main.py 156): INFO Epoch: [79][60/118] lr 0.000027 loss 0.3908 acc 99.95%
+[2026-04-08 23:12:50,617 regnety_8gf_v1] (main.py 156): INFO Epoch: [79][80/118] lr 0.000027 loss 0.3906 acc 99.96%
+[2026-04-08 23:12:54,872 regnety_8gf_v1] (main.py 156): INFO Epoch: [79][100/118] lr 0.000027 loss 0.3907 acc 99.97%
+[2026-04-08 23:13:05,133 regnety_8gf_v1] (main.py 89): INFO [Epoch 79]: Train Loss: 0.3912, Train Acc: 99.95%, Val Loss: 0.1603, Val Acc: 97.20%, F1: 0.9720, Precision: 0.9722, Recall: 0.9720
+[2026-04-08 23:13:05,134 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:13:05,726 regnety_8gf_v1] (main.py 156): INFO Epoch: [80][0/118] lr 0.000025 loss 0.3903 acc 100.00%
+[2026-04-08 23:13:09,942 regnety_8gf_v1] (main.py 156): INFO Epoch: [80][20/118] lr 0.000025 loss 0.3904 acc 100.00%
+[2026-04-08 23:13:15,496 regnety_8gf_v1] (main.py 156): INFO Epoch: [80][40/118] lr 0.000025 loss 0.3904 acc 100.00%
+[2026-04-08 23:13:19,776 regnety_8gf_v1] (main.py 156): INFO Epoch: [80][60/118] lr 0.000025 loss 0.3903 acc 100.00%
+[2026-04-08 23:13:24,008 regnety_8gf_v1] (main.py 156): INFO Epoch: [80][80/118] lr 0.000025 loss 0.3911 acc 99.96%
+[2026-04-08 23:13:29,634 regnety_8gf_v1] (main.py 156): INFO Epoch: [80][100/118] lr 0.000025 loss 0.3910 acc 99.97%
+[2026-04-08 23:13:39,843 regnety_8gf_v1] (main.py 89): INFO [Epoch 80]: Train Loss: 0.3929, Train Acc: 99.89%, Val Loss: 0.1679, Val Acc: 97.04%, F1: 0.9704, Precision: 0.9709, Recall: 0.9704
+[2026-04-08 23:13:39,843 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:13:40,879 regnety_8gf_v1] (main.py 156): INFO Epoch: [81][0/118] lr 0.000023 loss 0.3902 acc 100.00%
+[2026-04-08 23:13:45,190 regnety_8gf_v1] (main.py 156): INFO Epoch: [81][20/118] lr 0.000023 loss 0.3901 acc 100.00%
+[2026-04-08 23:13:49,518 regnety_8gf_v1] (main.py 156): INFO Epoch: [81][40/118] lr 0.000023 loss 0.3902 acc 100.00%
+[2026-04-08 23:13:55,026 regnety_8gf_v1] (main.py 156): INFO Epoch: [81][60/118] lr 0.000023 loss 0.3903 acc 100.00%
+[2026-04-08 23:13:59,275 regnety_8gf_v1] (main.py 156): INFO Epoch: [81][80/118] lr 0.000023 loss 0.3909 acc 99.92%
+[2026-04-08 23:14:03,583 regnety_8gf_v1] (main.py 156): INFO Epoch: [81][100/118] lr 0.000023 loss 0.3907 acc 99.94%
+[2026-04-08 23:14:14,207 regnety_8gf_v1] (main.py 89): INFO [Epoch 81]: Train Loss: 0.3907, Train Acc: 99.95%, Val Loss: 0.1664, Val Acc: 97.28%, F1: 0.9729, Precision: 0.9730, Recall: 0.9728
+[2026-04-08 23:14:14,207 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:14:14,865 regnety_8gf_v1] (main.py 156): INFO Epoch: [82][0/118] lr 0.000020 loss 0.3899 acc 100.00%
+[2026-04-08 23:14:20,103 regnety_8gf_v1] (main.py 156): INFO Epoch: [82][20/118] lr 0.000020 loss 0.3910 acc 100.00%
+[2026-04-08 23:14:24,598 regnety_8gf_v1] (main.py 156): INFO Epoch: [82][40/118] lr 0.000020 loss 0.3905 acc 100.00%
+[2026-04-08 23:14:29,007 regnety_8gf_v1] (main.py 156): INFO Epoch: [82][60/118] lr 0.000020 loss 0.3904 acc 100.00%
+[2026-04-08 23:14:34,572 regnety_8gf_v1] (main.py 156): INFO Epoch: [82][80/118] lr 0.000020 loss 0.3904 acc 100.00%
+[2026-04-08 23:14:38,746 regnety_8gf_v1] (main.py 156): INFO Epoch: [82][100/118] lr 0.000020 loss 0.3903 acc 100.00%
+[2026-04-08 23:14:49,190 regnety_8gf_v1] (main.py 89): INFO [Epoch 82]: Train Loss: 0.3908, Train Acc: 99.97%, Val Loss: 0.1613, Val Acc: 97.36%, F1: 0.9737, Precision: 0.9738, Recall: 0.9736
+[2026-04-08 23:14:49,190 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:14:49,874 regnety_8gf_v1] (main.py 156): INFO Epoch: [83][0/118] lr 0.000018 loss 0.3899 acc 100.00%
+[2026-04-08 23:14:54,163 regnety_8gf_v1] (main.py 156): INFO Epoch: [83][20/118] lr 0.000018 loss 0.3901 acc 100.00%
+[2026-04-08 23:14:58,886 regnety_8gf_v1] (main.py 156): INFO Epoch: [83][40/118] lr 0.000018 loss 0.3901 acc 100.00%
+[2026-04-08 23:15:03,905 regnety_8gf_v1] (main.py 156): INFO Epoch: [83][60/118] lr 0.000018 loss 0.3901 acc 100.00%
+[2026-04-08 23:15:08,197 regnety_8gf_v1] (main.py 156): INFO Epoch: [83][80/118] lr 0.000018 loss 0.3901 acc 100.00%
+[2026-04-08 23:15:13,287 regnety_8gf_v1] (main.py 156): INFO Epoch: [83][100/118] lr 0.000018 loss 0.3901 acc 100.00%
+[2026-04-08 23:15:23,002 regnety_8gf_v1] (main.py 89): INFO [Epoch 83]: Train Loss: 0.3901, Train Acc: 100.00%, Val Loss: 0.1654, Val Acc: 96.96%, F1: 0.9697, Precision: 0.9699, Recall: 0.9696
+[2026-04-08 23:15:23,003 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:15:23,609 regnety_8gf_v1] (main.py 156): INFO Epoch: [84][0/118] lr 0.000016 loss 0.3900 acc 100.00%
+[2026-04-08 23:15:29,329 regnety_8gf_v1] (main.py 156): INFO Epoch: [84][20/118] lr 0.000016 loss 0.3903 acc 100.00%
+[2026-04-08 23:15:33,345 regnety_8gf_v1] (main.py 156): INFO Epoch: [84][40/118] lr 0.000016 loss 0.3902 acc 100.00%
+[2026-04-08 23:15:37,720 regnety_8gf_v1] (main.py 156): INFO Epoch: [84][60/118] lr 0.000016 loss 0.3903 acc 100.00%
+[2026-04-08 23:15:43,302 regnety_8gf_v1] (main.py 156): INFO Epoch: [84][80/118] lr 0.000016 loss 0.3903 acc 100.00%
+[2026-04-08 23:15:47,535 regnety_8gf_v1] (main.py 156): INFO Epoch: [84][100/118] lr 0.000016 loss 0.3903 acc 100.00%
+[2026-04-08 23:15:57,991 regnety_8gf_v1] (main.py 89): INFO [Epoch 84]: Train Loss: 0.3902, Train Acc: 100.00%, Val Loss: 0.1632, Val Acc: 97.44%, F1: 0.9744, Precision: 0.9745, Recall: 0.9744
+[2026-04-08 23:15:57,991 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:15:58,622 regnety_8gf_v1] (main.py 156): INFO Epoch: [85][0/118] lr 0.000015 loss 0.3901 acc 100.00%
+[2026-04-08 23:16:02,989 regnety_8gf_v1] (main.py 156): INFO Epoch: [85][20/118] lr 0.000015 loss 0.3900 acc 100.00%
+[2026-04-08 23:16:08,513 regnety_8gf_v1] (main.py 156): INFO Epoch: [85][40/118] lr 0.000015 loss 0.3901 acc 100.00%
+[2026-04-08 23:16:12,740 regnety_8gf_v1] (main.py 156): INFO Epoch: [85][60/118] lr 0.000015 loss 0.3903 acc 100.00%
+[2026-04-08 23:16:17,121 regnety_8gf_v1] (main.py 156): INFO Epoch: [85][80/118] lr 0.000015 loss 0.3902 acc 100.00%
+[2026-04-08 23:16:22,834 regnety_8gf_v1] (main.py 156): INFO Epoch: [85][100/118] lr 0.000015 loss 0.3902 acc 100.00%
+[2026-04-08 23:16:32,540 regnety_8gf_v1] (main.py 89): INFO [Epoch 85]: Train Loss: 0.3902, Train Acc: 100.00%, Val Loss: 0.1626, Val Acc: 97.20%, F1: 0.9720, Precision: 0.9721, Recall: 0.9720
+[2026-04-08 23:16:32,541 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:16:33,601 regnety_8gf_v1] (main.py 156): INFO Epoch: [86][0/118] lr 0.000013 loss 0.3906 acc 100.00%
+[2026-04-08 23:16:38,248 regnety_8gf_v1] (main.py 156): INFO Epoch: [86][20/118] lr 0.000013 loss 0.3900 acc 100.00%
+[2026-04-08 23:16:42,454 regnety_8gf_v1] (main.py 156): INFO Epoch: [86][40/118] lr 0.000013 loss 0.3902 acc 100.00%
+[2026-04-08 23:16:48,073 regnety_8gf_v1] (main.py 156): INFO Epoch: [86][60/118] lr 0.000013 loss 0.3901 acc 100.00%
+[2026-04-08 23:16:52,339 regnety_8gf_v1] (main.py 156): INFO Epoch: [86][80/118] lr 0.000013 loss 0.3901 acc 100.00%
+[2026-04-08 23:16:56,712 regnety_8gf_v1] (main.py 156): INFO Epoch: [86][100/118] lr 0.000013 loss 0.3901 acc 100.00%
+[2026-04-08 23:17:07,029 regnety_8gf_v1] (main.py 89): INFO [Epoch 86]: Train Loss: 0.3901, Train Acc: 100.00%, Val Loss: 0.1642, Val Acc: 97.28%, F1: 0.9729, Precision: 0.9731, Recall: 0.9728
+[2026-04-08 23:17:07,030 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:17:07,689 regnety_8gf_v1] (main.py 156): INFO Epoch: [87][0/118] lr 0.000011 loss 0.3902 acc 100.00%
+[2026-04-08 23:17:12,810 regnety_8gf_v1] (main.py 156): INFO Epoch: [87][20/118] lr 0.000011 loss 0.3901 acc 100.00%
+[2026-04-08 23:17:17,566 regnety_8gf_v1] (main.py 156): INFO Epoch: [87][40/118] lr 0.000011 loss 0.3903 acc 100.00%
+[2026-04-08 23:17:21,777 regnety_8gf_v1] (main.py 156): INFO Epoch: [87][60/118] lr 0.000011 loss 0.3905 acc 100.00%
+[2026-04-08 23:17:26,971 regnety_8gf_v1] (main.py 156): INFO Epoch: [87][80/118] lr 0.000011 loss 0.3904 acc 100.00%
+[2026-04-08 23:17:31,439 regnety_8gf_v1] (main.py 156): INFO Epoch: [87][100/118] lr 0.000011 loss 0.3903 acc 100.00%
+[2026-04-08 23:17:42,036 regnety_8gf_v1] (main.py 89): INFO [Epoch 87]: Train Loss: 0.3915, Train Acc: 99.97%, Val Loss: 0.1607, Val Acc: 97.04%, F1: 0.9704, Precision: 0.9707, Recall: 0.9704
+[2026-04-08 23:17:42,036 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:17:42,713 regnety_8gf_v1] (main.py 156): INFO Epoch: [88][0/118] lr 0.000010 loss 0.3905 acc 100.00%
+[2026-04-08 23:17:47,038 regnety_8gf_v1] (main.py 156): INFO Epoch: [88][20/118] lr 0.000010 loss 0.3902 acc 100.00%
+[2026-04-08 23:17:51,240 regnety_8gf_v1] (main.py 156): INFO Epoch: [88][40/118] lr 0.000010 loss 0.3905 acc 100.00%
+[2026-04-08 23:17:56,863 regnety_8gf_v1] (main.py 156): INFO Epoch: [88][60/118] lr 0.000010 loss 0.3904 acc 100.00%
+[2026-04-08 23:18:01,016 regnety_8gf_v1] (main.py 156): INFO Epoch: [88][80/118] lr 0.000010 loss 0.3903 acc 100.00%
+[2026-04-08 23:18:05,813 regnety_8gf_v1] (main.py 156): INFO Epoch: [88][100/118] lr 0.000010 loss 0.3903 acc 100.00%
+[2026-04-08 23:18:15,863 regnety_8gf_v1] (main.py 89): INFO [Epoch 88]: Train Loss: 0.3907, Train Acc: 99.97%, Val Loss: 0.1612, Val Acc: 97.28%, F1: 0.9728, Precision: 0.9729, Recall: 0.9728
+[2026-04-08 23:18:15,864 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:18:16,540 regnety_8gf_v1] (main.py 156): INFO Epoch: [89][0/118] lr 0.000008 loss 0.3900 acc 100.00%
+[2026-04-08 23:18:22,010 regnety_8gf_v1] (main.py 156): INFO Epoch: [89][20/118] lr 0.000008 loss 0.3902 acc 100.00%
+[2026-04-08 23:18:26,237 regnety_8gf_v1] (main.py 156): INFO Epoch: [89][40/118] lr 0.000008 loss 0.3901 acc 100.00%
+[2026-04-08 23:18:30,474 regnety_8gf_v1] (main.py 156): INFO Epoch: [89][60/118] lr 0.000008 loss 0.3902 acc 100.00%
+[2026-04-08 23:18:35,983 regnety_8gf_v1] (main.py 156): INFO Epoch: [89][80/118] lr 0.000008 loss 0.3901 acc 100.00%
+[2026-04-08 23:18:40,386 regnety_8gf_v1] (main.py 156): INFO Epoch: [89][100/118] lr 0.000008 loss 0.3901 acc 100.00%
+[2026-04-08 23:18:50,709 regnety_8gf_v1] (main.py 89): INFO [Epoch 89]: Train Loss: 0.3901, Train Acc: 100.00%, Val Loss: 0.1623, Val Acc: 97.20%, F1: 0.9720, Precision: 0.9721, Recall: 0.9720
+[2026-04-08 23:18:50,710 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:18:51,393 regnety_8gf_v1] (main.py 156): INFO Epoch: [90][0/118] lr 0.000007 loss 0.3899 acc 100.00%
+[2026-04-08 23:18:55,470 regnety_8gf_v1] (main.py 156): INFO Epoch: [90][20/118] lr 0.000007 loss 0.3900 acc 100.00%
+[2026-04-08 23:19:00,692 regnety_8gf_v1] (main.py 156): INFO Epoch: [90][40/118] lr 0.000007 loss 0.3901 acc 100.00%
+[2026-04-08 23:19:05,273 regnety_8gf_v1] (main.py 156): INFO Epoch: [90][60/118] lr 0.000007 loss 0.3902 acc 100.00%
+[2026-04-08 23:19:09,552 regnety_8gf_v1] (main.py 156): INFO Epoch: [90][80/118] lr 0.000007 loss 0.3901 acc 100.00%
+[2026-04-08 23:19:15,188 regnety_8gf_v1] (main.py 156): INFO Epoch: [90][100/118] lr 0.000007 loss 0.3902 acc 100.00%
+[2026-04-08 23:19:24,390 regnety_8gf_v1] (main.py 89): INFO [Epoch 90]: Train Loss: 0.3911, Train Acc: 99.95%, Val Loss: 0.1585, Val Acc: 97.36%, F1: 0.9736, Precision: 0.9738, Recall: 0.9736
+[2026-04-08 23:19:24,390 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:19:25,358 regnety_8gf_v1] (main.py 156): INFO Epoch: [91][0/118] lr 0.000006 loss 0.3899 acc 100.00%
+[2026-04-08 23:19:30,623 regnety_8gf_v1] (main.py 156): INFO Epoch: [91][20/118] lr 0.000006 loss 0.3903 acc 100.00%
+[2026-04-08 23:19:34,800 regnety_8gf_v1] (main.py 156): INFO Epoch: [91][40/118] lr 0.000006 loss 0.3902 acc 100.00%
+[2026-04-08 23:19:39,777 regnety_8gf_v1] (main.py 156): INFO Epoch: [91][60/118] lr 0.000006 loss 0.3901 acc 100.00%
+[2026-04-08 23:19:44,754 regnety_8gf_v1] (main.py 156): INFO Epoch: [91][80/118] lr 0.000006 loss 0.3902 acc 100.00%
+[2026-04-08 23:19:49,024 regnety_8gf_v1] (main.py 156): INFO Epoch: [91][100/118] lr 0.000006 loss 0.3902 acc 100.00%
+[2026-04-08 23:19:59,321 regnety_8gf_v1] (main.py 89): INFO [Epoch 91]: Train Loss: 0.3917, Train Acc: 99.95%, Val Loss: 0.1605, Val Acc: 97.04%, F1: 0.9704, Precision: 0.9708, Recall: 0.9704
+[2026-04-08 23:19:59,321 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:19:59,985 regnety_8gf_v1] (main.py 156): INFO Epoch: [92][0/118] lr 0.000005 loss 0.3899 acc 100.00%
+[2026-04-08 23:20:04,134 regnety_8gf_v1] (main.py 156): INFO Epoch: [92][20/118] lr 0.000005 loss 0.3927 acc 99.70%
+[2026-04-08 23:20:09,657 regnety_8gf_v1] (main.py 156): INFO Epoch: [92][40/118] lr 0.000005 loss 0.3920 acc 99.77%
+[2026-04-08 23:20:13,874 regnety_8gf_v1] (main.py 156): INFO Epoch: [92][60/118] lr 0.000005 loss 0.3915 acc 99.85%
+[2026-04-08 23:20:18,096 regnety_8gf_v1] (main.py 156): INFO Epoch: [92][80/118] lr 0.000005 loss 0.3912 acc 99.88%
+[2026-04-08 23:20:23,615 regnety_8gf_v1] (main.py 156): INFO Epoch: [92][100/118] lr 0.000005 loss 0.3910 acc 99.91%
+[2026-04-08 23:20:33,215 regnety_8gf_v1] (main.py 89): INFO [Epoch 92]: Train Loss: 0.3910, Train Acc: 99.92%, Val Loss: 0.1612, Val Acc: 97.20%, F1: 0.9720, Precision: 0.9721, Recall: 0.9720
+[2026-04-08 23:20:33,216 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:20:34,261 regnety_8gf_v1] (main.py 156): INFO Epoch: [93][0/118] lr 0.000004 loss 0.3903 acc 100.00%
+[2026-04-08 23:20:38,782 regnety_8gf_v1] (main.py 156): INFO Epoch: [93][20/118] lr 0.000004 loss 0.3900 acc 100.00%
+[2026-04-08 23:20:43,129 regnety_8gf_v1] (main.py 156): INFO Epoch: [93][40/118] lr 0.000004 loss 0.3917 acc 99.92%
+[2026-04-08 23:20:48,666 regnety_8gf_v1] (main.py 156): INFO Epoch: [93][60/118] lr 0.000004 loss 0.3914 acc 99.95%
+[2026-04-08 23:20:52,972 regnety_8gf_v1] (main.py 156): INFO Epoch: [93][80/118] lr 0.000004 loss 0.3911 acc 99.96%
+[2026-04-08 23:20:57,223 regnety_8gf_v1] (main.py 156): INFO Epoch: [93][100/118] lr 0.000004 loss 0.3909 acc 99.97%
+[2026-04-08 23:21:07,433 regnety_8gf_v1] (main.py 89): INFO [Epoch 93]: Train Loss: 0.3909, Train Acc: 99.97%, Val Loss: 0.1645, Val Acc: 97.20%, F1: 0.9720, Precision: 0.9722, Recall: 0.9720
+[2026-04-08 23:21:07,434 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:21:08,047 regnety_8gf_v1] (main.py 156): INFO Epoch: [94][0/118] lr 0.000003 loss 0.3899 acc 100.00%
+[2026-04-08 23:21:12,836 regnety_8gf_v1] (main.py 156): INFO Epoch: [94][20/118] lr 0.000003 loss 0.3901 acc 100.00%
+[2026-04-08 23:21:17,777 regnety_8gf_v1] (main.py 156): INFO Epoch: [94][40/118] lr 0.000003 loss 0.3900 acc 100.00%
+[2026-04-08 23:21:22,013 regnety_8gf_v1] (main.py 156): INFO Epoch: [94][60/118] lr 0.000003 loss 0.3902 acc 100.00%
+[2026-04-08 23:21:27,370 regnety_8gf_v1] (main.py 156): INFO Epoch: [94][80/118] lr 0.000003 loss 0.3902 acc 100.00%
+[2026-04-08 23:21:31,777 regnety_8gf_v1] (main.py 156): INFO Epoch: [94][100/118] lr 0.000003 loss 0.3902 acc 100.00%
+[2026-04-08 23:21:42,219 regnety_8gf_v1] (main.py 89): INFO [Epoch 94]: Train Loss: 0.3908, Train Acc: 99.95%, Val Loss: 0.1650, Val Acc: 97.12%, F1: 0.9712, Precision: 0.9715, Recall: 0.9712
+[2026-04-08 23:21:42,220 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:21:42,883 regnety_8gf_v1] (main.py 156): INFO Epoch: [95][0/118] lr 0.000003 loss 0.3899 acc 100.00%
+[2026-04-08 23:21:47,026 regnety_8gf_v1] (main.py 156): INFO Epoch: [95][20/118] lr 0.000003 loss 0.3902 acc 100.00%
+[2026-04-08 23:21:51,375 regnety_8gf_v1] (main.py 156): INFO Epoch: [95][40/118] lr 0.000003 loss 0.3903 acc 100.00%
+[2026-04-08 23:21:56,782 regnety_8gf_v1] (main.py 156): INFO Epoch: [95][60/118] lr 0.000003 loss 0.3902 acc 100.00%
+[2026-04-08 23:22:00,960 regnety_8gf_v1] (main.py 156): INFO Epoch: [95][80/118] lr 0.000003 loss 0.3902 acc 100.00%
+[2026-04-08 23:22:06,026 regnety_8gf_v1] (main.py 156): INFO Epoch: [95][100/118] lr 0.000003 loss 0.3902 acc 100.00%
+[2026-04-08 23:22:15,753 regnety_8gf_v1] (main.py 89): INFO [Epoch 95]: Train Loss: 0.3901, Train Acc: 100.00%, Val Loss: 0.1646, Val Acc: 97.20%, F1: 0.9720, Precision: 0.9723, Recall: 0.9720
+[2026-04-08 23:22:15,754 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:22:16,416 regnety_8gf_v1] (main.py 156): INFO Epoch: [96][0/118] lr 0.000002 loss 0.3902 acc 100.00%
+[2026-04-08 23:22:21,759 regnety_8gf_v1] (main.py 156): INFO Epoch: [96][20/118] lr 0.000002 loss 0.3901 acc 100.00%
+[2026-04-08 23:22:26,059 regnety_8gf_v1] (main.py 156): INFO Epoch: [96][40/118] lr 0.000002 loss 0.3906 acc 100.00%
+[2026-04-08 23:22:30,273 regnety_8gf_v1] (main.py 156): INFO Epoch: [96][60/118] lr 0.000002 loss 0.3904 acc 100.00%
+[2026-04-08 23:22:35,756 regnety_8gf_v1] (main.py 156): INFO Epoch: [96][80/118] lr 0.000002 loss 0.3910 acc 99.96%
+[2026-04-08 23:22:40,095 regnety_8gf_v1] (main.py 156): INFO Epoch: [96][100/118] lr 0.000002 loss 0.3908 acc 99.97%
+[2026-04-08 23:22:50,567 regnety_8gf_v1] (main.py 89): INFO [Epoch 96]: Train Loss: 0.3918, Train Acc: 99.92%, Val Loss: 0.1599, Val Acc: 97.36%, F1: 0.9736, Precision: 0.9737, Recall: 0.9736
+[2026-04-08 23:22:50,567 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:22:51,201 regnety_8gf_v1] (main.py 156): INFO Epoch: [97][0/118] lr 0.000002 loss 0.3899 acc 100.00%
+[2026-04-08 23:22:55,194 regnety_8gf_v1] (main.py 156): INFO Epoch: [97][20/118] lr 0.000002 loss 0.3902 acc 100.00%
+[2026-04-08 23:23:00,770 regnety_8gf_v1] (main.py 156): INFO Epoch: [97][40/118] lr 0.000002 loss 0.3902 acc 100.00%
+[2026-04-08 23:23:05,179 regnety_8gf_v1] (main.py 156): INFO Epoch: [97][60/118] lr 0.000002 loss 0.3906 acc 99.95%
+[2026-04-08 23:23:09,303 regnety_8gf_v1] (main.py 156): INFO Epoch: [97][80/118] lr 0.000002 loss 0.3905 acc 99.96%
+[2026-04-08 23:23:14,999 regnety_8gf_v1] (main.py 156): INFO Epoch: [97][100/118] lr 0.000002 loss 0.3905 acc 99.97%
+[2026-04-08 23:23:24,133 regnety_8gf_v1] (main.py 89): INFO [Epoch 97]: Train Loss: 0.3908, Train Acc: 99.95%, Val Loss: 0.1593, Val Acc: 97.28%, F1: 0.9728, Precision: 0.9729, Recall: 0.9728
+[2026-04-08 23:23:24,133 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:23:24,819 regnety_8gf_v1] (main.py 156): INFO Epoch: [98][0/118] lr 0.000001 loss 0.3900 acc 100.00%
+[2026-04-08 23:23:30,308 regnety_8gf_v1] (main.py 156): INFO Epoch: [98][20/118] lr 0.000001 loss 0.3903 acc 100.00%
+[2026-04-08 23:23:34,563 regnety_8gf_v1] (main.py 156): INFO Epoch: [98][40/118] lr 0.000001 loss 0.3902 acc 100.00%
+[2026-04-08 23:23:39,613 regnety_8gf_v1] (main.py 156): INFO Epoch: [98][60/118] lr 0.000001 loss 0.3902 acc 100.00%
+[2026-04-08 23:23:44,567 regnety_8gf_v1] (main.py 156): INFO Epoch: [98][80/118] lr 0.000001 loss 0.3902 acc 100.00%
+[2026-04-08 23:23:48,855 regnety_8gf_v1] (main.py 156): INFO Epoch: [98][100/118] lr 0.000001 loss 0.3902 acc 100.00%
+[2026-04-08 23:23:59,251 regnety_8gf_v1] (main.py 89): INFO [Epoch 98]: Train Loss: 0.3902, Train Acc: 100.00%, Val Loss: 0.1625, Val Acc: 97.36%, F1: 0.9736, Precision: 0.9738, Recall: 0.9736
+[2026-04-08 23:23:59,252 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:23:59,846 regnety_8gf_v1] (main.py 156): INFO Epoch: [99][0/118] lr 0.000001 loss 0.3901 acc 100.00%
+[2026-04-08 23:24:04,037 regnety_8gf_v1] (main.py 156): INFO Epoch: [99][20/118] lr 0.000001 loss 0.3902 acc 100.00%
+[2026-04-08 23:24:09,591 regnety_8gf_v1] (main.py 156): INFO Epoch: [99][40/118] lr 0.000001 loss 0.3901 acc 100.00%
+[2026-04-08 23:24:14,084 regnety_8gf_v1] (main.py 156): INFO Epoch: [99][60/118] lr 0.000001 loss 0.3901 acc 100.00%
+[2026-04-08 23:24:18,539 regnety_8gf_v1] (main.py 156): INFO Epoch: [99][80/118] lr 0.000001 loss 0.3901 acc 100.00%
+[2026-04-08 23:24:23,890 regnety_8gf_v1] (main.py 156): INFO Epoch: [99][100/118] lr 0.000001 loss 0.3901 acc 100.00%
+[2026-04-08 23:24:34,178 regnety_8gf_v1] (main.py 89): INFO [Epoch 99]: Train Loss: 0.3901, Train Acc: 100.00%, Val Loss: 0.1608, Val Acc: 97.52%, F1: 0.9752, Precision: 0.9753, Recall: 0.9752
+[2026-04-08 23:24:34,179 regnety_8gf_v1] (main.py 106): INFO Max accuracy: 97.60%
+[2026-04-08 23:24:34,185 regnety_8gf_v1] (main.py 118): INFO Confusion matrix for best model saved to /content/dl/outputs/regnety_8gf_v1/regnety_8gf_v1_confusion_matrix.npy
+[2026-04-08 23:24:34,185 regnety_8gf_v1] (main.py 122): INFO Training time 0:58:02

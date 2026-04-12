@@ -10,6 +10,9 @@ from ViT.ViT import vit_base
 from Swin_Transformer.Swin_Transformer import swin_transformer
 from MLP_Mixer.MLP_Mixer import MLP_Mixer
 from EfficientNet_B0.EfficientNet_B0 import efficientnet_b0
+from RegNetY.RegNetY import regnety_8gf
+from CvT.CvT_local import create_cvt13_local
+from ResMLP.ResMLP import resmlp_s12
 
 # Add imports for other models as needed
 
@@ -90,6 +93,24 @@ def get_model_config(model_name):
     elif model_name == 'vit_base_v1':          
         from ViT.config_v1 import get_config
         return get_config()
+    elif model_name == 'regnety_8gf':  
+        from RegNetY.config import get_config
+        return get_config()
+    elif model_name == 'regnety_8gf_v1':
+        from RegNetY.config_variant1 import get_config
+        return get_config()
+    elif model_name == 'cvt_13':
+        from CvT.config import get_config
+        return get_config()
+    elif model_name == 'cvt_13_v1':  
+        from CvT.config_variant1 import get_config
+        return get_config()
+    elif model_name == 'resmlp_s12':
+        from ResMLP.config import get_config
+        return get_config()
+    elif model_name == 'resmlp_s12_v1':
+        from ResMLP.config_variant1 import get_config
+        return get_config()
     else:
         raise ValueError(f"Unknown model: {model_name}")
 
@@ -138,6 +159,19 @@ def build_model(config):
         return gmlp_tiny(**model_kwargs)
     elif model_name == 'vit_base_v1':          
         return vit_base(**model_kwargs)
+    elif model_name == 'regnety_8gf':  
+        return regnety_8gf(**model_kwargs)
+    elif model_name == 'regnety_8gf_v1':  
+        return regnety_8gf(**model_kwargs)
+    elif model_name == 'cvt_13':
+        return create_cvt13_local(**model_kwargs)
+    elif model_name == 'cvt_13_v1':  
+        return create_cvt13_local(**model_kwargs)
+    elif model_name == 'resmlp_s12':
+        return resmlp_s12(**model_kwargs)
+    elif model_name == 'resmlp_s12_v1':
+        return resmlp_s12(**model_kwargs)
+   
 
 
 

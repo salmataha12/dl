@@ -1,0 +1,867 @@
+[2026-04-08 20:00:57,009 cvt_13_v1] (main.py 21): INFO Dataset loaded: 3750 train images, 1250 validation images
+[2026-04-08 20:00:57,010 cvt_13_v1] (main.py 23): INFO Creating model: cvt_13_v1
+[2026-04-08 20:00:57,187 cvt_13_v1] (main.py 83): INFO Start training
+[2026-04-08 20:01:05,504 cvt_13_v1] (main.py 159): INFO Epoch: [0][0/118] lr 0.000010 loss 1.6460 acc 21.88%
+[2026-04-08 20:01:12,161 cvt_13_v1] (main.py 159): INFO Epoch: [0][20/118] lr 0.000010 loss 1.5821 acc 26.49%
+[2026-04-08 20:01:18,844 cvt_13_v1] (main.py 159): INFO Epoch: [0][40/118] lr 0.000010 loss 1.5731 acc 28.96%
+[2026-04-08 20:01:25,543 cvt_13_v1] (main.py 159): INFO Epoch: [0][60/118] lr 0.000010 loss 1.5670 acc 29.41%
+[2026-04-08 20:01:32,266 cvt_13_v1] (main.py 159): INFO Epoch: [0][80/118] lr 0.000010 loss 1.5622 acc 29.59%
+[2026-04-08 20:01:39,037 cvt_13_v1] (main.py 159): INFO Epoch: [0][100/118] lr 0.000010 loss 1.5549 acc 30.04%
+[2026-04-08 20:01:59,089 cvt_13_v1] (main.py 93): INFO [Epoch 0]: Train Loss: 1.5488, Train Acc: 30.85%, Val Loss: 1.4859, Val Acc: 34.96%, F1: 0.3047, Precision: 0.3101, Recall: 0.3496
+[2026-04-08 20:01:59,089 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 0 with accuracy: 34.96%
+[2026-04-08 20:01:59,199 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:01:59,202 cvt_13_v1] (main.py 109): INFO Max accuracy: 34.96%
+[2026-04-08 20:02:00,152 cvt_13_v1] (main.py 159): INFO Epoch: [1][0/118] lr 0.000048 loss 1.4784 acc 43.75%
+[2026-04-08 20:02:07,306 cvt_13_v1] (main.py 159): INFO Epoch: [1][20/118] lr 0.000048 loss 1.5267 acc 31.99%
+[2026-04-08 20:02:14,183 cvt_13_v1] (main.py 159): INFO Epoch: [1][40/118] lr 0.000048 loss 1.5425 acc 31.02%
+[2026-04-08 20:02:21,148 cvt_13_v1] (main.py 159): INFO Epoch: [1][60/118] lr 0.000048 loss 1.5459 acc 31.61%
+[2026-04-08 20:02:28,043 cvt_13_v1] (main.py 159): INFO Epoch: [1][80/118] lr 0.000048 loss 1.5479 acc 32.29%
+[2026-04-08 20:02:35,147 cvt_13_v1] (main.py 159): INFO Epoch: [1][100/118] lr 0.000048 loss 1.5403 acc 33.20%
+[2026-04-08 20:02:50,712 cvt_13_v1] (main.py 93): INFO [Epoch 1]: Train Loss: 1.5380, Train Acc: 33.47%, Val Loss: 1.4498, Val Acc: 38.40%, F1: 0.3507, Precision: 0.4391, Recall: 0.3840
+[2026-04-08 20:02:50,713 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 1 with accuracy: 38.40%
+[2026-04-08 20:02:50,839 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:02:50,839 cvt_13_v1] (main.py 109): INFO Max accuracy: 38.40%
+[2026-04-08 20:02:51,659 cvt_13_v1] (main.py 159): INFO Epoch: [2][0/118] lr 0.000086 loss 1.5289 acc 34.38%
+[2026-04-08 20:02:58,858 cvt_13_v1] (main.py 159): INFO Epoch: [2][20/118] lr 0.000086 loss 1.5182 acc 33.63%
+[2026-04-08 20:03:06,066 cvt_13_v1] (main.py 159): INFO Epoch: [2][40/118] lr 0.000086 loss 1.5135 acc 34.68%
+[2026-04-08 20:03:13,379 cvt_13_v1] (main.py 159): INFO Epoch: [2][60/118] lr 0.000086 loss 1.5206 acc 33.71%
+[2026-04-08 20:03:20,659 cvt_13_v1] (main.py 159): INFO Epoch: [2][80/118] lr 0.000086 loss 1.5143 acc 34.49%
+[2026-04-08 20:03:28,041 cvt_13_v1] (main.py 159): INFO Epoch: [2][100/118] lr 0.000086 loss 1.5115 acc 34.75%
+[2026-04-08 20:03:43,991 cvt_13_v1] (main.py 93): INFO [Epoch 2]: Train Loss: 1.5134, Train Acc: 34.93%, Val Loss: 1.4785, Val Acc: 36.72%, F1: 0.3232, Precision: 0.3710, Recall: 0.3672
+[2026-04-08 20:03:43,991 cvt_13_v1] (main.py 109): INFO Max accuracy: 38.40%
+[2026-04-08 20:03:44,819 cvt_13_v1] (main.py 159): INFO Epoch: [3][0/118] lr 0.000124 loss 1.4738 acc 31.25%
+[2026-04-08 20:03:52,023 cvt_13_v1] (main.py 159): INFO Epoch: [3][20/118] lr 0.000124 loss 1.5070 acc 32.74%
+[2026-04-08 20:03:59,141 cvt_13_v1] (main.py 159): INFO Epoch: [3][40/118] lr 0.000124 loss 1.5039 acc 34.45%
+[2026-04-08 20:04:06,336 cvt_13_v1] (main.py 159): INFO Epoch: [3][60/118] lr 0.000124 loss 1.4951 acc 35.14%
+[2026-04-08 20:04:13,430 cvt_13_v1] (main.py 159): INFO Epoch: [3][80/118] lr 0.000124 loss 1.4810 acc 36.42%
+[2026-04-08 20:04:20,619 cvt_13_v1] (main.py 159): INFO Epoch: [3][100/118] lr 0.000124 loss 1.4801 acc 37.41%
+[2026-04-08 20:04:36,547 cvt_13_v1] (main.py 93): INFO [Epoch 3]: Train Loss: 1.4744, Train Acc: 37.76%, Val Loss: 1.4225, Val Acc: 38.96%, F1: 0.3790, Precision: 0.4348, Recall: 0.3896
+[2026-04-08 20:04:36,547 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 3 with accuracy: 38.96%
+[2026-04-08 20:04:36,671 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:04:36,672 cvt_13_v1] (main.py 109): INFO Max accuracy: 38.96%
+[2026-04-08 20:04:37,497 cvt_13_v1] (main.py 159): INFO Epoch: [4][0/118] lr 0.000162 loss 1.4007 acc 37.50%
+[2026-04-08 20:04:44,763 cvt_13_v1] (main.py 159): INFO Epoch: [4][20/118] lr 0.000162 loss 1.4440 acc 38.39%
+[2026-04-08 20:04:51,960 cvt_13_v1] (main.py 159): INFO Epoch: [4][40/118] lr 0.000162 loss 1.4475 acc 37.42%
+[2026-04-08 20:04:59,231 cvt_13_v1] (main.py 159): INFO Epoch: [4][60/118] lr 0.000162 loss 1.4525 acc 38.78%
+[2026-04-08 20:05:06,424 cvt_13_v1] (main.py 159): INFO Epoch: [4][80/118] lr 0.000162 loss 1.4556 acc 39.00%
+[2026-04-08 20:05:13,709 cvt_13_v1] (main.py 159): INFO Epoch: [4][100/118] lr 0.000162 loss 1.4487 acc 39.67%
+[2026-04-08 20:05:29,578 cvt_13_v1] (main.py 93): INFO [Epoch 4]: Train Loss: 1.4372, Train Acc: 40.67%, Val Loss: 1.3302, Val Acc: 44.00%, F1: 0.4349, Precision: 0.4834, Recall: 0.4400
+[2026-04-08 20:05:29,578 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 4 with accuracy: 44.00%
+[2026-04-08 20:05:29,707 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:05:29,708 cvt_13_v1] (main.py 109): INFO Max accuracy: 44.00%
+[2026-04-08 20:05:30,548 cvt_13_v1] (main.py 159): INFO Epoch: [5][0/118] lr 0.000199 loss 1.3716 acc 50.00%
+[2026-04-08 20:05:37,814 cvt_13_v1] (main.py 159): INFO Epoch: [5][20/118] lr 0.000199 loss 1.4023 acc 44.20%
+[2026-04-08 20:05:44,984 cvt_13_v1] (main.py 159): INFO Epoch: [5][40/118] lr 0.000199 loss 1.4105 acc 42.23%
+[2026-04-08 20:05:52,209 cvt_13_v1] (main.py 159): INFO Epoch: [5][60/118] lr 0.000199 loss 1.4252 acc 40.98%
+[2026-04-08 20:05:59,367 cvt_13_v1] (main.py 159): INFO Epoch: [5][80/118] lr 0.000199 loss 1.4227 acc 41.78%
+[2026-04-08 20:06:06,627 cvt_13_v1] (main.py 159): INFO Epoch: [5][100/118] lr 0.000199 loss 1.4271 acc 41.62%
+[2026-04-08 20:06:22,477 cvt_13_v1] (main.py 93): INFO [Epoch 5]: Train Loss: 1.4225, Train Acc: 42.05%, Val Loss: 1.2607, Val Acc: 50.24%, F1: 0.5041, Precision: 0.5189, Recall: 0.5024
+[2026-04-08 20:06:22,478 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 5 with accuracy: 50.24%
+[2026-04-08 20:06:22,618 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:06:22,618 cvt_13_v1] (main.py 109): INFO Max accuracy: 50.24%
+[2026-04-08 20:06:23,438 cvt_13_v1] (main.py 159): INFO Epoch: [6][0/118] lr 0.000198 loss 1.3793 acc 56.25%
+[2026-04-08 20:06:30,680 cvt_13_v1] (main.py 159): INFO Epoch: [6][20/118] lr 0.000198 loss 1.4404 acc 43.30%
+[2026-04-08 20:06:37,869 cvt_13_v1] (main.py 159): INFO Epoch: [6][40/118] lr 0.000198 loss 1.4133 acc 42.53%
+[2026-04-08 20:06:45,118 cvt_13_v1] (main.py 159): INFO Epoch: [6][60/118] lr 0.000198 loss 1.4089 acc 43.19%
+[2026-04-08 20:06:52,310 cvt_13_v1] (main.py 159): INFO Epoch: [6][80/118] lr 0.000198 loss 1.4005 acc 43.25%
+[2026-04-08 20:06:59,584 cvt_13_v1] (main.py 159): INFO Epoch: [6][100/118] lr 0.000198 loss 1.3880 acc 44.09%
+[2026-04-08 20:07:15,484 cvt_13_v1] (main.py 93): INFO [Epoch 6]: Train Loss: 1.3759, Train Acc: 45.12%, Val Loss: 1.2026, Val Acc: 52.00%, F1: 0.5121, Precision: 0.5518, Recall: 0.5200
+[2026-04-08 20:07:15,485 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 6 with accuracy: 52.00%
+[2026-04-08 20:07:15,599 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:07:15,599 cvt_13_v1] (main.py 109): INFO Max accuracy: 52.00%
+[2026-04-08 20:07:16,427 cvt_13_v1] (main.py 159): INFO Epoch: [7][0/118] lr 0.000198 loss 1.2892 acc 43.75%
+[2026-04-08 20:07:23,689 cvt_13_v1] (main.py 159): INFO Epoch: [7][20/118] lr 0.000198 loss 1.3981 acc 43.30%
+[2026-04-08 20:07:30,860 cvt_13_v1] (main.py 159): INFO Epoch: [7][40/118] lr 0.000198 loss 1.3522 acc 45.58%
+[2026-04-08 20:07:38,150 cvt_13_v1] (main.py 159): INFO Epoch: [7][60/118] lr 0.000198 loss 1.3345 acc 46.77%
+[2026-04-08 20:07:45,304 cvt_13_v1] (main.py 159): INFO Epoch: [7][80/118] lr 0.000198 loss 1.3185 acc 48.07%
+[2026-04-08 20:07:52,549 cvt_13_v1] (main.py 159): INFO Epoch: [7][100/118] lr 0.000198 loss 1.3236 acc 48.14%
+[2026-04-08 20:08:08,445 cvt_13_v1] (main.py 93): INFO [Epoch 7]: Train Loss: 1.3232, Train Acc: 48.29%, Val Loss: 1.2210, Val Acc: 48.72%, F1: 0.4543, Precision: 0.5180, Recall: 0.4872
+[2026-04-08 20:08:08,445 cvt_13_v1] (main.py 109): INFO Max accuracy: 52.00%
+[2026-04-08 20:08:09,256 cvt_13_v1] (main.py 159): INFO Epoch: [8][0/118] lr 0.000197 loss 1.1862 acc 62.50%
+[2026-04-08 20:08:16,496 cvt_13_v1] (main.py 159): INFO Epoch: [8][20/118] lr 0.000197 loss 1.3197 acc 49.55%
+[2026-04-08 20:08:23,655 cvt_13_v1] (main.py 159): INFO Epoch: [8][40/118] lr 0.000197 loss 1.3099 acc 49.54%
+[2026-04-08 20:08:30,936 cvt_13_v1] (main.py 159): INFO Epoch: [8][60/118] lr 0.000197 loss 1.2996 acc 50.97%
+[2026-04-08 20:08:38,095 cvt_13_v1] (main.py 159): INFO Epoch: [8][80/118] lr 0.000197 loss 1.2961 acc 50.85%
+[2026-04-08 20:08:45,367 cvt_13_v1] (main.py 159): INFO Epoch: [8][100/118] lr 0.000197 loss 1.2883 acc 50.68%
+[2026-04-08 20:09:01,357 cvt_13_v1] (main.py 93): INFO [Epoch 8]: Train Loss: 1.2848, Train Acc: 50.80%, Val Loss: 1.1938, Val Acc: 52.32%, F1: 0.5184, Precision: 0.5733, Recall: 0.5232
+[2026-04-08 20:09:01,358 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 8 with accuracy: 52.32%
+[2026-04-08 20:09:01,473 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:09:01,473 cvt_13_v1] (main.py 109): INFO Max accuracy: 52.32%
+[2026-04-08 20:09:02,320 cvt_13_v1] (main.py 159): INFO Epoch: [9][0/118] lr 0.000196 loss 1.4172 acc 37.50%
+[2026-04-08 20:09:09,586 cvt_13_v1] (main.py 159): INFO Epoch: [9][20/118] lr 0.000196 loss 1.2692 acc 52.08%
+[2026-04-08 20:09:16,768 cvt_13_v1] (main.py 159): INFO Epoch: [9][40/118] lr 0.000196 loss 1.2515 acc 54.12%
+[2026-04-08 20:09:24,036 cvt_13_v1] (main.py 159): INFO Epoch: [9][60/118] lr 0.000196 loss 1.2465 acc 54.25%
+[2026-04-08 20:09:31,211 cvt_13_v1] (main.py 159): INFO Epoch: [9][80/118] lr 0.000196 loss 1.2626 acc 53.43%
+[2026-04-08 20:09:38,477 cvt_13_v1] (main.py 159): INFO Epoch: [9][100/118] lr 0.000196 loss 1.2610 acc 53.28%
+[2026-04-08 20:09:54,410 cvt_13_v1] (main.py 93): INFO [Epoch 9]: Train Loss: 1.2638, Train Acc: 52.93%, Val Loss: 1.1004, Val Acc: 55.44%, F1: 0.5211, Precision: 0.6076, Recall: 0.5544
+[2026-04-08 20:09:54,411 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 9 with accuracy: 55.44%
+[2026-04-08 20:09:54,524 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:09:54,524 cvt_13_v1] (main.py 109): INFO Max accuracy: 55.44%
+[2026-04-08 20:09:55,350 cvt_13_v1] (main.py 159): INFO Epoch: [10][0/118] lr 0.000195 loss 1.2467 acc 59.38%
+[2026-04-08 20:10:02,600 cvt_13_v1] (main.py 159): INFO Epoch: [10][20/118] lr 0.000195 loss 1.2914 acc 52.83%
+[2026-04-08 20:10:09,762 cvt_13_v1] (main.py 159): INFO Epoch: [10][40/118] lr 0.000195 loss 1.2648 acc 53.89%
+[2026-04-08 20:10:17,032 cvt_13_v1] (main.py 159): INFO Epoch: [10][60/118] lr 0.000195 loss 1.2556 acc 53.89%
+[2026-04-08 20:10:24,173 cvt_13_v1] (main.py 159): INFO Epoch: [10][80/118] lr 0.000195 loss 1.2468 acc 54.01%
+[2026-04-08 20:10:31,415 cvt_13_v1] (main.py 159): INFO Epoch: [10][100/118] lr 0.000195 loss 1.2364 acc 54.80%
+[2026-04-08 20:10:47,492 cvt_13_v1] (main.py 93): INFO [Epoch 10]: Train Loss: 1.2368, Train Acc: 54.83%, Val Loss: 1.0366, Val Acc: 60.48%, F1: 0.6031, Precision: 0.6180, Recall: 0.6048
+[2026-04-08 20:10:47,492 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 10 with accuracy: 60.48%
+[2026-04-08 20:10:47,634 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:10:47,635 cvt_13_v1] (main.py 109): INFO Max accuracy: 60.48%
+[2026-04-08 20:10:48,447 cvt_13_v1] (main.py 159): INFO Epoch: [11][0/118] lr 0.000194 loss 1.1816 acc 46.88%
+[2026-04-08 20:10:55,728 cvt_13_v1] (main.py 159): INFO Epoch: [11][20/118] lr 0.000194 loss 1.1865 acc 56.55%
+[2026-04-08 20:11:02,873 cvt_13_v1] (main.py 159): INFO Epoch: [11][40/118] lr 0.000194 loss 1.2159 acc 55.26%
+[2026-04-08 20:11:10,113 cvt_13_v1] (main.py 159): INFO Epoch: [11][60/118] lr 0.000194 loss 1.2226 acc 54.35%
+[2026-04-08 20:11:17,243 cvt_13_v1] (main.py 159): INFO Epoch: [11][80/118] lr 0.000194 loss 1.2196 acc 54.98%
+[2026-04-08 20:11:24,501 cvt_13_v1] (main.py 159): INFO Epoch: [11][100/118] lr 0.000194 loss 1.2202 acc 54.80%
+[2026-04-08 20:11:40,516 cvt_13_v1] (main.py 93): INFO [Epoch 11]: Train Loss: 1.2128, Train Acc: 55.31%, Val Loss: 0.9800, Val Acc: 61.36%, F1: 0.6005, Precision: 0.6354, Recall: 0.6136
+[2026-04-08 20:11:40,517 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 11 with accuracy: 61.36%
+[2026-04-08 20:11:40,630 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:11:40,630 cvt_13_v1] (main.py 109): INFO Max accuracy: 61.36%
+[2026-04-08 20:11:41,466 cvt_13_v1] (main.py 159): INFO Epoch: [12][0/118] lr 0.000193 loss 1.0836 acc 53.12%
+[2026-04-08 20:11:48,731 cvt_13_v1] (main.py 159): INFO Epoch: [12][20/118] lr 0.000193 loss 1.1590 acc 59.52%
+[2026-04-08 20:11:55,901 cvt_13_v1] (main.py 159): INFO Epoch: [12][40/118] lr 0.000193 loss 1.1763 acc 58.99%
+[2026-04-08 20:12:03,139 cvt_13_v1] (main.py 159): INFO Epoch: [12][60/118] lr 0.000193 loss 1.1770 acc 58.71%
+[2026-04-08 20:12:10,309 cvt_13_v1] (main.py 159): INFO Epoch: [12][80/118] lr 0.000193 loss 1.1909 acc 57.41%
+[2026-04-08 20:12:17,574 cvt_13_v1] (main.py 159): INFO Epoch: [12][100/118] lr 0.000193 loss 1.1889 acc 56.87%
+[2026-04-08 20:12:33,712 cvt_13_v1] (main.py 93): INFO [Epoch 12]: Train Loss: 1.1874, Train Acc: 56.51%, Val Loss: 0.9698, Val Acc: 63.28%, F1: 0.6235, Precision: 0.6518, Recall: 0.6328
+[2026-04-08 20:12:33,712 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 12 with accuracy: 63.28%
+[2026-04-08 20:12:33,823 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:12:33,824 cvt_13_v1] (main.py 109): INFO Max accuracy: 63.28%
+[2026-04-08 20:12:34,638 cvt_13_v1] (main.py 159): INFO Epoch: [13][0/118] lr 0.000192 loss 1.0323 acc 68.75%
+[2026-04-08 20:12:41,933 cvt_13_v1] (main.py 159): INFO Epoch: [13][20/118] lr 0.000192 loss 1.2156 acc 56.10%
+[2026-04-08 20:12:49,108 cvt_13_v1] (main.py 159): INFO Epoch: [13][40/118] lr 0.000192 loss 1.1741 acc 57.93%
+[2026-04-08 20:12:56,378 cvt_13_v1] (main.py 159): INFO Epoch: [13][60/118] lr 0.000192 loss 1.1635 acc 58.09%
+[2026-04-08 20:13:03,549 cvt_13_v1] (main.py 159): INFO Epoch: [13][80/118] lr 0.000192 loss 1.1734 acc 57.52%
+[2026-04-08 20:13:10,810 cvt_13_v1] (main.py 159): INFO Epoch: [13][100/118] lr 0.000192 loss 1.1723 acc 57.83%
+[2026-04-08 20:13:26,899 cvt_13_v1] (main.py 93): INFO [Epoch 13]: Train Loss: 1.1758, Train Acc: 57.65%, Val Loss: 1.0086, Val Acc: 58.80%, F1: 0.5657, Precision: 0.6388, Recall: 0.5880
+[2026-04-08 20:13:26,899 cvt_13_v1] (main.py 109): INFO Max accuracy: 63.28%
+[2026-04-08 20:13:27,729 cvt_13_v1] (main.py 159): INFO Epoch: [14][0/118] lr 0.000191 loss 1.0793 acc 56.25%
+[2026-04-08 20:13:35,008 cvt_13_v1] (main.py 159): INFO Epoch: [14][20/118] lr 0.000191 loss 1.1189 acc 62.95%
+[2026-04-08 20:13:42,193 cvt_13_v1] (main.py 159): INFO Epoch: [14][40/118] lr 0.000191 loss 1.1362 acc 61.43%
+[2026-04-08 20:13:49,463 cvt_13_v1] (main.py 159): INFO Epoch: [14][60/118] lr 0.000191 loss 1.1325 acc 60.40%
+[2026-04-08 20:13:56,632 cvt_13_v1] (main.py 159): INFO Epoch: [14][80/118] lr 0.000191 loss 1.1351 acc 60.61%
+[2026-04-08 20:14:03,889 cvt_13_v1] (main.py 159): INFO Epoch: [14][100/118] lr 0.000191 loss 1.1580 acc 59.56%
+[2026-04-08 20:14:20,092 cvt_13_v1] (main.py 93): INFO [Epoch 14]: Train Loss: 1.1527, Train Acc: 59.47%, Val Loss: 1.0264, Val Acc: 57.12%, F1: 0.5517, Precision: 0.6426, Recall: 0.5712
+[2026-04-08 20:14:20,092 cvt_13_v1] (main.py 109): INFO Max accuracy: 63.28%
+[2026-04-08 20:14:20,936 cvt_13_v1] (main.py 159): INFO Epoch: [15][0/118] lr 0.000189 loss 1.0582 acc 68.75%
+[2026-04-08 20:14:28,230 cvt_13_v1] (main.py 159): INFO Epoch: [15][20/118] lr 0.000189 loss 1.1344 acc 59.08%
+[2026-04-08 20:14:35,420 cvt_13_v1] (main.py 159): INFO Epoch: [15][40/118] lr 0.000189 loss 1.1019 acc 61.51%
+[2026-04-08 20:14:42,713 cvt_13_v1] (main.py 159): INFO Epoch: [15][60/118] lr 0.000189 loss 1.0972 acc 62.19%
+[2026-04-08 20:14:49,895 cvt_13_v1] (main.py 159): INFO Epoch: [15][80/118] lr 0.000189 loss 1.0880 acc 62.77%
+[2026-04-08 20:14:57,191 cvt_13_v1] (main.py 159): INFO Epoch: [15][100/118] lr 0.000189 loss 1.0943 acc 62.38%
+[2026-04-08 20:15:13,400 cvt_13_v1] (main.py 93): INFO [Epoch 15]: Train Loss: 1.1049, Train Acc: 62.05%, Val Loss: 0.9649, Val Acc: 64.72%, F1: 0.6487, Precision: 0.6786, Recall: 0.6472
+[2026-04-08 20:15:13,400 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 15 with accuracy: 64.72%
+[2026-04-08 20:15:13,543 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:15:13,544 cvt_13_v1] (main.py 109): INFO Max accuracy: 64.72%
+[2026-04-08 20:15:14,365 cvt_13_v1] (main.py 159): INFO Epoch: [16][0/118] lr 0.000188 loss 1.1692 acc 62.50%
+[2026-04-08 20:15:21,657 cvt_13_v1] (main.py 159): INFO Epoch: [16][20/118] lr 0.000188 loss 1.1512 acc 61.31%
+[2026-04-08 20:15:28,816 cvt_13_v1] (main.py 159): INFO Epoch: [16][40/118] lr 0.000188 loss 1.1046 acc 63.03%
+[2026-04-08 20:15:36,054 cvt_13_v1] (main.py 159): INFO Epoch: [16][60/118] lr 0.000188 loss 1.1042 acc 62.91%
+[2026-04-08 20:15:43,232 cvt_13_v1] (main.py 159): INFO Epoch: [16][80/118] lr 0.000188 loss 1.1048 acc 62.58%
+[2026-04-08 20:15:50,484 cvt_13_v1] (main.py 159): INFO Epoch: [16][100/118] lr 0.000188 loss 1.1001 acc 62.75%
+[2026-04-08 20:16:06,558 cvt_13_v1] (main.py 93): INFO [Epoch 16]: Train Loss: 1.0916, Train Acc: 63.31%, Val Loss: 0.9089, Val Acc: 63.28%, F1: 0.6254, Precision: 0.6919, Recall: 0.6328
+[2026-04-08 20:16:06,559 cvt_13_v1] (main.py 109): INFO Max accuracy: 64.72%
+[2026-04-08 20:16:07,367 cvt_13_v1] (main.py 159): INFO Epoch: [17][0/118] lr 0.000186 loss 1.2358 acc 56.25%
+[2026-04-08 20:16:14,672 cvt_13_v1] (main.py 159): INFO Epoch: [17][20/118] lr 0.000186 loss 1.0363 acc 64.88%
+[2026-04-08 20:16:21,835 cvt_13_v1] (main.py 159): INFO Epoch: [17][40/118] lr 0.000186 loss 1.0615 acc 63.64%
+[2026-04-08 20:16:29,075 cvt_13_v1] (main.py 159): INFO Epoch: [17][60/118] lr 0.000186 loss 1.0805 acc 62.60%
+[2026-04-08 20:16:36,239 cvt_13_v1] (main.py 159): INFO Epoch: [17][80/118] lr 0.000186 loss 1.0786 acc 62.46%
+[2026-04-08 20:16:43,512 cvt_13_v1] (main.py 159): INFO Epoch: [17][100/118] lr 0.000186 loss 1.0711 acc 63.49%
+[2026-04-08 20:16:59,875 cvt_13_v1] (main.py 93): INFO [Epoch 17]: Train Loss: 1.0744, Train Acc: 63.44%, Val Loss: 0.8552, Val Acc: 67.28%, F1: 0.6633, Precision: 0.6758, Recall: 0.6728
+[2026-04-08 20:16:59,876 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 17 with accuracy: 67.28%
+[2026-04-08 20:16:59,994 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:16:59,995 cvt_13_v1] (main.py 109): INFO Max accuracy: 67.28%
+[2026-04-08 20:17:00,830 cvt_13_v1] (main.py 159): INFO Epoch: [18][0/118] lr 0.000185 loss 1.0523 acc 71.88%
+[2026-04-08 20:17:08,130 cvt_13_v1] (main.py 159): INFO Epoch: [18][20/118] lr 0.000185 loss 1.0223 acc 68.01%
+[2026-04-08 20:17:15,313 cvt_13_v1] (main.py 159): INFO Epoch: [18][40/118] lr 0.000185 loss 1.0486 acc 65.40%
+[2026-04-08 20:17:22,564 cvt_13_v1] (main.py 159): INFO Epoch: [18][60/118] lr 0.000185 loss 1.0481 acc 65.11%
+[2026-04-08 20:17:29,756 cvt_13_v1] (main.py 159): INFO Epoch: [18][80/118] lr 0.000185 loss 1.0464 acc 65.59%
+[2026-04-08 20:17:37,031 cvt_13_v1] (main.py 159): INFO Epoch: [18][100/118] lr 0.000185 loss 1.0487 acc 65.59%
+[2026-04-08 20:17:53,213 cvt_13_v1] (main.py 93): INFO [Epoch 18]: Train Loss: 1.0476, Train Acc: 65.41%, Val Loss: 0.8619, Val Acc: 65.76%, F1: 0.6424, Precision: 0.6895, Recall: 0.6576
+[2026-04-08 20:17:53,214 cvt_13_v1] (main.py 109): INFO Max accuracy: 67.28%
+[2026-04-08 20:17:54,034 cvt_13_v1] (main.py 159): INFO Epoch: [19][0/118] lr 0.000183 loss 1.1205 acc 56.25%
+[2026-04-08 20:18:01,322 cvt_13_v1] (main.py 159): INFO Epoch: [19][20/118] lr 0.000183 loss 1.0590 acc 64.73%
+[2026-04-08 20:18:08,493 cvt_13_v1] (main.py 159): INFO Epoch: [19][40/118] lr 0.000183 loss 1.0378 acc 65.93%
+[2026-04-08 20:18:15,768 cvt_13_v1] (main.py 159): INFO Epoch: [19][60/118] lr 0.000183 loss 1.0309 acc 65.93%
+[2026-04-08 20:18:22,960 cvt_13_v1] (main.py 159): INFO Epoch: [19][80/118] lr 0.000183 loss 1.0336 acc 66.20%
+[2026-04-08 20:18:30,204 cvt_13_v1] (main.py 159): INFO Epoch: [19][100/118] lr 0.000183 loss 1.0264 acc 67.08%
+[2026-04-08 20:18:46,275 cvt_13_v1] (main.py 93): INFO [Epoch 19]: Train Loss: 1.0249, Train Acc: 67.12%, Val Loss: 0.8168, Val Acc: 68.88%, F1: 0.6902, Precision: 0.7149, Recall: 0.6888
+[2026-04-08 20:18:46,276 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 19 with accuracy: 68.88%
+[2026-04-08 20:18:46,420 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:18:46,420 cvt_13_v1] (main.py 109): INFO Max accuracy: 68.88%
+[2026-04-08 20:18:47,229 cvt_13_v1] (main.py 159): INFO Epoch: [20][0/118] lr 0.000181 loss 0.9711 acc 68.75%
+[2026-04-08 20:18:54,512 cvt_13_v1] (main.py 159): INFO Epoch: [20][20/118] lr 0.000181 loss 1.0420 acc 62.50%
+[2026-04-08 20:19:01,691 cvt_13_v1] (main.py 159): INFO Epoch: [20][40/118] lr 0.000181 loss 1.0218 acc 64.48%
+[2026-04-08 20:19:08,939 cvt_13_v1] (main.py 159): INFO Epoch: [20][60/118] lr 0.000181 loss 1.0129 acc 66.09%
+[2026-04-08 20:19:16,176 cvt_13_v1] (main.py 159): INFO Epoch: [20][80/118] lr 0.000181 loss 1.0104 acc 66.78%
+[2026-04-08 20:19:23,367 cvt_13_v1] (main.py 159): INFO Epoch: [20][100/118] lr 0.000181 loss 1.0087 acc 67.26%
+[2026-04-08 20:19:39,285 cvt_13_v1] (main.py 93): INFO [Epoch 20]: Train Loss: 1.0129, Train Acc: 67.15%, Val Loss: 0.9020, Val Acc: 63.20%, F1: 0.6132, Precision: 0.7251, Recall: 0.6320
+[2026-04-08 20:19:39,286 cvt_13_v1] (main.py 109): INFO Max accuracy: 68.88%
+[2026-04-08 20:19:40,193 cvt_13_v1] (main.py 159): INFO Epoch: [21][0/118] lr 0.000179 loss 1.2484 acc 68.75%
+[2026-04-08 20:19:47,869 cvt_13_v1] (main.py 159): INFO Epoch: [21][20/118] lr 0.000179 loss 1.1257 acc 61.90%
+[2026-04-08 20:19:55,093 cvt_13_v1] (main.py 159): INFO Epoch: [21][40/118] lr 0.000179 loss 1.0484 acc 66.69%
+[2026-04-08 20:20:02,302 cvt_13_v1] (main.py 159): INFO Epoch: [21][60/118] lr 0.000179 loss 1.0238 acc 67.78%
+[2026-04-08 20:20:09,565 cvt_13_v1] (main.py 159): INFO Epoch: [21][80/118] lr 0.000179 loss 1.0015 acc 68.75%
+[2026-04-08 20:20:16,747 cvt_13_v1] (main.py 159): INFO Epoch: [21][100/118] lr 0.000179 loss 1.0023 acc 68.69%
+[2026-04-08 20:20:32,600 cvt_13_v1] (main.py 93): INFO [Epoch 21]: Train Loss: 1.0139, Train Acc: 67.79%, Val Loss: 0.7494, Val Acc: 73.60%, F1: 0.7368, Precision: 0.7455, Recall: 0.7360
+[2026-04-08 20:20:32,600 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 21 with accuracy: 73.60%
+[2026-04-08 20:20:32,771 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:20:32,772 cvt_13_v1] (main.py 109): INFO Max accuracy: 73.60%
+[2026-04-08 20:20:33,955 cvt_13_v1] (main.py 159): INFO Epoch: [22][0/118] lr 0.000177 loss 0.9952 acc 62.50%
+[2026-04-08 20:20:41,259 cvt_13_v1] (main.py 159): INFO Epoch: [22][20/118] lr 0.000177 loss 0.9921 acc 67.11%
+[2026-04-08 20:20:48,558 cvt_13_v1] (main.py 159): INFO Epoch: [22][40/118] lr 0.000177 loss 0.9862 acc 68.60%
+[2026-04-08 20:20:55,761 cvt_13_v1] (main.py 159): INFO Epoch: [22][60/118] lr 0.000177 loss 0.9892 acc 68.39%
+[2026-04-08 20:21:03,003 cvt_13_v1] (main.py 159): INFO Epoch: [22][80/118] lr 0.000177 loss 0.9844 acc 68.94%
+[2026-04-08 20:21:10,189 cvt_13_v1] (main.py 159): INFO Epoch: [22][100/118] lr 0.000177 loss 0.9734 acc 69.62%
+[2026-04-08 20:21:26,127 cvt_13_v1] (main.py 93): INFO [Epoch 22]: Train Loss: 0.9809, Train Acc: 69.28%, Val Loss: 0.7809, Val Acc: 70.48%, F1: 0.6802, Precision: 0.7465, Recall: 0.7048
+[2026-04-08 20:21:26,128 cvt_13_v1] (main.py 109): INFO Max accuracy: 73.60%
+[2026-04-08 20:21:27,282 cvt_13_v1] (main.py 159): INFO Epoch: [23][0/118] lr 0.000175 loss 0.8873 acc 71.88%
+[2026-04-08 20:21:34,492 cvt_13_v1] (main.py 159): INFO Epoch: [23][20/118] lr 0.000175 loss 0.9626 acc 71.13%
+[2026-04-08 20:21:41,771 cvt_13_v1] (main.py 159): INFO Epoch: [23][40/118] lr 0.000175 loss 0.9592 acc 70.35%
+[2026-04-08 20:21:48,977 cvt_13_v1] (main.py 159): INFO Epoch: [23][60/118] lr 0.000175 loss 0.9554 acc 70.70%
+[2026-04-08 20:21:56,237 cvt_13_v1] (main.py 159): INFO Epoch: [23][80/118] lr 0.000175 loss 0.9563 acc 70.41%
+[2026-04-08 20:22:03,408 cvt_13_v1] (main.py 159): INFO Epoch: [23][100/118] lr 0.000175 loss 0.9569 acc 70.17%
+[2026-04-08 20:22:19,284 cvt_13_v1] (main.py 93): INFO [Epoch 23]: Train Loss: 0.9683, Train Acc: 69.28%, Val Loss: 0.7336, Val Acc: 73.44%, F1: 0.7273, Precision: 0.7515, Recall: 0.7344
+[2026-04-08 20:22:19,285 cvt_13_v1] (main.py 109): INFO Max accuracy: 73.60%
+[2026-04-08 20:22:20,356 cvt_13_v1] (main.py 159): INFO Epoch: [24][0/118] lr 0.000173 loss 1.2479 acc 46.88%
+[2026-04-08 20:22:27,561 cvt_13_v1] (main.py 159): INFO Epoch: [24][20/118] lr 0.000173 loss 0.9969 acc 66.22%
+[2026-04-08 20:22:34,849 cvt_13_v1] (main.py 159): INFO Epoch: [24][40/118] lr 0.000173 loss 0.9730 acc 69.05%
+[2026-04-08 20:22:42,017 cvt_13_v1] (main.py 159): INFO Epoch: [24][60/118] lr 0.000173 loss 0.9746 acc 69.21%
+[2026-04-08 20:22:49,288 cvt_13_v1] (main.py 159): INFO Epoch: [24][80/118] lr 0.000173 loss 0.9623 acc 70.06%
+[2026-04-08 20:22:56,460 cvt_13_v1] (main.py 159): INFO Epoch: [24][100/118] lr 0.000173 loss 0.9628 acc 69.86%
+[2026-04-08 20:23:12,346 cvt_13_v1] (main.py 93): INFO [Epoch 24]: Train Loss: 0.9581, Train Acc: 70.59%, Val Loss: 0.7838, Val Acc: 67.20%, F1: 0.6527, Precision: 0.7469, Recall: 0.6720
+[2026-04-08 20:23:12,347 cvt_13_v1] (main.py 109): INFO Max accuracy: 73.60%
+[2026-04-08 20:23:13,402 cvt_13_v1] (main.py 159): INFO Epoch: [25][0/118] lr 0.000171 loss 1.0433 acc 65.62%
+[2026-04-08 20:23:20,618 cvt_13_v1] (main.py 159): INFO Epoch: [25][20/118] lr 0.000171 loss 0.9287 acc 72.32%
+[2026-04-08 20:23:27,905 cvt_13_v1] (main.py 159): INFO Epoch: [25][40/118] lr 0.000171 loss 0.9331 acc 72.03%
+[2026-04-08 20:23:35,073 cvt_13_v1] (main.py 159): INFO Epoch: [25][60/118] lr 0.000171 loss 0.9410 acc 71.41%
+[2026-04-08 20:23:42,320 cvt_13_v1] (main.py 159): INFO Epoch: [25][80/118] lr 0.000171 loss 0.9387 acc 71.22%
+[2026-04-08 20:23:49,476 cvt_13_v1] (main.py 159): INFO Epoch: [25][100/118] lr 0.000171 loss 0.9512 acc 70.67%
+[2026-04-08 20:24:05,348 cvt_13_v1] (main.py 93): INFO [Epoch 25]: Train Loss: 0.9599, Train Acc: 70.29%, Val Loss: 0.7105, Val Acc: 75.76%, F1: 0.7602, Precision: 0.7724, Recall: 0.7576
+[2026-04-08 20:24:05,348 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 25 with accuracy: 75.76%
+[2026-04-08 20:24:05,518 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:24:05,519 cvt_13_v1] (main.py 109): INFO Max accuracy: 75.76%
+[2026-04-08 20:24:06,568 cvt_13_v1] (main.py 159): INFO Epoch: [26][0/118] lr 0.000169 loss 0.8674 acc 71.88%
+[2026-04-08 20:24:13,730 cvt_13_v1] (main.py 159): INFO Epoch: [26][20/118] lr 0.000169 loss 0.9057 acc 73.96%
+[2026-04-08 20:24:21,024 cvt_13_v1] (main.py 159): INFO Epoch: [26][40/118] lr 0.000169 loss 0.9347 acc 71.72%
+[2026-04-08 20:24:28,187 cvt_13_v1] (main.py 159): INFO Epoch: [26][60/118] lr 0.000169 loss 0.9348 acc 71.72%
+[2026-04-08 20:24:35,474 cvt_13_v1] (main.py 159): INFO Epoch: [26][80/118] lr 0.000169 loss 0.9300 acc 71.99%
+[2026-04-08 20:24:42,635 cvt_13_v1] (main.py 159): INFO Epoch: [26][100/118] lr 0.000169 loss 0.9207 acc 72.62%
+[2026-04-08 20:24:58,533 cvt_13_v1] (main.py 93): INFO [Epoch 26]: Train Loss: 0.9163, Train Acc: 72.91%, Val Loss: 0.6942, Val Acc: 74.64%, F1: 0.7468, Precision: 0.7573, Recall: 0.7464
+[2026-04-08 20:24:58,534 cvt_13_v1] (main.py 109): INFO Max accuracy: 75.76%
+[2026-04-08 20:24:59,473 cvt_13_v1] (main.py 159): INFO Epoch: [27][0/118] lr 0.000166 loss 0.9966 acc 71.88%
+[2026-04-08 20:25:06,634 cvt_13_v1] (main.py 159): INFO Epoch: [27][20/118] lr 0.000166 loss 0.9220 acc 71.43%
+[2026-04-08 20:25:13,909 cvt_13_v1] (main.py 159): INFO Epoch: [27][40/118] lr 0.000166 loss 0.9111 acc 72.87%
+[2026-04-08 20:25:21,093 cvt_13_v1] (main.py 159): INFO Epoch: [27][60/118] lr 0.000166 loss 0.9198 acc 72.44%
+[2026-04-08 20:25:28,396 cvt_13_v1] (main.py 159): INFO Epoch: [27][80/118] lr 0.000166 loss 0.9157 acc 72.72%
+[2026-04-08 20:25:35,561 cvt_13_v1] (main.py 159): INFO Epoch: [27][100/118] lr 0.000166 loss 0.9178 acc 72.52%
+[2026-04-08 20:25:51,502 cvt_13_v1] (main.py 93): INFO [Epoch 27]: Train Loss: 0.9070, Train Acc: 73.28%, Val Loss: 0.6614, Val Acc: 76.88%, F1: 0.7688, Precision: 0.7838, Recall: 0.7688
+[2026-04-08 20:25:51,502 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 27 with accuracy: 76.88%
+[2026-04-08 20:25:51,640 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:25:51,640 cvt_13_v1] (main.py 109): INFO Max accuracy: 76.88%
+[2026-04-08 20:25:52,467 cvt_13_v1] (main.py 159): INFO Epoch: [28][0/118] lr 0.000164 loss 0.8613 acc 78.12%
+[2026-04-08 20:25:59,645 cvt_13_v1] (main.py 159): INFO Epoch: [28][20/118] lr 0.000164 loss 0.9010 acc 73.51%
+[2026-04-08 20:26:06,894 cvt_13_v1] (main.py 159): INFO Epoch: [28][40/118] lr 0.000164 loss 0.9030 acc 73.63%
+[2026-04-08 20:26:14,040 cvt_13_v1] (main.py 159): INFO Epoch: [28][60/118] lr 0.000164 loss 0.9021 acc 73.05%
+[2026-04-08 20:26:21,317 cvt_13_v1] (main.py 159): INFO Epoch: [28][80/118] lr 0.000164 loss 0.8895 acc 73.50%
+[2026-04-08 20:26:28,489 cvt_13_v1] (main.py 159): INFO Epoch: [28][100/118] lr 0.000164 loss 0.8878 acc 73.86%
+[2026-04-08 20:26:44,418 cvt_13_v1] (main.py 93): INFO [Epoch 28]: Train Loss: 0.8957, Train Acc: 73.52%, Val Loss: 0.7422, Val Acc: 72.88%, F1: 0.7272, Precision: 0.7576, Recall: 0.7288
+[2026-04-08 20:26:44,419 cvt_13_v1] (main.py 109): INFO Max accuracy: 76.88%
+[2026-04-08 20:26:45,270 cvt_13_v1] (main.py 159): INFO Epoch: [29][0/118] lr 0.000161 loss 0.9766 acc 71.88%
+[2026-04-08 20:26:52,438 cvt_13_v1] (main.py 159): INFO Epoch: [29][20/118] lr 0.000161 loss 0.8969 acc 74.11%
+[2026-04-08 20:26:59,717 cvt_13_v1] (main.py 159): INFO Epoch: [29][40/118] lr 0.000161 loss 0.8661 acc 75.91%
+[2026-04-08 20:27:06,866 cvt_13_v1] (main.py 159): INFO Epoch: [29][60/118] lr 0.000161 loss 0.8630 acc 75.46%
+[2026-04-08 20:27:14,167 cvt_13_v1] (main.py 159): INFO Epoch: [29][80/118] lr 0.000161 loss 0.8578 acc 75.93%
+[2026-04-08 20:27:21,357 cvt_13_v1] (main.py 159): INFO Epoch: [29][100/118] lr 0.000161 loss 0.8627 acc 75.59%
+[2026-04-08 20:27:37,341 cvt_13_v1] (main.py 93): INFO [Epoch 29]: Train Loss: 0.8740, Train Acc: 75.04%, Val Loss: 0.6444, Val Acc: 78.16%, F1: 0.7828, Precision: 0.7968, Recall: 0.7816
+[2026-04-08 20:27:37,342 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 29 with accuracy: 78.16%
+[2026-04-08 20:27:37,490 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:27:37,491 cvt_13_v1] (main.py 109): INFO Max accuracy: 78.16%
+[2026-04-08 20:27:38,331 cvt_13_v1] (main.py 159): INFO Epoch: [30][0/118] lr 0.000159 loss 0.8368 acc 75.00%
+[2026-04-08 20:27:45,532 cvt_13_v1] (main.py 159): INFO Epoch: [30][20/118] lr 0.000159 loss 0.8579 acc 75.15%
+[2026-04-08 20:27:52,776 cvt_13_v1] (main.py 159): INFO Epoch: [30][40/118] lr 0.000159 loss 0.8738 acc 73.93%
+[2026-04-08 20:27:59,947 cvt_13_v1] (main.py 159): INFO Epoch: [30][60/118] lr 0.000159 loss 0.8827 acc 73.98%
+[2026-04-08 20:28:07,241 cvt_13_v1] (main.py 159): INFO Epoch: [30][80/118] lr 0.000159 loss 0.8672 acc 75.00%
+[2026-04-08 20:28:14,422 cvt_13_v1] (main.py 159): INFO Epoch: [30][100/118] lr 0.000159 loss 0.8643 acc 75.46%
+[2026-04-08 20:28:30,433 cvt_13_v1] (main.py 93): INFO [Epoch 30]: Train Loss: 0.8638, Train Acc: 75.76%, Val Loss: 0.6821, Val Acc: 74.32%, F1: 0.7280, Precision: 0.7576, Recall: 0.7432
+[2026-04-08 20:28:30,433 cvt_13_v1] (main.py 109): INFO Max accuracy: 78.16%
+[2026-04-08 20:28:31,240 cvt_13_v1] (main.py 159): INFO Epoch: [31][0/118] lr 0.000156 loss 0.9126 acc 65.62%
+[2026-04-08 20:28:38,514 cvt_13_v1] (main.py 159): INFO Epoch: [31][20/118] lr 0.000156 loss 0.8313 acc 77.53%
+[2026-04-08 20:28:45,792 cvt_13_v1] (main.py 159): INFO Epoch: [31][40/118] lr 0.000156 loss 0.8654 acc 75.61%
+[2026-04-08 20:28:52,968 cvt_13_v1] (main.py 159): INFO Epoch: [31][60/118] lr 0.000156 loss 0.8538 acc 76.08%
+[2026-04-08 20:29:00,236 cvt_13_v1] (main.py 159): INFO Epoch: [31][80/118] lr 0.000156 loss 0.8548 acc 76.50%
+[2026-04-08 20:29:07,427 cvt_13_v1] (main.py 159): INFO Epoch: [31][100/118] lr 0.000156 loss 0.8477 acc 76.83%
+[2026-04-08 20:29:23,421 cvt_13_v1] (main.py 93): INFO [Epoch 31]: Train Loss: 0.8552, Train Acc: 76.37%, Val Loss: 0.6411, Val Acc: 77.20%, F1: 0.7696, Precision: 0.7821, Recall: 0.7720
+[2026-04-08 20:29:23,422 cvt_13_v1] (main.py 109): INFO Max accuracy: 78.16%
+[2026-04-08 20:29:24,230 cvt_13_v1] (main.py 159): INFO Epoch: [32][0/118] lr 0.000154 loss 0.7103 acc 90.62%
+[2026-04-08 20:29:31,390 cvt_13_v1] (main.py 159): INFO Epoch: [32][20/118] lr 0.000154 loss 0.8068 acc 79.91%
+[2026-04-08 20:29:38,642 cvt_13_v1] (main.py 159): INFO Epoch: [32][40/118] lr 0.000154 loss 0.8045 acc 79.57%
+[2026-04-08 20:29:45,790 cvt_13_v1] (main.py 159): INFO Epoch: [32][60/118] lr 0.000154 loss 0.8164 acc 79.10%
+[2026-04-08 20:29:53,054 cvt_13_v1] (main.py 159): INFO Epoch: [32][80/118] lr 0.000154 loss 0.8326 acc 78.12%
+[2026-04-08 20:30:00,246 cvt_13_v1] (main.py 159): INFO Epoch: [32][100/118] lr 0.000154 loss 0.8371 acc 77.85%
+[2026-04-08 20:30:16,246 cvt_13_v1] (main.py 93): INFO [Epoch 32]: Train Loss: 0.8431, Train Acc: 77.60%, Val Loss: 0.6242, Val Acc: 77.20%, F1: 0.7633, Precision: 0.7861, Recall: 0.7720
+[2026-04-08 20:30:16,246 cvt_13_v1] (main.py 109): INFO Max accuracy: 78.16%
+[2026-04-08 20:30:17,057 cvt_13_v1] (main.py 159): INFO Epoch: [33][0/118] lr 0.000151 loss 0.6706 acc 90.62%
+[2026-04-08 20:30:24,255 cvt_13_v1] (main.py 159): INFO Epoch: [33][20/118] lr 0.000151 loss 0.8221 acc 78.12%
+[2026-04-08 20:30:31,518 cvt_13_v1] (main.py 159): INFO Epoch: [33][40/118] lr 0.000151 loss 0.8084 acc 79.27%
+[2026-04-08 20:30:38,693 cvt_13_v1] (main.py 159): INFO Epoch: [33][60/118] lr 0.000151 loss 0.8206 acc 78.43%
+[2026-04-08 20:30:45,961 cvt_13_v1] (main.py 159): INFO Epoch: [33][80/118] lr 0.000151 loss 0.8288 acc 77.97%
+[2026-04-08 20:30:53,179 cvt_13_v1] (main.py 159): INFO Epoch: [33][100/118] lr 0.000151 loss 0.8502 acc 76.61%
+[2026-04-08 20:31:09,110 cvt_13_v1] (main.py 93): INFO [Epoch 33]: Train Loss: 0.8532, Train Acc: 76.24%, Val Loss: 0.6369, Val Acc: 76.72%, F1: 0.7654, Precision: 0.7886, Recall: 0.7672
+[2026-04-08 20:31:09,111 cvt_13_v1] (main.py 109): INFO Max accuracy: 78.16%
+[2026-04-08 20:31:09,930 cvt_13_v1] (main.py 159): INFO Epoch: [34][0/118] lr 0.000148 loss 0.7888 acc 84.38%
+[2026-04-08 20:31:17,115 cvt_13_v1] (main.py 159): INFO Epoch: [34][20/118] lr 0.000148 loss 0.7927 acc 80.95%
+[2026-04-08 20:31:24,374 cvt_13_v1] (main.py 159): INFO Epoch: [34][40/118] lr 0.000148 loss 0.8092 acc 79.34%
+[2026-04-08 20:31:31,564 cvt_13_v1] (main.py 159): INFO Epoch: [34][60/118] lr 0.000148 loss 0.8116 acc 79.41%
+[2026-04-08 20:31:38,871 cvt_13_v1] (main.py 159): INFO Epoch: [34][80/118] lr 0.000148 loss 0.8206 acc 79.01%
+[2026-04-08 20:31:46,095 cvt_13_v1] (main.py 159): INFO Epoch: [34][100/118] lr 0.000148 loss 0.8150 acc 79.18%
+[2026-04-08 20:32:01,968 cvt_13_v1] (main.py 93): INFO [Epoch 34]: Train Loss: 0.8153, Train Acc: 79.12%, Val Loss: 0.5971, Val Acc: 77.60%, F1: 0.7696, Precision: 0.7802, Recall: 0.7760
+[2026-04-08 20:32:01,968 cvt_13_v1] (main.py 109): INFO Max accuracy: 78.16%
+[2026-04-08 20:32:02,789 cvt_13_v1] (main.py 159): INFO Epoch: [35][0/118] lr 0.000146 loss 0.7259 acc 87.50%
+[2026-04-08 20:32:09,983 cvt_13_v1] (main.py 159): INFO Epoch: [35][20/118] lr 0.000146 loss 0.7518 acc 84.23%
+[2026-04-08 20:32:17,258 cvt_13_v1] (main.py 159): INFO Epoch: [35][40/118] lr 0.000146 loss 0.7950 acc 81.17%
+[2026-04-08 20:32:24,446 cvt_13_v1] (main.py 159): INFO Epoch: [35][60/118] lr 0.000146 loss 0.8131 acc 79.76%
+[2026-04-08 20:32:31,693 cvt_13_v1] (main.py 159): INFO Epoch: [35][80/118] lr 0.000146 loss 0.8180 acc 79.17%
+[2026-04-08 20:32:38,874 cvt_13_v1] (main.py 159): INFO Epoch: [35][100/118] lr 0.000146 loss 0.8117 acc 79.46%
+[2026-04-08 20:32:55,000 cvt_13_v1] (main.py 93): INFO [Epoch 35]: Train Loss: 0.8107, Train Acc: 79.44%, Val Loss: 0.6053, Val Acc: 78.16%, F1: 0.7704, Precision: 0.8022, Recall: 0.7816
+[2026-04-08 20:32:55,001 cvt_13_v1] (main.py 109): INFO Max accuracy: 78.16%
+[2026-04-08 20:32:55,821 cvt_13_v1] (main.py 159): INFO Epoch: [36][0/118] lr 0.000143 loss 0.8981 acc 75.00%
+[2026-04-08 20:33:02,987 cvt_13_v1] (main.py 159): INFO Epoch: [36][20/118] lr 0.000143 loss 0.8022 acc 78.57%
+[2026-04-08 20:33:10,295 cvt_13_v1] (main.py 159): INFO Epoch: [36][40/118] lr 0.000143 loss 0.7813 acc 79.80%
+[2026-04-08 20:33:17,461 cvt_13_v1] (main.py 159): INFO Epoch: [36][60/118] lr 0.000143 loss 0.7887 acc 79.61%
+[2026-04-08 20:33:24,723 cvt_13_v1] (main.py 159): INFO Epoch: [36][80/118] lr 0.000143 loss 0.7883 acc 79.59%
+[2026-04-08 20:33:31,949 cvt_13_v1] (main.py 159): INFO Epoch: [36][100/118] lr 0.000143 loss 0.7879 acc 79.61%
+[2026-04-08 20:33:47,895 cvt_13_v1] (main.py 93): INFO [Epoch 36]: Train Loss: 0.7848, Train Acc: 79.71%, Val Loss: 0.5205, Val Acc: 81.76%, F1: 0.8181, Precision: 0.8233, Recall: 0.8176
+[2026-04-08 20:33:47,895 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 36 with accuracy: 81.76%
+[2026-04-08 20:33:48,037 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:33:48,037 cvt_13_v1] (main.py 109): INFO Max accuracy: 81.76%
+[2026-04-08 20:33:48,895 cvt_13_v1] (main.py 159): INFO Epoch: [37][0/118] lr 0.000140 loss 0.8325 acc 78.12%
+[2026-04-08 20:33:56,049 cvt_13_v1] (main.py 159): INFO Epoch: [37][20/118] lr 0.000140 loss 0.7913 acc 78.72%
+[2026-04-08 20:34:03,291 cvt_13_v1] (main.py 159): INFO Epoch: [37][40/118] lr 0.000140 loss 0.7778 acc 79.80%
+[2026-04-08 20:34:10,462 cvt_13_v1] (main.py 159): INFO Epoch: [37][60/118] lr 0.000140 loss 0.7821 acc 80.02%
+[2026-04-08 20:34:17,725 cvt_13_v1] (main.py 159): INFO Epoch: [37][80/118] lr 0.000140 loss 0.7797 acc 80.29%
+[2026-04-08 20:34:24,937 cvt_13_v1] (main.py 159): INFO Epoch: [37][100/118] lr 0.000140 loss 0.7837 acc 80.07%
+[2026-04-08 20:34:40,857 cvt_13_v1] (main.py 93): INFO [Epoch 37]: Train Loss: 0.7807, Train Acc: 80.29%, Val Loss: 0.6407, Val Acc: 76.32%, F1: 0.7555, Precision: 0.7984, Recall: 0.7632
+[2026-04-08 20:34:40,858 cvt_13_v1] (main.py 109): INFO Max accuracy: 81.76%
+[2026-04-08 20:34:41,659 cvt_13_v1] (main.py 159): INFO Epoch: [38][0/118] lr 0.000137 loss 0.7922 acc 71.88%
+[2026-04-08 20:34:48,830 cvt_13_v1] (main.py 159): INFO Epoch: [38][20/118] lr 0.000137 loss 0.7507 acc 82.59%
+[2026-04-08 20:34:56,082 cvt_13_v1] (main.py 159): INFO Epoch: [38][40/118] lr 0.000137 loss 0.7561 acc 82.09%
+[2026-04-08 20:35:03,241 cvt_13_v1] (main.py 159): INFO Epoch: [38][60/118] lr 0.000137 loss 0.7636 acc 81.40%
+[2026-04-08 20:35:10,498 cvt_13_v1] (main.py 159): INFO Epoch: [38][80/118] lr 0.000137 loss 0.7618 acc 81.48%
+[2026-04-08 20:35:17,698 cvt_13_v1] (main.py 159): INFO Epoch: [38][100/118] lr 0.000137 loss 0.7587 acc 81.75%
+[2026-04-08 20:35:33,740 cvt_13_v1] (main.py 93): INFO [Epoch 38]: Train Loss: 0.7557, Train Acc: 81.92%, Val Loss: 0.5805, Val Acc: 78.24%, F1: 0.7796, Precision: 0.8078, Recall: 0.7824
+[2026-04-08 20:35:33,741 cvt_13_v1] (main.py 109): INFO Max accuracy: 81.76%
+[2026-04-08 20:35:34,591 cvt_13_v1] (main.py 159): INFO Epoch: [39][0/118] lr 0.000134 loss 0.6650 acc 87.50%
+[2026-04-08 20:35:41,772 cvt_13_v1] (main.py 159): INFO Epoch: [39][20/118] lr 0.000134 loss 0.7158 acc 84.67%
+[2026-04-08 20:35:49,019 cvt_13_v1] (main.py 159): INFO Epoch: [39][40/118] lr 0.000134 loss 0.7337 acc 83.16%
+[2026-04-08 20:35:56,180 cvt_13_v1] (main.py 159): INFO Epoch: [39][60/118] lr 0.000134 loss 0.7401 acc 82.53%
+[2026-04-08 20:36:03,433 cvt_13_v1] (main.py 159): INFO Epoch: [39][80/118] lr 0.000134 loss 0.7408 acc 82.33%
+[2026-04-08 20:36:10,606 cvt_13_v1] (main.py 159): INFO Epoch: [39][100/118] lr 0.000134 loss 0.7404 acc 82.33%
+[2026-04-08 20:36:26,504 cvt_13_v1] (main.py 93): INFO [Epoch 39]: Train Loss: 0.7422, Train Acc: 82.16%, Val Loss: 0.5078, Val Acc: 82.00%, F1: 0.8195, Precision: 0.8215, Recall: 0.8200
+[2026-04-08 20:36:26,504 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 39 with accuracy: 82.00%
+[2026-04-08 20:36:26,649 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:36:26,649 cvt_13_v1] (main.py 109): INFO Max accuracy: 82.00%
+[2026-04-08 20:36:27,461 cvt_13_v1] (main.py 159): INFO Epoch: [40][0/118] lr 0.000131 loss 0.6862 acc 87.50%
+[2026-04-08 20:36:34,634 cvt_13_v1] (main.py 159): INFO Epoch: [40][20/118] lr 0.000131 loss 0.6791 acc 87.80%
+[2026-04-08 20:36:41,890 cvt_13_v1] (main.py 159): INFO Epoch: [40][40/118] lr 0.000131 loss 0.7021 acc 85.52%
+[2026-04-08 20:36:49,039 cvt_13_v1] (main.py 159): INFO Epoch: [40][60/118] lr 0.000131 loss 0.6971 acc 85.55%
+[2026-04-08 20:36:56,286 cvt_13_v1] (main.py 159): INFO Epoch: [40][80/118] lr 0.000131 loss 0.7072 acc 84.76%
+[2026-04-08 20:37:03,463 cvt_13_v1] (main.py 159): INFO Epoch: [40][100/118] lr 0.000131 loss 0.7132 acc 83.88%
+[2026-04-08 20:37:19,385 cvt_13_v1] (main.py 93): INFO [Epoch 40]: Train Loss: 0.7158, Train Acc: 83.95%, Val Loss: 0.5109, Val Acc: 82.96%, F1: 0.8299, Precision: 0.8314, Recall: 0.8296
+[2026-04-08 20:37:19,385 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 40 with accuracy: 82.96%
+[2026-04-08 20:37:19,524 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:37:19,524 cvt_13_v1] (main.py 109): INFO Max accuracy: 82.96%
+[2026-04-08 20:37:20,371 cvt_13_v1] (main.py 159): INFO Epoch: [41][0/118] lr 0.000128 loss 0.6950 acc 87.50%
+[2026-04-08 20:37:27,555 cvt_13_v1] (main.py 159): INFO Epoch: [41][20/118] lr 0.000128 loss 0.6888 acc 87.05%
+[2026-04-08 20:37:34,800 cvt_13_v1] (main.py 159): INFO Epoch: [41][40/118] lr 0.000128 loss 0.7078 acc 86.28%
+[2026-04-08 20:37:41,951 cvt_13_v1] (main.py 159): INFO Epoch: [41][60/118] lr 0.000128 loss 0.7294 acc 84.32%
+[2026-04-08 20:37:49,203 cvt_13_v1] (main.py 159): INFO Epoch: [41][80/118] lr 0.000128 loss 0.7133 acc 85.15%
+[2026-04-08 20:37:56,384 cvt_13_v1] (main.py 159): INFO Epoch: [41][100/118] lr 0.000128 loss 0.7177 acc 84.59%
+[2026-04-08 20:38:12,441 cvt_13_v1] (main.py 93): INFO [Epoch 41]: Train Loss: 0.7172, Train Acc: 84.56%, Val Loss: 0.5458, Val Acc: 80.88%, F1: 0.8087, Precision: 0.8180, Recall: 0.8088
+[2026-04-08 20:38:12,441 cvt_13_v1] (main.py 109): INFO Max accuracy: 82.96%
+[2026-04-08 20:38:13,255 cvt_13_v1] (main.py 159): INFO Epoch: [42][0/118] lr 0.000125 loss 0.7241 acc 81.25%
+[2026-04-08 20:38:20,456 cvt_13_v1] (main.py 159): INFO Epoch: [42][20/118] lr 0.000125 loss 0.6935 acc 85.12%
+[2026-04-08 20:38:27,727 cvt_13_v1] (main.py 159): INFO Epoch: [42][40/118] lr 0.000125 loss 0.7088 acc 83.54%
+[2026-04-08 20:38:34,896 cvt_13_v1] (main.py 159): INFO Epoch: [42][60/118] lr 0.000125 loss 0.6939 acc 84.78%
+[2026-04-08 20:38:42,154 cvt_13_v1] (main.py 159): INFO Epoch: [42][80/118] lr 0.000125 loss 0.7015 acc 84.53%
+[2026-04-08 20:38:49,353 cvt_13_v1] (main.py 159): INFO Epoch: [42][100/118] lr 0.000125 loss 0.7088 acc 84.31%
+[2026-04-08 20:39:05,457 cvt_13_v1] (main.py 93): INFO [Epoch 42]: Train Loss: 0.7112, Train Acc: 84.29%, Val Loss: 0.5101, Val Acc: 83.04%, F1: 0.8293, Precision: 0.8323, Recall: 0.8304
+[2026-04-08 20:39:05,457 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 42 with accuracy: 83.04%
+[2026-04-08 20:39:05,608 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:39:05,609 cvt_13_v1] (main.py 109): INFO Max accuracy: 83.04%
+[2026-04-08 20:39:06,422 cvt_13_v1] (main.py 159): INFO Epoch: [43][0/118] lr 0.000122 loss 0.6942 acc 87.50%
+[2026-04-08 20:39:13,592 cvt_13_v1] (main.py 159): INFO Epoch: [43][20/118] lr 0.000122 loss 0.6978 acc 85.27%
+[2026-04-08 20:39:20,884 cvt_13_v1] (main.py 159): INFO Epoch: [43][40/118] lr 0.000122 loss 0.7073 acc 84.91%
+[2026-04-08 20:39:28,033 cvt_13_v1] (main.py 159): INFO Epoch: [43][60/118] lr 0.000122 loss 0.6990 acc 85.19%
+[2026-04-08 20:39:35,283 cvt_13_v1] (main.py 159): INFO Epoch: [43][80/118] lr 0.000122 loss 0.7043 acc 84.53%
+[2026-04-08 20:39:42,452 cvt_13_v1] (main.py 159): INFO Epoch: [43][100/118] lr 0.000122 loss 0.7114 acc 84.07%
+[2026-04-08 20:39:58,625 cvt_13_v1] (main.py 93): INFO [Epoch 43]: Train Loss: 0.7123, Train Acc: 84.27%, Val Loss: 0.5531, Val Acc: 80.96%, F1: 0.8081, Precision: 0.8233, Recall: 0.8096
+[2026-04-08 20:39:58,626 cvt_13_v1] (main.py 109): INFO Max accuracy: 83.04%
+[2026-04-08 20:39:59,446 cvt_13_v1] (main.py 159): INFO Epoch: [44][0/118] lr 0.000119 loss 0.6135 acc 90.62%
+[2026-04-08 20:40:06,617 cvt_13_v1] (main.py 159): INFO Epoch: [44][20/118] lr 0.000119 loss 0.6961 acc 84.52%
+[2026-04-08 20:40:13,865 cvt_13_v1] (main.py 159): INFO Epoch: [44][40/118] lr 0.000119 loss 0.7105 acc 84.22%
+[2026-04-08 20:40:21,019 cvt_13_v1] (main.py 159): INFO Epoch: [44][60/118] lr 0.000119 loss 0.7102 acc 83.86%
+[2026-04-08 20:40:28,301 cvt_13_v1] (main.py 159): INFO Epoch: [44][80/118] lr 0.000119 loss 0.7014 acc 84.53%
+[2026-04-08 20:40:35,461 cvt_13_v1] (main.py 159): INFO Epoch: [44][100/118] lr 0.000119 loss 0.6995 acc 84.75%
+[2026-04-08 20:40:51,483 cvt_13_v1] (main.py 93): INFO [Epoch 44]: Train Loss: 0.7043, Train Acc: 84.27%, Val Loss: 0.5402, Val Acc: 80.16%, F1: 0.7995, Precision: 0.8205, Recall: 0.8016
+[2026-04-08 20:40:51,483 cvt_13_v1] (main.py 109): INFO Max accuracy: 83.04%
+[2026-04-08 20:40:52,339 cvt_13_v1] (main.py 159): INFO Epoch: [45][0/118] lr 0.000116 loss 0.6039 acc 84.38%
+[2026-04-08 20:40:59,502 cvt_13_v1] (main.py 159): INFO Epoch: [45][20/118] lr 0.000116 loss 0.6522 acc 87.95%
+[2026-04-08 20:41:06,756 cvt_13_v1] (main.py 159): INFO Epoch: [45][40/118] lr 0.000116 loss 0.6542 acc 88.26%
+[2026-04-08 20:41:13,929 cvt_13_v1] (main.py 159): INFO Epoch: [45][60/118] lr 0.000116 loss 0.6611 acc 87.81%
+[2026-04-08 20:41:21,179 cvt_13_v1] (main.py 159): INFO Epoch: [45][80/118] lr 0.000116 loss 0.6699 acc 87.15%
+[2026-04-08 20:41:28,353 cvt_13_v1] (main.py 159): INFO Epoch: [45][100/118] lr 0.000116 loss 0.6857 acc 86.14%
+[2026-04-08 20:41:44,349 cvt_13_v1] (main.py 93): INFO [Epoch 45]: Train Loss: 0.6884, Train Acc: 85.95%, Val Loss: 0.4784, Val Acc: 83.44%, F1: 0.8354, Precision: 0.8408, Recall: 0.8344
+[2026-04-08 20:41:44,350 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 45 with accuracy: 83.44%
+[2026-04-08 20:41:44,474 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:41:44,475 cvt_13_v1] (main.py 109): INFO Max accuracy: 83.44%
+[2026-04-08 20:41:45,304 cvt_13_v1] (main.py 159): INFO Epoch: [46][0/118] lr 0.000113 loss 0.5987 acc 90.62%
+[2026-04-08 20:41:52,490 cvt_13_v1] (main.py 159): INFO Epoch: [46][20/118] lr 0.000113 loss 0.6403 acc 88.39%
+[2026-04-08 20:41:59,775 cvt_13_v1] (main.py 159): INFO Epoch: [46][40/118] lr 0.000113 loss 0.6538 acc 88.11%
+[2026-04-08 20:42:06,964 cvt_13_v1] (main.py 159): INFO Epoch: [46][60/118] lr 0.000113 loss 0.6589 acc 87.76%
+[2026-04-08 20:42:14,212 cvt_13_v1] (main.py 159): INFO Epoch: [46][80/118] lr 0.000113 loss 0.6646 acc 87.23%
+[2026-04-08 20:42:21,414 cvt_13_v1] (main.py 159): INFO Epoch: [46][100/118] lr 0.000113 loss 0.6735 acc 86.54%
+[2026-04-08 20:42:37,329 cvt_13_v1] (main.py 93): INFO [Epoch 46]: Train Loss: 0.6838, Train Acc: 86.11%, Val Loss: 0.5308, Val Acc: 81.36%, F1: 0.8124, Precision: 0.8305, Recall: 0.8136
+[2026-04-08 20:42:37,329 cvt_13_v1] (main.py 109): INFO Max accuracy: 83.44%
+[2026-04-08 20:42:38,150 cvt_13_v1] (main.py 159): INFO Epoch: [47][0/118] lr 0.000110 loss 0.6481 acc 84.38%
+[2026-04-08 20:42:45,333 cvt_13_v1] (main.py 159): INFO Epoch: [47][20/118] lr 0.000110 loss 0.6622 acc 86.31%
+[2026-04-08 20:42:52,596 cvt_13_v1] (main.py 159): INFO Epoch: [47][40/118] lr 0.000110 loss 0.6606 acc 86.43%
+[2026-04-08 20:42:59,757 cvt_13_v1] (main.py 159): INFO Epoch: [47][60/118] lr 0.000110 loss 0.6482 acc 87.40%
+[2026-04-08 20:43:07,023 cvt_13_v1] (main.py 159): INFO Epoch: [47][80/118] lr 0.000110 loss 0.6569 acc 87.11%
+[2026-04-08 20:43:14,197 cvt_13_v1] (main.py 159): INFO Epoch: [47][100/118] lr 0.000110 loss 0.6563 acc 87.16%
+[2026-04-08 20:43:30,166 cvt_13_v1] (main.py 93): INFO [Epoch 47]: Train Loss: 0.6508, Train Acc: 87.52%, Val Loss: 0.4679, Val Acc: 84.00%, F1: 0.8392, Precision: 0.8434, Recall: 0.8400
+[2026-04-08 20:43:30,166 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 47 with accuracy: 84.00%
+[2026-04-08 20:43:30,279 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:43:30,280 cvt_13_v1] (main.py 109): INFO Max accuracy: 84.00%
+[2026-04-08 20:43:31,100 cvt_13_v1] (main.py 159): INFO Epoch: [48][0/118] lr 0.000107 loss 0.6714 acc 78.12%
+[2026-04-08 20:43:38,285 cvt_13_v1] (main.py 159): INFO Epoch: [48][20/118] lr 0.000107 loss 0.6442 acc 88.24%
+[2026-04-08 20:43:45,529 cvt_13_v1] (main.py 159): INFO Epoch: [48][40/118] lr 0.000107 loss 0.6367 acc 88.41%
+[2026-04-08 20:43:52,680 cvt_13_v1] (main.py 159): INFO Epoch: [48][60/118] lr 0.000107 loss 0.6421 acc 88.11%
+[2026-04-08 20:43:59,953 cvt_13_v1] (main.py 159): INFO Epoch: [48][80/118] lr 0.000107 loss 0.6405 acc 88.16%
+[2026-04-08 20:44:07,141 cvt_13_v1] (main.py 159): INFO Epoch: [48][100/118] lr 0.000107 loss 0.6378 acc 88.64%
+[2026-04-08 20:44:23,053 cvt_13_v1] (main.py 93): INFO [Epoch 48]: Train Loss: 0.6417, Train Acc: 88.37%, Val Loss: 0.4830, Val Acc: 83.20%, F1: 0.8283, Precision: 0.8377, Recall: 0.8320
+[2026-04-08 20:44:23,054 cvt_13_v1] (main.py 109): INFO Max accuracy: 84.00%
+[2026-04-08 20:44:23,879 cvt_13_v1] (main.py 159): INFO Epoch: [49][0/118] lr 0.000104 loss 0.5597 acc 90.62%
+[2026-04-08 20:44:31,070 cvt_13_v1] (main.py 159): INFO Epoch: [49][20/118] lr 0.000104 loss 0.6365 acc 88.84%
+[2026-04-08 20:44:38,350 cvt_13_v1] (main.py 159): INFO Epoch: [49][40/118] lr 0.000104 loss 0.6332 acc 89.10%
+[2026-04-08 20:44:45,530 cvt_13_v1] (main.py 159): INFO Epoch: [49][60/118] lr 0.000104 loss 0.6357 acc 88.68%
+[2026-04-08 20:44:52,810 cvt_13_v1] (main.py 159): INFO Epoch: [49][80/118] lr 0.000104 loss 0.6393 acc 88.35%
+[2026-04-08 20:45:00,018 cvt_13_v1] (main.py 159): INFO Epoch: [49][100/118] lr 0.000104 loss 0.6457 acc 88.09%
+[2026-04-08 20:45:16,028 cvt_13_v1] (main.py 93): INFO [Epoch 49]: Train Loss: 0.6442, Train Acc: 88.19%, Val Loss: 0.4343, Val Acc: 86.48%, F1: 0.8635, Precision: 0.8651, Recall: 0.8648
+[2026-04-08 20:45:16,028 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 49 with accuracy: 86.48%
+[2026-04-08 20:45:16,144 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:45:16,145 cvt_13_v1] (main.py 109): INFO Max accuracy: 86.48%
+[2026-04-08 20:45:16,969 cvt_13_v1] (main.py 159): INFO Epoch: [50][0/118] lr 0.000101 loss 0.5806 acc 87.50%
+[2026-04-08 20:45:24,135 cvt_13_v1] (main.py 159): INFO Epoch: [50][20/118] lr 0.000101 loss 0.6080 acc 90.33%
+[2026-04-08 20:45:31,388 cvt_13_v1] (main.py 159): INFO Epoch: [50][40/118] lr 0.000101 loss 0.6133 acc 90.24%
+[2026-04-08 20:45:38,545 cvt_13_v1] (main.py 159): INFO Epoch: [50][60/118] lr 0.000101 loss 0.6161 acc 89.96%
+[2026-04-08 20:45:45,793 cvt_13_v1] (main.py 159): INFO Epoch: [50][80/118] lr 0.000101 loss 0.6227 acc 89.43%
+[2026-04-08 20:45:52,962 cvt_13_v1] (main.py 159): INFO Epoch: [50][100/118] lr 0.000101 loss 0.6162 acc 89.76%
+[2026-04-08 20:46:08,842 cvt_13_v1] (main.py 93): INFO [Epoch 50]: Train Loss: 0.6183, Train Acc: 89.65%, Val Loss: 0.4418, Val Acc: 85.28%, F1: 0.8524, Precision: 0.8531, Recall: 0.8528
+[2026-04-08 20:46:08,843 cvt_13_v1] (main.py 109): INFO Max accuracy: 86.48%
+[2026-04-08 20:46:09,651 cvt_13_v1] (main.py 159): INFO Epoch: [51][0/118] lr 0.000097 loss 0.6003 acc 87.50%
+[2026-04-08 20:46:16,821 cvt_13_v1] (main.py 159): INFO Epoch: [51][20/118] lr 0.000097 loss 0.6130 acc 89.58%
+[2026-04-08 20:46:24,047 cvt_13_v1] (main.py 159): INFO Epoch: [51][40/118] lr 0.000097 loss 0.6157 acc 89.02%
+[2026-04-08 20:46:31,198 cvt_13_v1] (main.py 159): INFO Epoch: [51][60/118] lr 0.000097 loss 0.6171 acc 89.34%
+[2026-04-08 20:46:38,444 cvt_13_v1] (main.py 159): INFO Epoch: [51][80/118] lr 0.000097 loss 0.6236 acc 89.12%
+[2026-04-08 20:46:45,601 cvt_13_v1] (main.py 159): INFO Epoch: [51][100/118] lr 0.000097 loss 0.6216 acc 89.39%
+[2026-04-08 20:47:01,501 cvt_13_v1] (main.py 93): INFO [Epoch 51]: Train Loss: 0.6202, Train Acc: 89.47%, Val Loss: 0.4581, Val Acc: 85.12%, F1: 0.8519, Precision: 0.8551, Recall: 0.8512
+[2026-04-08 20:47:01,501 cvt_13_v1] (main.py 109): INFO Max accuracy: 86.48%
+[2026-04-08 20:47:02,331 cvt_13_v1] (main.py 159): INFO Epoch: [52][0/118] lr 0.000094 loss 0.4787 acc 96.88%
+[2026-04-08 20:47:09,511 cvt_13_v1] (main.py 159): INFO Epoch: [52][20/118] lr 0.000094 loss 0.6266 acc 89.58%
+[2026-04-08 20:47:16,779 cvt_13_v1] (main.py 159): INFO Epoch: [52][40/118] lr 0.000094 loss 0.6148 acc 90.09%
+[2026-04-08 20:47:23,936 cvt_13_v1] (main.py 159): INFO Epoch: [52][60/118] lr 0.000094 loss 0.6194 acc 89.86%
+[2026-04-08 20:47:31,183 cvt_13_v1] (main.py 159): INFO Epoch: [52][80/118] lr 0.000094 loss 0.6262 acc 89.58%
+[2026-04-08 20:47:38,364 cvt_13_v1] (main.py 159): INFO Epoch: [52][100/118] lr 0.000094 loss 0.6290 acc 89.33%
+[2026-04-08 20:47:54,243 cvt_13_v1] (main.py 93): INFO [Epoch 52]: Train Loss: 0.6288, Train Acc: 89.25%, Val Loss: 0.4415, Val Acc: 85.76%, F1: 0.8575, Precision: 0.8606, Recall: 0.8576
+[2026-04-08 20:47:54,244 cvt_13_v1] (main.py 109): INFO Max accuracy: 86.48%
+[2026-04-08 20:47:55,043 cvt_13_v1] (main.py 159): INFO Epoch: [53][0/118] lr 0.000091 loss 0.6553 acc 87.50%
+[2026-04-08 20:48:02,212 cvt_13_v1] (main.py 159): INFO Epoch: [53][20/118] lr 0.000091 loss 0.6199 acc 90.77%
+[2026-04-08 20:48:09,449 cvt_13_v1] (main.py 159): INFO Epoch: [53][40/118] lr 0.000091 loss 0.6062 acc 90.93%
+[2026-04-08 20:48:16,590 cvt_13_v1] (main.py 159): INFO Epoch: [53][60/118] lr 0.000091 loss 0.5977 acc 91.50%
+[2026-04-08 20:48:23,850 cvt_13_v1] (main.py 159): INFO Epoch: [53][80/118] lr 0.000091 loss 0.5939 acc 91.59%
+[2026-04-08 20:48:31,021 cvt_13_v1] (main.py 159): INFO Epoch: [53][100/118] lr 0.000091 loss 0.5988 acc 91.06%
+[2026-04-08 20:48:46,897 cvt_13_v1] (main.py 93): INFO [Epoch 53]: Train Loss: 0.6018, Train Acc: 90.75%, Val Loss: 0.4278, Val Acc: 86.48%, F1: 0.8658, Precision: 0.8701, Recall: 0.8648
+[2026-04-08 20:48:46,898 cvt_13_v1] (main.py 109): INFO Max accuracy: 86.48%
+[2026-04-08 20:48:47,752 cvt_13_v1] (main.py 159): INFO Epoch: [54][0/118] lr 0.000088 loss 0.5162 acc 96.88%
+[2026-04-08 20:48:54,935 cvt_13_v1] (main.py 159): INFO Epoch: [54][20/118] lr 0.000088 loss 0.5749 acc 91.82%
+[2026-04-08 20:49:02,211 cvt_13_v1] (main.py 159): INFO Epoch: [54][40/118] lr 0.000088 loss 0.5965 acc 90.47%
+[2026-04-08 20:49:09,385 cvt_13_v1] (main.py 159): INFO Epoch: [54][60/118] lr 0.000088 loss 0.5963 acc 90.47%
+[2026-04-08 20:49:16,639 cvt_13_v1] (main.py 159): INFO Epoch: [54][80/118] lr 0.000088 loss 0.5923 acc 90.90%
+[2026-04-08 20:49:23,814 cvt_13_v1] (main.py 159): INFO Epoch: [54][100/118] lr 0.000088 loss 0.5975 acc 90.72%
+[2026-04-08 20:49:39,669 cvt_13_v1] (main.py 93): INFO [Epoch 54]: Train Loss: 0.5990, Train Acc: 90.64%, Val Loss: 0.4399, Val Acc: 85.84%, F1: 0.8561, Precision: 0.8631, Recall: 0.8584
+[2026-04-08 20:49:39,670 cvt_13_v1] (main.py 109): INFO Max accuracy: 86.48%
+[2026-04-08 20:49:40,476 cvt_13_v1] (main.py 159): INFO Epoch: [55][0/118] lr 0.000085 loss 0.7036 acc 90.62%
+[2026-04-08 20:49:47,652 cvt_13_v1] (main.py 159): INFO Epoch: [55][20/118] lr 0.000085 loss 0.5567 acc 93.30%
+[2026-04-08 20:49:54,891 cvt_13_v1] (main.py 159): INFO Epoch: [55][40/118] lr 0.000085 loss 0.5472 acc 93.75%
+[2026-04-08 20:50:02,066 cvt_13_v1] (main.py 159): INFO Epoch: [55][60/118] lr 0.000085 loss 0.5652 acc 92.37%
+[2026-04-08 20:50:09,335 cvt_13_v1] (main.py 159): INFO Epoch: [55][80/118] lr 0.000085 loss 0.5671 acc 92.36%
+[2026-04-08 20:50:16,506 cvt_13_v1] (main.py 159): INFO Epoch: [55][100/118] lr 0.000085 loss 0.5701 acc 92.26%
+[2026-04-08 20:50:32,457 cvt_13_v1] (main.py 93): INFO [Epoch 55]: Train Loss: 0.5729, Train Acc: 92.05%, Val Loss: 0.4388, Val Acc: 85.60%, F1: 0.8544, Precision: 0.8583, Recall: 0.8560
+[2026-04-08 20:50:32,457 cvt_13_v1] (main.py 109): INFO Max accuracy: 86.48%
+[2026-04-08 20:50:33,264 cvt_13_v1] (main.py 159): INFO Epoch: [56][0/118] lr 0.000082 loss 0.6425 acc 90.62%
+[2026-04-08 20:50:40,451 cvt_13_v1] (main.py 159): INFO Epoch: [56][20/118] lr 0.000082 loss 0.5588 acc 93.60%
+[2026-04-08 20:50:47,711 cvt_13_v1] (main.py 159): INFO Epoch: [56][40/118] lr 0.000082 loss 0.5563 acc 93.14%
+[2026-04-08 20:50:54,874 cvt_13_v1] (main.py 159): INFO Epoch: [56][60/118] lr 0.000082 loss 0.5585 acc 92.73%
+[2026-04-08 20:51:02,165 cvt_13_v1] (main.py 159): INFO Epoch: [56][80/118] lr 0.000082 loss 0.5627 acc 92.63%
+[2026-04-08 20:51:09,361 cvt_13_v1] (main.py 159): INFO Epoch: [56][100/118] lr 0.000082 loss 0.5683 acc 92.39%
+[2026-04-08 20:51:25,429 cvt_13_v1] (main.py 93): INFO [Epoch 56]: Train Loss: 0.5707, Train Acc: 92.13%, Val Loss: 0.4429, Val Acc: 85.44%, F1: 0.8532, Precision: 0.8566, Recall: 0.8544
+[2026-04-08 20:51:25,430 cvt_13_v1] (main.py 109): INFO Max accuracy: 86.48%
+[2026-04-08 20:51:26,288 cvt_13_v1] (main.py 159): INFO Epoch: [57][0/118] lr 0.000079 loss 0.6087 acc 87.50%
+[2026-04-08 20:51:33,484 cvt_13_v1] (main.py 159): INFO Epoch: [57][20/118] lr 0.000079 loss 0.5621 acc 91.96%
+[2026-04-08 20:51:40,757 cvt_13_v1] (main.py 159): INFO Epoch: [57][40/118] lr 0.000079 loss 0.5645 acc 92.23%
+[2026-04-08 20:51:47,944 cvt_13_v1] (main.py 159): INFO Epoch: [57][60/118] lr 0.000079 loss 0.5720 acc 91.91%
+[2026-04-08 20:51:55,241 cvt_13_v1] (main.py 159): INFO Epoch: [57][80/118] lr 0.000079 loss 0.5744 acc 91.82%
+[2026-04-08 20:52:02,470 cvt_13_v1] (main.py 159): INFO Epoch: [57][100/118] lr 0.000079 loss 0.5722 acc 91.83%
+[2026-04-08 20:52:18,647 cvt_13_v1] (main.py 93): INFO [Epoch 57]: Train Loss: 0.5705, Train Acc: 92.00%, Val Loss: 0.4169, Val Acc: 86.48%, F1: 0.8643, Precision: 0.8667, Recall: 0.8648
+[2026-04-08 20:52:18,648 cvt_13_v1] (main.py 109): INFO Max accuracy: 86.48%
+[2026-04-08 20:52:19,531 cvt_13_v1] (main.py 159): INFO Epoch: [58][0/118] lr 0.000076 loss 0.5232 acc 93.75%
+[2026-04-08 20:52:26,713 cvt_13_v1] (main.py 159): INFO Epoch: [58][20/118] lr 0.000076 loss 0.5506 acc 93.60%
+[2026-04-08 20:52:34,008 cvt_13_v1] (main.py 159): INFO Epoch: [58][40/118] lr 0.000076 loss 0.5487 acc 93.83%
+[2026-04-08 20:52:41,207 cvt_13_v1] (main.py 159): INFO Epoch: [58][60/118] lr 0.000076 loss 0.5566 acc 93.03%
+[2026-04-08 20:52:48,472 cvt_13_v1] (main.py 159): INFO Epoch: [58][80/118] lr 0.000076 loss 0.5623 acc 92.71%
+[2026-04-08 20:52:55,673 cvt_13_v1] (main.py 159): INFO Epoch: [58][100/118] lr 0.000076 loss 0.5610 acc 92.88%
+[2026-04-08 20:53:11,651 cvt_13_v1] (main.py 93): INFO [Epoch 58]: Train Loss: 0.5607, Train Acc: 92.77%, Val Loss: 0.4178, Val Acc: 87.28%, F1: 0.8733, Precision: 0.8753, Recall: 0.8728
+[2026-04-08 20:53:11,651 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 58 with accuracy: 87.28%
+[2026-04-08 20:53:11,794 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 20:53:11,795 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.28%
+[2026-04-08 20:53:12,633 cvt_13_v1] (main.py 159): INFO Epoch: [59][0/118] lr 0.000073 loss 0.4985 acc 96.88%
+[2026-04-08 20:53:19,816 cvt_13_v1] (main.py 159): INFO Epoch: [59][20/118] lr 0.000073 loss 0.5372 acc 94.20%
+[2026-04-08 20:53:27,092 cvt_13_v1] (main.py 159): INFO Epoch: [59][40/118] lr 0.000073 loss 0.5384 acc 94.36%
+[2026-04-08 20:53:34,291 cvt_13_v1] (main.py 159): INFO Epoch: [59][60/118] lr 0.000073 loss 0.5440 acc 93.80%
+[2026-04-08 20:53:41,543 cvt_13_v1] (main.py 159): INFO Epoch: [59][80/118] lr 0.000073 loss 0.5434 acc 94.02%
+[2026-04-08 20:53:48,778 cvt_13_v1] (main.py 159): INFO Epoch: [59][100/118] lr 0.000073 loss 0.5475 acc 93.63%
+[2026-04-08 20:54:04,838 cvt_13_v1] (main.py 93): INFO [Epoch 59]: Train Loss: 0.5506, Train Acc: 93.55%, Val Loss: 0.4200, Val Acc: 86.72%, F1: 0.8661, Precision: 0.8679, Recall: 0.8672
+[2026-04-08 20:54:04,839 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.28%
+[2026-04-08 20:54:05,681 cvt_13_v1] (main.py 159): INFO Epoch: [60][0/118] lr 0.000070 loss 0.5428 acc 90.62%
+[2026-04-08 20:54:12,862 cvt_13_v1] (main.py 159): INFO Epoch: [60][20/118] lr 0.000070 loss 0.5435 acc 93.60%
+[2026-04-08 20:54:20,119 cvt_13_v1] (main.py 159): INFO Epoch: [60][40/118] lr 0.000070 loss 0.5442 acc 93.60%
+[2026-04-08 20:54:27,324 cvt_13_v1] (main.py 159): INFO Epoch: [60][60/118] lr 0.000070 loss 0.5438 acc 93.55%
+[2026-04-08 20:54:34,594 cvt_13_v1] (main.py 159): INFO Epoch: [60][80/118] lr 0.000070 loss 0.5429 acc 93.52%
+[2026-04-08 20:54:41,822 cvt_13_v1] (main.py 159): INFO Epoch: [60][100/118] lr 0.000070 loss 0.5415 acc 93.75%
+[2026-04-08 20:54:57,784 cvt_13_v1] (main.py 93): INFO [Epoch 60]: Train Loss: 0.5391, Train Acc: 93.76%, Val Loss: 0.4102, Val Acc: 86.16%, F1: 0.8610, Precision: 0.8634, Recall: 0.8616
+[2026-04-08 20:54:57,785 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.28%
+[2026-04-08 20:54:58,627 cvt_13_v1] (main.py 159): INFO Epoch: [61][0/118] lr 0.000067 loss 0.4463 acc 100.00%
+[2026-04-08 20:55:05,818 cvt_13_v1] (main.py 159): INFO Epoch: [61][20/118] lr 0.000067 loss 0.5246 acc 95.09%
+[2026-04-08 20:55:13,070 cvt_13_v1] (main.py 159): INFO Epoch: [61][40/118] lr 0.000067 loss 0.5210 acc 95.05%
+[2026-04-08 20:55:20,249 cvt_13_v1] (main.py 159): INFO Epoch: [61][60/118] lr 0.000067 loss 0.5231 acc 95.08%
+[2026-04-08 20:55:27,517 cvt_13_v1] (main.py 159): INFO Epoch: [61][80/118] lr 0.000067 loss 0.5292 acc 94.56%
+[2026-04-08 20:55:34,745 cvt_13_v1] (main.py 159): INFO Epoch: [61][100/118] lr 0.000067 loss 0.5300 acc 94.43%
+[2026-04-08 20:55:50,741 cvt_13_v1] (main.py 93): INFO [Epoch 61]: Train Loss: 0.5302, Train Acc: 94.32%, Val Loss: 0.4415, Val Acc: 84.72%, F1: 0.8488, Precision: 0.8552, Recall: 0.8472
+[2026-04-08 20:55:50,741 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.28%
+[2026-04-08 20:55:51,589 cvt_13_v1] (main.py 159): INFO Epoch: [62][0/118] lr 0.000064 loss 0.4835 acc 96.88%
+[2026-04-08 20:55:58,758 cvt_13_v1] (main.py 159): INFO Epoch: [62][20/118] lr 0.000064 loss 0.5223 acc 95.24%
+[2026-04-08 20:56:06,041 cvt_13_v1] (main.py 159): INFO Epoch: [62][40/118] lr 0.000064 loss 0.5134 acc 95.43%
+[2026-04-08 20:56:13,219 cvt_13_v1] (main.py 159): INFO Epoch: [62][60/118] lr 0.000064 loss 0.5266 acc 94.67%
+[2026-04-08 20:56:20,466 cvt_13_v1] (main.py 159): INFO Epoch: [62][80/118] lr 0.000064 loss 0.5302 acc 94.44%
+[2026-04-08 20:56:27,668 cvt_13_v1] (main.py 159): INFO Epoch: [62][100/118] lr 0.000064 loss 0.5347 acc 94.21%
+[2026-04-08 20:56:43,544 cvt_13_v1] (main.py 93): INFO [Epoch 62]: Train Loss: 0.5347, Train Acc: 94.24%, Val Loss: 0.4417, Val Acc: 85.12%, F1: 0.8522, Precision: 0.8556, Recall: 0.8512
+[2026-04-08 20:56:43,544 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.28%
+[2026-04-08 20:56:44,368 cvt_13_v1] (main.py 159): INFO Epoch: [63][0/118] lr 0.000061 loss 0.5129 acc 93.75%
+[2026-04-08 20:56:51,516 cvt_13_v1] (main.py 159): INFO Epoch: [63][20/118] lr 0.000061 loss 0.5040 acc 96.13%
+[2026-04-08 20:56:58,785 cvt_13_v1] (main.py 159): INFO Epoch: [63][40/118] lr 0.000061 loss 0.4983 acc 96.11%
+[2026-04-08 20:57:05,969 cvt_13_v1] (main.py 159): INFO Epoch: [63][60/118] lr 0.000061 loss 0.5009 acc 96.06%
+[2026-04-08 20:57:13,225 cvt_13_v1] (main.py 159): INFO Epoch: [63][80/118] lr 0.000061 loss 0.5095 acc 95.29%
+[2026-04-08 20:57:20,452 cvt_13_v1] (main.py 159): INFO Epoch: [63][100/118] lr 0.000061 loss 0.5125 acc 95.24%
+[2026-04-08 20:57:36,361 cvt_13_v1] (main.py 93): INFO [Epoch 63]: Train Loss: 0.5158, Train Acc: 94.99%, Val Loss: 0.4122, Val Acc: 86.64%, F1: 0.8670, Precision: 0.8696, Recall: 0.8664
+[2026-04-08 20:57:36,362 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.28%
+[2026-04-08 20:57:37,204 cvt_13_v1] (main.py 159): INFO Epoch: [64][0/118] lr 0.000058 loss 0.5065 acc 93.75%
+[2026-04-08 20:57:44,401 cvt_13_v1] (main.py 159): INFO Epoch: [64][20/118] lr 0.000058 loss 0.5184 acc 94.79%
+[2026-04-08 20:57:51,678 cvt_13_v1] (main.py 159): INFO Epoch: [64][40/118] lr 0.000058 loss 0.5153 acc 94.89%
+[2026-04-08 20:57:58,868 cvt_13_v1] (main.py 159): INFO Epoch: [64][60/118] lr 0.000058 loss 0.5077 acc 95.18%
+[2026-04-08 20:58:06,118 cvt_13_v1] (main.py 159): INFO Epoch: [64][80/118] lr 0.000058 loss 0.5122 acc 94.83%
+[2026-04-08 20:58:13,355 cvt_13_v1] (main.py 159): INFO Epoch: [64][100/118] lr 0.000058 loss 0.5134 acc 94.83%
+[2026-04-08 20:58:29,251 cvt_13_v1] (main.py 93): INFO [Epoch 64]: Train Loss: 0.5145, Train Acc: 94.77%, Val Loss: 0.4243, Val Acc: 86.08%, F1: 0.8616, Precision: 0.8641, Recall: 0.8608
+[2026-04-08 20:58:29,251 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.28%
+[2026-04-08 20:58:30,082 cvt_13_v1] (main.py 159): INFO Epoch: [65][0/118] lr 0.000055 loss 0.4545 acc 100.00%
+[2026-04-08 20:58:37,253 cvt_13_v1] (main.py 159): INFO Epoch: [65][20/118] lr 0.000055 loss 0.5032 acc 95.98%
+[2026-04-08 20:58:44,513 cvt_13_v1] (main.py 159): INFO Epoch: [65][40/118] lr 0.000055 loss 0.5059 acc 95.66%
+[2026-04-08 20:58:51,681 cvt_13_v1] (main.py 159): INFO Epoch: [65][60/118] lr 0.000055 loss 0.5081 acc 95.49%
+[2026-04-08 20:58:58,929 cvt_13_v1] (main.py 159): INFO Epoch: [65][80/118] lr 0.000055 loss 0.5069 acc 95.76%
+[2026-04-08 20:59:06,137 cvt_13_v1] (main.py 159): INFO Epoch: [65][100/118] lr 0.000055 loss 0.5066 acc 95.79%
+[2026-04-08 20:59:22,041 cvt_13_v1] (main.py 93): INFO [Epoch 65]: Train Loss: 0.5059, Train Acc: 95.79%, Val Loss: 0.4494, Val Acc: 85.52%, F1: 0.8531, Precision: 0.8588, Recall: 0.8552
+[2026-04-08 20:59:22,042 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.28%
+[2026-04-08 20:59:22,856 cvt_13_v1] (main.py 159): INFO Epoch: [66][0/118] lr 0.000053 loss 0.5290 acc 93.75%
+[2026-04-08 20:59:30,011 cvt_13_v1] (main.py 159): INFO Epoch: [66][20/118] lr 0.000053 loss 0.5055 acc 96.28%
+[2026-04-08 20:59:37,275 cvt_13_v1] (main.py 159): INFO Epoch: [66][40/118] lr 0.000053 loss 0.5036 acc 95.88%
+[2026-04-08 20:59:44,437 cvt_13_v1] (main.py 159): INFO Epoch: [66][60/118] lr 0.000053 loss 0.5014 acc 95.95%
+[2026-04-08 20:59:51,680 cvt_13_v1] (main.py 159): INFO Epoch: [66][80/118] lr 0.000053 loss 0.5042 acc 95.87%
+[2026-04-08 20:59:58,883 cvt_13_v1] (main.py 159): INFO Epoch: [66][100/118] lr 0.000053 loss 0.5035 acc 96.01%
+[2026-04-08 21:00:14,964 cvt_13_v1] (main.py 93): INFO [Epoch 66]: Train Loss: 0.5017, Train Acc: 95.92%, Val Loss: 0.4120, Val Acc: 86.40%, F1: 0.8637, Precision: 0.8643, Recall: 0.8640
+[2026-04-08 21:00:14,965 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.28%
+[2026-04-08 21:00:15,791 cvt_13_v1] (main.py 159): INFO Epoch: [67][0/118] lr 0.000050 loss 0.4895 acc 96.88%
+[2026-04-08 21:00:22,953 cvt_13_v1] (main.py 159): INFO Epoch: [67][20/118] lr 0.000050 loss 0.4962 acc 95.83%
+[2026-04-08 21:00:30,206 cvt_13_v1] (main.py 159): INFO Epoch: [67][40/118] lr 0.000050 loss 0.4944 acc 95.43%
+[2026-04-08 21:00:37,370 cvt_13_v1] (main.py 159): INFO Epoch: [67][60/118] lr 0.000050 loss 0.4952 acc 95.49%
+[2026-04-08 21:00:44,632 cvt_13_v1] (main.py 159): INFO Epoch: [67][80/118] lr 0.000050 loss 0.4973 acc 95.49%
+[2026-04-08 21:00:51,823 cvt_13_v1] (main.py 159): INFO Epoch: [67][100/118] lr 0.000050 loss 0.5019 acc 95.20%
+[2026-04-08 21:01:07,769 cvt_13_v1] (main.py 93): INFO [Epoch 67]: Train Loss: 0.5010, Train Acc: 95.31%, Val Loss: 0.4231, Val Acc: 85.68%, F1: 0.8570, Precision: 0.8605, Recall: 0.8568
+[2026-04-08 21:01:07,770 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.28%
+[2026-04-08 21:01:08,609 cvt_13_v1] (main.py 159): INFO Epoch: [68][0/118] lr 0.000047 loss 0.5381 acc 96.88%
+[2026-04-08 21:01:15,779 cvt_13_v1] (main.py 159): INFO Epoch: [68][20/118] lr 0.000047 loss 0.4821 acc 96.73%
+[2026-04-08 21:01:23,036 cvt_13_v1] (main.py 159): INFO Epoch: [68][40/118] lr 0.000047 loss 0.4865 acc 96.49%
+[2026-04-08 21:01:30,207 cvt_13_v1] (main.py 159): INFO Epoch: [68][60/118] lr 0.000047 loss 0.4942 acc 95.90%
+[2026-04-08 21:01:37,444 cvt_13_v1] (main.py 159): INFO Epoch: [68][80/118] lr 0.000047 loss 0.4942 acc 95.83%
+[2026-04-08 21:01:44,679 cvt_13_v1] (main.py 159): INFO Epoch: [68][100/118] lr 0.000047 loss 0.4925 acc 95.92%
+[2026-04-08 21:02:00,638 cvt_13_v1] (main.py 93): INFO [Epoch 68]: Train Loss: 0.4936, Train Acc: 95.87%, Val Loss: 0.4072, Val Acc: 87.68%, F1: 0.8768, Precision: 0.8780, Recall: 0.8768
+[2026-04-08 21:02:00,638 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 68 with accuracy: 87.68%
+[2026-04-08 21:02:00,764 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 21:02:00,764 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.68%
+[2026-04-08 21:02:01,576 cvt_13_v1] (main.py 159): INFO Epoch: [69][0/118] lr 0.000045 loss 0.4553 acc 96.88%
+[2026-04-08 21:02:08,751 cvt_13_v1] (main.py 159): INFO Epoch: [69][20/118] lr 0.000045 loss 0.4871 acc 95.83%
+[2026-04-08 21:02:16,045 cvt_13_v1] (main.py 159): INFO Epoch: [69][40/118] lr 0.000045 loss 0.4820 acc 96.80%
+[2026-04-08 21:02:23,221 cvt_13_v1] (main.py 159): INFO Epoch: [69][60/118] lr 0.000045 loss 0.4846 acc 96.62%
+[2026-04-08 21:02:30,462 cvt_13_v1] (main.py 159): INFO Epoch: [69][80/118] lr 0.000045 loss 0.4834 acc 96.72%
+[2026-04-08 21:02:37,657 cvt_13_v1] (main.py 159): INFO Epoch: [69][100/118] lr 0.000045 loss 0.4843 acc 96.72%
+[2026-04-08 21:02:53,587 cvt_13_v1] (main.py 93): INFO [Epoch 69]: Train Loss: 0.4850, Train Acc: 96.59%, Val Loss: 0.4126, Val Acc: 86.80%, F1: 0.8681, Precision: 0.8687, Recall: 0.8680
+[2026-04-08 21:02:53,588 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.68%
+[2026-04-08 21:02:54,399 cvt_13_v1] (main.py 159): INFO Epoch: [70][0/118] lr 0.000042 loss 0.4951 acc 93.75%
+[2026-04-08 21:03:01,523 cvt_13_v1] (main.py 159): INFO Epoch: [70][20/118] lr 0.000042 loss 0.4851 acc 96.13%
+[2026-04-08 21:03:08,760 cvt_13_v1] (main.py 159): INFO Epoch: [70][40/118] lr 0.000042 loss 0.4864 acc 95.88%
+[2026-04-08 21:03:15,907 cvt_13_v1] (main.py 159): INFO Epoch: [70][60/118] lr 0.000042 loss 0.4805 acc 96.31%
+[2026-04-08 21:03:23,116 cvt_13_v1] (main.py 159): INFO Epoch: [70][80/118] lr 0.000042 loss 0.4812 acc 96.53%
+[2026-04-08 21:03:30,293 cvt_13_v1] (main.py 159): INFO Epoch: [70][100/118] lr 0.000042 loss 0.4841 acc 96.26%
+[2026-04-08 21:03:46,282 cvt_13_v1] (main.py 93): INFO [Epoch 70]: Train Loss: 0.4841, Train Acc: 96.40%, Val Loss: 0.4076, Val Acc: 87.44%, F1: 0.8737, Precision: 0.8746, Recall: 0.8744
+[2026-04-08 21:03:46,283 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.68%
+[2026-04-08 21:03:47,136 cvt_13_v1] (main.py 159): INFO Epoch: [71][0/118] lr 0.000040 loss 0.4511 acc 100.00%
+[2026-04-08 21:03:54,324 cvt_13_v1] (main.py 159): INFO Epoch: [71][20/118] lr 0.000040 loss 0.4616 acc 98.07%
+[2026-04-08 21:04:01,617 cvt_13_v1] (main.py 159): INFO Epoch: [71][40/118] lr 0.000040 loss 0.4704 acc 97.41%
+[2026-04-08 21:04:08,794 cvt_13_v1] (main.py 159): INFO Epoch: [71][60/118] lr 0.000040 loss 0.4740 acc 97.13%
+[2026-04-08 21:04:16,125 cvt_13_v1] (main.py 159): INFO Epoch: [71][80/118] lr 0.000040 loss 0.4737 acc 97.11%
+[2026-04-08 21:04:23,313 cvt_13_v1] (main.py 159): INFO Epoch: [71][100/118] lr 0.000040 loss 0.4727 acc 97.09%
+[2026-04-08 21:04:39,341 cvt_13_v1] (main.py 93): INFO [Epoch 71]: Train Loss: 0.4730, Train Acc: 96.99%, Val Loss: 0.4171, Val Acc: 86.16%, F1: 0.8621, Precision: 0.8642, Recall: 0.8616
+[2026-04-08 21:04:39,342 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.68%
+[2026-04-08 21:04:40,231 cvt_13_v1] (main.py 159): INFO Epoch: [72][0/118] lr 0.000037 loss 0.4423 acc 100.00%
+[2026-04-08 21:04:47,415 cvt_13_v1] (main.py 159): INFO Epoch: [72][20/118] lr 0.000037 loss 0.4706 acc 97.47%
+[2026-04-08 21:04:54,688 cvt_13_v1] (main.py 159): INFO Epoch: [72][40/118] lr 0.000037 loss 0.4733 acc 97.18%
+[2026-04-08 21:05:01,870 cvt_13_v1] (main.py 159): INFO Epoch: [72][60/118] lr 0.000037 loss 0.4725 acc 97.03%
+[2026-04-08 21:05:09,182 cvt_13_v1] (main.py 159): INFO Epoch: [72][80/118] lr 0.000037 loss 0.4731 acc 96.88%
+[2026-04-08 21:05:16,375 cvt_13_v1] (main.py 159): INFO Epoch: [72][100/118] lr 0.000037 loss 0.4714 acc 97.00%
+[2026-04-08 21:05:32,446 cvt_13_v1] (main.py 93): INFO [Epoch 72]: Train Loss: 0.4729, Train Acc: 96.93%, Val Loss: 0.4119, Val Acc: 86.88%, F1: 0.8687, Precision: 0.8691, Recall: 0.8688
+[2026-04-08 21:05:32,447 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.68%
+[2026-04-08 21:05:33,314 cvt_13_v1] (main.py 159): INFO Epoch: [73][0/118] lr 0.000035 loss 0.4509 acc 96.88%
+[2026-04-08 21:05:40,494 cvt_13_v1] (main.py 159): INFO Epoch: [73][20/118] lr 0.000035 loss 0.4541 acc 98.07%
+[2026-04-08 21:05:47,797 cvt_13_v1] (main.py 159): INFO Epoch: [73][40/118] lr 0.000035 loss 0.4558 acc 98.25%
+[2026-04-08 21:05:54,974 cvt_13_v1] (main.py 159): INFO Epoch: [73][60/118] lr 0.000035 loss 0.4618 acc 97.85%
+[2026-04-08 21:06:02,230 cvt_13_v1] (main.py 159): INFO Epoch: [73][80/118] lr 0.000035 loss 0.4642 acc 97.57%
+[2026-04-08 21:06:09,414 cvt_13_v1] (main.py 159): INFO Epoch: [73][100/118] lr 0.000035 loss 0.4675 acc 97.22%
+[2026-04-08 21:06:25,553 cvt_13_v1] (main.py 93): INFO [Epoch 73]: Train Loss: 0.4657, Train Acc: 97.31%, Val Loss: 0.4175, Val Acc: 86.16%, F1: 0.8601, Precision: 0.8634, Recall: 0.8616
+[2026-04-08 21:06:25,554 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.68%
+[2026-04-08 21:06:26,381 cvt_13_v1] (main.py 159): INFO Epoch: [74][0/118] lr 0.000032 loss 0.5345 acc 93.75%
+[2026-04-08 21:06:33,564 cvt_13_v1] (main.py 159): INFO Epoch: [74][20/118] lr 0.000032 loss 0.4636 acc 97.62%
+[2026-04-08 21:06:40,843 cvt_13_v1] (main.py 159): INFO Epoch: [74][40/118] lr 0.000032 loss 0.4635 acc 97.64%
+[2026-04-08 21:06:48,013 cvt_13_v1] (main.py 159): INFO Epoch: [74][60/118] lr 0.000032 loss 0.4666 acc 97.34%
+[2026-04-08 21:06:55,318 cvt_13_v1] (main.py 159): INFO Epoch: [74][80/118] lr 0.000032 loss 0.4636 acc 97.42%
+[2026-04-08 21:07:02,505 cvt_13_v1] (main.py 159): INFO Epoch: [74][100/118] lr 0.000032 loss 0.4659 acc 97.37%
+[2026-04-08 21:07:18,714 cvt_13_v1] (main.py 93): INFO [Epoch 74]: Train Loss: 0.4654, Train Acc: 97.28%, Val Loss: 0.4343, Val Acc: 86.48%, F1: 0.8628, Precision: 0.8678, Recall: 0.8648
+[2026-04-08 21:07:18,714 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.68%
+[2026-04-08 21:07:19,567 cvt_13_v1] (main.py 159): INFO Epoch: [75][0/118] lr 0.000030 loss 0.5206 acc 96.88%
+[2026-04-08 21:07:26,763 cvt_13_v1] (main.py 159): INFO Epoch: [75][20/118] lr 0.000030 loss 0.4620 acc 97.92%
+[2026-04-08 21:07:34,263 cvt_13_v1] (main.py 159): INFO Epoch: [75][40/118] lr 0.000030 loss 0.4628 acc 97.71%
+[2026-04-08 21:07:41,452 cvt_13_v1] (main.py 159): INFO Epoch: [75][60/118] lr 0.000030 loss 0.4591 acc 97.85%
+[2026-04-08 21:07:48,790 cvt_13_v1] (main.py 159): INFO Epoch: [75][80/118] lr 0.000030 loss 0.4582 acc 97.72%
+[2026-04-08 21:07:55,984 cvt_13_v1] (main.py 159): INFO Epoch: [75][100/118] lr 0.000030 loss 0.4580 acc 97.77%
+[2026-04-08 21:08:12,141 cvt_13_v1] (main.py 93): INFO [Epoch 75]: Train Loss: 0.4622, Train Acc: 97.60%, Val Loss: 0.4008, Val Acc: 87.20%, F1: 0.8722, Precision: 0.8729, Recall: 0.8720
+[2026-04-08 21:08:12,142 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.68%
+[2026-04-08 21:08:13,044 cvt_13_v1] (main.py 159): INFO Epoch: [76][0/118] lr 0.000028 loss 0.5798 acc 87.50%
+[2026-04-08 21:08:20,272 cvt_13_v1] (main.py 159): INFO Epoch: [76][20/118] lr 0.000028 loss 0.4572 acc 98.07%
+[2026-04-08 21:08:27,575 cvt_13_v1] (main.py 159): INFO Epoch: [76][40/118] lr 0.000028 loss 0.4624 acc 97.71%
+[2026-04-08 21:08:34,782 cvt_13_v1] (main.py 159): INFO Epoch: [76][60/118] lr 0.000028 loss 0.4565 acc 97.85%
+[2026-04-08 21:08:42,097 cvt_13_v1] (main.py 159): INFO Epoch: [76][80/118] lr 0.000028 loss 0.4581 acc 97.69%
+[2026-04-08 21:08:49,291 cvt_13_v1] (main.py 159): INFO Epoch: [76][100/118] lr 0.000028 loss 0.4579 acc 97.74%
+[2026-04-08 21:09:05,378 cvt_13_v1] (main.py 93): INFO [Epoch 76]: Train Loss: 0.4583, Train Acc: 97.71%, Val Loss: 0.4051, Val Acc: 87.04%, F1: 0.8697, Precision: 0.8710, Recall: 0.8704
+[2026-04-08 21:09:05,379 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.68%
+[2026-04-08 21:09:06,303 cvt_13_v1] (main.py 159): INFO Epoch: [77][0/118] lr 0.000026 loss 0.4189 acc 100.00%
+[2026-04-08 21:09:13,509 cvt_13_v1] (main.py 159): INFO Epoch: [77][20/118] lr 0.000026 loss 0.4448 acc 98.96%
+[2026-04-08 21:09:20,846 cvt_13_v1] (main.py 159): INFO Epoch: [77][40/118] lr 0.000026 loss 0.4409 acc 99.09%
+[2026-04-08 21:09:28,034 cvt_13_v1] (main.py 159): INFO Epoch: [77][60/118] lr 0.000026 loss 0.4397 acc 99.13%
+[2026-04-08 21:09:35,344 cvt_13_v1] (main.py 159): INFO Epoch: [77][80/118] lr 0.000026 loss 0.4436 acc 98.73%
+[2026-04-08 21:09:42,522 cvt_13_v1] (main.py 159): INFO Epoch: [77][100/118] lr 0.000026 loss 0.4495 acc 98.27%
+[2026-04-08 21:09:58,517 cvt_13_v1] (main.py 93): INFO [Epoch 77]: Train Loss: 0.4506, Train Acc: 98.21%, Val Loss: 0.4007, Val Acc: 87.12%, F1: 0.8707, Precision: 0.8712, Recall: 0.8712
+[2026-04-08 21:09:58,517 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.68%
+[2026-04-08 21:09:59,584 cvt_13_v1] (main.py 159): INFO Epoch: [78][0/118] lr 0.000024 loss 0.4982 acc 96.88%
+[2026-04-08 21:10:06,789 cvt_13_v1] (main.py 159): INFO Epoch: [78][20/118] lr 0.000024 loss 0.4618 acc 96.43%
+[2026-04-08 21:10:14,127 cvt_13_v1] (main.py 159): INFO Epoch: [78][40/118] lr 0.000024 loss 0.4562 acc 97.26%
+[2026-04-08 21:10:21,337 cvt_13_v1] (main.py 159): INFO Epoch: [78][60/118] lr 0.000024 loss 0.4527 acc 97.49%
+[2026-04-08 21:10:28,651 cvt_13_v1] (main.py 159): INFO Epoch: [78][80/118] lr 0.000024 loss 0.4519 acc 97.65%
+[2026-04-08 21:10:35,813 cvt_13_v1] (main.py 159): INFO Epoch: [78][100/118] lr 0.000024 loss 0.4505 acc 97.71%
+[2026-04-08 21:10:51,755 cvt_13_v1] (main.py 93): INFO [Epoch 78]: Train Loss: 0.4515, Train Acc: 97.68%, Val Loss: 0.3939, Val Acc: 87.76%, F1: 0.8774, Precision: 0.8782, Recall: 0.8776
+[2026-04-08 21:10:51,756 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 78 with accuracy: 87.76%
+[2026-04-08 21:10:51,942 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 21:10:51,943 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.76%
+[2026-04-08 21:10:52,962 cvt_13_v1] (main.py 159): INFO Epoch: [79][0/118] lr 0.000022 loss 0.4520 acc 100.00%
+[2026-04-08 21:11:00,127 cvt_13_v1] (main.py 159): INFO Epoch: [79][20/118] lr 0.000022 loss 0.4422 acc 98.81%
+[2026-04-08 21:11:07,417 cvt_13_v1] (main.py 159): INFO Epoch: [79][40/118] lr 0.000022 loss 0.4451 acc 98.48%
+[2026-04-08 21:11:14,599 cvt_13_v1] (main.py 159): INFO Epoch: [79][60/118] lr 0.000022 loss 0.4497 acc 98.21%
+[2026-04-08 21:11:21,949 cvt_13_v1] (main.py 159): INFO Epoch: [79][80/118] lr 0.000022 loss 0.4490 acc 98.26%
+[2026-04-08 21:11:29,152 cvt_13_v1] (main.py 159): INFO Epoch: [79][100/118] lr 0.000022 loss 0.4472 acc 98.36%
+[2026-04-08 21:11:45,096 cvt_13_v1] (main.py 93): INFO [Epoch 79]: Train Loss: 0.4470, Train Acc: 98.43%, Val Loss: 0.3947, Val Acc: 87.60%, F1: 0.8759, Precision: 0.8762, Recall: 0.8760
+[2026-04-08 21:11:45,097 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.76%
+[2026-04-08 21:11:46,285 cvt_13_v1] (main.py 159): INFO Epoch: [80][0/118] lr 0.000020 loss 0.4477 acc 96.88%
+[2026-04-08 21:11:53,584 cvt_13_v1] (main.py 159): INFO Epoch: [80][20/118] lr 0.000020 loss 0.4435 acc 97.77%
+[2026-04-08 21:12:00,862 cvt_13_v1] (main.py 159): INFO Epoch: [80][40/118] lr 0.000020 loss 0.4424 acc 98.17%
+[2026-04-08 21:12:08,068 cvt_13_v1] (main.py 159): INFO Epoch: [80][60/118] lr 0.000020 loss 0.4437 acc 98.26%
+[2026-04-08 21:12:15,352 cvt_13_v1] (main.py 159): INFO Epoch: [80][80/118] lr 0.000020 loss 0.4419 acc 98.46%
+[2026-04-08 21:12:22,548 cvt_13_v1] (main.py 159): INFO Epoch: [80][100/118] lr 0.000020 loss 0.4424 acc 98.39%
+[2026-04-08 21:12:38,559 cvt_13_v1] (main.py 93): INFO [Epoch 80]: Train Loss: 0.4434, Train Acc: 98.40%, Val Loss: 0.4035, Val Acc: 87.12%, F1: 0.8704, Precision: 0.8716, Recall: 0.8712
+[2026-04-08 21:12:38,560 cvt_13_v1] (main.py 109): INFO Max accuracy: 87.76%
+[2026-04-08 21:12:39,638 cvt_13_v1] (main.py 159): INFO Epoch: [81][0/118] lr 0.000018 loss 0.4444 acc 96.88%
+[2026-04-08 21:12:46,920 cvt_13_v1] (main.py 159): INFO Epoch: [81][20/118] lr 0.000018 loss 0.4430 acc 97.47%
+[2026-04-08 21:12:54,240 cvt_13_v1] (main.py 159): INFO Epoch: [81][40/118] lr 0.000018 loss 0.4377 acc 98.02%
+[2026-04-08 21:13:01,441 cvt_13_v1] (main.py 159): INFO Epoch: [81][60/118] lr 0.000018 loss 0.4386 acc 98.26%
+[2026-04-08 21:13:08,741 cvt_13_v1] (main.py 159): INFO Epoch: [81][80/118] lr 0.000018 loss 0.4382 acc 98.30%
+[2026-04-08 21:13:15,972 cvt_13_v1] (main.py 159): INFO Epoch: [81][100/118] lr 0.000018 loss 0.4396 acc 98.27%
+[2026-04-08 21:13:31,931 cvt_13_v1] (main.py 93): INFO [Epoch 81]: Train Loss: 0.4404, Train Acc: 98.19%, Val Loss: 0.4023, Val Acc: 88.08%, F1: 0.8802, Precision: 0.8805, Recall: 0.8808
+[2026-04-08 21:13:31,932 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 81 with accuracy: 88.08%
+[2026-04-08 21:13:32,155 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 21:13:32,155 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.08%
+[2026-04-08 21:13:33,325 cvt_13_v1] (main.py 159): INFO Epoch: [82][0/118] lr 0.000016 loss 0.5578 acc 93.75%
+[2026-04-08 21:13:40,599 cvt_13_v1] (main.py 159): INFO Epoch: [82][20/118] lr 0.000016 loss 0.4442 acc 98.51%
+[2026-04-08 21:13:47,870 cvt_13_v1] (main.py 159): INFO Epoch: [82][40/118] lr 0.000016 loss 0.4426 acc 98.48%
+[2026-04-08 21:13:55,078 cvt_13_v1] (main.py 159): INFO Epoch: [82][60/118] lr 0.000016 loss 0.4418 acc 98.57%
+[2026-04-08 21:14:02,344 cvt_13_v1] (main.py 159): INFO Epoch: [82][80/118] lr 0.000016 loss 0.4404 acc 98.57%
+[2026-04-08 21:14:09,529 cvt_13_v1] (main.py 159): INFO Epoch: [82][100/118] lr 0.000016 loss 0.4392 acc 98.70%
+[2026-04-08 21:14:25,453 cvt_13_v1] (main.py 93): INFO [Epoch 82]: Train Loss: 0.4399, Train Acc: 98.64%, Val Loss: 0.4079, Val Acc: 87.44%, F1: 0.8749, Precision: 0.8765, Recall: 0.8744
+[2026-04-08 21:14:25,453 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.08%
+[2026-04-08 21:14:26,555 cvt_13_v1] (main.py 159): INFO Epoch: [83][0/118] lr 0.000015 loss 0.4739 acc 93.75%
+[2026-04-08 21:14:33,804 cvt_13_v1] (main.py 159): INFO Epoch: [83][20/118] lr 0.000015 loss 0.4309 acc 98.51%
+[2026-04-08 21:14:41,058 cvt_13_v1] (main.py 159): INFO Epoch: [83][40/118] lr 0.000015 loss 0.4353 acc 98.40%
+[2026-04-08 21:14:48,255 cvt_13_v1] (main.py 159): INFO Epoch: [83][60/118] lr 0.000015 loss 0.4361 acc 98.51%
+[2026-04-08 21:14:55,542 cvt_13_v1] (main.py 159): INFO Epoch: [83][80/118] lr 0.000015 loss 0.4359 acc 98.46%
+[2026-04-08 21:15:02,718 cvt_13_v1] (main.py 159): INFO Epoch: [83][100/118] lr 0.000015 loss 0.4368 acc 98.45%
+[2026-04-08 21:15:18,645 cvt_13_v1] (main.py 93): INFO [Epoch 83]: Train Loss: 0.4362, Train Acc: 98.48%, Val Loss: 0.4082, Val Acc: 86.80%, F1: 0.8684, Precision: 0.8695, Recall: 0.8680
+[2026-04-08 21:15:18,646 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.08%
+[2026-04-08 21:15:19,845 cvt_13_v1] (main.py 159): INFO Epoch: [84][0/118] lr 0.000013 loss 0.4287 acc 96.88%
+[2026-04-08 21:15:27,220 cvt_13_v1] (main.py 159): INFO Epoch: [84][20/118] lr 0.000013 loss 0.4394 acc 98.36%
+[2026-04-08 21:15:34,474 cvt_13_v1] (main.py 159): INFO Epoch: [84][40/118] lr 0.000013 loss 0.4321 acc 98.78%
+[2026-04-08 21:15:41,638 cvt_13_v1] (main.py 159): INFO Epoch: [84][60/118] lr 0.000013 loss 0.4332 acc 98.77%
+[2026-04-08 21:15:48,868 cvt_13_v1] (main.py 159): INFO Epoch: [84][80/118] lr 0.000013 loss 0.4329 acc 98.69%
+[2026-04-08 21:15:56,041 cvt_13_v1] (main.py 159): INFO Epoch: [84][100/118] lr 0.000013 loss 0.4354 acc 98.55%
+[2026-04-08 21:16:11,978 cvt_13_v1] (main.py 93): INFO [Epoch 84]: Train Loss: 0.4352, Train Acc: 98.53%, Val Loss: 0.3976, Val Acc: 87.12%, F1: 0.8708, Precision: 0.8707, Recall: 0.8712
+[2026-04-08 21:16:11,979 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.08%
+[2026-04-08 21:16:13,206 cvt_13_v1] (main.py 159): INFO Epoch: [85][0/118] lr 0.000012 loss 0.5021 acc 96.88%
+[2026-04-08 21:16:20,493 cvt_13_v1] (main.py 159): INFO Epoch: [85][20/118] lr 0.000012 loss 0.4348 acc 99.11%
+[2026-04-08 21:16:27,870 cvt_13_v1] (main.py 159): INFO Epoch: [85][40/118] lr 0.000012 loss 0.4385 acc 98.63%
+[2026-04-08 21:16:35,078 cvt_13_v1] (main.py 159): INFO Epoch: [85][60/118] lr 0.000012 loss 0.4341 acc 98.82%
+[2026-04-08 21:16:42,403 cvt_13_v1] (main.py 159): INFO Epoch: [85][80/118] lr 0.000012 loss 0.4366 acc 98.61%
+[2026-04-08 21:16:49,587 cvt_13_v1] (main.py 159): INFO Epoch: [85][100/118] lr 0.000012 loss 0.4354 acc 98.73%
+[2026-04-08 21:17:05,562 cvt_13_v1] (main.py 93): INFO [Epoch 85]: Train Loss: 0.4355, Train Acc: 98.64%, Val Loss: 0.3903, Val Acc: 88.00%, F1: 0.8796, Precision: 0.8796, Recall: 0.8800
+[2026-04-08 21:17:05,563 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.08%
+[2026-04-08 21:17:06,722 cvt_13_v1] (main.py 159): INFO Epoch: [86][0/118] lr 0.000010 loss 0.4546 acc 96.88%
+[2026-04-08 21:17:14,022 cvt_13_v1] (main.py 159): INFO Epoch: [86][20/118] lr 0.000010 loss 0.4244 acc 99.40%
+[2026-04-08 21:17:21,331 cvt_13_v1] (main.py 159): INFO Epoch: [86][40/118] lr 0.000010 loss 0.4262 acc 99.39%
+[2026-04-08 21:17:28,536 cvt_13_v1] (main.py 159): INFO Epoch: [86][60/118] lr 0.000010 loss 0.4253 acc 99.39%
+[2026-04-08 21:17:35,810 cvt_13_v1] (main.py 159): INFO Epoch: [86][80/118] lr 0.000010 loss 0.4263 acc 99.38%
+[2026-04-08 21:17:42,998 cvt_13_v1] (main.py 159): INFO Epoch: [86][100/118] lr 0.000010 loss 0.4293 acc 99.16%
+[2026-04-08 21:17:58,970 cvt_13_v1] (main.py 93): INFO [Epoch 86]: Train Loss: 0.4297, Train Acc: 99.09%, Val Loss: 0.3980, Val Acc: 88.32%, F1: 0.8831, Precision: 0.8833, Recall: 0.8832
+[2026-04-08 21:17:58,970 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 86 with accuracy: 88.32%
+[2026-04-08 21:17:59,162 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 21:17:59,163 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.32%
+[2026-04-08 21:18:00,239 cvt_13_v1] (main.py 159): INFO Epoch: [87][0/118] lr 0.000009 loss 0.4666 acc 96.88%
+[2026-04-08 21:18:07,597 cvt_13_v1] (main.py 159): INFO Epoch: [87][20/118] lr 0.000009 loss 0.4355 acc 98.96%
+[2026-04-08 21:18:14,879 cvt_13_v1] (main.py 159): INFO Epoch: [87][40/118] lr 0.000009 loss 0.4325 acc 98.70%
+[2026-04-08 21:18:22,098 cvt_13_v1] (main.py 159): INFO Epoch: [87][60/118] lr 0.000009 loss 0.4345 acc 98.77%
+[2026-04-08 21:18:29,423 cvt_13_v1] (main.py 159): INFO Epoch: [87][80/118] lr 0.000009 loss 0.4314 acc 98.88%
+[2026-04-08 21:18:36,619 cvt_13_v1] (main.py 159): INFO Epoch: [87][100/118] lr 0.000009 loss 0.4311 acc 98.86%
+[2026-04-08 21:18:52,610 cvt_13_v1] (main.py 93): INFO [Epoch 87]: Train Loss: 0.4291, Train Acc: 98.96%, Val Loss: 0.3930, Val Acc: 87.92%, F1: 0.8790, Precision: 0.8794, Recall: 0.8792
+[2026-04-08 21:18:52,611 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.32%
+[2026-04-08 21:18:53,692 cvt_13_v1] (main.py 159): INFO Epoch: [88][0/118] lr 0.000008 loss 0.4486 acc 96.88%
+[2026-04-08 21:19:00,975 cvt_13_v1] (main.py 159): INFO Epoch: [88][20/118] lr 0.000008 loss 0.4291 acc 98.66%
+[2026-04-08 21:19:08,274 cvt_13_v1] (main.py 159): INFO Epoch: [88][40/118] lr 0.000008 loss 0.4257 acc 99.01%
+[2026-04-08 21:19:15,469 cvt_13_v1] (main.py 159): INFO Epoch: [88][60/118] lr 0.000008 loss 0.4256 acc 99.08%
+[2026-04-08 21:19:22,763 cvt_13_v1] (main.py 159): INFO Epoch: [88][80/118] lr 0.000008 loss 0.4261 acc 99.11%
+[2026-04-08 21:19:29,958 cvt_13_v1] (main.py 159): INFO Epoch: [88][100/118] lr 0.000008 loss 0.4276 acc 99.01%
+[2026-04-08 21:19:45,937 cvt_13_v1] (main.py 93): INFO [Epoch 88]: Train Loss: 0.4286, Train Acc: 98.93%, Val Loss: 0.3958, Val Acc: 88.24%, F1: 0.8821, Precision: 0.8824, Recall: 0.8824
+[2026-04-08 21:19:45,938 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.32%
+[2026-04-08 21:19:46,977 cvt_13_v1] (main.py 159): INFO Epoch: [89][0/118] lr 0.000007 loss 0.4245 acc 100.00%
+[2026-04-08 21:19:54,295 cvt_13_v1] (main.py 159): INFO Epoch: [89][20/118] lr 0.000007 loss 0.4239 acc 99.40%
+[2026-04-08 21:20:01,572 cvt_13_v1] (main.py 159): INFO Epoch: [89][40/118] lr 0.000007 loss 0.4220 acc 99.31%
+[2026-04-08 21:20:08,765 cvt_13_v1] (main.py 159): INFO Epoch: [89][60/118] lr 0.000007 loss 0.4216 acc 99.28%
+[2026-04-08 21:20:16,083 cvt_13_v1] (main.py 159): INFO Epoch: [89][80/118] lr 0.000007 loss 0.4238 acc 99.15%
+[2026-04-08 21:20:23,271 cvt_13_v1] (main.py 159): INFO Epoch: [89][100/118] lr 0.000007 loss 0.4257 acc 99.10%
+[2026-04-08 21:20:39,223 cvt_13_v1] (main.py 93): INFO [Epoch 89]: Train Loss: 0.4269, Train Acc: 99.04%, Val Loss: 0.3953, Val Acc: 88.24%, F1: 0.8820, Precision: 0.8823, Recall: 0.8824
+[2026-04-08 21:20:39,223 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.32%
+[2026-04-08 21:20:40,405 cvt_13_v1] (main.py 159): INFO Epoch: [90][0/118] lr 0.000006 loss 0.4084 acc 100.00%
+[2026-04-08 21:20:47,658 cvt_13_v1] (main.py 159): INFO Epoch: [90][20/118] lr 0.000006 loss 0.4381 acc 98.21%
+[2026-04-08 21:20:54,910 cvt_13_v1] (main.py 159): INFO Epoch: [90][40/118] lr 0.000006 loss 0.4344 acc 98.32%
+[2026-04-08 21:21:02,100 cvt_13_v1] (main.py 159): INFO Epoch: [90][60/118] lr 0.000006 loss 0.4334 acc 98.51%
+[2026-04-08 21:21:09,359 cvt_13_v1] (main.py 159): INFO Epoch: [90][80/118] lr 0.000006 loss 0.4317 acc 98.69%
+[2026-04-08 21:21:16,516 cvt_13_v1] (main.py 159): INFO Epoch: [90][100/118] lr 0.000006 loss 0.4319 acc 98.73%
+[2026-04-08 21:21:32,406 cvt_13_v1] (main.py 93): INFO [Epoch 90]: Train Loss: 0.4302, Train Acc: 98.80%, Val Loss: 0.3948, Val Acc: 88.24%, F1: 0.8822, Precision: 0.8824, Recall: 0.8824
+[2026-04-08 21:21:32,407 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.32%
+[2026-04-08 21:21:33,600 cvt_13_v1] (main.py 159): INFO Epoch: [91][0/118] lr 0.000005 loss 0.4156 acc 100.00%
+[2026-04-08 21:21:40,907 cvt_13_v1] (main.py 159): INFO Epoch: [91][20/118] lr 0.000005 loss 0.4253 acc 98.66%
+[2026-04-08 21:21:48,174 cvt_13_v1] (main.py 159): INFO Epoch: [91][40/118] lr 0.000005 loss 0.4241 acc 98.93%
+[2026-04-08 21:21:55,334 cvt_13_v1] (main.py 159): INFO Epoch: [91][60/118] lr 0.000005 loss 0.4251 acc 99.03%
+[2026-04-08 21:22:02,665 cvt_13_v1] (main.py 159): INFO Epoch: [91][80/118] lr 0.000005 loss 0.4258 acc 99.00%
+[2026-04-08 21:22:09,817 cvt_13_v1] (main.py 159): INFO Epoch: [91][100/118] lr 0.000005 loss 0.4271 acc 98.98%
+[2026-04-08 21:22:25,701 cvt_13_v1] (main.py 93): INFO [Epoch 91]: Train Loss: 0.4264, Train Acc: 99.04%, Val Loss: 0.3930, Val Acc: 88.08%, F1: 0.8807, Precision: 0.8810, Recall: 0.8808
+[2026-04-08 21:22:25,701 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.32%
+[2026-04-08 21:22:26,954 cvt_13_v1] (main.py 159): INFO Epoch: [92][0/118] lr 0.000004 loss 0.4519 acc 96.88%
+[2026-04-08 21:22:34,320 cvt_13_v1] (main.py 159): INFO Epoch: [92][20/118] lr 0.000004 loss 0.4203 acc 99.26%
+[2026-04-08 21:22:41,573 cvt_13_v1] (main.py 159): INFO Epoch: [92][40/118] lr 0.000004 loss 0.4245 acc 99.01%
+[2026-04-08 21:22:48,754 cvt_13_v1] (main.py 159): INFO Epoch: [92][60/118] lr 0.000004 loss 0.4226 acc 99.18%
+[2026-04-08 21:22:56,068 cvt_13_v1] (main.py 159): INFO Epoch: [92][80/118] lr 0.000004 loss 0.4242 acc 99.07%
+[2026-04-08 21:23:03,247 cvt_13_v1] (main.py 159): INFO Epoch: [92][100/118] lr 0.000004 loss 0.4245 acc 99.04%
+[2026-04-08 21:23:19,154 cvt_13_v1] (main.py 93): INFO [Epoch 92]: Train Loss: 0.4257, Train Acc: 98.96%, Val Loss: 0.3979, Val Acc: 88.40%, F1: 0.8835, Precision: 0.8837, Recall: 0.8840
+[2026-04-08 21:23:19,154 cvt_13_v1] (main.py 104): INFO Best performance updated at epoch 92 with accuracy: 88.40%
+[2026-04-08 21:23:19,350 cvt_13_v1] (main.py 108): INFO Best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_best.pth
+[2026-04-08 21:23:19,350 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.40%
+[2026-04-08 21:23:20,404 cvt_13_v1] (main.py 159): INFO Epoch: [93][0/118] lr 0.000003 loss 0.4073 acc 100.00%
+[2026-04-08 21:23:27,627 cvt_13_v1] (main.py 159): INFO Epoch: [93][20/118] lr 0.000003 loss 0.4211 acc 99.11%
+[2026-04-08 21:23:34,891 cvt_13_v1] (main.py 159): INFO Epoch: [93][40/118] lr 0.000003 loss 0.4255 acc 99.01%
+[2026-04-08 21:23:42,070 cvt_13_v1] (main.py 159): INFO Epoch: [93][60/118] lr 0.000003 loss 0.4247 acc 99.18%
+[2026-04-08 21:23:49,371 cvt_13_v1] (main.py 159): INFO Epoch: [93][80/118] lr 0.000003 loss 0.4228 acc 99.34%
+[2026-04-08 21:23:56,523 cvt_13_v1] (main.py 159): INFO Epoch: [93][100/118] lr 0.000003 loss 0.4261 acc 99.13%
+[2026-04-08 21:24:12,404 cvt_13_v1] (main.py 93): INFO [Epoch 93]: Train Loss: 0.4262, Train Acc: 99.12%, Val Loss: 0.3973, Val Acc: 88.00%, F1: 0.8799, Precision: 0.8802, Recall: 0.8800
+[2026-04-08 21:24:12,405 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.40%
+[2026-04-08 21:24:13,303 cvt_13_v1] (main.py 159): INFO Epoch: [94][0/118] lr 0.000003 loss 0.4103 acc 100.00%
+[2026-04-08 21:24:20,629 cvt_13_v1] (main.py 159): INFO Epoch: [94][20/118] lr 0.000003 loss 0.4179 acc 99.70%
+[2026-04-08 21:24:27,844 cvt_13_v1] (main.py 159): INFO Epoch: [94][40/118] lr 0.000003 loss 0.4192 acc 99.47%
+[2026-04-08 21:24:35,009 cvt_13_v1] (main.py 159): INFO Epoch: [94][60/118] lr 0.000003 loss 0.4204 acc 99.33%
+[2026-04-08 21:24:42,347 cvt_13_v1] (main.py 159): INFO Epoch: [94][80/118] lr 0.000003 loss 0.4219 acc 99.27%
+[2026-04-08 21:24:49,496 cvt_13_v1] (main.py 159): INFO Epoch: [94][100/118] lr 0.000003 loss 0.4211 acc 99.35%
+[2026-04-08 21:25:05,477 cvt_13_v1] (main.py 93): INFO [Epoch 94]: Train Loss: 0.4232, Train Acc: 99.23%, Val Loss: 0.3973, Val Acc: 88.16%, F1: 0.8813, Precision: 0.8813, Recall: 0.8816
+[2026-04-08 21:25:05,477 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.40%
+[2026-04-08 21:25:06,644 cvt_13_v1] (main.py 159): INFO Epoch: [95][0/118] lr 0.000002 loss 0.4090 acc 100.00%
+[2026-04-08 21:25:13,915 cvt_13_v1] (main.py 159): INFO Epoch: [95][20/118] lr 0.000002 loss 0.4218 acc 99.55%
+[2026-04-08 21:25:21,171 cvt_13_v1] (main.py 159): INFO Epoch: [95][40/118] lr 0.000002 loss 0.4283 acc 99.01%
+[2026-04-08 21:25:28,341 cvt_13_v1] (main.py 159): INFO Epoch: [95][60/118] lr 0.000002 loss 0.4286 acc 98.98%
+[2026-04-08 21:25:35,614 cvt_13_v1] (main.py 159): INFO Epoch: [95][80/118] lr 0.000002 loss 0.4268 acc 99.07%
+[2026-04-08 21:25:42,799 cvt_13_v1] (main.py 159): INFO Epoch: [95][100/118] lr 0.000002 loss 0.4260 acc 99.10%
+[2026-04-08 21:25:58,690 cvt_13_v1] (main.py 93): INFO [Epoch 95]: Train Loss: 0.4261, Train Acc: 99.07%, Val Loss: 0.3989, Val Acc: 87.52%, F1: 0.8752, Precision: 0.8757, Recall: 0.8752
+[2026-04-08 21:25:58,690 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.40%
+[2026-04-08 21:25:59,860 cvt_13_v1] (main.py 159): INFO Epoch: [96][0/118] lr 0.000002 loss 0.4153 acc 100.00%
+[2026-04-08 21:26:07,129 cvt_13_v1] (main.py 159): INFO Epoch: [96][20/118] lr 0.000002 loss 0.4266 acc 99.26%
+[2026-04-08 21:26:14,371 cvt_13_v1] (main.py 159): INFO Epoch: [96][40/118] lr 0.000002 loss 0.4236 acc 99.24%
+[2026-04-08 21:26:21,536 cvt_13_v1] (main.py 159): INFO Epoch: [96][60/118] lr 0.000002 loss 0.4228 acc 99.23%
+[2026-04-08 21:26:28,826 cvt_13_v1] (main.py 159): INFO Epoch: [96][80/118] lr 0.000002 loss 0.4224 acc 99.23%
+[2026-04-08 21:26:35,993 cvt_13_v1] (main.py 159): INFO Epoch: [96][100/118] lr 0.000002 loss 0.4219 acc 99.23%
+[2026-04-08 21:26:51,892 cvt_13_v1] (main.py 93): INFO [Epoch 96]: Train Loss: 0.4230, Train Acc: 99.15%, Val Loss: 0.3965, Val Acc: 87.76%, F1: 0.8775, Precision: 0.8776, Recall: 0.8776
+[2026-04-08 21:26:51,893 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.40%
+[2026-04-08 21:26:52,940 cvt_13_v1] (main.py 159): INFO Epoch: [97][0/118] lr 0.000001 loss 0.4376 acc 96.88%
+[2026-04-08 21:27:00,176 cvt_13_v1] (main.py 159): INFO Epoch: [97][20/118] lr 0.000001 loss 0.4291 acc 98.81%
+[2026-04-08 21:27:07,450 cvt_13_v1] (main.py 159): INFO Epoch: [97][40/118] lr 0.000001 loss 0.4269 acc 98.86%
+[2026-04-08 21:27:14,622 cvt_13_v1] (main.py 159): INFO Epoch: [97][60/118] lr 0.000001 loss 0.4230 acc 99.08%
+[2026-04-08 21:27:21,930 cvt_13_v1] (main.py 159): INFO Epoch: [97][80/118] lr 0.000001 loss 0.4232 acc 99.07%
+[2026-04-08 21:27:29,080 cvt_13_v1] (main.py 159): INFO Epoch: [97][100/118] lr 0.000001 loss 0.4238 acc 99.10%
+[2026-04-08 21:27:45,029 cvt_13_v1] (main.py 93): INFO [Epoch 97]: Train Loss: 0.4227, Train Acc: 99.15%, Val Loss: 0.3967, Val Acc: 87.76%, F1: 0.8775, Precision: 0.8776, Recall: 0.8776
+[2026-04-08 21:27:45,030 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.40%
+[2026-04-08 21:27:46,115 cvt_13_v1] (main.py 159): INFO Epoch: [98][0/118] lr 0.000001 loss 0.4123 acc 100.00%
+[2026-04-08 21:27:53,355 cvt_13_v1] (main.py 159): INFO Epoch: [98][20/118] lr 0.000001 loss 0.4229 acc 99.40%
+[2026-04-08 21:28:00,615 cvt_13_v1] (main.py 159): INFO Epoch: [98][40/118] lr 0.000001 loss 0.4227 acc 99.31%
+[2026-04-08 21:28:07,788 cvt_13_v1] (main.py 159): INFO Epoch: [98][60/118] lr 0.000001 loss 0.4216 acc 99.28%
+[2026-04-08 21:28:15,050 cvt_13_v1] (main.py 159): INFO Epoch: [98][80/118] lr 0.000001 loss 0.4211 acc 99.27%
+[2026-04-08 21:28:22,201 cvt_13_v1] (main.py 159): INFO Epoch: [98][100/118] lr 0.000001 loss 0.4204 acc 99.32%
+[2026-04-08 21:28:38,093 cvt_13_v1] (main.py 93): INFO [Epoch 98]: Train Loss: 0.4205, Train Acc: 99.36%, Val Loss: 0.3963, Val Acc: 87.76%, F1: 0.8774, Precision: 0.8775, Recall: 0.8776
+[2026-04-08 21:28:38,093 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.40%
+[2026-04-08 21:28:39,227 cvt_13_v1] (main.py 159): INFO Epoch: [99][0/118] lr 0.000001 loss 0.4473 acc 96.88%
+[2026-04-08 21:28:46,438 cvt_13_v1] (main.py 159): INFO Epoch: [99][20/118] lr 0.000001 loss 0.4310 acc 98.51%
+[2026-04-08 21:28:53,700 cvt_13_v1] (main.py 159): INFO Epoch: [99][40/118] lr 0.000001 loss 0.4281 acc 98.70%
+[2026-04-08 21:29:00,911 cvt_13_v1] (main.py 159): INFO Epoch: [99][60/118] lr 0.000001 loss 0.4270 acc 98.77%
+[2026-04-08 21:29:08,196 cvt_13_v1] (main.py 159): INFO Epoch: [99][80/118] lr 0.000001 loss 0.4257 acc 98.88%
+[2026-04-08 21:29:15,361 cvt_13_v1] (main.py 159): INFO Epoch: [99][100/118] lr 0.000001 loss 0.4256 acc 98.95%
+[2026-04-08 21:29:31,283 cvt_13_v1] (main.py 93): INFO [Epoch 99]: Train Loss: 0.4257, Train Acc: 98.96%, Val Loss: 0.3970, Val Acc: 87.68%, F1: 0.8766, Precision: 0.8768, Recall: 0.8768
+[2026-04-08 21:29:31,283 cvt_13_v1] (main.py 109): INFO Max accuracy: 88.40%
+[2026-04-08 21:29:31,293 cvt_13_v1] (main.py 121): INFO Confusion matrix for best model saved to /content/dl/outputs/cvt_13_v1/cvt_13_v1_confusion_matrix.npy
+[2026-04-08 21:29:31,293 cvt_13_v1] (main.py 125): INFO Training time 1:28:34
