@@ -1,15 +1,27 @@
+# DenseNet/DenseNet.py 
 """
 DenseNet-121 for Food-101 Classification
 Pre-trained on ImageNet from torchvision
 https://arxiv.org/abs/1608.06993
+
+VARIATION: Frozen Backbone (Transfer Learning)
 """
 import torch
 import torch.nn as nn
 import torchvision.models as models
 
-def densenet121(num_classes=5, **kwargs):
+def densenet121(num_classes=5, freeze_backbone=False, **kwargs):
     """
     Load DenseNet-121 pre-trained on ImageNet and fine-tune for Food-101.
+    
+    SINGLE VARIATION: Frozen Backbone
+    - Original (freeze_backbone=False): All layers trainable (fine-tuning)
+    - Variation (freeze_backbone=True): Backbone frozen, only classifier trainable (transfer learning)
+    
+    Args:
+        num_classes: Number of output classes
+        freeze_backbone: If True, freeze all layers except classifier
+        **kwargs: Additional hyperparameters from config
     
     Accepts hyperparameters from config and applies them to the model:
     - DROP_PATH_RATE controls dropout in the final classifier layer
@@ -39,5 +51,11 @@ def densenet121(num_classes=5, **kwargs):
     
     # Replace ImageNet classifier with Food-101 classifier
     model.classifier = classifier
+    
+    # VARIATION: Freeze backbone if specified
+    if freeze_backbone:
+        for name, param in model.named_parameters():
+            if 'classifier' not in name:
+                param.requires_grad = False
     
     return model

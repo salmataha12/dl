@@ -4,6 +4,7 @@ def get_config():
             'NAME': 'densenet121',
             'TAG': 'CNN',
             'NUM_CLASSES': 5,
+            'FREEZE_BACKBONE': False,
             'DROP_PATH_RATE': 0.2,
             'LABEL_SMOOTHING': 0.1,
         },

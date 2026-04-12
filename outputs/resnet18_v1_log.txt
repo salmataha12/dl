@@ -1,0 +1,266 @@
+[2026-04-11 18:02:26,928 resnet18_v1] (main.py 21): INFO Dataset loaded: 3750 train images, 1250 validation images
+[2026-04-11 18:02:26,929 resnet18_v1] (main.py 23): INFO Creating model: resnet18_v1
+[2026-04-11 18:02:27,605 resnet18_v1] (main.py 78): INFO Start training
+[2026-04-11 18:02:42,929 resnet18_v1] (main.py 169): INFO Epoch: [0][0/59] lr 0.000001 loss 1.7054 acc 28.12%
+[2026-04-11 18:02:50,066 resnet18_v1] (main.py 169): INFO Epoch: [0][20/59] lr 0.000001 loss 1.7686 acc 19.05%
+[2026-04-11 18:02:58,197 resnet18_v1] (main.py 169): INFO Epoch: [0][40/59] lr 0.000001 loss 1.7461 acc 19.82%
+[2026-04-11 18:03:21,385 resnet18_v1] (main.py 90): INFO [Epoch 0]: Train Loss: 1.7251, Train Acc: 20.72%, Val Loss: 1.6353, Val Acc: 23.84%, F1: 0.1899, Precision: 0.2248, Recall: 0.2384
+[2026-04-11 18:03:21,386 resnet18_v1] (main.py 101): INFO Best performance updated at epoch 0 with accuracy: 23.84%
+[2026-04-11 18:03:21,386 resnet18_v1] (main.py 103): INFO Max accuracy: 23.84%
+[2026-04-11 18:03:22,334 resnet18_v1] (main.py 169): INFO Epoch: [1][0/59] lr 0.000101 loss 1.7109 acc 20.31%
+[2026-04-11 18:03:30,878 resnet18_v1] (main.py 169): INFO Epoch: [1][20/59] lr 0.000101 loss 0.9589 acc 73.36%
+[2026-04-11 18:03:38,615 resnet18_v1] (main.py 169): INFO Epoch: [1][40/59] lr 0.000101 loss 0.8095 acc 81.40%
+[2026-04-11 18:03:51,805 resnet18_v1] (main.py 90): INFO [Epoch 1]: Train Loss: 0.7632, Train Acc: 83.76%, Val Loss: 0.2486, Val Acc: 94.16%, F1: 0.9415, Precision: 0.9422, Recall: 0.9416
+[2026-04-11 18:03:51,805 resnet18_v1] (main.py 101): INFO Best performance updated at epoch 1 with accuracy: 94.16%
+[2026-04-11 18:03:51,805 resnet18_v1] (main.py 103): INFO Max accuracy: 94.16%
+[2026-04-11 18:03:52,740 resnet18_v1] (main.py 169): INFO Epoch: [2][0/59] lr 0.000201 loss 0.6137 acc 90.62%
+[2026-04-11 18:04:01,743 resnet18_v1] (main.py 169): INFO Epoch: [2][20/59] lr 0.000201 loss 0.5534 acc 95.24%
+[2026-04-11 18:04:09,757 resnet18_v1] (main.py 169): INFO Epoch: [2][40/59] lr 0.000201 loss 0.5684 acc 93.75%
+[2026-04-11 18:04:21,880 resnet18_v1] (main.py 90): INFO [Epoch 2]: Train Loss: 0.5721, Train Acc: 93.04%, Val Loss: 0.2781, Val Acc: 92.40%, F1: 0.9232, Precision: 0.9273, Recall: 0.9240
+[2026-04-11 18:04:21,881 resnet18_v1] (main.py 103): INFO Max accuracy: 94.16%
+[2026-04-11 18:04:23,553 resnet18_v1] (main.py 169): INFO Epoch: [3][0/59] lr 0.000300 loss 0.4985 acc 96.88%
+[2026-04-11 18:04:31,374 resnet18_v1] (main.py 169): INFO Epoch: [3][20/59] lr 0.000300 loss 0.5238 acc 95.76%
+[2026-04-11 18:04:39,928 resnet18_v1] (main.py 169): INFO Epoch: [3][40/59] lr 0.000300 loss 0.5305 acc 95.20%
+[2026-04-11 18:04:52,770 resnet18_v1] (main.py 90): INFO [Epoch 3]: Train Loss: 0.5432, Train Acc: 94.69%, Val Loss: 0.3000, Val Acc: 91.12%, F1: 0.9113, Precision: 0.9196, Recall: 0.9112
+[2026-04-11 18:04:52,771 resnet18_v1] (main.py 103): INFO Max accuracy: 94.16%
+[2026-04-11 18:04:53,690 resnet18_v1] (main.py 169): INFO Epoch: [4][0/59] lr 0.000400 loss 0.6110 acc 87.50%
+[2026-04-11 18:05:01,170 resnet18_v1] (main.py 169): INFO Epoch: [4][20/59] lr 0.000400 loss 0.5396 acc 94.27%
+[2026-04-11 18:05:09,888 resnet18_v1] (main.py 169): INFO Epoch: [4][40/59] lr 0.000400 loss 0.5480 acc 94.32%
+[2026-04-11 18:05:22,747 resnet18_v1] (main.py 90): INFO [Epoch 4]: Train Loss: 0.5456, Train Acc: 94.29%, Val Loss: 0.3637, Val Acc: 89.28%, F1: 0.8942, Precision: 0.9080, Recall: 0.8928
+[2026-04-11 18:05:22,747 resnet18_v1] (main.py 103): INFO Max accuracy: 94.16%
+[2026-04-11 18:05:23,637 resnet18_v1] (main.py 169): INFO Epoch: [5][0/59] lr 0.000488 loss 0.4641 acc 100.00%
+[2026-04-11 18:05:32,071 resnet18_v1] (main.py 169): INFO Epoch: [5][20/59] lr 0.000488 loss 0.5143 acc 95.61%
+[2026-04-11 18:05:39,591 resnet18_v1] (main.py 169): INFO Epoch: [5][40/59] lr 0.000488 loss 0.5390 acc 94.55%
+[2026-04-11 18:05:53,018 resnet18_v1] (main.py 90): INFO [Epoch 5]: Train Loss: 0.5420, Train Acc: 94.40%, Val Loss: 0.4580, Val Acc: 85.60%, F1: 0.8611, Precision: 0.8880, Recall: 0.8560
+[2026-04-11 18:05:53,019 resnet18_v1] (main.py 103): INFO Max accuracy: 94.16%
+[2026-04-11 18:05:53,935 resnet18_v1] (main.py 169): INFO Epoch: [6][0/59] lr 0.000482 loss 0.5180 acc 95.31%
+[2026-04-11 18:06:03,069 resnet18_v1] (main.py 169): INFO Epoch: [6][20/59] lr 0.000482 loss 0.5362 acc 93.97%
+[2026-04-11 18:06:11,970 resnet18_v1] (main.py 169): INFO Epoch: [6][40/59] lr 0.000482 loss 0.5228 acc 94.66%
+[2026-04-11 18:06:24,614 resnet18_v1] (main.py 90): INFO [Epoch 6]: Train Loss: 0.5229, Train Acc: 94.80%, Val Loss: 0.3924, Val Acc: 89.12%, F1: 0.8888, Precision: 0.9030, Recall: 0.8912
+[2026-04-11 18:06:24,614 resnet18_v1] (main.py 103): INFO Max accuracy: 94.16%
+[2026-04-11 18:06:25,555 resnet18_v1] (main.py 169): INFO Epoch: [7][0/59] lr 0.000476 loss 0.4730 acc 96.88%
+[2026-04-11 18:06:33,073 resnet18_v1] (main.py 169): INFO Epoch: [7][20/59] lr 0.000476 loss 0.4870 acc 96.80%
+[2026-04-11 18:06:42,286 resnet18_v1] (main.py 169): INFO Epoch: [7][40/59] lr 0.000476 loss 0.4884 acc 96.84%
+[2026-04-11 18:06:55,101 resnet18_v1] (main.py 90): INFO [Epoch 7]: Train Loss: 0.4957, Train Acc: 96.48%, Val Loss: 0.2661, Val Acc: 92.16%, F1: 0.9225, Precision: 0.9279, Recall: 0.9216
+[2026-04-11 18:06:55,101 resnet18_v1] (main.py 103): INFO Max accuracy: 94.16%
+[2026-04-11 18:06:55,974 resnet18_v1] (main.py 169): INFO Epoch: [8][0/59] lr 0.000469 loss 0.4717 acc 98.44%
+[2026-04-11 18:07:04,802 resnet18_v1] (main.py 169): INFO Epoch: [8][20/59] lr 0.000469 loss 0.4921 acc 96.06%
+[2026-04-11 18:07:12,205 resnet18_v1] (main.py 169): INFO Epoch: [8][40/59] lr 0.000469 loss 0.4881 acc 96.34%
+[2026-04-11 18:07:25,100 resnet18_v1] (main.py 90): INFO [Epoch 8]: Train Loss: 0.4874, Train Acc: 96.53%, Val Loss: 0.4293, Val Acc: 86.96%, F1: 0.8705, Precision: 0.8884, Recall: 0.8696
+[2026-04-11 18:07:25,100 resnet18_v1] (main.py 103): INFO Max accuracy: 94.16%
+[2026-04-11 18:07:26,023 resnet18_v1] (main.py 169): INFO Epoch: [9][0/59] lr 0.000461 loss 0.4890 acc 96.88%
+[2026-04-11 18:07:34,803 resnet18_v1] (main.py 169): INFO Epoch: [9][20/59] lr 0.000461 loss 0.4746 acc 97.54%
+[2026-04-11 18:07:42,482 resnet18_v1] (main.py 169): INFO Epoch: [9][40/59] lr 0.000461 loss 0.4853 acc 97.14%
+[2026-04-11 18:07:55,218 resnet18_v1] (main.py 90): INFO [Epoch 9]: Train Loss: 0.4821, Train Acc: 97.25%, Val Loss: 0.2161, Val Acc: 94.64%, F1: 0.9464, Precision: 0.9468, Recall: 0.9464
+[2026-04-11 18:07:55,219 resnet18_v1] (main.py 101): INFO Best performance updated at epoch 9 with accuracy: 94.64%
+[2026-04-11 18:07:55,219 resnet18_v1] (main.py 103): INFO Max accuracy: 94.64%
+[2026-04-11 18:07:56,517 resnet18_v1] (main.py 169): INFO Epoch: [10][0/59] lr 0.000452 loss 0.4722 acc 98.44%
+[2026-04-11 18:08:04,934 resnet18_v1] (main.py 169): INFO Epoch: [10][20/59] lr 0.000452 loss 0.4601 acc 98.29%
+[2026-04-11 18:08:13,590 resnet18_v1] (main.py 169): INFO Epoch: [10][40/59] lr 0.000452 loss 0.4613 acc 98.21%
+[2026-04-11 18:08:26,604 resnet18_v1] (main.py 90): INFO [Epoch 10]: Train Loss: 0.4619, Train Acc: 97.95%, Val Loss: 0.2488, Val Acc: 93.20%, F1: 0.9317, Precision: 0.9344, Recall: 0.9320
+[2026-04-11 18:08:26,605 resnet18_v1] (main.py 103): INFO Max accuracy: 94.64%
+[2026-04-11 18:08:27,549 resnet18_v1] (main.py 169): INFO Epoch: [11][0/59] lr 0.000443 loss 0.4742 acc 98.44%
+[2026-04-11 18:08:35,058 resnet18_v1] (main.py 169): INFO Epoch: [11][20/59] lr 0.000443 loss 0.4467 acc 98.59%
+[2026-04-11 18:08:43,660 resnet18_v1] (main.py 169): INFO Epoch: [11][40/59] lr 0.000443 loss 0.4524 acc 98.25%
+[2026-04-11 18:08:56,611 resnet18_v1] (main.py 90): INFO [Epoch 11]: Train Loss: 0.4552, Train Acc: 98.13%, Val Loss: 0.2529, Val Acc: 93.44%, F1: 0.9347, Precision: 0.9364, Recall: 0.9344
+[2026-04-11 18:08:56,611 resnet18_v1] (main.py 103): INFO Max accuracy: 94.64%
+[2026-04-11 18:08:57,537 resnet18_v1] (main.py 169): INFO Epoch: [12][0/59] lr 0.000432 loss 0.4225 acc 100.00%
+[2026-04-11 18:09:06,160 resnet18_v1] (main.py 169): INFO Epoch: [12][20/59] lr 0.000432 loss 0.4511 acc 98.51%
+[2026-04-11 18:09:13,666 resnet18_v1] (main.py 169): INFO Epoch: [12][40/59] lr 0.000432 loss 0.4511 acc 98.36%
+[2026-04-11 18:09:26,620 resnet18_v1] (main.py 90): INFO [Epoch 12]: Train Loss: 0.4476, Train Acc: 98.64%, Val Loss: 0.2664, Val Acc: 93.20%, F1: 0.9320, Precision: 0.9349, Recall: 0.9320
+[2026-04-11 18:09:26,620 resnet18_v1] (main.py 103): INFO Max accuracy: 94.64%
+[2026-04-11 18:09:27,547 resnet18_v1] (main.py 169): INFO Epoch: [13][0/59] lr 0.000421 loss 0.5340 acc 90.62%
+[2026-04-11 18:09:36,316 resnet18_v1] (main.py 169): INFO Epoch: [13][20/59] lr 0.000421 loss 0.4464 acc 98.21%
+[2026-04-11 18:09:44,996 resnet18_v1] (main.py 169): INFO Epoch: [13][40/59] lr 0.000421 loss 0.4457 acc 98.29%
+[2026-04-11 18:09:57,034 resnet18_v1] (main.py 90): INFO [Epoch 13]: Train Loss: 0.4433, Train Acc: 98.37%, Val Loss: 0.2272, Val Acc: 94.64%, F1: 0.9468, Precision: 0.9487, Recall: 0.9464
+[2026-04-11 18:09:57,034 resnet18_v1] (main.py 101): INFO Best performance updated at epoch 13 with accuracy: 94.64%
+[2026-04-11 18:09:57,035 resnet18_v1] (main.py 103): INFO Max accuracy: 94.64%
+[2026-04-11 18:09:58,373 resnet18_v1] (main.py 169): INFO Epoch: [14][0/59] lr 0.000410 loss 0.4296 acc 100.00%
+[2026-04-11 18:10:05,986 resnet18_v1] (main.py 169): INFO Epoch: [14][20/59] lr 0.000410 loss 0.4452 acc 98.59%
+[2026-04-11 18:10:15,020 resnet18_v1] (main.py 169): INFO Epoch: [14][40/59] lr 0.000410 loss 0.4408 acc 98.82%
+[2026-04-11 18:10:27,783 resnet18_v1] (main.py 90): INFO [Epoch 14]: Train Loss: 0.4410, Train Acc: 98.83%, Val Loss: 0.2028, Val Acc: 95.60%, F1: 0.9563, Precision: 0.9577, Recall: 0.9560
+[2026-04-11 18:10:27,783 resnet18_v1] (main.py 101): INFO Best performance updated at epoch 14 with accuracy: 95.60%
+[2026-04-11 18:10:27,784 resnet18_v1] (main.py 103): INFO Max accuracy: 95.60%
+[2026-04-11 18:10:28,720 resnet18_v1] (main.py 169): INFO Epoch: [15][0/59] lr 0.000397 loss 0.4167 acc 100.00%
+[2026-04-11 18:10:36,017 resnet18_v1] (main.py 169): INFO Epoch: [15][20/59] lr 0.000397 loss 0.4230 acc 99.78%
+[2026-04-11 18:10:44,725 resnet18_v1] (main.py 169): INFO Epoch: [15][40/59] lr 0.000397 loss 0.4245 acc 99.58%
+[2026-04-11 18:10:57,687 resnet18_v1] (main.py 90): INFO [Epoch 15]: Train Loss: 0.4265, Train Acc: 99.39%, Val Loss: 0.2525, Val Acc: 94.08%, F1: 0.9411, Precision: 0.9441, Recall: 0.9408
+[2026-04-11 18:10:57,688 resnet18_v1] (main.py 103): INFO Max accuracy: 95.60%
+[2026-04-11 18:10:58,593 resnet18_v1] (main.py 169): INFO Epoch: [16][0/59] lr 0.000384 loss 0.4159 acc 100.00%
+[2026-04-11 18:11:07,353 resnet18_v1] (main.py 169): INFO Epoch: [16][20/59] lr 0.000384 loss 0.4284 acc 99.26%
+[2026-04-11 18:11:14,850 resnet18_v1] (main.py 169): INFO Epoch: [16][40/59] lr 0.000384 loss 0.4267 acc 99.31%
+[2026-04-11 18:11:27,889 resnet18_v1] (main.py 90): INFO [Epoch 16]: Train Loss: 0.4250, Train Acc: 99.41%, Val Loss: 0.2032, Val Acc: 94.88%, F1: 0.9492, Precision: 0.9512, Recall: 0.9488
+[2026-04-11 18:11:27,890 resnet18_v1] (main.py 103): INFO Max accuracy: 95.60%
+[2026-04-11 18:11:28,777 resnet18_v1] (main.py 169): INFO Epoch: [17][0/59] lr 0.000371 loss 0.4108 acc 100.00%
+[2026-04-11 18:11:37,592 resnet18_v1] (main.py 169): INFO Epoch: [17][20/59] lr 0.000371 loss 0.4174 acc 99.70%
+[2026-04-11 18:11:46,469 resnet18_v1] (main.py 169): INFO Epoch: [17][40/59] lr 0.000371 loss 0.4171 acc 99.62%
+[2026-04-11 18:11:59,014 resnet18_v1] (main.py 90): INFO [Epoch 17]: Train Loss: 0.4187, Train Acc: 99.55%, Val Loss: 0.2176, Val Acc: 94.72%, F1: 0.9471, Precision: 0.9474, Recall: 0.9472
+[2026-04-11 18:11:59,015 resnet18_v1] (main.py 103): INFO Max accuracy: 95.60%
+[2026-04-11 18:11:59,957 resnet18_v1] (main.py 169): INFO Epoch: [18][0/59] lr 0.000357 loss 0.4074 acc 100.00%
+[2026-04-11 18:12:07,300 resnet18_v1] (main.py 169): INFO Epoch: [18][20/59] lr 0.000357 loss 0.4223 acc 99.11%
+[2026-04-11 18:12:15,976 resnet18_v1] (main.py 169): INFO Epoch: [18][40/59] lr 0.000357 loss 0.4187 acc 99.20%
+[2026-04-11 18:12:29,126 resnet18_v1] (main.py 90): INFO [Epoch 18]: Train Loss: 0.4205, Train Acc: 99.28%, Val Loss: 0.2122, Val Acc: 94.96%, F1: 0.9498, Precision: 0.9512, Recall: 0.9496
+[2026-04-11 18:12:29,127 resnet18_v1] (main.py 103): INFO Max accuracy: 95.60%
+[2026-04-11 18:12:30,072 resnet18_v1] (main.py 169): INFO Epoch: [19][0/59] lr 0.000342 loss 0.4161 acc 98.44%
+[2026-04-11 18:12:38,634 resnet18_v1] (main.py 169): INFO Epoch: [19][20/59] lr 0.000342 loss 0.4080 acc 99.70%
+[2026-04-11 18:12:46,219 resnet18_v1] (main.py 169): INFO Epoch: [19][40/59] lr 0.000342 loss 0.4091 acc 99.62%
+[2026-04-11 18:12:59,047 resnet18_v1] (main.py 90): INFO [Epoch 19]: Train Loss: 0.4086, Train Acc: 99.73%, Val Loss: 0.1996, Val Acc: 95.68%, F1: 0.9568, Precision: 0.9574, Recall: 0.9568
+[2026-04-11 18:12:59,048 resnet18_v1] (main.py 101): INFO Best performance updated at epoch 19 with accuracy: 95.68%
+[2026-04-11 18:12:59,048 resnet18_v1] (main.py 103): INFO Max accuracy: 95.68%
+[2026-04-11 18:12:59,932 resnet18_v1] (main.py 169): INFO Epoch: [20][0/59] lr 0.000328 loss 0.4143 acc 100.00%
+[2026-04-11 18:13:08,501 resnet18_v1] (main.py 169): INFO Epoch: [20][20/59] lr 0.000328 loss 0.4069 acc 100.00%
+[2026-04-11 18:13:15,817 resnet18_v1] (main.py 169): INFO Epoch: [20][40/59] lr 0.000328 loss 0.4064 acc 100.00%
+[2026-04-11 18:13:28,964 resnet18_v1] (main.py 90): INFO [Epoch 20]: Train Loss: 0.4076, Train Acc: 99.84%, Val Loss: 0.2077, Val Acc: 95.76%, F1: 0.9576, Precision: 0.9579, Recall: 0.9576
+[2026-04-11 18:13:28,964 resnet18_v1] (main.py 101): INFO Best performance updated at epoch 20 with accuracy: 95.76%
+[2026-04-11 18:13:28,964 resnet18_v1] (main.py 103): INFO Max accuracy: 95.76%
+[2026-04-11 18:13:30,238 resnet18_v1] (main.py 169): INFO Epoch: [21][0/59] lr 0.000313 loss 0.4019 acc 100.00%
+[2026-04-11 18:13:38,302 resnet18_v1] (main.py 169): INFO Epoch: [21][20/59] lr 0.000313 loss 0.4058 acc 100.00%
+[2026-04-11 18:13:46,753 resnet18_v1] (main.py 169): INFO Epoch: [21][40/59] lr 0.000313 loss 0.4061 acc 100.00%
+[2026-04-11 18:14:00,078 resnet18_v1] (main.py 90): INFO [Epoch 21]: Train Loss: 0.4059, Train Acc: 99.95%, Val Loss: 0.1885, Val Acc: 96.24%, F1: 0.9625, Precision: 0.9627, Recall: 0.9624
+[2026-04-11 18:14:00,078 resnet18_v1] (main.py 101): INFO Best performance updated at epoch 21 with accuracy: 96.24%
+[2026-04-11 18:14:00,078 resnet18_v1] (main.py 103): INFO Max accuracy: 96.24%
+[2026-04-11 18:14:01,066 resnet18_v1] (main.py 169): INFO Epoch: [22][0/59] lr 0.000297 loss 0.3994 acc 100.00%
+[2026-04-11 18:14:08,729 resnet18_v1] (main.py 169): INFO Epoch: [22][20/59] lr 0.000297 loss 0.4041 acc 99.70%
+[2026-04-11 18:14:17,524 resnet18_v1] (main.py 169): INFO Epoch: [22][40/59] lr 0.000297 loss 0.4064 acc 99.66%
+[2026-04-11 18:14:30,083 resnet18_v1] (main.py 90): INFO [Epoch 22]: Train Loss: 0.4063, Train Acc: 99.73%, Val Loss: 0.2058, Val Acc: 94.96%, F1: 0.9495, Precision: 0.9501, Recall: 0.9496
+[2026-04-11 18:14:30,084 resnet18_v1] (main.py 103): INFO Max accuracy: 96.24%
+[2026-04-11 18:14:30,983 resnet18_v1] (main.py 169): INFO Epoch: [23][0/59] lr 0.000282 loss 0.4064 acc 100.00%
+[2026-04-11 18:14:39,022 resnet18_v1] (main.py 169): INFO Epoch: [23][20/59] lr 0.000282 loss 0.4101 acc 99.55%
+[2026-04-11 18:14:46,812 resnet18_v1] (main.py 169): INFO Epoch: [23][40/59] lr 0.000282 loss 0.4093 acc 99.66%
+[2026-04-11 18:14:59,821 resnet18_v1] (main.py 90): INFO [Epoch 23]: Train Loss: 0.4084, Train Acc: 99.71%, Val Loss: 0.1783, Val Acc: 96.24%, F1: 0.9624, Precision: 0.9626, Recall: 0.9624
+[2026-04-11 18:14:59,821 resnet18_v1] (main.py 103): INFO Max accuracy: 96.24%
+[2026-04-11 18:15:00,759 resnet18_v1] (main.py 169): INFO Epoch: [24][0/59] lr 0.000266 loss 0.4137 acc 100.00%
+[2026-04-11 18:15:09,538 resnet18_v1] (main.py 169): INFO Epoch: [24][20/59] lr 0.000266 loss 0.4049 acc 100.00%
+[2026-04-11 18:15:17,084 resnet18_v1] (main.py 169): INFO Epoch: [24][40/59] lr 0.000266 loss 0.4034 acc 100.00%
+[2026-04-11 18:15:30,234 resnet18_v1] (main.py 90): INFO [Epoch 24]: Train Loss: 0.4031, Train Acc: 100.00%, Val Loss: 0.1957, Val Acc: 95.84%, F1: 0.9584, Precision: 0.9595, Recall: 0.9584
+[2026-04-11 18:15:30,234 resnet18_v1] (main.py 103): INFO Max accuracy: 96.24%
+[2026-04-11 18:15:31,338 resnet18_v1] (main.py 169): INFO Epoch: [25][0/59] lr 0.000251 loss 0.3982 acc 100.00%
+[2026-04-11 18:15:40,383 resnet18_v1] (main.py 169): INFO Epoch: [25][20/59] lr 0.000251 loss 0.4014 acc 100.00%
+[2026-04-11 18:15:49,339 resnet18_v1] (main.py 169): INFO Epoch: [25][40/59] lr 0.000251 loss 0.4023 acc 99.92%
+[2026-04-11 18:16:02,569 resnet18_v1] (main.py 90): INFO [Epoch 25]: Train Loss: 0.4026, Train Acc: 99.89%, Val Loss: 0.2048, Val Acc: 95.12%, F1: 0.9513, Precision: 0.9523, Recall: 0.9512
+[2026-04-11 18:16:02,570 resnet18_v1] (main.py 103): INFO Max accuracy: 96.24%
+[2026-04-11 18:16:03,525 resnet18_v1] (main.py 169): INFO Epoch: [26][0/59] lr 0.000235 loss 0.3954 acc 100.00%
+[2026-04-11 18:16:11,294 resnet18_v1] (main.py 169): INFO Epoch: [26][20/59] lr 0.000235 loss 0.4026 acc 99.85%
+[2026-04-11 18:16:20,289 resnet18_v1] (main.py 169): INFO Epoch: [26][40/59] lr 0.000235 loss 0.4023 acc 99.92%
+[2026-04-11 18:16:32,850 resnet18_v1] (main.py 90): INFO [Epoch 26]: Train Loss: 0.4014, Train Acc: 99.95%, Val Loss: 0.1841, Val Acc: 96.48%, F1: 0.9648, Precision: 0.9657, Recall: 0.9648
+[2026-04-11 18:16:32,851 resnet18_v1] (main.py 101): INFO Best performance updated at epoch 26 with accuracy: 96.48%
+[2026-04-11 18:16:32,851 resnet18_v1] (main.py 103): INFO Max accuracy: 96.48%
+[2026-04-11 18:16:33,787 resnet18_v1] (main.py 169): INFO Epoch: [27][0/59] lr 0.000219 loss 0.3986 acc 100.00%
+[2026-04-11 18:16:42,324 resnet18_v1] (main.py 169): INFO Epoch: [27][20/59] lr 0.000219 loss 0.3985 acc 100.00%
+[2026-04-11 18:16:49,958 resnet18_v1] (main.py 169): INFO Epoch: [27][40/59] lr 0.000219 loss 0.3986 acc 100.00%
+[2026-04-11 18:17:02,722 resnet18_v1] (main.py 90): INFO [Epoch 27]: Train Loss: 0.3987, Train Acc: 100.00%, Val Loss: 0.1798, Val Acc: 96.64%, F1: 0.9664, Precision: 0.9668, Recall: 0.9664
+[2026-04-11 18:17:02,722 resnet18_v1] (main.py 101): INFO Best performance updated at epoch 27 with accuracy: 96.64%
+[2026-04-11 18:17:02,722 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:17:03,648 resnet18_v1] (main.py 169): INFO Epoch: [28][0/59] lr 0.000204 loss 0.3966 acc 100.00%
+[2026-04-11 18:17:12,348 resnet18_v1] (main.py 169): INFO Epoch: [28][20/59] lr 0.000204 loss 0.3999 acc 100.00%
+[2026-04-11 18:17:20,681 resnet18_v1] (main.py 169): INFO Epoch: [28][40/59] lr 0.000204 loss 0.3994 acc 100.00%
+[2026-04-11 18:17:33,101 resnet18_v1] (main.py 90): INFO [Epoch 28]: Train Loss: 0.3988, Train Acc: 100.00%, Val Loss: 0.1844, Val Acc: 96.32%, F1: 0.9632, Precision: 0.9635, Recall: 0.9632
+[2026-04-11 18:17:33,102 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:17:34,576 resnet18_v1] (main.py 169): INFO Epoch: [29][0/59] lr 0.000188 loss 0.3974 acc 100.00%
+[2026-04-11 18:17:42,340 resnet18_v1] (main.py 169): INFO Epoch: [29][20/59] lr 0.000188 loss 0.3981 acc 99.93%
+[2026-04-11 18:17:51,155 resnet18_v1] (main.py 169): INFO Epoch: [29][40/59] lr 0.000188 loss 0.3979 acc 99.92%
+[2026-04-11 18:18:03,915 resnet18_v1] (main.py 90): INFO [Epoch 29]: Train Loss: 0.3978, Train Acc: 99.95%, Val Loss: 0.1885, Val Acc: 96.00%, F1: 0.9601, Precision: 0.9606, Recall: 0.9600
+[2026-04-11 18:18:03,915 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:18:04,835 resnet18_v1] (main.py 169): INFO Epoch: [30][0/59] lr 0.000173 loss 0.3945 acc 100.00%
+[2026-04-11 18:18:12,840 resnet18_v1] (main.py 169): INFO Epoch: [30][20/59] lr 0.000173 loss 0.3981 acc 100.00%
+[2026-04-11 18:18:20,968 resnet18_v1] (main.py 169): INFO Epoch: [30][40/59] lr 0.000173 loss 0.3979 acc 99.96%
+[2026-04-11 18:18:33,812 resnet18_v1] (main.py 90): INFO [Epoch 30]: Train Loss: 0.3990, Train Acc: 99.89%, Val Loss: 0.1998, Val Acc: 96.00%, F1: 0.9599, Precision: 0.9604, Recall: 0.9600
+[2026-04-11 18:18:33,813 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:18:34,711 resnet18_v1] (main.py 169): INFO Epoch: [31][0/59] lr 0.000159 loss 0.3978 acc 100.00%
+[2026-04-11 18:18:43,418 resnet18_v1] (main.py 169): INFO Epoch: [31][20/59] lr 0.000159 loss 0.3971 acc 100.00%
+[2026-04-11 18:18:50,949 resnet18_v1] (main.py 169): INFO Epoch: [31][40/59] lr 0.000159 loss 0.3967 acc 100.00%
+[2026-04-11 18:19:03,913 resnet18_v1] (main.py 90): INFO [Epoch 31]: Train Loss: 0.3975, Train Acc: 99.95%, Val Loss: 0.1962, Val Acc: 95.52%, F1: 0.9551, Precision: 0.9557, Recall: 0.9552
+[2026-04-11 18:19:03,913 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:19:04,828 resnet18_v1] (main.py 169): INFO Epoch: [32][0/59] lr 0.000144 loss 0.3984 acc 100.00%
+[2026-04-11 18:19:13,653 resnet18_v1] (main.py 169): INFO Epoch: [32][20/59] lr 0.000144 loss 0.3993 acc 99.78%
+[2026-04-11 18:19:22,293 resnet18_v1] (main.py 169): INFO Epoch: [32][40/59] lr 0.000144 loss 0.3993 acc 99.85%
+[2026-04-11 18:19:35,213 resnet18_v1] (main.py 90): INFO [Epoch 32]: Train Loss: 0.3993, Train Acc: 99.87%, Val Loss: 0.1859, Val Acc: 96.00%, F1: 0.9601, Precision: 0.9605, Recall: 0.9600
+[2026-04-11 18:19:35,213 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:19:36,163 resnet18_v1] (main.py 169): INFO Epoch: [33][0/59] lr 0.000130 loss 0.3964 acc 100.00%
+[2026-04-11 18:19:43,547 resnet18_v1] (main.py 169): INFO Epoch: [33][20/59] lr 0.000130 loss 0.3964 acc 99.93%
+[2026-04-11 18:19:52,484 resnet18_v1] (main.py 169): INFO Epoch: [33][40/59] lr 0.000130 loss 0.3971 acc 99.92%
+[2026-04-11 18:20:05,251 resnet18_v1] (main.py 90): INFO [Epoch 33]: Train Loss: 0.3968, Train Acc: 99.95%, Val Loss: 0.1805, Val Acc: 95.92%, F1: 0.9593, Precision: 0.9597, Recall: 0.9592
+[2026-04-11 18:20:05,251 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:20:06,142 resnet18_v1] (main.py 169): INFO Epoch: [34][0/59] lr 0.000117 loss 0.3942 acc 100.00%
+[2026-04-11 18:20:14,783 resnet18_v1] (main.py 169): INFO Epoch: [34][20/59] lr 0.000117 loss 0.3954 acc 100.00%
+[2026-04-11 18:20:22,125 resnet18_v1] (main.py 169): INFO Epoch: [34][40/59] lr 0.000117 loss 0.3957 acc 100.00%
+[2026-04-11 18:20:35,107 resnet18_v1] (main.py 90): INFO [Epoch 34]: Train Loss: 0.3958, Train Acc: 100.00%, Val Loss: 0.1794, Val Acc: 96.32%, F1: 0.9633, Precision: 0.9636, Recall: 0.9632
+[2026-04-11 18:20:35,108 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:20:36,045 resnet18_v1] (main.py 169): INFO Epoch: [35][0/59] lr 0.000104 loss 0.3990 acc 100.00%
+[2026-04-11 18:20:44,706 resnet18_v1] (main.py 169): INFO Epoch: [35][20/59] lr 0.000104 loss 0.3959 acc 100.00%
+[2026-04-11 18:20:52,597 resnet18_v1] (main.py 169): INFO Epoch: [35][40/59] lr 0.000104 loss 0.3958 acc 100.00%
+[2026-04-11 18:21:05,451 resnet18_v1] (main.py 90): INFO [Epoch 35]: Train Loss: 0.3957, Train Acc: 99.97%, Val Loss: 0.1820, Val Acc: 96.32%, F1: 0.9633, Precision: 0.9640, Recall: 0.9632
+[2026-04-11 18:21:05,451 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:21:07,032 resnet18_v1] (main.py 169): INFO Epoch: [36][0/59] lr 0.000091 loss 0.3968 acc 100.00%
+[2026-04-11 18:21:14,674 resnet18_v1] (main.py 169): INFO Epoch: [36][20/59] lr 0.000091 loss 0.3949 acc 100.00%
+[2026-04-11 18:21:23,059 resnet18_v1] (main.py 169): INFO Epoch: [36][40/59] lr 0.000091 loss 0.3949 acc 100.00%
+[2026-04-11 18:21:36,485 resnet18_v1] (main.py 90): INFO [Epoch 36]: Train Loss: 0.3953, Train Acc: 100.00%, Val Loss: 0.1811, Val Acc: 96.24%, F1: 0.9625, Precision: 0.9632, Recall: 0.9624
+[2026-04-11 18:21:36,485 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:21:37,384 resnet18_v1] (main.py 169): INFO Epoch: [37][0/59] lr 0.000080 loss 0.3940 acc 100.00%
+[2026-04-11 18:21:44,983 resnet18_v1] (main.py 169): INFO Epoch: [37][20/59] lr 0.000080 loss 0.3958 acc 99.93%
+[2026-04-11 18:21:53,672 resnet18_v1] (main.py 169): INFO Epoch: [37][40/59] lr 0.000080 loss 0.3955 acc 99.96%
+[2026-04-11 18:22:06,541 resnet18_v1] (main.py 90): INFO [Epoch 37]: Train Loss: 0.3954, Train Acc: 99.97%, Val Loss: 0.1802, Val Acc: 96.32%, F1: 0.9633, Precision: 0.9639, Recall: 0.9632
+[2026-04-11 18:22:06,541 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:22:07,486 resnet18_v1] (main.py 169): INFO Epoch: [38][0/59] lr 0.000069 loss 0.3936 acc 100.00%
+[2026-04-11 18:22:16,093 resnet18_v1] (main.py 169): INFO Epoch: [38][20/59] lr 0.000069 loss 0.3948 acc 100.00%
+[2026-04-11 18:22:23,705 resnet18_v1] (main.py 169): INFO Epoch: [38][40/59] lr 0.000069 loss 0.3954 acc 99.96%
+[2026-04-11 18:22:36,843 resnet18_v1] (main.py 90): INFO [Epoch 38]: Train Loss: 0.3951, Train Acc: 99.97%, Val Loss: 0.1809, Val Acc: 96.40%, F1: 0.9640, Precision: 0.9646, Recall: 0.9640
+[2026-04-11 18:22:36,843 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:22:37,767 resnet18_v1] (main.py 169): INFO Epoch: [39][0/59] lr 0.000058 loss 0.3946 acc 100.00%
+[2026-04-11 18:22:46,591 resnet18_v1] (main.py 169): INFO Epoch: [39][20/59] lr 0.000058 loss 0.3941 acc 100.00%
+[2026-04-11 18:22:55,567 resnet18_v1] (main.py 169): INFO Epoch: [39][40/59] lr 0.000058 loss 0.3941 acc 100.00%
+[2026-04-11 18:23:08,606 resnet18_v1] (main.py 90): INFO [Epoch 39]: Train Loss: 0.3943, Train Acc: 100.00%, Val Loss: 0.1789, Val Acc: 96.48%, F1: 0.9649, Precision: 0.9657, Recall: 0.9648
+[2026-04-11 18:23:08,607 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:23:09,567 resnet18_v1] (main.py 169): INFO Epoch: [40][0/59] lr 0.000049 loss 0.3937 acc 100.00%
+[2026-04-11 18:23:16,974 resnet18_v1] (main.py 169): INFO Epoch: [40][20/59] lr 0.000049 loss 0.3943 acc 100.00%
+[2026-04-11 18:23:25,874 resnet18_v1] (main.py 169): INFO Epoch: [40][40/59] lr 0.000049 loss 0.3948 acc 100.00%
+[2026-04-11 18:23:38,735 resnet18_v1] (main.py 90): INFO [Epoch 40]: Train Loss: 0.3949, Train Acc: 100.00%, Val Loss: 0.1818, Val Acc: 96.24%, F1: 0.9625, Precision: 0.9631, Recall: 0.9624
+[2026-04-11 18:23:38,735 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:23:39,682 resnet18_v1] (main.py 169): INFO Epoch: [41][0/59] lr 0.000040 loss 0.3938 acc 100.00%
+[2026-04-11 18:23:47,874 resnet18_v1] (main.py 169): INFO Epoch: [41][20/59] lr 0.000040 loss 0.3949 acc 100.00%
+[2026-04-11 18:23:55,625 resnet18_v1] (main.py 169): INFO Epoch: [41][40/59] lr 0.000040 loss 0.3949 acc 100.00%
+[2026-04-11 18:24:08,942 resnet18_v1] (main.py 90): INFO [Epoch 41]: Train Loss: 0.3950, Train Acc: 100.00%, Val Loss: 0.1828, Val Acc: 96.48%, F1: 0.9650, Precision: 0.9658, Recall: 0.9648
+[2026-04-11 18:24:08,943 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:24:09,891 resnet18_v1] (main.py 169): INFO Epoch: [42][0/59] lr 0.000032 loss 0.3947 acc 100.00%
+[2026-04-11 18:24:18,694 resnet18_v1] (main.py 169): INFO Epoch: [42][20/59] lr 0.000032 loss 0.3943 acc 100.00%
+[2026-04-11 18:24:26,456 resnet18_v1] (main.py 169): INFO Epoch: [42][40/59] lr 0.000032 loss 0.3950 acc 100.00%
+[2026-04-11 18:24:39,466 resnet18_v1] (main.py 90): INFO [Epoch 42]: Train Loss: 0.3950, Train Acc: 100.00%, Val Loss: 0.1838, Val Acc: 96.48%, F1: 0.9649, Precision: 0.9657, Recall: 0.9648
+[2026-04-11 18:24:39,466 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:24:40,945 resnet18_v1] (main.py 169): INFO Epoch: [43][0/59] lr 0.000025 loss 0.3928 acc 100.00%
+[2026-04-11 18:24:48,864 resnet18_v1] (main.py 169): INFO Epoch: [43][20/59] lr 0.000025 loss 0.3946 acc 100.00%
+[2026-04-11 18:24:57,726 resnet18_v1] (main.py 169): INFO Epoch: [43][40/59] lr 0.000025 loss 0.3946 acc 100.00%
+[2026-04-11 18:25:10,586 resnet18_v1] (main.py 90): INFO [Epoch 43]: Train Loss: 0.3949, Train Acc: 99.97%, Val Loss: 0.1779, Val Acc: 96.56%, F1: 0.9657, Precision: 0.9661, Recall: 0.9656
+[2026-04-11 18:25:10,587 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:25:11,513 resnet18_v1] (main.py 169): INFO Epoch: [44][0/59] lr 0.000019 loss 0.3927 acc 100.00%
+[2026-04-11 18:25:18,933 resnet18_v1] (main.py 169): INFO Epoch: [44][20/59] lr 0.000019 loss 0.3944 acc 100.00%
+[2026-04-11 18:25:27,559 resnet18_v1] (main.py 169): INFO Epoch: [44][40/59] lr 0.000019 loss 0.3944 acc 100.00%
+[2026-04-11 18:25:40,928 resnet18_v1] (main.py 90): INFO [Epoch 44]: Train Loss: 0.3946, Train Acc: 100.00%, Val Loss: 0.1864, Val Acc: 96.24%, F1: 0.9625, Precision: 0.9634, Recall: 0.9624
+[2026-04-11 18:25:40,928 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:25:41,895 resnet18_v1] (main.py 169): INFO Epoch: [45][0/59] lr 0.000013 loss 0.3942 acc 100.00%
+[2026-04-11 18:25:50,612 resnet18_v1] (main.py 169): INFO Epoch: [45][20/59] lr 0.000013 loss 0.3945 acc 100.00%
+[2026-04-11 18:25:58,098 resnet18_v1] (main.py 169): INFO Epoch: [45][40/59] lr 0.000013 loss 0.3945 acc 100.00%
+[2026-04-11 18:26:11,136 resnet18_v1] (main.py 90): INFO [Epoch 45]: Train Loss: 0.3945, Train Acc: 100.00%, Val Loss: 0.1820, Val Acc: 96.40%, F1: 0.9641, Precision: 0.9649, Recall: 0.9640
+[2026-04-11 18:26:11,137 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:26:12,056 resnet18_v1] (main.py 169): INFO Epoch: [46][0/59] lr 0.000009 loss 0.3962 acc 100.00%
+[2026-04-11 18:26:21,224 resnet18_v1] (main.py 169): INFO Epoch: [46][20/59] lr 0.000009 loss 0.3949 acc 100.00%
+[2026-04-11 18:26:30,005 resnet18_v1] (main.py 169): INFO Epoch: [46][40/59] lr 0.000009 loss 0.3945 acc 100.00%
+[2026-04-11 18:26:42,656 resnet18_v1] (main.py 90): INFO [Epoch 46]: Train Loss: 0.3943, Train Acc: 100.00%, Val Loss: 0.1790, Val Acc: 96.56%, F1: 0.9657, Precision: 0.9660, Recall: 0.9656
+[2026-04-11 18:26:42,657 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:26:43,602 resnet18_v1] (main.py 169): INFO Epoch: [47][0/59] lr 0.000005 loss 0.3945 acc 100.00%
+[2026-04-11 18:26:51,193 resnet18_v1] (main.py 169): INFO Epoch: [47][20/59] lr 0.000005 loss 0.3944 acc 100.00%
+[2026-04-11 18:26:59,932 resnet18_v1] (main.py 169): INFO Epoch: [47][40/59] lr 0.000005 loss 0.3945 acc 100.00%
+[2026-04-11 18:27:12,904 resnet18_v1] (main.py 90): INFO [Epoch 47]: Train Loss: 0.3944, Train Acc: 100.00%, Val Loss: 0.1813, Val Acc: 96.24%, F1: 0.9625, Precision: 0.9633, Recall: 0.9624
+[2026-04-11 18:27:12,905 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:27:13,856 resnet18_v1] (main.py 169): INFO Epoch: [48][0/59] lr 0.000003 loss 0.3931 acc 100.00%
+[2026-04-11 18:27:22,229 resnet18_v1] (main.py 169): INFO Epoch: [48][20/59] lr 0.000003 loss 0.3943 acc 100.00%
+[2026-04-11 18:27:30,113 resnet18_v1] (main.py 169): INFO Epoch: [48][40/59] lr 0.000003 loss 0.3952 acc 99.96%
+[2026-04-11 18:27:42,997 resnet18_v1] (main.py 90): INFO [Epoch 48]: Train Loss: 0.3955, Train Acc: 99.97%, Val Loss: 0.1808, Val Acc: 96.40%, F1: 0.9642, Precision: 0.9650, Recall: 0.9640
+[2026-04-11 18:27:42,998 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:27:43,937 resnet18_v1] (main.py 169): INFO Epoch: [49][0/59] lr 0.000001 loss 0.3936 acc 100.00%
+[2026-04-11 18:27:52,736 resnet18_v1] (main.py 169): INFO Epoch: [49][20/59] lr 0.000001 loss 0.3947 acc 100.00%
+[2026-04-11 18:28:00,583 resnet18_v1] (main.py 169): INFO Epoch: [49][40/59] lr 0.000001 loss 0.3947 acc 100.00%
+[2026-04-11 18:28:12,908 resnet18_v1] (main.py 90): INFO [Epoch 49]: Train Loss: 0.3944, Train Acc: 100.00%, Val Loss: 0.1793, Val Acc: 96.40%, F1: 0.9641, Precision: 0.9649, Recall: 0.9640
+[2026-04-11 18:28:12,908 resnet18_v1] (main.py 103): INFO Max accuracy: 96.64%
+[2026-04-11 18:28:12,914 resnet18_v1] (main.py 117): INFO Confusion matrix for best model saved to outputs/resnet18_v1_confusion_matrix.npy
+[2026-04-11 18:28:13,158 resnet18_v1] (main.py 128): INFO Model checkpoint saved to outputs/resnet18_v1.pth
+[2026-04-11 18:28:13,159 resnet18_v1] (main.py 132): INFO Training time 0:25:45
